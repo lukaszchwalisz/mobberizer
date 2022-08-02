@@ -1,8 +1,8 @@
 import React from 'react';
-import { View, Text, FlatList } from 'react-native';
+import { Text, FlatList } from 'react-native';
 import 'react-native-gesture-handler';
-import { styles } from '../../styles/global.js';
-import { Divider, Surface } from 'react-native-paper';
+import { styles } from '../styles/global.js';
+import { Surface } from 'react-native-paper';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 
 
@@ -34,7 +34,7 @@ export default function Szukaj({ navigation, route }) {
 
   const renderItem = ({ item }) => (
         <TouchableWithoutFeedback style={styles.button} onPress={() => {
-          navigation.push(item.id)
+          navigation.popToTop(item.id)
         }}>
           <Surface style={styles.surface} elevation={2}>
             <Text style={styles.tabs_text}>{item.title}</Text>

@@ -3,7 +3,7 @@ import { View, Image, StyleSheet } from 'react-native';
 
 const Logo = () => (
   <View>
-   <Image style={styles.logo} source = {require('../images/logo.png')} />
+   <Image style={styles.logo} source = {require('../images/logox.png')} />
   </View>
 )
 
