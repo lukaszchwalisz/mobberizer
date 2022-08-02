@@ -1,0 +1,158 @@
+# komentarze
+{/* 
+*/}
+
+
+# font family
+https://infinitbility.com/react-native-font-family-list
+
+# colors
+ https://html-color-codes.info/
+ https://htmlcolorcodes.com/color-chart/
+
+# divider
+        import { Divider } from "@rneui/themed";
+      <Divider style={styles.divider} orientation="vertical" />
+# touchableOpacity
+      <TouchableOpacity style={styles.button} onPress={() => {
+          navigation.push('Prawo')
+        }}>
+      </TouchableOpacity>
+# button
+
+  <Button
+    title="Cofnij"
+    color="#4682b4"
+    onPress={() => {
+      navigation.pop()
+    }}
+  />
+
+# cards
+
+
+              <View style={styles.cards}>
+                <Card>
+                  <Card.Content>
+                    <Title>Mobberizer</Title>
+                    <Paragraph style={styles.cards}>Aplikacja dla osób poszukujących pomocy,
+                    które zauważyły zachowania mobbingowe w miejscu pracy. </Paragraph>
+                  </Card.Content>
+                </Card>
+              </View>
+              
+          <View style={styles.cards}>
+            <Card>
+            <Card.Content>
+            <Card.Cover style={{ width: 50, height: 50 }} source={require('../images/logo.png')} />
+              <Title>Krok po kroku</Title>
+              <Paragraph style={styles.cards}>Trudna sytuacja w pracy, złe zachowanie szefa,
+              współpracowników to sytuacja, która budzi wiele wątpliwości co dalej.
+             Pojawiają się pierwsze pytania: Czy to już czas na zmianę pracy ? Czy może lepiej,
+             aby szef przesunął mnie na inne stanowisko ? Czy może jeszcze zakomunikować
+             przełożonemu o tym, że pojawiły się w pracy zachowania mobbingowe ?
+             Czy zaszkodzę tym sobie albo innym i sytuacja pogorszy się ? {"\n"}{"\n"}
+             Postaramy się odpowiedzieć Tobie na wspomniena pytania
+             oraz inne inne którego pojawiają się w takiej sytuacji.{"\n"}
+             </Paragraph>
+              </Card.Content>
+            <Button
+              title="Wejdź"
+              color="#4682b4"
+              onPress={() => {
+                navigation.push('Porady')
+              }}
+            />
+            </Card>
+          </View>
+
+          <View style={styles.cards}>
+        <Card>
+        <Card.Content>
+        <Card.Cover style={{ width: 50, height: 50 }} source={require('../images/logo.png')} />
+          <Title>Moje zdrowie</Title>
+          <Paragraph style={styles.cards}>Odczuwalne skutki stosowanie mobbingu już po kilku miesiącach mogą mieć postać
+           dolegliwości psychosomatycznych. O tym i o innych skutkach znajdowania się
+           pod wływem silnego stresu w dziale „Pytania o zdrowie”.{"\n"}
+         </Paragraph>
+          </Card.Content>
+        <Button
+          title="Wejdź"
+          color="#4682b4"
+          onPress={() => {
+            navigation.push('Zdrowie')
+          }}
+        />
+        </Card>
+      </View>
+
+        <View style={styles.cards}>
+          <Card>
+          <Card.Content>
+          <Card.Cover style={{ width: 50, height: 50 }} source={require('../images/logo.png')} />
+            <Title>Pytania prawne</Title>
+            <Paragraph style={styles.cards}>Zastanawiasz się nad swoją sytuacją prawną. Bo może jak zgłosisz,
+             że w firmie toleruje się zachowania mobbingowe to w efekcje przełożony
+             będzie mógł pociągnąc Ciebie do odpowiedzialności ? W jaki sposób mogę
+             odejść z pracy? Czy mogę pójść na L4 do końca umowy o pracę ? {"\n"}{"\n"}
+             Na te i inne pytania postaramy się odpowiedzieć. Zebraliśmy je od klientów
+             OSA, którym udzielamy porad opierając sie na długoletnim doświadczeniu.{"\n"}
+           </Paragraph>
+            </Card.Content>
+          <Button
+            title="Wejdź"
+            color="#4682b4"
+            onPress={() => {
+              navigation.push('Prawo')
+            }}
+          />
+          </Card>
+        </View>
+
+        <View style={styles.cards}>
+          <Card>
+          <Card.Content>
+          <Card.Cover style={{ width: 50, height: 50 }} source={require('../images/logo.png')} />
+            <Title>Szukaj pomocy</Title>
+           <Paragraph style={styles.cards}>Czy korzystałeś wcześniej z pomocy instytucji pomocowych, których obowiązkiem
+           jest dopilnowanie przestrzegania prawa odnośnie przeciwdziałania mobbingowi w pracy ?{"\n"}{"\n"}
+           Przygotowaliśmy dla ciebie prosta wyszukiwarkę najbliższych w Twoim regionie instytucji
+           takich jak: PIP, Sanepid, Sąd Pracy itp. {"\n"}
+           </Paragraph>
+            </Card.Content>
+          <Button
+           title="Wejdź"
+            color="#4682b4"
+            onPress={() => {
+              navigation.push('Szukaj')
+            }}
+          />
+          </Card>
+        </View>
+
+        <View style={styles.cards}>
+          <Card>
+          <Card.Content>
+            <Paragraph>developer_ Łukasz Chwalisz{"\n"}
+            2022{"\n"}
+           </Paragraph>
+            </Card.Content>
+          </Card>
+        </View>
+
+# drawer
+
+        {/* <Text style={styles.paragraph}>
+          Drawer on the {drawerPosition}!
+        </Text>
+        <Button
+          title="Change Drawer Position"
+          onPress={() => changeDrawerPosition()}
+        />
+        <Text style={styles.paragraph}>
+          Swipe from the side or press button below to see it!
+        </Text>
+        <Button
+          title="Open drawer"
+          onPress={() => drawer.current.openDrawer()}
+        /> */}

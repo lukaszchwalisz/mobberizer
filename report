@@ -1,0 +1,50 @@
+<-- 27.07
+    - odnośniki w ramach tekstu na tej samej stronie (a href id)
+    - inny sposób na pojawanie się odp na pytania prawne niż zmiana screena
+
+<-- 26.07
+    - obrazki lepiej zrywają sie z tekstem <Text> niz z kartami <card>, gdzie obrazki są dedykowane
+    --> rezygnacja z kart
+
+<-- 20.07
+    - background pokrywa całą kartę (uzupełnić w q* i p*)
+--> 12.07
+    - Search Bar i wyszukiwanie pytań
+
+<-- 12.07
+    - błąd "VirtualizedLists should never be nested inside plain ScrollViews with the same orientation because it can break windowing and other functionality - use another VirtualizedList-backed container instead"
+    (rozwiązaniem było usunięcie Scrollview)
+    - karty w flatliście (nawigacja działa)
+
+<-- 10.07
+    - wszystkie porady prawne w kartach 
+--> 07.07
+    - odczytywanie plików pdf z poziomu aplikacji
+<-- 07.07
+    - poprawienie czytelności kart
+    - exportowanie kilku Q nie działa
+<-- 29.06
+    - zdjęcia dla głównych tabów
+    - opracowanie pytań (cards)
+--> 29.06
+    - cards
+    - lepsze logo 0.02
+    - navigacja :))))
+--> 27.06.22
+    - global styles
+
+<-- 23.06.22
+    - header/footer
+--> 23.06.22
+    ~ logo 0.0.1
+    - separator (<Divider/> react-native-components)
+    - logo na headerze
+
+<-- 22.06.22
+    - wygląd aplikacji
+    - zestawy kolorów, czcionek, grafik
+    - logo
+    - konfiguracja navigacji ze screena
+
+--> 22.06.22
+    ~ zmiana nazwy aplikacji z "MyApp" na "Mobberizer"

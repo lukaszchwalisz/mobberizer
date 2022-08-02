@@ -1,0 +1,527 @@
+Drzewo.
+
+Stres 
+Wypalenie
+Konflikt
+Mobbing
+Dyskryminacja
+
+
+1
+ Prawne i psychologiczne aspekty zagrożeń psychospołecznych w
+firmie.
+1.1
+ Stres w pracy i konflikty pracownicze w ujęciu psychologii pracy.
+1.1.1
+ Stres
+Stres - definiowany jako dynamiczna relacja adaptacyjna pomiędzy możliwościami, a wymogami
+sytuacji. Relacja adaptacyjna charakteryzuje się brakiem równowagi. Próbą przywrócenia równo-
+wagi jest podejmowanie zachowań zaradczych (radzenie sobie ze stresem).
+Główną funkcją stresu jest więc przywrócenie równowagi w organizmie pobudzonym przez na-
+głą, niespodziewaną bądź niespotykaną sytuację. Stres uważa się za zjawisko szkodliwe, zagrażające
+zdrowiu, a nawet życiu. W rzeczywistości działanie niepożądane przynosi jedynie stres zbyt silny
+(przekraczający indywidualne możliwości adaptacyjne jednostki) lub zbyt długotrwały. Stres umiar-
+kowany zwiększa możliwości radzenia sobie z wymaganiami adaptacyjnymi otoczenia, dzięki czemu
+umożliwia rozwój psychiczny.
+• Eustres - bodziec pozytywnie mobilizujący do działania, nie na tyle mocny, aby zagrażać
+organizmowi, ale wystarczająco odczuwalny, że następuje mobilizacja i skupienie na działaniu.
+Jest to stres optymalny. Taki rodzaj stresu towarzyszy temu co odczuwamy, kiedy jesteśmy
+zmotywowani do wykonania zadania. To napięcie emocjonalne, kiedy myślimy tylko o jednej
+najważniejszej sprawie i jesteśmy skupieni na zadaniu, pozostawiając inne rzeczy na bok.
+• Dystres – reakcja organizmu na zagrożenie, świadomość niemożności realizacji zadania lub
+postawionych celów. Pojawia się po przekroczeniu optimum pobudzenia. Skutkiem działania
+dystresu jest wyczerpanie. Na tym etapie czujemy się coraz bardziej zniecierpliwieni i zmęcze-
+ni. Powoli zdajemy sobie sprawę, że nie podołamy zadaniu. Odczuwamy zmęczenie psychiczne
+i fizyczne. Pojawiają się takie dolegliwości jak nerwobóle, bezsenność, osłabienie.
+• Neustres - bodziec neutralny w działaniu, chociaż dla innych bywa on eustresowy lub dys-
+tresowy. Stan, kiedy powoli tracimy kontrolę nad własnym zachowaniem. Jesteśmy już tak
+pobudzeni, że trudno nam subiektywnie określić, czy jest to stan zagrażający czy też nie.
+Wydaje nam się, że może przesadzamy i chcemy doprowadzić zadanie do końca. Czasem mo-
+że się nam wydawać, że nowe obowiązki, które spadły na nas nagle, nie przeszkodzą nam w
+wykonaniu zadania, a nasza determinacja doprowadzi do szczęśliwego końca.
+1.1.2
+ Skutki zdrowotne
+• Skutki psychiczne - zakłócenia koncentracji, trudności w przyswajaniu nowych treści na
+skutek obniżonej koncentracji, stany zwątpienia, lęku, załamania nerwowe, depresje mogące
+prowadzić do prób samobójczych.
+1
+• Skutki somatyczne - bóle głowy, pleców i karku, zakłócenia pracy serca, snu, oddechu,
+choroby skóry, choroby wrzodowe żołądka, dwunastnicy i jelit, zawał mięśnia sercowego, udar
+mózgu, astma oskrzelowa.
+
+Według klasyfikacji DSM IV/V:
+• Zaburzenia adaptacyjne – występują w sytuacji, kiedy stresor wywołał u kogoś depresję,
+lęk, zaburzenia behawioralne, żałobę; utrzymują się po ustaniu działania stresora nie dłużej
+niż 6 miesięcy:
+F43.20, z lękiem;
+F43.22, z mieszanym nastrojem lękowym i depresyjnym;
+F43.23, z problemem behawioralnym;
+F43.24, z mieszanym problemem emocjonalnym i behawioralnym;
+F43.25, nieokreślone.
+• Ostre zaburzenie stresowe (F43.0)– pacjent przeżył traumatyczne wydarzenie bądź jego
+świadkiem; towarzyszą temu wspomnienia, marzenia senne, cierpienie psychiczne i fizyczne;
+próby unikania wspomnień nie przynoszą rezultatu; pojawia się negatywne nastawienie, brak
+pozytywnych emocji; zachowanie charakteryzuje się nadmierną wrażliwością, lękiem, obniżo-
+ną koncentracją, zaburzeniami snu, zaburzenie behawioralne – pacjent przestaje normalnie
+funkcjonować, interesować się światem; stan trwa od 3 dni do miesiąca.
+• Zespół stresu pourazowego PTSD (F43.10) – gdy wskazane powyżej symptomy trwają
+dłużej niż miesiąc, kwalifikuje się do jako PTSD.
+
+1.1.3
+ Wypalenie zawodowe.
+Wypalenie zawodowe – stan fizycznego, emocjonalnego i umysłowego wyczerpania przejawiają-
+cego się przez chroniczne zmęczenie. Towarzyszy mu negatywna postawa wobec pracy, ludzi i życia,
+poczucie bezradności i beznadziejności oraz obniżona samoocena, która przejawia się poczuciem
+własnej nieadekwatności, niekompetencji i zniechęceniem do pracy.
+Główne czynniki
+• Stawanie sobie wysokich wymagań przy nierealistycznej ocenie wpływu na sytuację.
+• Działanie niezgodne z własnymi wartościami.
+• Perfekcjonizm i nadodpowiedzialność.
+• Defensywna postawa wobec trudności, wyolbrzymianie porażek.
+• Brak poczucia relacji partnerskich i systemu wsparcia.
+• Słaba organizacja czasu pracy oraz życia poza pracą.
+2
+Trójwymiarowa teoia wypalenia Christiny Maslach
+• Emocjonalne wyczerpanie - uczucie pustki i braku sił wywołane subiektywnie nadmier-
+nymi wymaganiami psychologicznymi i emocjonalnymi.
+• Depersonalizacja - poczucie bezduszności, bezosobowości, obniżenie wrażliwości wobec in-
+nych, cynizm.
+• Obniżenie oceny własnych dokonań, negatywne przewartościowanie - poczucie mar-
+nowania czasu i wysiłku na swoim stanowisku pracy.
+Wypalenie zawodowe nie następuje z dnia na dzień. Jest to proces stopniowy systematyczny, w
+którym można wyróżnić kolejne etapy.
+Etapy wypalenia zawodowego
+• Miesiąc miodowy - zauroczenie pracą, satysfakcja z osiągnięć zawodowych, pracownik pełen
+energii, zapału i optymizmu.
+• Przebudzenie - utrzymanie obrazu idealnego pracownika, pracuje ponad miarę, często po
+godzinach, zaczyna zauważać, że jego ocena pracy jest nierealistyczna.
+• Szorstkość - w realizację zadań, także tych podstawowych, wkłada się coraz więcej wysiłku,
+pojawiają się konflikty z klientami i współpracownikami.
+• Wypalenie pełnoobjawowe - poczucie pustki, samotności, myśli ucieczkowe, stany depre-
+syjne; pełne wyczerpanie psychiczne i fizyczne.
+• Odradzanie się - rekonwalescencja, leczenie ran powstałych w wyniku kolejnych stadiów
+wypalenia, powrót do normalnego sposobu pracy bogatszy w nowe doświadczenia.
+Co może zrobić pracownik i pracodawca?
+Rady dla pracownika.
+• podaj weryfikacji swoje cele i priorytety
+• oceń wymagania, które stoją przez Tobą
+• zwiększ dystans do otoczenia, jeżeli kontakty kosztują zbyt dużo
+• podnoś umiejętności radzenia sobie ze stresem
+• korzystaj ze wparcia osób bliskich i rodziny
+• daj sobie prawo do odpoczynku, relaksu, przyjemności.
+3
+Rady dla pracodawcy.
+• powierzaj pracownikom zadania adekwatne do ich możliwości i kompetencji
+• udzielaj obiektywnej i konstruktywnej oceny
+• stwarzaj możliwości uczenia się i rozwoju zawodowego (szkolenia itd.)
+• adekwatnie wynagradzaj pracowników
+• dbaj o kulturę organizacyjną w firmie opartą na pozytywnych relacjach interpersonalnych
+
+1.2
+ Rodzaje dyskryminacji oraz środki ochrony prawnej.
+
+
+Postawa to trwała ocena, ludzi lub obiektów, pozytywna lub negatywna. Składa się z trzech
+elementów:
+• Komponent emocjonalny – emocje i uczucia, jakie ludzie kojarzą z obiektem postawy
+• Komponent poznawczy – przekonania ludzi na temat właściwości obiektu
+• Komponent behawioralny – działania ludzi wobec obiektu postawy
+
+W postawie nietolerancyjnej można wyróżnić wymienione wyżej komponenty:
+• UPRZEDZENIA - komponent emocjonalny
+• STEREOTYPY - komponent poznawczy
+• DYSKRYMINACJA - komponent behawioralny
+
+1.2.1
+ Uprzedzenia.
+Definicje.
+Negatywna, nieuzasadniona postawa wobec jakieś grupy lub jej członków (D . Myers).
+Wroga bądź negatywna postawa dotycząca wyróżniającej się grupy ludzi, oparta wyłącznie na przy-
+należności do grupy (E. Aronson).
+Wędrująca opinia (emocjonalna) bez widomych dowodów na swe poparcie. (Ambrose Bierce, 1911).
+Uprzedzenia są źródłem do powstania stereotypów na temat swojego przedmiotu, co za tym
+idzie - zawężonego, tendencyjnego spojrzenia.
+
+Źródła.
+• wychowanie i kultura
+• wspólna historia
+• negatywne doświadczenia
+• przekazy medialne
+
+4
+Rodzaje.
+• awersyjne – poczucie lęku, wstręt, nienawiść przed grupą traktowaną jako zagrożenie
+• dominatywne – poczucie wyższości nad grupą np..: mniejszością narodową, etniczną
+• kierowane emocjami takimi jak zawiść czy zazdrość np..: status społeczny i ekonomiczny
+• zinternalizowane – grupy, wobec których członków kierowane były/są uprzedzenia, zaczynają
+być uprzedzeni do siebie samych
+
+1.2.2
+ Stereotypy.
+Pierwszy raz pojęcia stereotyp użył Walter Lippmann w książce „Public Opinion” (1922). Stwier-
+dził, że nosimy w umysłach obrazki, którymi posługujemy się oceniając innych.
+Stereotyp określa się jako przekonania na temat cech danej grupy, kształtowane najczęściej
+negatywnymi emocjami (uprzedzeniami); przekonania są wybiórcze, zero-jedynkowe, generalizujące
+wszystkich członków grupy.
+Gordon Allport (1954) określił stereotypizację jako prawo najmniejszego wysiłku poznawczego,
+które ma uwarunkowanie przystosowawcze, ale kierowanie się prostym schematem nie daje możli-
+wości indywidualnego poznania.
+
+Formy stereotypizacji.
+• efekt oczekiwań - odbieranie osoby/ grupy zgodnie z naszymi oczekiwaniami samospełniające
+się proroctwo.
+- oczekiwania dotyczące innej osoby
+- wpływ na zachowanie tej osoby
+- osoba zachowuje się zgodnie z naszymi oczekiwaniami
+Przykład. Mobbing w pracy. Wykorzystanie zależności służbowej. obwinianie ofiary – ofiara
+sama jest sobie winna, wiara w sprawiedliwy świat
+• korelacja pozorna – odkrywanie współzależności tam, gdzie faktycznie nie występują
+• dehumanizacja – klasyczna intelektualizacja przenosi w przestrzeń abstrakcyjną myśli i zda-
+rzenia, o tyle dehumanizacja robi to samo z ludźmi. Inni ludzie przestają posiadać w świado-
+mości danej jednostki cechy ludzkie, są uważani za przedmioty, zwierzęta, podludzi.
+
+Eksperyment Williama Ickesa (1982). Studenci zostali podzieleni w pracy. Ekspe-
+rymentator poinformował, że osoba w parze jest albo przyjazna albo wroga. Wspo-
+mniany partner był współpracownikiem eksperymentatora i zachowywał się neu-
+tralnie. Wyniki eksperymentu na podstawie ankiet ewaluacyjnych: jeżeli w parze
+poinformowano, że partner jest przyjazny, odbierano go przyjaźnie; jeżeli w parze
+przekazano informację, że partner jest wrogi to patrzono na niego z rezerwą i in-
+terpretowano nieufnie jego zachowanie, choć tak naprawdę partner zachowywał się
+neutralnie.
+5
+
+Reakcje na stereotyp. Patricia Devine (1989) opracowała dwustopniowy model poznawczego
+przetwarzania stereotypów
+• automatyczne przetwarzanie – występuje wówczas, gdy pojawia się odpowiedni bodziec, który
+uaktywnia stereotypy wobec danej grupy społecznej pozostające w pamięci, które nie były
+brane pod uwagę przed działaniem bodźca; proces niekontrolowany, bez udziału świadomości
+• kontrolowane przetwarzanie – decyzja o odrzuceniu lub zignorowaniu myślenia stereotypowe-
+go; wymagane są przekonania osoby odwołujące się do postaw moralnych
+Przykład. Proces grupowy. Lęk przed wykluczeniem.
+
+Zmiana Stereotypu.
+Webber, Crocker (1983) opracowały modele zmiany strereotypów.
+• model buchalteryjny – pojawia się informacja niezgodna ze stereotypem, prowadząca do prze-
+kształcenia stereotypu.
+• model przekształceniowy – informacja niezgodna ze stereotypem prowadząca do radykalnej
+zmiany stereotypu Model wykształcenia stereotypu – informacja niezgodna ze stereotypem
+prowadząca do stworzenia informacji niskiego rzędu (w celu jej przyswojenia), bez konieczno-
+ści zmieniania początkowego stereotypu.
+
+Eksperyment. Webber i Crocker podzieliły badanych na grupy. Przekazywały do gru-
+py informacje niezgodne ze stereotypami o dwóch grupach zawodowych: bibliotekarzy
+i urzędników. W pierwszej przekazywały informację w sposób buchalteryjny (fakty za-
+przeczające były podawane kolejno po sobie). W drugiej grupie wprowadzono model
+przekształceniowy (silnie zaprzeczano stereotypom). Ostatnia grupa otrzymywała in-
+formacje prowadzące do powstanie stereotypu niższego rzędu.
+Ustalono, że stereotypy osłabił model buchalteryjny oraz model stworzenia informacji
+niskiego rzędu, natomiast model przekształceniowy nie miał wpływu na osłabienie ste-
+reotypów.
+- do pewnego stopnia wszyscy stereotypizujemy innych (oszczędność poznawcza)
+- postawy emocjonalne są odporniejsze na zmiany niż emocjonalne (osoba silnie uprze-
+dzona jest bardziej zaangażowana w stereotypizację i przez to staje się fortecą).
+
+1.2.3
+Dyskryminacja.
+
+Dyskryminacja to forma nieusprawiedliwionego okolicznościami nierównego traktowania, charak-
+teryzującego się długotrwałością i celowością, którego podstawą jest posiadanie przez daną osobę
+czy grupę określonej cechy np..: narodowość, poglądy polityczne, orientacja seksualna, rasa, wy-
+znawana religia, status społeczny, status finansowy, podległość służbowa itd..
+Nietolerancja. Brak akceptacji dla odmienności, które może doprowadzić do negatywnych re-
+akcji wobec poszczególnych jednostek (przejawiających się niechęcią, a niekiedy również agresją),
+ale również do podejmowania działań mających na celu ograniczenia praw całych grup, czyli dys-
+kryminacji.
+6
+
+Formy dyskryminacji.
+• Rasizm – dyskryminacja osób innego koloru skóry
+• Ksenofobia (np.. Antysemityzm) – dyskryminacja ze względu na pochodzenie etniczne np..:
+wobec Żydów, Arabów, Romów, Ukraińców itp..
+• Seksizm – dyskryminacja ze względu na płeć
+• Nietolerancja religijna – dyskryminacja ze względu na wyznawaną religię
+• Handicapizm – dyskryminacja osób niepełnosprawnych
+• Homofobia – dyskryminacja ze względu na orientacje seksualną
+• Mobbing – dyskryminacja w miejscu pracy polegająca na wykorzystywanie swoje pozycji
+służbowej
+• ? (przybywa grup dyskryminowanych)
+
+1.3
+ Problematyka mobbingu w stosunkach pracy.
+
+1.3.1
+ Definicja konfliktu.
+Definicja Mortona Deautsch’a Konflikt to sytuacja, gdy dwie lub więcej strony, wzajemnie
+od siebie zależne spostrzegają różnice między sobą za niemożliwe do pogodzenia i w konsekwencji
+niemożność zrealizowania własnych dążeń.
+Źródła.
+• komunikacja
+• potrzeby
+• samoocena
+• osobowość
+• role społeczne
+• wartości
+• kontrola nad zasobami
+Konflikt rozgrywa się na kilku poziomach.
+• poziom strukturalny - konflikt istnieje potencjalnie
+• poziom psychologiczny - konflikt jest ukryty
+• poziom behawioralny - konflikt staje się jawny
+7
+Model incydentu konfliktowego Jamesa S. Colemana.
+1. Pierwotny, pojedynczy przedmiot sporu.
+2. Naruszenie równowagi stosunków międzyludzkich.
+3. Ujawnienie się innych spornych problemów, dotąd stłumionych.
+4. Druga strona prezentuje swoje racje i argumenty.
+5. Druga strona wydaje się z gruntu zła.
+6. Wysuwanie osobistych zarzutów wobec drugiej strony.
+7. Konflikt uzależnia się od pierwotnego przedmiotu sporu.
+Diagnoza obszarów sytuacji konfliktowej, tzw. ”koło konfliktu” wg Ch. Moore’a.
+• Konflikt relacji - związany jest z silnymi emocjami przeżywanymi w relacji z daną osobą.
+Przyczyną takiego stanu rzeczy mogą być stereotypy, zła komunikacja, negatywne wcześniejsze
+doświadczenia
+• Konflikt relacji - związany jest z silnymi emocjami przeżywanymi w relacji z daną osobą.
+Przyczyną takiego stanu rzeczy mogą być stereotypy, zła komunikacja, negatywne wcześniejsze
+doświadczenia
+• Konflikt wartości - wynika z odmiennych systemów wartości, różnych światopoglądów, a także
+z różnicy zasad i wartości codziennych czynności np.: stosunek do utrzymywania porządku w
+domu
+• Konflikt interesów - to sytuacja, gdy strony wzajemnie od siebie zależne, nie mogą osiągnąć
+swoich celów przez działania drugiej strony (osiągnięcie celu przez jedną stronę wyklucza
+osiągnięcie celu przez drugą stronę)
+• Konflikt danych - pojawi się, kiedy strony konfliktu nie dysponują potrzebnymi danymi, mają
+różne informacje lub odmiennie je interpretują. Sytuacja taka może prowadzić do zaostrzenie
+konfliktu, kiedy strony oskarżają się o zatajenie danych bądź celowe wprowadzenie w błąd
+itp..
+• Konflikt strukturalny - wynika ze struktury organizacji, która działając w sposób wadliwy,
+prowadzi do wielu konfliktów np.: niejasno określone kompetencje w odniesieniu do poszcze-
+gólnych stanowisk
+Style reagowania.
+• Unikanie - sposób, w którym nikt nie osiąga swoich celów, to znaczy nie są zaspokajane ani
+własne potrzeby i interesy, ani potrzeby partnera
+• Dostosowanie się - kiedy rezygnujemy ze swoich celów i potrzeb, staramy się łagodzi sytuację
+i wówczas druga strona realizuje swoje cele
+8
+• Rywalizacja - wówczas dążymy do osiągnięcia wszystkich celów i potrzeb własnych, kosztem
+porażki drugiej strony
+• Kompromis - kiedy obie strony osiągają jedynie część własnych potrzeb i celów, a z części
+rezygnują
+• Współpraca - kiedy obie strony osiągają najważniejsze dla siebie cele i potrzeby.
+Jest to jedna ze strategii, która wymaga poświęcenie czasu, za to przynosi satysfakcję obu
+stronom, korzystna zwłaszcza w sytuacjach, kiedy relacja z drugą stroną bądź sam przedmiot
+sporu są szczególnie istotne. Strony wypracowują rozwiązanie, które pozwala na osiągnięcie
+najważniejszych dla nich postulatów
+Rozwiązywanie konfliktów.
+Porozumienie Bez Przemocy Marchalla Rosenberga
+1. Spostrzeżenie.
+Przedstawienie faktów związanych z działaniem osoby, której działanie wpłynęło na nas.
+2. Ujawnienie uczuć.
+Przedstawienie uczuć związanych z działaniem osoby (ból, cierpienie, irytacja, smutek, lęk)
+3. Wyrażenie potrzeb.
+Przestawiamy nasze potrzeby związane z uczuciami, które ujawniliśmy poprzednio.
+4. Prośba.
+Asertywna prośba do partnera relacji i zmianę stanu rzeczy zgodnego z naszymi oczekiwania-
+mi.
+
+
+1.3.2
+ Definicja mobbingu.
+Zgodnie z definicją rekomendowaną przez Komisję Europejską.
+Mobbing to specyficzny rodzaj przemocy funkcjonujący w miejscu pracy, polegający na upo-
+rczywym i długotrwałym podejmowaniu działań, które w ofierze lub grupie ofiar wywołują obiek-
+tywnie uzasadnione poczucie krzywdy osobistej i zagrożenia zawodowego oraz negatywne skutki dla
+zdrowia fizycznego i psychicznego. Zjawisko mobbingu w Polsce ustawodawca zdefiniował w art.
+94(3) § 2 Kodeksu Pracy:
+„Mobbing oznacza działania lub zachowania dotyczące pracownika lub skierowane prze-
+ciwko pracownikowi, polegające na uporczywym i długotrwałym nękaniu lub zastrasza-
+niu pracownika, wywołujące u niego zaniżoną ocenę przydatności zawodowej, powo-
+dujące lub mające na celu poniżenie lub ośmieszenie pracownika, izolowanie go lub
+wyeliminowanie z zespołu współpracowników.”
+Do obowiązku przeciwdziałania mobbingowi zobligowany jest pracodawca.
+„Pracodawca jest zobowiązany przeciwdziałać mobbingowi.” wg art. 94(3 )§ 1 KP.
+9
+Ustawodawca określił też skutki prawne mobbingu dla pracodawcy - wart. 94(3) § 3 KP:
+”Pracownik, u którego mobbing wywołał rozstrój zdrowia, może dochodzić od praco-
+dawcy odpowiedniej sumy tytułem zadośćuczynienia pieniężnego za doznaną krzywdę.”
+Wyposażył, więc pracownika mobbingowanego, u którego taka forma dyskryminacji wywołała roz-
+strój zdrowia, ma prawo do dochodzenia od pracodawcy na drodze sądowej odpowiedniej sumy
+zadośćuczynienia za doznaną krzywdę.
+Możliwe jest również dochodzenie praw i odszkodowania w sytuacji, w której pracownik rozwiąże
+umowę w skutek mobbingu. Zatem finansowe konsekwencje mobbingu wobec pracownika może
+ponieść pracodawca, nawet jeśli był on zastraszany lub nękany przez współpracowników.
+
+Płaszczyzny sytuacji mobbingowej.
+• Diagonalna (pochyła). Relacja pracodawca – pracownik. Jedna strona ma przewagę nad dru-
+gą stroną, wynika to z podległości służbowej. Strona silniejsza zaczyna wykorzystywać ten
+fakt, stosując presję, nasilać zachowania mobbingowe, grożąc zwolnieniem z pracy itd.. Stro-
+na słabsza podporządkowuje się ze względu na swoją sytuację socjalną, nie mając wiedzy
+i kompetencji, aby się zjawisku przeciwstawić. Dotyczy to także osób, nie mobbingowanych
+bezpośrednio, ale wciągniętych przez mobbera w stosowanie przemocy w pracy wobec innego
+współpracownika. Osoby takie przystają na to pod groźbą utraty pracy, bojąc się, że same
+mogą stać się celem mobbera.
+• Horyzontalna (pozioma). Relacja pracownik – współpracownicy. Motywem może być dzia-
+łanie pracodawcy - mobbera, kiedy współpracownicy ofiary wybierają swoje dobro, unikają
+kłopotów. Także kiedy dołącza nowa osoba do zespołu i nie chce dostosować się do panujących
+nieformalnych obyczajów. Częstym motywem jest zazdrość i zawiść pomiędzy pracownikami
+o dobre notowania u pracodawcy. Mobbera stają się osoby, które czują się zagrożone swojej
+pozycji, boją się utraty przywilejów, premii, możliwości awansu.
+• Wertykalna (pionowa). Relacja pracownicy – pracodawca. Pojawiają się coraz częściej, choć
+nadal jest to przypadek stosunkowo rzadki. Następuje, kiedy grupa pracowników pozostaje
+w zmowie przeciwko pracodawcy, chcąc wymusić np. dodatkowe przywileje. Występuje w fir-
+mach, gdzie ze względu na specyfikę pracy utrudnione jest zwolnienie pracownika (nie ma
+takiej groźby), nowy pracodawca nie odnajduje się w nowej roli, w swoich prawach i obowiąz-
+kach. Formą pośrednią występuje kiedy mobbing ze strony pracowników wobec kierownika
+jest podsycany przez dyrekcję zakładu lub za jej przyzwoleniem.
+
+Przebieg sytuacji mobbingowej.
+1. Faza I. Zaczyna się wraz z pojawieniem się konfliktu w pracy. Jedna ze stron konfliktu jako
+formę jego rozwiązania przyjmuje strategię, która pozwoli skutecznie pokonać druga stronę,
+wybiera mobbing, najczęściej łamiąc dotychczasowe zasady kultury organizacyjnej. Ofiara nie
+definiuje swojej sytuacji jeszcze jako mobbingu, tylko jako konflikt, który można rozwiązać.
+Podejmuje próby rozwiązania konfliktu, które okazują się ku jej zaskoczeniu nieskuteczne.
+10
+2. Faza II. Działania mobbera przybierają na sile, mają na celu stygmatyzować ofiarę, odizolowa-
+nie jej od grupy oraz wsparcia i sympatii innych współpracowników. Ofiara jest notorycznie
+obmawiana, poniżana, krytykowana, łamane są jej prawa pracownicze. Mobber wprost za-
+kazuje innym pracownikom kontaktów z osobą mobbingowaną przez co w coraz mniejszym
+stopniu może liczyć na wsparcie emocjonalne. W tej fazie uświadamia sobie, że doświadcza
+mobbingu.
+3. Faza III. Pojawiają się pierwsze skutki psychosomatyczne, coraz częściej osoba przebywa na
+zwolnieniu lekarskim. U osób mobbingowanych przejawia się wstręt do zakładu pracy i mob-
+bera (mobberów). Obniża się jakość wykonywanych obowiązków, co daje postawę mobberowi
+do eskalacji działań, pojawiają się wprost groźby zwolnienia z pracy. Osoba mobbingowa-
+na jest wtedy zrezygnowana, psychicznie i społecznie zdegradowana, bezradna. Pomimo tego
+faktu, uchodzi za osobą konfliktową, która działa przeciwko zespołowi pracowników. Mobber
+ma coraz więcej argumentów za zwolnieniem pracownika (gdy jest nim pracodawca) i często
+osoby są zwalniane.
+
+Formy mobbingu.
+ Kryterium zachowań mobbingowych wg Heinza Leymanna.
+
+Działania utrudniające proces komunikowania się.
+• Ograniczanie lub utrudnianie ofierze możliwości wypowiadania się.
+• Przerywanie wypowiedzi.
+• Reagowanie na wypowiedzi agresją werbalną.
+• Bezzasadne krytykowanie wykonywanej pracy.
+• Dzwonienie poza godzinami pracy bez palącej potrzeby.
+• Stosowanie gróźb.
+• Prezentowanie ofierze poniżających i obraźliwych gestów.
+• Stosowanie krytyki nie wprost, pod postacią sarkazmu, aluzji.
+
+Działania wpływające negatywnie na relacje społeczne.
+• Unikanie przez przełożonego kontaktu z ofiarą.
+• Ograniczenie istotnych kwestii, w których ofiara może zabierać głos.
+• Fizyczne odizolowanie ofiary poprzez przeniesienie stanowiska pracy w ustronne miejsce.
+• Ignorowanie ofiary.
+
+Działania naruszające wizerunek ofiary.
+• Pomawianie.
+• Rozsiewanie plotek i prawdziwych tajemnic ofiary.
+• Ośmieszanie.
+• Sugerowanie zaburzeń psychicznych.
+• Żartowanie z życia osobistego.
+• Parodiowanie sposobu chodzenia, stylu wypowiedzi, mimiki twarzy.
+• Szykanowanie z powodu określonych poglądów politycznych lub przekonań religijnych.
+• Żartowanie z niepełnosprawności lub kalectwa.
+• Wyzwiska i poniżanie werbalne.
+• Zachowania o charakterze seksualnym.
+
+Działania uderzające w pozycję zawodową ofiary.
+• Zlecanie zadań naruszających godność osobistą.
+• Kwestionowanie podejmowanych decyzji, nawet jeśli okazały się słuszne.
+• Pomijanie ofiary podczas przydzielania zadań.
+• Przydzielanie zadań bezsensownych, niepotrzebnych z punktu widzenia organizacji.
+• Przydzielanie zadań poniżej kwalifikacji i kompetencji.
+• Przydzielanie zadań nie mieszczących się w kwalifikacjach i kompetencjach pracownika.
+• Wydawanie sprzecznych poleceń.
+
+Działania uderzające w zdrowie ofiary.
+• Zlecanie prac szkodliwych dla zdrowia bez odpowiednich środków ochronnych.
+• Groźby użycia siły fizycznej wobec ofiary.
+• Stosowanie przemocy fizycznej o nieznacznym nasileniu.
+• Znęcanie się fizyczne.
+• Działania o podłożu seksualnym, wykorzystanie seksualne
+• Przyczynianie do powstawania strat materialnych powodowanych przez ofiarę.
+• Wyrządzanie szkód psychicznych.
+
+
+1.4
+ Etyka Pracy. Promocja zdrowej kultury organizacyjnej.
+1.4.1
+ Procedura postępowania wobec zjawiska mobbingu w pracy.
+1. Diagnoza sytuacji.
+2. Zgłoszenie problemu.
+- pismo
+- prośba o rozmowę ( do pracodawcy lub innej osoby stosującej mobbing )
+3. Odpowiedź. Pozytywna:
+- działania mające na celu zaprzestanie stosowania mobbingu
+- wprowadzenie koniecznych zmian w organizacji pracy
+Propozycja: Procedura antymobbingowa dostosowana do specyfiki zakładu pracy,
+uwzględniająca odpowiedzialność pracodawcy oraz immunitet dla świadków działań
+mobbingowych .
+Negatywna:
+- nie udzielenie odpowiedzi
+- odpowiedź wymijająca
+- kontynuowanie działań mobbingowych
+4. Dalsze konsekwencje.
+- pismo ws mobbingu w pracy do wyższej instancji m.i. kardy zarządzającej, ministerstwa itd.
+- prośba o powołanie przez pracodawcę Komisji Pojednawczej
+- zawiadomienie Związków Zawodowych
+- zawiadomienie Państwowej Inspekcji Pracy
+- skierowanie sprawy do Sądu Pracy
+5. Przygotowanie.
+- obiektywne podejście do problemu, zdystansowanie
+- wynotowanie wszystkich działań mobbingowych
+- zebranie dokumentacji lekarskiej, psychiatrycznej
+- kontakt ze świadkami mobbingu
+- przygotowanie mentalne do ochrony swoich praw w sądzie
+- korzystanie z doświadczenia innych osób w podobnej sytuacji
+1.4.2
+ Karta Różnorodności.
+Karta Różnorodności (ang. Diversity Charter) – międzynarodowa inicjatywa mająca na celu
+promowanie różnorodności i równych szans w zatrudnieniu, bez względu na płeć, rasę, orientację
+seksualną, pochodzenie etniczne, wiek, niepełnosprawność czy religię. Pomysł stworzenia Karty
+Różnorodności pierwszy raz pojawił się w styczniu 2004 r. w raporcie francuskiego think tanku
+Institut Montaigne. Na podstawie raportu 22 października 2004 r., z inicjatywy Claudea Bébéara
+i Yazida Sabega, trzydziestu trzech sygnatariuszy podpisało ”Charte de la diversité en entreprise”
+– pierwszą tego rodzaju w Europie.
+13
+14 lutego 2012 r. Kartę Różnorodności przyjęto także w Polsce. Począwszy od 2004 r. naro-
+dowe Karty Różnorodności podpisało ponad 5000 podmiotów (np.: UM Słupsk, UM Poznań, ROPS
+Poznań, UM Wadowice). Inicjatywa Karty Różnorodności jest wspierana i finansowana przez Unię
+Europejską.
+Zobowiązania sygnatariuszy KR.
+• tworzenia atmosfery i kultury organizacyjnej, która zapewnia szacunek dla różnorodności,
+poprzez włączanie zarządzania różnorodnością, kwestii zarządzania wiekiem i równości płci
+do wszystkich adekwatnych polityk i procedur stosowanych w naszej organizacji;
+• wprowadzenia instytucjonalnych, wewnątrzzakładowych rozwiązań w celu rozwoju równego
+traktowania, w tym wskazania osoby lub zespołu koordynującego przeciwdziałanie dyskrymi-
+nacji i mobbingowi w miejscu pracy;
+• wypracowania i wdrożenia polityki równego traktowania i zarządzania różnorodnością w miej-
+scu pracy, ze szczególnym uwzględnieniem obszarów: rekrutacji, dostępu do szkoleń i awansów,
+wynagrodzeń, godzenia obowiązków zawodowych z życiem prywatnym i rodzinnym, ochrony
+przed mobbingiem oraz ochrony przed nieuzasadnionym zwolnieniem;
+• wprowadzenia monitoringu antydyskryminacyjnego oraz antymobbingowego, a także cyklicz-
+nej edukacji na temat przeciwdziałania dyskryminacji i mobbingowi, w celu podnoszenia
+świadomości i wiedzy na ten temat poprzez szkolenia, warsztaty i działania skierowane odpo-
+wiednio do wszystkich osób zatrudnionych, w tym w szczególności do kadry zarządzającej;
+• prowadzenia dialogu z osobami zatrudnionymi na temat przyjętej polityki zarządzania różno-
+rodnością oraz informowania interesariuszy firmy – w szczególności osób zatrudnionych, ale
+także klientów/ek, współpracowników/ek, partnerów biznesowych, akcjonariuszy, dostawców i
+podwykonawców – o stosowaniu modelu zarządzania różnorodnością oraz rezultatach takiego
+podejścia;
+• corocznego raportowania na temat podjętych działań i ich praktycznych rezultatów;
+• promowania i upowszechniania zarządzania różnorodnością w Polsce.
+1.4.3
+ Logo HR.
+Europejska Karta Naukowca oraz Kodeks Postępowania przy rekrutacji pracowników
+naukowych. Karta i Kodeks są jednymi z podstawowych dokumentów europejskiej strategii na
+rzecz zwiększania atrakcyjności warunków pracy i rozwoju kariery naukowców w Europie.
+Instytucje działające w sferze B+R (zarówno publiczne jak i prywatne) oraz organizacje fi-
+nansujące badania, które skutecznie wdrażają zasady Karty i Kodeksu, zostają wyróżnione przez
+Komisję Europejską logo HR Excellence in Research.
+Europejska Karta Naukowca opisuje prawa i obowiązki, jakim podlegają zarówno naukow-
+cy, jak i instytucje ich zatrudniające oraz organizacje zapewniające finansowanie badań naukowych.
+14
+Kodeks Postępowania przy rekrutacji pracowników naukowych opisuje zasady rekrutacji
+naukowców, których instytucje-pracodawcy powinny przestrzegać, zapewniając równe traktowanie
+pracownikom naukowym zatrudnianym w Europie.
