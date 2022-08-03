@@ -4,7 +4,7 @@ export const styles = StyleSheet.create({
    contain: {
      flex: 1,
     //  alignItems: 'center',
-     backgroundColor: "white",
+     backgroundColor: "#00008B",
    },
    cards_title: {
     marginBottom: 20,
@@ -12,14 +12,14 @@ export const styles = StyleSheet.create({
    cards: {
     padding: 0,
     textAlign: "justify",
-    color: "#190707",
+    color: "#BC8F8F",
     fontSize: 17,
     fontFamily: "sans-serif-light",
    },
    cards_bold: {
     padding: 0,
     textAlign: "justify",
-    color: "#190707",
+    color: "#7FFFD4",
     fontSize: 17,
     fontWeight: "bold",
     fontFamily: "sans-serif-light",
@@ -31,19 +31,19 @@ export const styles = StyleSheet.create({
    },
 
    tabs_header: {
-   backgroundColor: "#2E9AFE",
+   backgroundColor: "#C71585",
    padding: 20,
    textAlign: "justify",
    },
 
     tabs_title: {
-    color: "white",
+    color: "#DDA0DD",
     fontSize: 22,
     },
     tabs_subtitle: {
     padding: 1,
     textAlign: "justify",
-    color: "white",
+    color: "#F5F5DC",
     fontSize: 17,
     fontFamily: "sans-serif-light",
     },
@@ -52,7 +52,7 @@ export const styles = StyleSheet.create({
     padding: 1,
     margin: 10, 
     textAlign: "justify",
-    color: "#190707",
+    color: "#6495ED",
     fontSize: 18,
     fontWeight: "bold",
     fontFamily: "Roboto",
@@ -60,19 +60,18 @@ export const styles = StyleSheet.create({
    tabs_text: {
     padding: 0,
     margin: 10,
-    textAlign: "justify",
-    color: "black",
+    // textAlign: "justify",
+    color: "#7FFFD4",
     fontSize: 17,
     fontFamily: "sans-serif-light",
    },
    surface: {
     padding: 8,
-    // height: 80,
-    // width: 80,
     alignItems: 'center',
     justifyContent: 'center',
-    borderRadius: 50,
-    margin: 10
+    borderRadius: 10,
+    margin: 10,
+    backgroundColor: "#1E90FF",
   },
     quotes: {
     padding: 10,

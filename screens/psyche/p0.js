@@ -35,7 +35,7 @@ export default function P0({ navigation, route }) {
   const renderItem = ({ item }) => (
         <TouchableWithoutFeedback style={styles.button} onPress={() => {
           navigation.push(item.id)
-        }}>
+        }}> 
           <Surface style={styles.surface} elevation={2}>
             <Text style={styles.tabs_text}>{item.title}</Text>
           </Surface>
@@ -44,21 +44,23 @@ export default function P0({ navigation, route }) {
 
   const Header = () => {
     return (
-      <Surface style={styles.surface} elevation={2}>
-        <Text style={styles.tabs_bold}>Moje zdrowie </Text>
-        <Text style={styles.tabs_text}>Informacje na temat zdrowotnych skutków działań mobbingowych w miejscu pracy.
+      <View style={styles.tabs_header}>
+        <Text style={styles.tabs_title}>Moje zdrowie </Text>
+        <Text style={styles.tabs_subtitle}>Informacje na temat zdrowotnych skutków działań mobbingowych w miejscu pracy.
         </Text>
-        </Surface>
+      </View>
 
     )
   };
 
   return (
+    <View style={styles.contain}>
      <FlatList 
       ListHeaderComponent={Header} 
       data={DATA}
       renderItem={renderItem}
       keyExtractor={item => item.id}
       />
+    </View>
   )
 };

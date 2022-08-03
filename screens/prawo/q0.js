@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, FlatList } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
-import { Divider } from 'react-native-paper';
+import { Surface } from 'react-native-paper';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 
 
@@ -128,14 +128,13 @@ export default function Q0({ navigation, route }) {
   ];
 
   const renderItem = ({ item }) => (
-        <TouchableWithoutFeedback style={styles.button} onPress={() => {
-          navigation.push(item.id)
-        }}>
-        <View>
-          <Divider/>
-          <Text style={styles.tabs_text}>{item.title}</Text>
-        </View>
-        </TouchableWithoutFeedback>
+    <TouchableWithoutFeedback style={styles.button} onPress={() => {
+      navigation.push(item.id)
+    }}> 
+      <Surface style={styles.surface} elevation={2}>
+        <Text style={styles.tabs_text}>{item.title}</Text>
+      </Surface>
+    </TouchableWithoutFeedback>
   );
 
   const Header = () => {
@@ -152,14 +151,14 @@ export default function Q0({ navigation, route }) {
   };
 
   return (
-    
+    <View style={styles.contain}>
      <FlatList 
       ListHeaderComponent={Header} 
       data={DATA}
       renderItem={renderItem}
       keyExtractor={item => item.id}   
       />
-    
+    </View>
 
   )
 };

@@ -39,7 +39,7 @@ const Law = createStackNavigator()
 export default function Prawo({ navigation, route }) {
   return (
        <Law.Navigator>
-             <Law.Screen name="q0" component={ Q0 } options={{ title: 'Pytania prawne' }} />
+             <Law.Screen name="q0" component={ Q0 } options={{ title: 'Pytania prawne'}} />
              <Law.Screen name="q1" component={ Q1 } options={{ title: 'FAQ' }} />
              <Law.Screen name="q2" component={ Q2 } options={{ title: 'FAQ' }} />
              <Law.Screen name="q3" component={ Q3 } options={{ title: 'FAQ' }} />
