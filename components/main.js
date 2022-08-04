@@ -36,7 +36,6 @@ export default function Main({}) {
           navigacja.navigate(item.id)
         }}>
           <View>
-          <Divider/>
           <Text style={style.container}>{item.title}</Text>
           </View>
         </TouchableWithoutFeedback>
@@ -46,6 +45,7 @@ export default function Main({}) {
     return (
       <View>
         <Text style={styles.tabs_bold}>mobberizer 0.01</Text>
+        <Divider />
       </View>
 
     )
@@ -69,7 +69,9 @@ const style = StyleSheet.create({
     justifyContent: 'center',
     fontSize: 18,
     fontFamily: 'sans-serif-light',
+    color: "#9FE2BF",
     padding: 10,
+
   }
 
 });

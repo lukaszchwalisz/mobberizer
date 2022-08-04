@@ -26,7 +26,7 @@ export default function App() {
       <Root.Navigator>
         <Root.Screen name="Home" component={ Home } options={{  headerTitle: (props) => <LogoTitle {...props} />,headerTitleAlign: "center",
       headerStyle: {
-        backgroundColor: '#000',
+        backgroundColor: '#2f2f2f',
       },
       }} />
         <Root.Screen name="Porady" component={ Porady } options={{ title: 'Krok po kroku'}} />

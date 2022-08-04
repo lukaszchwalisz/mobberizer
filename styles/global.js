@@ -52,7 +52,7 @@ export const styles = StyleSheet.create({
     padding: 1,
     margin: 10, 
     textAlign: "justify",
-    color: "#6495ED",
+    color: "#50FFD0",
     fontSize: 18,
     fontWeight: "bold",
     fontFamily: "Roboto",

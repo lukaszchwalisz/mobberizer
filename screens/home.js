@@ -57,7 +57,7 @@ const style = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     padding: 10,
-    backgroundColor:'white'
+    backgroundColor:'#232323'
   },
   navigationContainer: {
     backgroundColor: "white"
