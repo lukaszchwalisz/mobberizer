@@ -24,17 +24,19 @@ export default function App() {
   return (
     <NavigationContainer>
       <Root.Navigator>
-        <Root.Screen name="Home" component={ Home } options={{  headerTitle: (props) => <LogoTitle {...props} />,headerTitleAlign: "center",
-      headerStyle: {
-        backgroundColor: '#2f2f2f',
-      },
-      }} />
-        <Root.Screen name="Porady" component={ Porady } options={{ title: 'Krok po kroku'}} />
+        <Root.Screen name="Home" component={ Home } options={{  headerTitle: (props) => <LogoTitle {...props} />, headerTitleAlign: "center",
+      headerStyle: { backgroundColor: '#2f2f2f' }}} />
+        <Root.Screen name="Porady" component={ Porady } options={{ title: 'Krok po kroku',
+        headerStyle: {backgroundColor: '#2f2f2f'}, 
+        headerTintColor:  '#9FE2BF', 
+        headerTitleStyle: { color: '#9FE2BF' }}} />
         <Root.Screen name="Prawo" component={ Prawo } options={{ headerShown: false}} /> 
         <Root.Screen name="Zdrowie" component={ Zdrowie } options={{ headerShown: false}} />
-        <Root.Screen name="Szukaj" component={ Szukaj } options={{ title: 'Szukaj pomocy'}} />
+        <Root.Screen name="Szukaj" component={ Szukaj } options={{ title: 'Szukaj pomocy',
+          headerStyle: {backgroundColor: '#2f2f2f'}, 
+          headerTintColor:  '#9FE2BF', 
+          headerTitleStyle: { color: '#9FE2BF' }}} />
       </Root.Navigator>
-
     </NavigationContainer>
 
   )

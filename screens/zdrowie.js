@@ -13,7 +13,10 @@ const Psy = createStackNavigator()
 export default function Zdrowie({ navigation, route }) {
   return (
        <Psy.Navigator>
-             <Psy.Screen name="p0" component={ P0 } options={{ title: 'Moje zdrowie' }} />
+             <Psy.Screen name="p0" component={ P0 } options={{ title: 'Moje zdrowie',
+              headerStyle: {backgroundColor: '#2f2f2f'}, 
+              headerTintColor:  '#9FE2BF', 
+              headerTitleStyle: { color: '#9FE2BF' }}} />         
              <Psy.Screen name="p1" component={ P1 } options={{ title: 'Stres' }} />
              <Psy.Screen name="p2" component={ P2 } options={{ title: 'Wypalenie' }} />
              <Psy.Screen name="p3" component={ P3 } options={{ title: 'Konflikt' }} />

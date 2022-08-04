@@ -30,7 +30,6 @@ const Home = ({ navigation, route }) => {
   );
 
   return (
-
           <DrawerLayoutAndroid
             ref={drawer}
             drawerWidth={300}
@@ -43,7 +42,7 @@ const Home = ({ navigation, route }) => {
           source={require('../images/logox.png')}
           />
         <Text style={styles.tabs_bold}>mobberizer 0.01</Text>
-          {/* <Main /> */}
+        <StatusBar />
           </View> 
         </DrawerLayoutAndroid>
 
@@ -60,7 +59,7 @@ const style = StyleSheet.create({
     backgroundColor:'#232323'
   },
   navigationContainer: {
-    backgroundColor: "white"
+    backgroundColor: "#232323"
   },
   paragraph: {
     padding: 16,
