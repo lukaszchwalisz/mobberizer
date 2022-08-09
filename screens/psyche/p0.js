@@ -2,11 +2,11 @@ import React from 'react';
 import { View, Text, FlatList } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
-import { Divider, Surface } from 'react-native-paper';
+import { Surface } from 'react-native-paper';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 
 
-export default function P0({ naqvigation, route }) {
+export default function P0({ navigation, route }) {
 
   const DATA = [
     {
@@ -36,6 +36,7 @@ export default function P0({ naqvigation, route }) {
         <TouchableWithoutFeedback style={styles.button} onPress={() => {
           navigation.push(item.id)
         }}> 
+
           <Surface style={styles.surface} elevation={2}>
             <Text style={styles.tabs_text}>{item.title}</Text>
           </Surface>
