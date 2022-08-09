@@ -1,12 +1,12 @@
 import React from 'react';
-import { Text, FlatList } from 'react-native';
+import { View, Text, FlatList } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../styles/global.js';
 import { Surface } from 'react-native-paper';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 
 
-export default function Szukaj({ navigation, route }) {
+export default function P0({ navigation, route }) {
 
   const DATA = [
     {
@@ -35,7 +35,8 @@ export default function Szukaj({ navigation, route }) {
   const renderItem = ({ item }) => (
         <TouchableWithoutFeedback style={styles.button} onPress={() => {
           navigation.popToTop(item.id)
-        }}>
+        }}> 
+        
           <Surface style={styles.surface} elevation={2}>
             <Text style={styles.tabs_text}>{item.title}</Text>
           </Surface>
@@ -44,21 +45,23 @@ export default function Szukaj({ navigation, route }) {
 
   const Header = () => {
     return (
-      <Surface style={styles.surface} elevation={2}>
-        <Text style={styles.tabs_bold}>Moje zdrowie </Text>
-        <Text style={styles.tabs_text}>Informacje na temat zdrowotnych skutków działań mobbingowych w miejscu pracy.
+      <View style={styles.tabs_header}>
+        <Text style={styles.tabs_title}>Wyszukiwarka</Text>
+        <Text style={styles.tabs_subtitle}> Znajdź instytucje pomocowe.
         </Text>
-        </Surface>
+      </View>
 
     )
   };
 
   return (
+    <View style={styles.contain}>
      <FlatList 
       ListHeaderComponent={Header} 
       data={DATA}
       renderItem={renderItem}
       keyExtractor={item => item.id}
       />
+    </View>
   )
 };
