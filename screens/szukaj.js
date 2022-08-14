@@ -6,7 +6,7 @@ import { Surface } from 'react-native-paper';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 
 
-export default function P0({ navigation, route }) {
+export default function Szukaj({ navigation, route }) {
 
   const DATA = [
     {
@@ -36,7 +36,7 @@ export default function P0({ navigation, route }) {
         <TouchableWithoutFeedback style={styles.button} onPress={() => {
           navigation.popToTop(item.id)
         }}> 
-        
+
           <Surface style={styles.surface} elevation={2}>
             <Text style={styles.tabs_text}>{item.title}</Text>
           </Surface>
@@ -46,8 +46,8 @@ export default function P0({ navigation, route }) {
   const Header = () => {
     return (
       <View style={styles.tabs_header}>
-        <Text style={styles.tabs_title}>Wyszukiwarka</Text>
-        <Text style={styles.tabs_subtitle}> Znajdź instytucje pomocowe.
+        <Text style={styles.tabs_title}>Wyszukaj </Text>
+        <Text style={styles.tabs_subtitle}>Informacje na temat instytucji pomocowych.
         </Text>
       </View>
 
