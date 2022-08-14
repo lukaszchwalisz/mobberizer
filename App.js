@@ -8,7 +8,7 @@ import Porady  from './screens/porady.js';
 import Prawo  from './screens/prawo.js';
 import Zdrowie from './screens/zdrowie.js';
 import Szukaj  from './screens/szukaj.js';
-import { styles } from './styles/global.js';
+
 
 const Root = createStackNavigator()
 
