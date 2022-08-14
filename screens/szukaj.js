@@ -6,7 +6,7 @@ import { Surface } from 'react-native-paper';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 
 
-export default function P0({ navigation, route }) {
+export default function Szukaj({ navigation, route }) {
 
   const DATA = [
     {
