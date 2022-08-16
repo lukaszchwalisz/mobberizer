@@ -10,8 +10,8 @@ const Logo = () => (
 const styles = StyleSheet.create({
   logo: {
     resizeMode: "contain",
-    height: "50%",
-    width: "50%",
+    height: "100%",
+    width: "100%",
     
   },
 
