@@ -5,7 +5,6 @@ import { styles } from '../styles/global.js';
 import { Divider } from 'react-native-paper';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
-import Logo from './logo.js';
 
 export default function Main({}) {
 

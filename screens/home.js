@@ -1,54 +1,79 @@
-import React, { useRef, useState } from "react";
-import { StatusBar } from 'expo-status-bar';
-import { Button, DrawerLayoutAndroid, Text, StyleSheet, View, Image, ImageBackground } from "react-native";
-import 'react-native-gesture-handler';
+import React from 'react';
+import { View, Text, Image, Button, StatusBar, StyleSheet,TouchableWithoutFeedback } from 'react-native';
+import { NavigationContainer, DrawerActions } from '@react-navigation/native';
+import {
+  createDrawerNavigator,
+  DrawerContentScrollView,
+  DrawerItemList,
+  DrawerItem,
+} from '@react-navigation/drawer';
 import Main from '../components/main.js';
 import { styles } from '../styles/global.js';
-import { Card, Title, Paragraph } from 'react-native-paper';  
- 
 
-const Home = ({ navigation, route }) => {
-  const drawer = useRef(null);
-  const [drawerPosition, setDrawerPosition] = useState("left");
-  const changeDrawerPosition = () => {
-    if (drawerPosition === "left") {
-      setDrawerPosition("right");
-    } else {
-      setDrawerPosition("left");
-    }
-  };
 
-  const navigationView = () => (
+function MainScreen({ navigation }) {
+  return (
+    <View style={style.container}>
+        <TouchableWithoutFeedback onPress={() => navigation.dispatch(DrawerActions.openDrawer())}> 
+        <Image
+        style={{margin: 10, width: 50, height: 50}}
+        source={require('../images/logox.png')}
+        />
+        </TouchableWithoutFeedback>
+        <StatusBar />
+  </View>
+  );
+}
+
+function Notifications() {
+  return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>Notifications Screen</Text>
+    </View>
+  );
+}
+
+function CustomDrawerContent(props) {
+  return (
     <View style={style.container}>
         <Image
         style={{margin: 10, width: 50, height: 50}}
         source={require('../images/logox.png')}
       />
         <Main />
-
     </View>
+
   );
+}
 
+const Drawer = createDrawerNavigator();
+
+function MyDrawer() {
   return (
-          <DrawerLayoutAndroid
-            ref={drawer}
-            drawerWidth={300}
-            drawerPosition={drawerPosition}
-            renderNavigationView={navigationView}
-          >
-        <View style={style.container}>
-         <Image
-          style={{margin: 10, width: 50, height: 50}}
-          source={require('../images/logox.png')}
-          />
-        <Text style={styles.tabs_bold}>mobberizer 0.01</Text>
-        <StatusBar />
-          </View> 
-        </DrawerLayoutAndroid>
+    <Drawer.Navigator
+      useLegacyImplementation
+      drawerContent={(props) => <CustomDrawerContent {...props} />}
+    >
+      <Drawer.Screen name="mobberizer 0.01" component={MainScreen} 
+      options=
+      {{ headerTitleAlign: "center",
+      headerStyle: { backgroundColor: '#2f2f2f'},
+      headerTitleStyle: { color: '#9FE2BF' },
+      headerTintColor:  '#9FE2BF'
+      }}
+      />
+      <Drawer.Screen name="Notifications" component={Notifications} />
+    </Drawer.Navigator>
+  );
+}
 
-
-      );
-    };
+export default function Home() {
+  return (
+   
+      <MyDrawer />
+   
+  );
+}
 
 const style = StyleSheet.create({
   container: {
@@ -72,5 +97,3 @@ const style = StyleSheet.create({
     height: 300
   }
 });
-
-export default Home;
