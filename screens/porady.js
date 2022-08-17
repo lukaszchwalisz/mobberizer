@@ -2,7 +2,7 @@ import React from 'react';
 import { ScrollView, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../styles/global.js';
-import { Divider } from 'react-native-paper';
+import { Divider, List } from 'react-native-paper';
 
 
 const Krok1 = () => (
@@ -59,37 +59,70 @@ const Krok5 = () => (
 )
 
 export default function Porady({ navigation, route }) {
+
+  const [expanded, setExpanded] = React.useState(true);
+
+  const handlePress = () => setExpanded(!expanded);
+
   return (
-          <ScrollView>
 
-          <View style={styles.tabs_header}>
-            <Text style={styles.tabs_title}>Krok po kroku.</Text>
-            <Text style={styles.tabs_subtitle}>Kolejne etapy postępowania w zwiazku z pojawianiem się zachowań mobbingowych w miejscu pracy.
-            </Text>
-          </View>
+    <ScrollView>
+    <List.AccordionGroup >
+    <List.Accordion
+        title="Diagnoza sytuacji."
+        id="1"
+        left={props => <List.Icon {...props} icon="folder" />}
+        expanded={expanded}
+        onPress={handlePress}>
+        <View><Text>W pierwszym okresie szczególnie zwróć uwagę {"\n"}na:</Text></View>
+        <List.Item  title="-  formy zachowań mobbingowych" descriptionStyle={{color: 'red'}}/>
+        <List.Item title="-  skutki zdrowotne" />
+        <List.Item title="-  dotychczasowy czas trwania" />
+      </List.Accordion>
 
-          <View style={styles.contain}>
-          
-              <View style={styles.tabs_text}>
+      <List.Accordion
+        title="Zgłoszenie problemu."
+        id="2"
+        left={props => <List.Icon {...props} icon="folder" />}
+        expanded={expanded}
+        onPress={handlePress}>
+        <List.Item title="First item" />
+        <List.Item title="Second item" />
+       </List.Accordion>
 
-              <Krok1 />
-              <Divider/>
+       <List.Accordion
+        title="Wybór strategii."
+        id="3"
+        left={props => <List.Icon {...props} icon="folder" />}
+        expanded={expanded}
+        onPress={handlePress}>
+        <List.Item title="First item" />
+        <List.Item title="Second item" />
+       </List.Accordion>
 
-              <Krok2 />
-              <Divider/>   
+       <List.Accordion
+        title="Zawiadomienie instytucji."
+        id="4"
+        left={props => <List.Icon {...props} icon="folder" />}
+        expanded={expanded}
+        onPress={handlePress}>
+        <List.Item title="First item" />
+        <List.Item title="Second item" />
+       </List.Accordion>
 
-              <Krok3 />
-              <Divider/>   
-
-              <Krok4/>
-              <Divider/>   
-
-              <Krok5/>
-              <Divider/>   
-
-              </View>
-        </View>
-    </ScrollView>
-    )
+       <List.Accordion
+        title="Przygotowanie do procesu."
+        id="5"
+        left={props => <List.Icon {...props} icon="folder" />}
+        expanded={expanded}
+        onPress={handlePress}>
+        <List.Item title="First item" />
+        <List.Item title="Second item" />
+       </List.Accordion>
+       </List.AccordionGroup>
+   
+   
+     </ScrollView>
+  )
 };
 
