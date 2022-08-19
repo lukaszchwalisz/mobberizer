@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
    contain: {
      flex: 1,
-     backgroundColor: "#00008B",
+     backgroundColor: "#000",
    },
    input: {
     height: 40,
@@ -37,14 +37,17 @@ export const styles = StyleSheet.create({
    },
 
    tabs_header: {
-   backgroundColor: "#C71585",
+  //  backgroundColor: "#C71585",
+   backgroundColor: "darkgrey",
    padding: 20,
    textAlign: "justify",
    },
 
     tabs_title: {
-    color: "#DDA0DD",
+    // color: "#DDA0DD",
+    color: "#f5f5dc",
     fontSize: 22,
+    fontFamily: "sans-serif-medium",
     },
     tabs_subtitle: {
     padding: 1,
@@ -66,7 +69,6 @@ export const styles = StyleSheet.create({
    tabs_text: {
     padding: 0,
     margin: 10,
-    // textAlign: "justify",
     color: "#7FFFD4",
     fontSize: 17,
     fontFamily: "sans-serif-light",
