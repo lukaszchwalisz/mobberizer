@@ -11,6 +11,7 @@ import Szukaj  from './screens/szukaj.js';
 const Root = createStackNavigator()
 
 export default function App() {
+
   return (
     <NavigationContainer>
       <Root.Navigator>

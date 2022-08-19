@@ -34,7 +34,8 @@
     "yarn": "^1.22.19"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "expo-cli": "^6.0.5"
   },
   "private": true
 }
