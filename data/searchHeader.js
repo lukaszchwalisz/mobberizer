@@ -12,7 +12,7 @@ const Header = ({onSearch}) => {
         </Text>
 
         <TextInput
-          placeholder="Szukaj według hasła"
+          placeholder="Szukaj.."
           onChangeText={onSearch}
           style={{ flex: 1 }}
         />
