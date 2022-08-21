@@ -1,8 +1,8 @@
 import React from 'react';
-import { ScrollView, View, Text, ImageBackgroundComponent } from 'react-native';
+import { ScrollView, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../styles/global.js';
-import { Divider, List } from 'react-native-paper';
+import { List } from 'react-native-paper';
 
 
 const Krok1 = () => (
@@ -72,7 +72,7 @@ const Header = () => {
   return (
     <View style={styles.tabs_header}>
       <Text style={styles.tabs_title}>Krok po kroku </Text>
-      <Text style={styles.tabs_subtitle}>Informacje na temat zdrowotnych skutków działań mobbingowych w miejscu pracy.
+      <Text style={styles.tabs_subtitle}>Kolejne kroki prowadzące do poradzenia sobie z sytuacją mobbingową w pracy. 
       </Text>
     </View>
 
