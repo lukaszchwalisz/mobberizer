@@ -4,13 +4,15 @@ import { styles } from '../styles/global.js';
 
 const Header = ({onSearch}) => {
     return (
-      <View style={styles.tabs_header}>
-        <Text style={styles.tabs_title}>Wyszukaj </Text>
-        <Text style={styles.tabs_subtitle}>Informacje na temat instytucji pomocowych.
+        <View style={styles.tabs_header}>
+        <Text style={styles.tabs_title}>FAQ </Text>
+        <Text style={styles.tabs_subtitle}>Najczęściej zadawane pytania dotyczące mobbingu
+        w miejscu pracy.{"\n"}{"\n"}
+        Stan prawny: 04.05.2022 r.
         </Text>
 
         <TextInput
-          placeholder="Znajdź"
+          placeholder="Szukaj według hasła"
           onChangeText={onSearch}
           style={{ flex: 1 }}
         />

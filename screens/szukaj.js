@@ -11,26 +11,26 @@ export default function Szukaj({ navigation, route}) {
 
   const [searchQuery, setSearchQuery] = useState(DATA);
 
-    const handleSearch = (value) => {
+  const handleSearch = (value) => {
 
-      if (!value.length) return setSearchQuery(DATA);
+    if (!value.length) return setSearchQuery(DATA);
 
-      const filteredData = DATA.filter((item) =>
-        item.title.toLowerCase().includes(value.toLowerCase())
-      );
-  
-      if (filteredData.length) {
-        setSearchQuery(filteredData);
-      } else {
-        setSearchQuery(DATA);
-      };
+    const filteredData = DATA.filter((item) =>
+      item.title.toLowerCase().includes(value.toLowerCase())
+    );
+
+    if (filteredData.length) {
+      setSearchQuery(filteredData);
+    } else {
+      setSearchQuery(DATA);
     };
+  };
 
   return (
     <View style={styles.contain}>
      <FlatList 
       data={searchQuery}
-      renderItem={RenderItem}
+      renderItem={({ item }) => <RenderItem data={item} />}
       keyExtractor={(item) => item.id}
       showsVerticalScrollIndicator={false}
       ListHeaderComponent={<Header onSearch={handleSearch} />}
