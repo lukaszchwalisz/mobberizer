@@ -1,66 +1,39 @@
 import React from 'react';
-import { View, Text, FlatList } from 'react-native';
+import { View, FlatList } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../styles/global.js';
-import { Surface } from 'react-native-paper';
-import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
+import { useState } from 'react';
+import { Header } from '../data/searchHeader.js';
+import { RenderItem } from '../data/searchItems.js';
+import { DATA } from '../data/data.js';
 
+export default function Szukaj({ navigation, route}) {
 
-export default function Szukaj({ navigation, route }) {
+  const [searchQuery, setSearchQuery] = useState(DATA);
 
-  const DATA = [
-    {
-      id: 'p1',
-      title: 'Stres w pracy.',
-    },
-    {
-      id: 'p2',
-      title: 'Wypalenie zawodowe.',
-    },
-    {
-      id: 'p3',
-      title: 'Konlifkt.',
-    },
-    {
-      id: 'p4',
-      title: 'Mobbing.',
-    },
-    {
-      id: 'p5',
-      title: 'Uprzedzenia, stereotypy, dyskryminacja.',
-    }
-  ];
+  const handleSearch = (value) => {
 
+    if (!value.length) return setSearchQuery(DATA);
 
-  const renderItem = ({ item }) => (
-        <TouchableWithoutFeedback style={styles.button} onPress={() => {
-          navigation.popToTop(item.id)
-        }}> 
+    const filteredData = DATA.filter((item) =>
+      item.title.toLowerCase().includes(value.toLowerCase())
+    );
 
-          <Surface style={styles.surface} elevation={2}>
-            <Text style={styles.tabs_text}>{item.title}</Text>
-          </Surface>
-        </TouchableWithoutFeedback>
-  );
-
-  const Header = () => {
-    return (
-      <View style={styles.tabs_header}>
-        <Text style={styles.tabs_title}>Wyszukaj </Text>
-        <Text style={styles.tabs_subtitle}>Informacje na temat instytucji pomocowych.
-        </Text>
-      </View>
-
-    )
+    if (filteredData.length) {
+      setSearchQuery(filteredData);
+    } else {
+      setSearchQuery(DATA);
+    };
   };
 
   return (
     <View style={styles.contain}>
      <FlatList 
-      ListHeaderComponent={Header} 
-      data={DATA}
-      renderItem={renderItem}
-      keyExtractor={item => item.id}
+      data={searchQuery}
+      renderItem={({ item }) => <RenderItem data={item} />}
+      keyExtractor={(item) => item.id}
+      showsVerticalScrollIndicator={false}
+      ListHeaderComponent={<Header onSearch={handleSearch} />}
       />
     </View>
   )
