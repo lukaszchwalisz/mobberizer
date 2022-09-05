@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView,TouchableOpacity,Text,} from 'react-native';
+import { ScrollView } from 'react-native';
 import 'react-native-gesture-handler';
 import { Card, Title, Paragraph } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
@@ -14,11 +14,11 @@ const url_pis="https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19850120049/U/D
 
 export default function Q4({ navigation, route }) {
   return (
-         <ScrollView>
-           <Card>
+         <ScrollView style={styles.contain}>
+           <Card style={styles.contain}>
            <Card.Content>
-           <Title style={styles.cards_title}>Jakie instytucje państwowe sprawują kontrolę nad przestrzeganiem prawa pracy ?</Title>
-             <Paragraph style={styles.cards}>Instytucje, do których można się zwrócić z prośbą o pomoc o odnośnie kontroli
+           <Title style={styles.tabs_title}>Jakie instytucje państwowe sprawują kontrolę nad przestrzeganiem prawa pracy ?</Title>
+             <Paragraph style={styles.tabs_subtitle}>Instytucje, do których można się zwrócić z prośbą o pomoc o odnośnie kontroli
               przestrzegania prawa i higieny pracy: Państwowa Inspekcja Pracy oraz Państwowa Inspekcja Sanitarna. 
               Na terenie zakładu może powstać także Społeczna Inspekcja Pracy na podstawie odrębnych przepisów.
              </Paragraph>

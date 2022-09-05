@@ -7865,6 +7865,11 @@
   "resolved" "https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz"
   "version" "1.0.4"
 
+"mobx@^6.1.7":
+  "integrity" "sha512-7su3UZv5JF+ohLr2opabjbUAERfXstMY+wiBtey8yNAPoB8H187RaQXuhFjNkH8aE4iHbDWnhDFZw0+5ic4nGQ=="
+  "resolved" "https://registry.npmjs.org/mobx/-/mobx-6.6.1.tgz"
+  "version" "6.6.1"
+
 "move-concurrently@^1.0.1":
   "integrity" "sha512-hdrFxZOycD/g6A6SoI2bB5NA/5NEqD0569+S47WZhPvm46sD50ZHdYaFmnua5lndde9rCHGjmfK7Z8BuCt/PcQ=="
   "resolved" "https://registry.npmjs.org/move-concurrently/-/move-concurrently-1.0.1.tgz"
@@ -9541,6 +9546,14 @@
   dependencies:
     "react-freeze" "^1.0.0"
     "warn-once" "^0.1.0"
+
+"react-native-scroll-to-element@^1.0.1":
+  "integrity" "sha512-+It57oRru/T5I9yLsLb8gmmL5B9dOdGjyYU+qJQfjQmkQDSwbm+gv2YBkhDh66ucVL11zCEC3DJc97wMqrDgLQ=="
+  "resolved" "https://registry.npmjs.org/react-native-scroll-to-element/-/react-native-scroll-to-element-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "lodash" "^4.17.21"
+    "mobx" "^6.1.7"
 
 "react-native-size-matters@^0.4.0":
   "integrity" "sha512-8/C0htHrFWeUm9N8JegmadovUfgTWkGBkDPZ1N3YkXtDWb+98Ya2gThiKcu445r8c7YhcrBfnHz/mYsXIusaOQ=="

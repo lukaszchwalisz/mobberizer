@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, ScrollView, View, Text, Button, Image } from 'react-native';
+import { ScrollView } from 'react-native';
 import 'react-native-gesture-handler';
 import { Card, Title, Paragraph } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
@@ -7,11 +7,11 @@ import { styles } from '../../styles/global.js';
 
 export default function Q7({ navigation, route }) {
   return (
-         <ScrollView>
-           <Card>
+         <ScrollView style={styles.contain}>
+           <Card style={styles.contain}>
            <Card.Content>
-             <Title style={styles.cards_title}>Czy pracodawca może kontrolować służbową pocztę elektroniczną ?</Title>
-             <Paragraph style={styles.cards}>Tak, pracodawca może wprowadzić kontrolę służbowej poczty elektronicznej,
+             <Title style={styles.tabs_title}>Czy pracodawca może kontrolować służbową pocztę elektroniczną ?</Title>
+             <Paragraph style={styles.tabs_subtitle}>Tak, pracodawca może wprowadzić kontrolę służbowej poczty elektronicznej,
               o ile nie narusza on tajemnicy korespondencji oraz innych dóbr osobistych pracownika.
              </Paragraph>
              <Paragraph style={styles.quotes}>

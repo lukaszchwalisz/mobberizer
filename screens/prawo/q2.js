@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, ScrollView, View, Text, Button, Image } from 'react-native';
+import { ScrollView } from 'react-native';
 import 'react-native-gesture-handler';
 import { Card, Title, Paragraph } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
@@ -7,13 +7,14 @@ import { styles } from '../../styles/global.js';
 
 export default function Q2({ navigation, route }) {
   return (
-         <ScrollView>
-           <Card>
+         <ScrollView style={styles.contain}>
+           <Card style={styles.contain}>
            <Card.Content>
-           <Title style={styles.cards_title}>Czy przyzwolenie na nierówne traktowanie, dyskryminację czy molestowanie seksualnego ze strony pracodawcy nie będzie nosiło za sobą konsekwencji prawnych ?</Title>
-             <Paragraph style={styles.cards}>Paragrafy §6 i §7 Art. 18 Kodeksu Pracy odnoszą się do molestowania seksualnego, które może stanowić jedną z form
+           <Title style={styles.tabs_title}>Czy przyzwolenie na nierówne traktowanie, dyskryminację czy molestowanie seksualnego ze strony pracodawcy 
+           nie będzie nosiło za sobą konsekwencji prawnych ?{"\n"}</Title>
+             <Paragraph style={styles.tabs_subtitle}>Paragrafy §6 i §7 Art. 18 Kodeksu Pracy odnoszą się do molestowania seksualnego, które może stanowić jedną z form
                   niepożądanych zachowań w pracy. Z paragrafu §7 jasno wynika, że podporządkowanie się pracodawcy odnośnie molestowania seksualnego, 
-                  jak i podjęcie działań przeciwstawiających się molestowaniu seksualnemu nie niesie za sobą konsekwencji wobec pracownika.
+                  jak i podjęcie działań przeciwstawiających się molestowaniu seksualnemu nie niesie za sobą konsekwencji wobec pracownika.{"\n"}
              </Paragraph>
              <Paragraph style={styles.quotes}>
              Kodeks Pracy {"\n"}

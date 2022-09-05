@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, ScrollView, View, Text, Button, Image } from 'react-native';
+import { ScrollView } from 'react-native';
 import 'react-native-gesture-handler';
 import { Card, Title, Paragraph } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
@@ -7,11 +7,11 @@ import { styles } from '../../styles/global.js';
 
 export default function Q29({ navigation, route }) {
   return (
-         <ScrollView>
-           <Card>
+         <ScrollView style={styles.contain}>
+           <Card style={styles.contain}>
            <Card.Content>
-             <Title style={styles.cards_title}>Jakie roszczenia może wystosować pracownik wobec pracodawcy z tytułu doznawanego mobbingu ?</Title>
-             <Paragraph style={styles.cards}>
+             <Title style={styles.tabs_title}>Jakie roszczenia może wystosować pracownik wobec pracodawcy z tytułu doznawanego mobbingu ?</Title>
+             <Paragraph style={styles.tabs_subtitle}>
             W art. 943 §3 i  § 4 KP ustawodawca określił jakiego rodzaju rozszczenia przysługują pracownikowi:{"\n"}
             §3. Pracownik, u którego mobbing wywołał rozstrój zdrowia, może  dochodzić od pracodawcy odpowiedniej sumy tytułem zadośćuczynienia  
             pieniężnego za doznaną krzywdę.{"\n"}

@@ -4,7 +4,7 @@ export const styles = StyleSheet.create({
    contain: {
      flex: 1,
      backgroundColor: "#000",
-   },
+    },
    input: {
     height: 40,
     margin: 12,
@@ -12,43 +12,44 @@ export const styles = StyleSheet.create({
     padding: 10,
     color: 'white'
     },
-   cards_title: {
-    marginBottom: 20,
-   },
-   cards: {
-    padding: 0,
-    textAlign: "justify",
-    color: "#BC8F8F",
-    fontSize: 17,
-    fontFamily: "sans-serif-light",
-   },
-   cards_bold: {
-    padding: 0,
-    textAlign: "justify",
-    color: "#7FFFD4",
-    fontSize: 17,
-    fontWeight: "bold",
-    fontFamily: "sans-serif-light",
-   },
-   cards_image: {
-    width: 50,
-    height: 50,
-    padding: 10,
-   },
 
-   tabs_header: {
-  //  backgroundColor: "#C71585",
-   backgroundColor: "darkgrey",
-   padding: 20,
-   textAlign: "justify",
-   },
+    cards_title: {
+      marginBottom: 20,
+      color: "#fff"
+    },
+    cards: {
+      padding: 0,
+      textAlign: "justify",
+      color: "#000",
+      fontSize: 15,
+      fontFamily: "sans-serif-light",
+    },
+    cards_bold: {
+      padding: 0,
+      textAlign: "justify",
+      color: "#7FFFD4",
+      fontSize: 17,
+      fontWeight: "bold",
+      fontFamily: "sans-serif-light",
+    },
+    cards_image: {
+      width: 50,
+      height: 50,
+      padding: 10,
+    },
+
+    tabs_header: {
+    backgroundColor: "#000",
+    padding: 20,
+    textAlign: "justify",
+    },
 
     tabs_title: {
-    // color: "#DDA0DD",
     color: "#f5f5dc",
-    fontSize: 22,
-    fontFamily: "sans-serif-medium",
+    fontSize: 20,
+    fontFamily: "Roboto",
     },
+
     tabs_subtitle: {
     padding: 1,
     textAlign: "justify",
@@ -67,25 +68,23 @@ export const styles = StyleSheet.create({
     fontFamily: "Roboto",
    },
    tabs_text: {
-    padding: 0,
-    margin: 10,
+    margin: 1,
     color: "#7FFFD4",
     fontSize: 17,
     fontFamily: "sans-serif-light",
    },
    surface: {
-    padding: 8,
-    alignItems: 'center',
+    padding: 5,
     justifyContent: 'center',
-    borderRadius: 10,
-    margin: 10,
-    backgroundColor: "#1E90FF",
-  },
+    borderRadius: 5,
+    margin: 1,
+    backgroundColor: "#2f2f2f",
+    },
     quotes: {
     padding: 10,
     textAlign: "justify",
-    color: "black",
-    backgroundColor: "#EFFBFB",
+    color: "#F5F5DC",
+    backgroundColor: "#232323",
     fontSize: 14,
     fontFamily: "serif",
     },

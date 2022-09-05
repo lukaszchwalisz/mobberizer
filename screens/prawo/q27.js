@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, ScrollView, View, Text, Button, Image } from 'react-native';
+import { ScrollView } from 'react-native';
 import 'react-native-gesture-handler';
 import { Card, Title, Paragraph } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
@@ -7,11 +7,11 @@ import { styles } from '../../styles/global.js';
 
 export default function Q27({ navigation, route }) {
   return (
-         <ScrollView>
-           <Card>
+         <ScrollView style={styles.contain}>
+           <Card style={styles.contain}>
            <Card.Content>
-             <Title style={styles.cards_title}>Jak jest zdefiniowany mobbing w ujęciu kodeksu pracy ?</Title>
-             <Paragraph style={styles.cards}>
+             <Title style={styles.tabs_title}>Jak jest zdefiniowany mobbing w ujęciu kodeksu pracy ?</Title>
+             <Paragraph style={styles.tabs_subtitle}>
              Zgodnie z Art. 30. § 1. KP rozwiązać umowę o pracę można na kilka sposobów:{"\n"}
              W art. 943 §2 ustawodawca zdefiniował mobbing jako:{"\n"}
             „Mobbing oznacza działania lub zachowania dotyczące pracownika lub  skierowane przeciwko pracownikowi, polegające na uporczywym 

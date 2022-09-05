@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, ScrollView, View, Text, Button, Image } from 'react-native';
+import { ScrollView } from 'react-native';
 import 'react-native-gesture-handler';
 import { Card, Title, Paragraph } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
@@ -7,11 +7,11 @@ import { styles } from '../../styles/global.js';
 
 export default function Q24({ navigation, route }) {
   return (
-         <ScrollView>
-           <Card>
+         <ScrollView style={styles.contain}>
+           <Card style={styles.contain}>
            <Card.Content>
-             <Title style={styles.cards_title}>Ile wynosi wolna od potrąceń kwota wynagrodzenia za pracę ?</Title>
-             <Paragraph style={styles.cards}>
+             <Title style={styles.tabs_title}>Ile wynosi wolna od potrąceń kwota wynagrodzenia za pracę ?</Title>
+             <Paragraph style={styles.tabs_subtitle}>
              Wysokość kwoty wynagrodzenia wolnej od potrąceń określa Art. 87 1. §1:{"\n"}
             Wolna od potrąceń jest kwota wynagrodzenia za pracę wwysokości:{"\n"}
             1) minimalnego wynagrodzenia za pracę, ustalanego napodstawie  odrębnych przepisów, przysługującego pracownikom zatrudnionym wpełnym 

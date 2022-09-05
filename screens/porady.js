@@ -82,7 +82,6 @@ const Header = () => {
 export default function Porady({ navigation, route }) {
 
   const [expanded, setExpanded] = React.useState(true);
-
   const handlePress = () => setExpanded(!expanded);
 
   return (
