@@ -2,7 +2,7 @@ import React from 'react';
 import { ScrollView, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../styles/global.js';
-import { List } from 'react-native-paper';
+import { List, Divider } from 'react-native-paper';
 
 
 const Krok1 = () => (
