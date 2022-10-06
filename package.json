@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
-    "expo-cli": "^6.0.5"
+    "expo-cli": "^4.3.0"
   },
   "private": true
 }

@@ -26,7 +26,7 @@ const Krok1 = () => (
       Dopytujemy o formy zachowań mobbingowych, skutki zdrowotne, czas trwania, intensywność oraz dotychczasowe kroki, które już zostały podjęte. Wypełniasz stosowny kwestionariusz.
       W kolejnym kroku zaproponujemy Tobie kolejne działania.{"\n"}{"\n"}
 
-      Link: <A href={url_fism}> Kwestionariusz form i skutków mobbingu</A>{"\n"}
+      Link:{"\n"} <A href={url_fism}> Kwestionariusz form i skutków mobbingu</A>
       </Text>
       </View>
 )
@@ -35,9 +35,19 @@ const Krok2 = () => (
       <View style={styles.tabs_header}>
       <Text style={styles.tabs_title}>Krok 2. Zgłoszenie problemu.</Text>
       <Text style={styles.tabs_subtitle}>
-      - rozmowa z osobą bezpośrednio stosujacą zachowania mobbingowe{"\n"}
-      - prośba o rozmowę skierowana do pracodawcy {"\n"}
-      - złożenie pisma opisującego dotychczasowe zachowania mobbingowe z prośbą o reakcją zgodnie z KP
+
+      Zgodnie z KP na mobbing w pracy odpowiada pracodawca, tak więc wejście na stronę oficjalną powinno zacząć się
+      od poinformowania pracodawcy. Może to być prośba o rozmowę albo w dalszej kolejności złożenie oficjalnego pisma
+      z prośbą o odniesienie się oraz podjęcie stosownych działań. {"\n"}{"\n"}
+
+      Kiedy zachowania mobbingowe występują na poziomie współpracowników, sytuacja wydaje się oczywista, 
+      jednak często sam pracodawca jest wskazany jako sprawca mobbingu. Fakt ten często powstrzymuje osoby
+      mobbingowane od podjęcia stosownych działań. Jednak także w przypadku wskazania współpracowników
+      występują wątpliwości związane z postrzeganiem swojej osoby w pracy -  uznanie za donoszącego, za pomawiającego,
+      za osobę, która działa przeciwko grupie. Wątpliwości te staramy się rozwiązać w ramach konsultacji psychologicznych
+      w stowarzyszeniu OSA, tak aby osoba świadomie i bez lęku była gotowa, aby zgłosić przypadki łamania prawa, pomimo
+      wcześniejszych wątpliwości czy może sobie tym zaszkodzić.
+
       </Text>
       </View>
 )
@@ -46,13 +56,26 @@ const Krok3 = () => (
       <View style={styles.tabs_header}>
       <Text style={styles.tabs_title}>Krok 3. Wybór strategii.</Text>
       <Text style={styles.tabs_subtitle}>
-      <Text style={styles.tabs_subtitle}>Pozytywna:{"\n"}</Text>
-      - działania mające na celu zaprzestanie stosowania mobbingu{"\n"}
-      - wprowadzenie koniecznych zmian w organizacji pracy{"\n"}{"\n"}
-      <Text style={styles.tabs_subtitle}>Negatywna:{"\n"}</Text>
-      - nie udzielenie odpowiedzi{"\n"}
-      - odpowiedź wymijająca{"\n"}
-      - kontynuowanie działań mobbingowych
+      Oficjalne zgłoszenie podejrzenia wystąpienia zachowań mobbingowych obliguje pracodawcę do podjęcia działań.
+      Ustawodawca jednak precyzyjnie nie określił konkretnej procedury, jaką można w tym wypadku zastosować.
+      Jako stowarzyszenie OSA rekomendujemy, aby powołanie komisji dyscyplinarnej, które odnosi się do wszelkich naruszeń
+      prawa pracy i jest umocowana w KP. Ewentualnie powołanie komisji antymobbingowej, ale działającej na zasadach komisji 
+      dyscyplinarnej (szczególnie, jeśli chodzi o skład komisji), jednak jak już wspomnieliśmy zakres pracy takiej komisji
+      nie jest ujęty w prawie, a ustalenia dotyczące mobbingu nie są wiążące - pracodawca nadal może podejmować decyzję
+      dotyczące wyeliminowania zachowan mobbingowych w pracy według własnego uznania. {"\n"}{"\n"}
+
+      Nigdy nie należy zakładać złej woli ze strony pracodawcy. Coraz częściej zdarzają się przypadki, kiedy pracodawca poważnie
+      podejdzie do zgłoszenia podejrzenia wystąpienia zachowań mobbingowych. Oprócz powołania komisji zajmującej się 
+      wskazanymi przypadkami wystepowania mobbingu, może zaproponować pracownikom szkolenie antymobbingowe,
+      aby uświadomić wszystkich i samego siebie na czym polega to zjawisko i jak jemu zapobiegać. {"\n"}{"\n"}
+
+      Często jednak sprawa wygląda mniej pozytywnie. Pracodawca traktuje zgłoszenie podejrzenia mobbingu jako zagrożenie dla
+      siebie i firmy. Niestety podejmuje działania, które mają w efekcie zamieść sprawę pod dywan, nie dopuszczając do obiektywnego
+      wyjaśnienia sprawy. Prowadzi to do eskalacji zachowań mobbingowych i próbach zastraszenia pracownika, dalszej jego izolacji
+      w grupie pracowników. Sytuacja staje się trudna, szczególnie na poziomie emocjonalnym i zdrowotnym. Często pogłebiają się
+      zaburzenia psychosomatyczne, które nie pozwalają pracować i stają się zagrożeniem dla zdrowia pracownika.
+      Zachęcamy jednak do dalszych działań, tym razem wykraczających poza zakład pracy.
+  
       </Text>
       </View>
 )
@@ -80,6 +103,56 @@ const Krok5 = () => (
     - korzystanie z doświadczenia innych osób w podobnej sytuacji
     </Text> 
     </View>
+)
+const Krok15 = () => (
+  <View style={styles.tabs_header}>
+
+      <Text style={styles.tabs_title}>Krok 1. Diagnoza sytuacji.</Text>
+      <Text style={styles.tabs_subtitle}>
+      - formy zachowań mobbingowych {"\n"}
+        - skutki zdrowotne{"\n"}
+        - dotychczasowy czas trwania {"\n"}
+        - kwestionariusz
+      </Text>
+
+     <Text style={styles.tabs_title}>Krok 2. Zgłoszenie problemu.</Text>
+      <Text style={styles.tabs_subtitle}>
+      - rozmowa z osobą bezpośrednio stosujacą zachowania mobbingowe{"\n"}
+      - prośba o rozmowę skierowana do pracodawcy {"\n"}
+      - złożenie pisma opisującego dotychczasowe zachowania mobbingowe z prośbą o reakcją zgodnie z KP
+      </Text>
+
+      <Text style={styles.tabs_title}>Krok 3. Wybór strategii.</Text>
+      <Text style={styles.tabs_subtitle}>
+      <Text style={styles.tabs_subtitle}>Pozytywna:{"\n"}</Text>
+      - działania mające na celu zaprzestanie stosowania mobbingu{"\n"}
+      - wprowadzenie koniecznych zmian w organizacji pracy{"\n"}{"\n"}
+      <Text style={styles.tabs_subtitle}>Negatywna:{"\n"}</Text>
+      - nie udzielenie odpowiedzi{"\n"}
+      - odpowiedź wymijająca{"\n"}
+      - kontynuowanie działań mobbingowych
+      </Text>
+
+      <Text style={styles.tabs_title}>Krok 4. Podjęcie kolejnych działań.</Text>
+      <Text style={styles.tabs_subtitle}>
+      - pismo ws mobbingu w pracy do wyższej instancji, kardy zarządzającej, ministerstwa itd.{"\n"}
+      - prośba o powołanie przez pracodawcę komisji pojednawczej{"\n"}
+      - zawiadomienie Społecznego Inspektora Pracy/związków zawodowych{"\n"}
+      - zawiadomienie Państwowej Inspekcji Pracy{"\n"}
+      - skierowanie sprawy do Sądu Pracy
+      </Text>
+
+      <Text style={styles.tabs_title}>Krok 5. Przygotowanie mentalne.</Text>
+      <Text style={styles.tabs_subtitle}>
+      - obiektywne podejście do problemu, zdystansowanie{"\n"}
+      - wynotowanie wszystkich działań mobbingowych{"\n"}
+      - zebranie dokumentacji lekarskiej, psychiatrycznej{"\n"}
+      - kontakt ze świadkami mobbingu{"\n"}
+      - przygotowanie mentalne do ochrony swoich praw w sądzie{"\n"}
+      - korzystanie z doświadczenia innych osób w podobnej sytuacji
+      </Text> 
+
+  </View>
 )
 
 const Header = () => {
@@ -125,11 +198,7 @@ export default function Porady({ navigation, route }) {
       </List.Accordion>
       <List.Accordion title="Podsumowanie" id="6"  theme={{colors: {text: "#50FFD0"}}} 
       style={{backgroundColor:"#2f2f2f"}}>
-          <Krok1 />
-          <Krok2 />
-          <Krok3 />
-          <Krok4 />
-          <Krok5 />
+          <Krok15 />
       </List.Accordion>
       </List.AccordionGroup>
     </ScrollView>
