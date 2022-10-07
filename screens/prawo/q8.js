@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, ScrollView, View, Text, Button, Image } from 'react-native';
+import { ScrollView } from 'react-native';
 import 'react-native-gesture-handler';
 import { Card, Title, Paragraph } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
@@ -7,11 +7,11 @@ import { styles } from '../../styles/global.js';
 
 export default function Q8({ navigation, route }) {
   return (
-         <ScrollView>
-           <Card>
+         <ScrollView style={styles.contain}>
+           <Card style={styles.contain}>
            <Card.Content>
-             <Title style={styles.cards_title}>Czy pracodawca może zatrudnić pracownika ponownie na okres próbny ?</Title>
-             <Paragraph style={styles.cards}>Umowa na okres próbny nie może przekraczać 3 miesięcy. Ponowne zatrudnienia pracownika na okres próbny jest możliwe tylko pod określonymi warunkami:{"\n"}
+             <Title style={styles.tabs_title}>Czy pracodawca może zatrudnić pracownika ponownie na okres próbny ?</Title>
+             <Paragraph style={styles.tabs_subtitle}>Umowa na okres próbny nie może przekraczać 3 miesięcy. Ponowne zatrudnienia pracownika na okres próbny jest możliwe tylko pod określonymi warunkami:{"\n"}
             • pracownik może być zatrudniony w celu wykonywania innego rodzaju pracy{"\n"}
             • po upływie 3 lat pracownik może być ponownie zatrudniony na okres próbny w celu wykonywania tego samego rodzaju pracy, dopuszczalne jest tylko 
             jednokrotne ponowne zatrudnienie na okres próbny{"\n"}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, ScrollView, View, Text, Button, Image } from 'react-native';
+import { ScrollView, } from 'react-native';
 import 'react-native-gesture-handler';
 import { Card, Title, Paragraph } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
@@ -7,11 +7,11 @@ import { styles } from '../../styles/global.js';
 
 export default function Q25({ navigation, route }) {
   return (
-         <ScrollView>
-           <Card>
+         <ScrollView style={styles.contain}>
+           <Card style={styles.contain}>
            <Card.Content>
-             <Title style={styles.cards_title}>Czy pracodawca jest zobowiązany do przeciwdziałania dyskryminacji ?</Title>
-             <Paragraph style={styles.cards}>
+             <Title style={styles.tabs_title}>Czy pracodawca jest zobowiązany do przeciwdziałania dyskryminacji ?</Title>
+             <Paragraph style={styles.tabs_subtitle}>
              W rozdziale I „Obowiązki pracodawcy” KP w art. 94 2b pracodawca jest zobowiązany:{"\n"}
             - przeciwdziałać dyskryminacji w zatrudnieniu, w szczególności ze  względu na płeć, wiek, niepełnosprawność, rasę, religię, narodowość, 
             przekonania polityczne, przynależność związkową, pochodzenie etniczne,  wyznanie, orientację seksualną, atakże ze względu na zatrudnienie

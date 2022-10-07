@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, ScrollView, View, Text, Button, Image } from 'react-native';
+import { ScrollView } from 'react-native';
 import 'react-native-gesture-handler';
 import { Card, Title, Paragraph } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
@@ -7,11 +7,11 @@ import { styles } from '../../styles/global.js';
 
 export default function Q1({ navigation, route }) {
   return (
-         <ScrollView>
-           <Card>
+         <ScrollView  style={styles.contain}>
+           <Card  style={styles.contain}>
            <Card.Content>
-             <Title style={styles.cards_title}>Na czym polega zasada równego traktowania w zatrudnieniu ?</Title>
-             <Paragraph style={styles.cards}>Na pytanie odpowiada II a rozdział w kodeksie pracy „Równe traktowanie w zatrudnieniu”.
+             <Title style={styles.tabs_title}>Na czym polega zasada równego traktowania w zatrudnieniu ?{"\n"}</Title>
+             <Paragraph style={styles.tabs_subtitle}>Na pytanie odpowiada II a rozdział w kodeksie pracy „Równe traktowanie w zatrudnieniu”.{"\n"}
              </Paragraph>
              <Paragraph style={styles.quotes}>
              Kodeks Pracy  Art. 18(3a). {"\n"}

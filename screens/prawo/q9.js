@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, ScrollView, View, Text, Button, Image } from 'react-native';
+import { ScrollView } from 'react-native';
 import 'react-native-gesture-handler';
 import { Card, Title, Paragraph } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
@@ -7,11 +7,11 @@ import { styles } from '../../styles/global.js';
 
 export default function Q9({ navigation, route }) {
   return (
-         <ScrollView>
-           <Card>
+         <ScrollView style={styles.contain}>
+           <Card style={styles.contain}>
            <Card.Content>
-             <Title style={styles.cards_title}>Czy pracodawca może z pracownikiem bez końca zawierać kolejne umowy na czas określony ?</Title>
-             <Paragraph style={styles.cards}>Okres zatrudnienia na czas określony nie może przekraczać 33 miesięcy, a liczba umów nie może przekraczać 3.
+             <Title style={styles.tabs_title}>Czy pracodawca może z pracownikiem bez końca zawierać kolejne umowy na czas określony ?</Title>
+             <Paragraph style={styles.tabs_subtitle}>Okres zatrudnienia na czas określony nie może przekraczać 33 miesięcy, a liczba umów nie może przekraczać 3.
               Jeżeli natomiast liczba umów jest większa niż w przepisie, kolejne umowy uznaje się za umowy na czas nieokreślony.
              </Paragraph>
              <Paragraph style={styles.quotes}>

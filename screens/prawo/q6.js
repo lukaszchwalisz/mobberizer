@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, ScrollView, View, Text, Button, Image } from 'react-native';
+import { ScrollView } from 'react-native';
 import 'react-native-gesture-handler';
 import { Card, Title, Paragraph } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
@@ -7,11 +7,11 @@ import { styles } from '../../styles/global.js';
 
 export default function Q6({ navigation, route }) {
   return (
-         <ScrollView>
-           <Card>
+         <ScrollView style={styles.contain}>
+           <Card style={styles.contain}>
            <Card.Content>
-             <Title style={styles.cards_title}>Czy i w jaki sposób pracodawca może monitorować pracę pracowników?</Title>
-             <Paragraph style={styles.cards}>Pracodawca może monitorować pracę pracowników, jeżeli uzna, że jest to niezbędne dla bezpieczeństwa pracowników jak
+             <Title style={styles.tabs_title}>Czy i w jaki sposób pracodawca może monitorować pracę pracowników?</Title>
+             <Paragraph style={styles.tabs_subtitle}>Pracodawca może monitorować pracę pracowników, jeżeli uzna, że jest to niezbędne dla bezpieczeństwa pracowników jak
               i swojego mienia. Pracodawca ma obowiązek poinformować pracowników o wprowadzeniu monitoringu (nie później niż 2 tygodnie przed uruchomieniem). 
               Wszelkie nagrania obrazu może przetwarzać jedynie do ściśleokreślonych celów i przechowywać przez okres nieprzekraczający 3 miesięcy.  
               W wypadku kiedy nagrania stanowią dowód w postępowaniu sądowym, termin ten może ulec przedłużeniu do czasu prawomocnego zakończenia postępowania.

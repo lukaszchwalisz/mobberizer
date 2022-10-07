@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, ScrollView, View, Text, Button, Image } from 'react-native';
+import { ScrollView } from 'react-native';
 import 'react-native-gesture-handler';
 import { Card, Title, Paragraph } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
@@ -7,11 +7,11 @@ import { styles } from '../../styles/global.js';
 
 export default function Q5({ navigation, route }) {
   return (
-         <ScrollView>
-           <Card>
+         <ScrollView style={styles.contain}>
+           <Card style={styles.contain}>
            <Card.Content>
-             <Title style={styles.cards_title}>Czy możliwa jest zmiana zatrudnienia pracownika z umowy o pracę na umowę cywilnoprawną ?</Title>      
-             <Paragraph style={styles.cards}>W art.22 §1(2)
+             <Title style={styles.tabs_title}>Czy możliwa jest zmiana zatrudnienia pracownika z umowy o pracę na umowę cywilnoprawną ?</Title>      
+             <Paragraph style={styles.tabs_subtitle}>W art.22 §1(2)
             KP ustawodawca jasno stwierdza, że taka praktyka jest niedopuszczalna.
             </Paragraph>
              <Paragraph style={styles.quotes}>
