@@ -128,56 +128,7 @@ const Krok5 = () => (
     </Text> 
     </View>
 )
-const Krok15 = () => (
-  <View style={styles.tabs_header}>
 
-      <Text style={styles.tabs_title}>Krok 1. Diagnoza sytuacji.</Text>
-      <Text style={styles.tabs_subtitle}>
-      - formy zachowań mobbingowych {"\n"}
-        - skutki zdrowotne{"\n"}
-        - dotychczasowy czas trwania {"\n"}
-        - kwestionariusz
-      </Text>
-
-     <Text style={styles.tabs_title}>Krok 2. Zgłoszenie problemu.</Text>
-      <Text style={styles.tabs_subtitle}>
-      - rozmowa z osobą bezpośrednio stosujacą zachowania mobbingowe{"\n"}
-      - prośba o rozmowę skierowana do pracodawcy {"\n"}
-      - złożenie pisma opisującego dotychczasowe zachowania mobbingowe z prośbą o reakcją zgodnie z KP
-      </Text>
-
-      <Text style={styles.tabs_title}>Krok 3. Wybór strategii.</Text>
-      <Text style={styles.tabs_subtitle}>
-      <Text style={styles.tabs_subtitle}>Pozytywna:{"\n"}</Text>
-      - działania mające na celu zaprzestanie stosowania mobbingu{"\n"}
-      - wprowadzenie koniecznych zmian w organizacji pracy{"\n"}{"\n"}
-      <Text style={styles.tabs_subtitle}>Negatywna:{"\n"}</Text>
-      - nie udzielenie odpowiedzi{"\n"}
-      - odpowiedź wymijająca{"\n"}
-      - kontynuowanie działań mobbingowych
-      </Text>
-
-      <Text style={styles.tabs_title}>Krok 4. Podjęcie kolejnych działań.</Text>
-      <Text style={styles.tabs_subtitle}>
-      - pismo ws mobbingu w pracy do wyższej instancji, kardy zarządzającej, ministerstwa itd.{"\n"}
-      - prośba o powołanie przez pracodawcę komisji pojednawczej{"\n"}
-      - zawiadomienie Społecznego Inspektora Pracy/związków zawodowych{"\n"}
-      - zawiadomienie Państwowej Inspekcji Pracy{"\n"}
-      - skierowanie sprawy do Sądu Pracy
-      </Text>
-
-      <Text style={styles.tabs_title}>Krok 5. Przygotowanie mentalne.</Text>
-      <Text style={styles.tabs_subtitle}>
-      - obiektywne podejście do problemu, zdystansowanie{"\n"}
-      - wynotowanie wszystkich działań mobbingowych{"\n"}
-      - zebranie dokumentacji lekarskiej, psychiatrycznej{"\n"}
-      - kontakt ze świadkami mobbingu{"\n"}
-      - przygotowanie mentalne do ochrony swoich praw w sądzie{"\n"}
-      - korzystanie z doświadczenia innych osób w podobnej sytuacji
-      </Text> 
-
-  </View>
-)
 
 const Header = () => {
   return (
@@ -219,10 +170,6 @@ export default function Porady({ navigation, route }) {
       <List.Accordion title="Przygotowanie mentalne" id="5"theme={{colors: {text: "#50FFD0"}}} 
       style={{backgroundColor:"#2f2f2f"}}>
           <Krok5 />
-      </List.Accordion>
-      <List.Accordion title="Podsumowanie" id="6"  theme={{colors: {text: "#50FFD0"}}} 
-      style={{backgroundColor:"#2f2f2f"}}>
-          <Krok15 />
       </List.Accordion>
       </List.AccordionGroup>
     </ScrollView>
