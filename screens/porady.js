@@ -9,12 +9,15 @@ const url_fism="https://lukaszchwalisz.pythonanywhere.com/testy/kwestmobbing";
 
 const Krok1 = () => (
       <View style={styles.tabs_header}>
-      <Text style={styles.tabs_title}>Krok 1. Diagnoza sytuacji.</Text>
+      <Text style={styles.tabs_title}>Krok 1. Diagnoza sytuacji.{"\n"}</Text>
       <Text style={styles.tabs_subtitle}>
       Na początku po prostu nie wiadomo co właściwie zmieniło się. Odczuwa się, że codzienne przychodzenie do pracy przestało sprawiać przyjemność. Relacje z pracodawcą i współpracownikami są jakieś inne, bardziej zdystansowane. Coraz trudniej
-      doprosić się o załatwienie konkretnej rzeczy od kolegów, z czasem nie ma się już chęci, aby prosić. Na domiar złego ma się wrażenie bycia obserwowanym, może obgadywanym za plecami. Kiedy wchodzi się do biura, rozmowy cichną albo temat jest zmieniany. Współpracownicy rozmawiają ze sobą, nie zauważają Twojej obecności. Niby nie możesz do niczego se doczepić, ale czujesz, że nie jesteś traktowany poważnie. Zaczynasz się zastanawiać co jest nie tak z Tobą. Z czasem słabnie Twoja odporność,
+      doprosić się o załatwienie konkretnej rzeczy od kolegów, z czasem nie ma się już chęci, aby prosić.{"\n"}{"\n"} 
+      
+      Na domiar złego ma się wrażenie bycia obserwowanym, może obgadywanym za plecami. Kiedy wchodzi się do biura, rozmowy cichną albo temat jest zmieniany. Współpracownicy rozmawiają ze sobą, nie zauważają Twojej obecności. Niby nie możesz do niczego se doczepić, ale czujesz, że nie jesteś traktowany poważnie. Zaczynasz się zastanawiać co jest nie tak z Tobą. Z czasem słabnie Twoja odporność,
       coraz częściej chorujesz, bierzesz L4, dłuższe zwolnienia. Kiedy wracasz do pracy, masz wrażenie, że wszyscy mają Tobie za złość, że robisz sobie wakacje, kiedy wszyscy pracują. Pracodawca wzywa Ciebie na dywanik, daje ostrzeżenia, że nie
       będzie tego dalej tolerował.{"\n"}{"\n"}
+      
       Starasz się więc pracować z większym zaangażowaniem, choć nie możesz liczyć na nikogo. Pracodawca nie tylko nie docenia Twoich wysiłków, ale dodaje kolejne zadania, 
       które tylko zabierają Ci czas, a jednocześnie jesteś rozliczany ze swoich normalnych obowiązków. Z czasem przestajesz wyrabiać, bierzesz kolejne zwolnienie. 
       Tłumaczysz się pracodawcy jak wygląda sytuacja, ale on nie widzi problemu. To ty masz problem ! Zawsze możesz zmienić pracę. Odczuwasz silny stres, który 
@@ -33,7 +36,7 @@ const Krok1 = () => (
 
 const Krok2 = () => (
       <View style={styles.tabs_header}>
-      <Text style={styles.tabs_title}>Krok 2. Zgłoszenie problemu.</Text>
+      <Text style={styles.tabs_title}>Krok 2. Zgłoszenie problemu.{"\n"}</Text>
       <Text style={styles.tabs_subtitle}>
 
       Zgodnie z KP na mobbing w pracy odpowiada pracodawca, tak więc wejście na stronę oficjalną powinno zacząć się
@@ -54,7 +57,7 @@ const Krok2 = () => (
 
 const Krok3 = () => (
       <View style={styles.tabs_header}>
-      <Text style={styles.tabs_title}>Krok 3. Wybór strategii.</Text>
+      <Text style={styles.tabs_title}>Krok 3. Wybór strategii.{"\n"}</Text>
       <Text style={styles.tabs_subtitle}>
       Oficjalne zgłoszenie podejrzenia wystąpienia zachowań mobbingowych obliguje pracodawcę do podjęcia działań.
       Ustawodawca jednak precyzyjnie nie określił konkretnej procedury, jaką można w tym wypadku zastosować.
@@ -87,7 +90,7 @@ const Krok3 = () => (
 )
 const Krok4 = () => (
       <View style={styles.tabs_header}>
-      <Text style={styles.tabs_title}>Krok 4. Podjęcie kolejnych działań.</Text>
+      <Text style={styles.tabs_title}>Krok 4. Podjęcie kolejnych działań.{"\n"}</Text>
       <Text style={styles.tabs_subtitle}>
 
       Struktura hierarchiczna w zakładzie pracy, korporacji, instytucji publicznej obejmuje wiele poziomów, które nadzorują swoje działania.
@@ -114,7 +117,7 @@ const Krok4 = () => (
 )
 const Krok5 = () => (
     <View style={styles.tabs_header}>
-    <Text style={styles.tabs_title}>Krok 5. Przygotowanie mentalne.</Text>
+    <Text style={styles.tabs_title}>Krok 5. Przygotowanie mentalne.{"\n"}</Text>
     <Text style={styles.tabs_subtitle}>
     - obiektywne podejście do problemu, zdystansowanie{"\n"}
     - wynotowanie wszystkich działań mobbingowych{"\n"}
