@@ -40,13 +40,13 @@ const Krok2 = () => (
       od poinformowania pracodawcy. Może to być prośba o rozmowę albo w dalszej kolejności złożenie oficjalnego pisma
       z prośbą o odniesienie się oraz podjęcie stosownych działań. {"\n"}{"\n"}
 
-      Kiedy zachowania mobbingowe występują na poziomie współpracowników, sytuacja wydaje się oczywista, 
-      jednak często sam pracodawca jest wskazany jako sprawca mobbingu. Fakt ten często powstrzymuje osoby
-      mobbingowane od podjęcia stosownych działań. Jednak także w przypadku wskazania współpracowników
-      występują wątpliwości związane z postrzeganiem swojej osoby w pracy -  uznanie za donoszącego, za pomawiającego,
-      za osobę, która działa przeciwko grupie. Wątpliwości te staramy się rozwiązać w ramach konsultacji psychologicznych
-      w stowarzyszeniu OSA, tak aby osoba świadomie i bez lęku była gotowa, aby zgłosić przypadki łamania prawa, pomimo
-      wcześniejszych wątpliwości czy może sobie tym zaszkodzić.
+      Kiedy zachowania mobbingowe występują na poziomie współpracowników (płaszczyzna horyzontalna, pozioma), sytuacja wydaje się oczywista, 
+      jednak często sam pracodawca jest wskazany jako sprawca mobbingu(płaszczyzna wertykalna, pionowa). Fakt ten często powstrzymuje osoby
+      mobbingowane od podjęcia stosownych działań. Powstaje obawa związana z postrzeganiem swojej osoby w pracy -  uznanie za donoszącego,
+      za pomawiającego, za osobę, która działa przeciwko grupie. {"\n"}{"\n"}
+
+      Na każdym kroku moga pojawić się wątpliwości np. czy moga sobie zaszkodzić ? Staramy się rozwiązać w ramach konsultacji psychologicznych
+      w stowarzyszeniu OSA, tak aby osoba świadomie, bez lęku była gotowa, aby zgłosić przypadki łamania prawa.
 
       </Text>
       </View>
@@ -58,23 +58,29 @@ const Krok3 = () => (
       <Text style={styles.tabs_subtitle}>
       Oficjalne zgłoszenie podejrzenia wystąpienia zachowań mobbingowych obliguje pracodawcę do podjęcia działań.
       Ustawodawca jednak precyzyjnie nie określił konkretnej procedury, jaką można w tym wypadku zastosować.
-      Jako stowarzyszenie OSA rekomendujemy, aby powołanie komisji dyscyplinarnej, które odnosi się do wszelkich naruszeń
-      prawa pracy i jest umocowana w KP. Ewentualnie powołanie komisji antymobbingowej, ale działającej na zasadach komisji 
-      dyscyplinarnej (szczególnie, jeśli chodzi o skład komisji), jednak jak już wspomnieliśmy zakres pracy takiej komisji
-      nie jest ujęty w prawie, a ustalenia dotyczące mobbingu nie są wiążące - pracodawca nadal może podejmować decyzję
-      dotyczące wyeliminowania zachowan mobbingowych w pracy według własnego uznania. {"\n"}{"\n"}
+      Jako stowarzyszenie OSA rekomendujemy, aby powołanie komisji pojednawczej (art 244. KP). Ewentualnie powołanie komisji
+      antymobbingowej, ale działającej na zasadach postępowania pojednawczego (szczególnie, jeśli chodzi o skład komisji),
+      jednak jak już wspomnieliśmy zakres pracy takiej komisji nie jest ujęty w prawie, a ustalenia dotyczące mobbingu nie są wiążące -
+      pracodawca może przyjąć wyniki działania komisji według własnego uznania. {"\n"}{"\n"}
 
       Nigdy nie należy zakładać złej woli ze strony pracodawcy. Coraz częściej zdarzają się przypadki, kiedy pracodawca poważnie
       podejdzie do zgłoszenia podejrzenia wystąpienia zachowań mobbingowych. Oprócz powołania komisji zajmującej się 
-      wskazanymi przypadkami wystepowania mobbingu, może zaproponować pracownikom szkolenie antymobbingowe,
-      aby uświadomić wszystkich i samego siebie na czym polega to zjawisko i jak jemu zapobiegać. {"\n"}{"\n"}
+      wskazanymi przypadkami występowania mobbingu, może zaproponować pracownikom szkolenie antymobbingowe,
+      aby uświadomić wszystkich i samego siebie na czym polega to zjawisko i jak jemu zapobiegać. Pracodawca może przeanalizować
+      cały proces wystąpienia nieprawidłowości i dokonań wielu zmian w firmie, które będą w sensowny sposób niwelowały zaistnienie
+      zachowań mobbingowych.{"\n"}{"\n"}
 
       Często jednak sprawa wygląda mniej pozytywnie. Pracodawca traktuje zgłoszenie podejrzenia mobbingu jako zagrożenie dla
-      siebie i firmy. Niestety podejmuje działania, które mają w efekcie zamieść sprawę pod dywan, nie dopuszczając do obiektywnego
-      wyjaśnienia sprawy. Prowadzi to do eskalacji zachowań mobbingowych i próbach zastraszenia pracownika, dalszej jego izolacji
-      w grupie pracowników. Sytuacja staje się trudna, szczególnie na poziomie emocjonalnym i zdrowotnym. Często pogłebiają się
-      zaburzenia psychosomatyczne, które nie pozwalają pracować i stają się zagrożeniem dla zdrowia pracownika.
-      Zachęcamy jednak do dalszych działań, tym razem wykraczających poza zakład pracy.
+      siebie i firmy oraz podejmuje działania, które mają w efekcie zamieść sprawę pod dywan, nie dopuszczając do obiektywnego
+      wyjaśnienia sprawy. Prowadzi to do dalszej eskalacji zachowań mobbingowych, próbach zastraszenia zgłaszającego, izolacji
+      w grupie pracowników. Sytuacja staje się trudna, szczególnie na poziomie emocjonalnym i zdrowotnym. U osoby poddanej
+      zachowaniom mobbingowym pogłębiają się zaburzenia psychosomatyczne, które nie pozwalają pracować i 
+      z czasem stają się zagrożeniem dla zdrowia pracownika. {"\n"}{"\n"}
+
+      Może pojawić się zwątpienie,frustracja, pytania czy dotychczasowe działania mają sens. Konieczna jest w takich sytuacjach
+      pomoc specjalistów zdrowia psychicznego oraz innych, którzy mogą zdiagnozować zmiany psychosomatyczne u osoby poddanej silnemu
+      stresowi. Motywujemy do przekonania samego siebie, że warto nadal walczyć o swoje prawa, kiedy odczuje się gotowość, pewność i
+      bezpieczeństwo. Dalsze kroki będą wiązały się z działaniami wykraczającymi swoim zasięgiem poza zakład pracy.
   
       </Text>
       </View>
@@ -83,11 +89,26 @@ const Krok4 = () => (
       <View style={styles.tabs_header}>
       <Text style={styles.tabs_title}>Krok 4. Podjęcie kolejnych działań.</Text>
       <Text style={styles.tabs_subtitle}>
-      - pismo ws mobbingu w pracy do wyższej instancji, kardy zarządzającej, ministerstwa itd.{"\n"}
-      - prośba o powołanie przez pracodawcę komisji pojednawczej{"\n"}
-      - zawiadomienie Społecznego Inspektora Pracy/związków zawodowych{"\n"}
-      - zawiadomienie Państwowej Inspekcji Pracy{"\n"}
-      - skierowanie sprawy do Sądu Pracy
+
+      Struktura hierarchiczna w zakładzie pracy, korporacji, instytucji publicznej obejmuje wiele poziomów, które nadzorują swoje działania.
+      Powiadomienie wyższej instancji w firmie o nieprawidłowościach na niższym szczeblu zawsze stanowi dla zwierzchników powód, aby sprawdzić
+      czy rzeczywiście doszło do złamania prawa albo po prostu wyjaśnić zasadność skargi. {"\n"}{"\n"}
+
+      W takim piśmie ponownie należy przedstawić historię zachowań mobbingowych, które miały miejsce w firmie - konkretnie wskazać się osoby,
+      które zachowywały się w niewłaściwy sposób, a również jakie działania przeciwdziałające temu zjawisku podjęto dotychczas. Należy 
+      wystosować konkretną prośbę, oczekiwanie o interwencję w sprawie, która przyniesie określony skutek - zaprzestanie zachowań mobbingowych.{"\n"}{"\n"}
+
+      Dalszy brak skutecznych działań ze strony firmy albo próba zaprzeczania o zasadności skargi daje powód, aby sprawę zgłosić do przeznaczonych 
+      do takich sytuacji instytucji, które zajmują się kontrolą przestrzegania prawa pracy: Państwowa Inspekcja Pracy, Sanepid (o zakresie działania
+      wspomnianych instytucji w dziale prawnym). W przypadku Państwowej Inspekcji Pracy kontrola jest poprzedzona powiadomieniem pracodawcy, stąd
+      istnieje ryzyko mataczenia (ukrywania ważnych obciążających dokumentów). PIP ma możliwość nie powiadomienia o kontroli, ale pracodawca ma wtedy 
+      prawo żądać wyjaśnienia dotyczącego zasadności kontroli oraz treści zgłoszenia. PIP musi mieć bardzo mocne przestanki, aby dokonać 
+      niezapowiedzianej kontroli, dlatego należy to brać pod uwagę.{"\n"}{"\n"}
+
+      Ostatecznym krokiem jest założenie sprawy o mobbing w Sądzie Pracy. Wymaga to odpowiedniego przygotowania procesowego i mentalnego: 
+      napisania pozwu wyjaśniającego dotychczasowy przebieg zdarzeń (najlepiej przez kancelarię adwokacką specjalizującą się w prawie pracy); 
+      zgromadzenia dokumentacji medycznej, która jasno wskaże, że uszczerbek na zdrowiu był spowodowany zachowaniami mobbingowymi, a nie wynikał
+      z innych okoliczności. O szczegółach postępowania piszemy w kolejnym kroku.
       </Text>
       </View>
 )
