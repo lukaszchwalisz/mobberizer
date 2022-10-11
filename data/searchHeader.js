@@ -8,14 +8,26 @@ const Header = ({onSearch}) => {
         <Text style={styles.tabs_title}>FAQ </Text>
         <Text style={styles.tabs_subtitle}>Najczęściej zadawane pytania dotyczące mobbingu
         w miejscu pracy.{"\n"}{"\n"}
-        Stan prawny: 04.05.2022 r.
+        Stan prawny: 04.05.2022 r.{"\n"}
         </Text>
-
+        <View
+          style={{
+            borderRadius: 5,
+            padding: 3,
+            backgroundColor: "#f5f5dc", 
+            // sflexDirection: "row",
+            alignItems: "center",
+          }}
+        >
         <TextInput
-          placeholder="Szukaj.."
+          placeholder="Szukaj"
+          placeholderfontSize="16"
           onChangeText={onSearch}
-          style={{ flex: 1 }}
+          style={{ flex: 1, fontSize:16, fontFamily:"Roboto"}} 
         />
+
+        </View>
+
 
       </View>
 
