@@ -121,7 +121,8 @@ const Krok5 = () => (
     <Text style={styles.tabs_subtitle}>
     Sprawy sądowe o mobbing wywołują wiele emocji, pochłaniają całkowicie w poczuciu krzywdy, niesprawiedliwości. Pojawiają się ambiwalentne
     uczucia: lęku, złości, smutku, zemsty, bezradności. Dlatego jest szczególnie ważne, aby dobrze przygotować się do sprawy sądowej, gdzie zalecane
-    jest opanowanie emocji, jasne przedstawienie swojej sytuacji, uzasadnienie poparte dowodami. Roztrzygnięcie sprawy pozostaje w rękach sądupracy - należy o tym pamiętać. W wielu momentach może to kłócić z własnymi odczuciami, ale do końca rozprawy należy zachować pokorę.
+    jest opanowanie emocji, jasne przedstawienie swojej sytuacji, uzasadnienie poparte dowodami. Roztrzygnięcie sprawy pozostaje w rękach sądu pracy
+     - należy o tym pamiętać. W wielu momentach może to kłócić z własnymi odczuciami, ale do końca rozprawy należy zachować pokorę.
     Energię warto więc poświęcić na jak najlepsze przedstawienie swoich argumentów, wypunktowanie wszelkich prób odwrócenia sytuacji przez
     obronę i pozwanego. Wymaga to odpowiedniego przygotowania, zarówno w sferze dowodowej, jak i mentalnej. Poniżej przedstawiamy kilka
     najważniejszych zasad jakimi powinno sie kierować.{"\n"}{"\n"}
@@ -138,7 +139,7 @@ const Krok5 = () => (
 
     - wynotowanie sobie wszystkich działań mobbingowych{"\n"}{"\n"}
 
-    Pamięć ludzka jest zawodna - szczególnie, kiedy towarzyszy jej silny stres, co jes nieodłącznym towarzyszem spraw mobbingowych. Zachęcamy do
+    Pamięć ludzka jest zawodna - szczególnie, kiedy towarzyszy jej silny stres, co jest nieodłącznym towarzyszem spraw mobbingowych. Zachęcamy do
     najdokladniejszego opisania sytuacji w pracy od poczatku jej zaistnienia każda osobe, która kontaktuje się ze stowarzyszeniem OSA, do
     prowadzenia dziennika, w których każda sytuacja mobbingowa będzie dobrze opisane i umieszczona w czasie (data, godzina). Do tego warto
     załączyć wszelką dokumentację, która będzie stanowiła dowód na poparcia własnych argumentów (np. maile, listy obecności, kopie pism).
@@ -147,7 +148,8 @@ const Krok5 = () => (
 
     Równocześnie bardzo istotne jest zbieranie dokumentacji lekarskiej, która jasna wskazuje, że doznany uszczerbek na zdrowiu był spowodowany
     zachowaniami mobbingowymi w pracy. Wg KP jest to warunek konieczny, aby sprawa kwalifikowała sie jako mobbing. Dlatego szczególnie
-    uczulamy, aby każdego lekarza prosić o zaświadczenie poświadczające, że np. zaburzenia psychosomatyczne były wywołane stresującą sytuacjąpracy, i nie stały za tym inne czynniki zdrowotne niepowiązane z mobbingiem.
+    uczulamy, aby każdego lekarza prosić o zaświadczenie poświadczające, że np. zaburzenia psychosomatyczne były wywołane stresującą sytuacjąpracy,
+     i nie stały za tym inne czynniki zdrowotne niepowiązane z mobbingiem.
     {"\n"}{"\n"}
     - kontakt ze świadkami mobbingu{"\n"}{"\n"}
 

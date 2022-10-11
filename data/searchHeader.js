@@ -15,15 +15,15 @@ const Header = ({onSearch}) => {
             borderRadius: 5,
             padding: 3,
             backgroundColor: "#f5f5dc", 
-            fontSize: 17,
-            flexDirection: "row",
+            // sflexDirection: "row",
             alignItems: "center",
           }}
         >
         <TextInput
-          placeholder="Szukaj.."
+          placeholder="Szukaj"
+          placeholderfontSize="16"
           onChangeText={onSearch}
-          style={{ flex: 1 }}
+          style={{ flex: 1, fontSize:16, fontFamily:"Roboto"}} 
         />
 
         </View>
