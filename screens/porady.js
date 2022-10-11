@@ -119,13 +119,53 @@ const Krok5 = () => (
     <View style={styles.tabs_header}>
     <Text style={styles.tabs_title}>Krok 5. Przygotowanie mentalne.{"\n"}</Text>
     <Text style={styles.tabs_subtitle}>
-    - obiektywne podejście do problemu, zdystansowanie{"\n"}
-    - wynotowanie wszystkich działań mobbingowych{"\n"}
-    - zebranie dokumentacji lekarskiej, psychiatrycznej{"\n"}
-    - kontakt ze świadkami mobbingu{"\n"}
-    - przygotowanie mentalne do ochrony swoich praw w sądzie{"\n"}
-    - korzystanie z doświadczenia innych osób w podobnej sytuacji
-    </Text> 
+    Sprawy sądowe o mobbing wywołują wiele emocji, pochłaniają całkowicie w poczuciu krzywdy, niesprawiedliwości. Pojawiają się ambiwalentne
+    uczucia: lęku, złości, smutku, zemsty, bezradności. Dlatego jest szczególnie ważne, aby dobrze przygotować się do sprawy sądowej, gdzie zalecane
+    jest opanowanie emocji, jasne przedstawienie swojej sytuacji, uzasadnienie poparte dowodami. Roztrzygnięcie sprawy pozostaje w rękach sądupracy - należy o tym pamiętać. W wielu momentach może to kłócić z własnymi odczuciami, ale do końca rozprawy należy zachować pokorę.
+    Energię warto więc poświęcić na jak najlepsze przedstawienie swoich argumentów, wypunktowanie wszelkich prób odwrócenia sytuacji przez
+    obronę i pozwanego. Wymaga to odpowiedniego przygotowania, zarówno w sferze dowodowej, jak i mentalnej. Poniżej przedstawiamy kilka
+    najważniejszych zasad jakimi powinno sie kierować.{"\n"}{"\n"}
+
+    - obiektywne podejście do problemu, zdystansowanie się{"\n"}{"\n"}
+
+    Charakter przeżyć związany z mobbingiem w pracy ludzi wiele emocji, wspomnienia mogą wpływać negatywnie na nastrój. Często ponowne
+    przywoływanie traumatycznych wydarzeń powoduje dyskonfort, poczucie bólu, krzywdy i związanej z nią rozpaczy. Samo przywołanie postaci
+    mobbera w pamięci może wiązać się z lękiem. Dlatego też kiedy decydujemy się, aby skierować sprawę do sądu, powinniśmy podjąć wysiłek, aby
+    spojrzeć na sprawę jeszcze raz, z dystansu, skupiając się na samych faktach: co zaszło? kiedy ? dlaczego? kto brał udział ? Sąd otrzyma odniesienie
+    się do zaistniałych faktów z obydwu stron konfliktu. Na tej podstawie wyrobi sobie zdanie co tak naprawdę zaszło. Na tym etapie ważne jest
+    najklarowniejsze przedstawienie okoliczności sprawy, tak aby obraz sytuacji nie uległ zaburzeniu, kiedy to tych samych wydarzeń odniesie się
+    druga strona z własną interpretacją.{"\n"}{"\n"}
+
+    - wynotowanie sobie wszystkich działań mobbingowych{"\n"}{"\n"}
+
+    Pamięć ludzka jest zawodna - szczególnie, kiedy towarzyszy jej silny stres, co jes nieodłącznym towarzyszem spraw mobbingowych. Zachęcamy do
+    najdokladniejszego opisania sytuacji w pracy od poczatku jej zaistnienia każda osobe, która kontaktuje się ze stowarzyszeniem OSA, do
+    prowadzenia dziennika, w których każda sytuacja mobbingowa będzie dobrze opisane i umieszczona w czasie (data, godzina). Do tego warto
+    załączyć wszelką dokumentację, która będzie stanowiła dowód na poparcia własnych argumentów (np. maile, listy obecności, kopie pism).
+    {"\n"}{"\n"}
+    - zebranie dokumentacji lekarskiej, psychiatrycznej{"\n"}{"\n"}
+
+    Równocześnie bardzo istotne jest zbieranie dokumentacji lekarskiej, która jasna wskazuje, że doznany uszczerbek na zdrowiu był spowodowany
+    zachowaniami mobbingowymi w pracy. Wg KP jest to warunek konieczny, aby sprawa kwalifikowała sie jako mobbing. Dlatego szczególnie
+    uczulamy, aby każdego lekarza prosić o zaświadczenie poświadczające, że np. zaburzenia psychosomatyczne były wywołane stresującą sytuacjąpracy, i nie stały za tym inne czynniki zdrowotne niepowiązane z mobbingiem.
+    {"\n"}{"\n"}
+    - kontakt ze świadkami mobbingu{"\n"}{"\n"}
+
+    W sprawach o mobbing, najczęściej świadkowie są jednocześnie podwładnymi pozwanego. Wynika z tego konflikt interesow co ma swoje
+    konsekwencje przy składaniu zeznań na sali sądowej. Wiele osób, współpracowników, którzy byli bezpośrednimi/pośrednimi świadkami mobbingu
+    często zasłania się niepamiecią albo poświadcza nieprawdę na korzyść pracodawcy. Niemniej warto postarać się wysądować kto mógłby zeznawać
+    i zgodnie z prawdą przedstawić sytuację w pracy. Najlepiej nawiązać kontakt z osobami, które wcześniej składały zawiadomienia o mobbing w
+    pracy u tego samego pracodawcy i namówić do składania zeznań. Koniecznie należy pozostać uważnym na ich osobiste przeżycia, gdyż ponowne
+    wspomninanie traumatycznych zdarzeń, może być bolesne i zniechęcać do bycia świadkiem w sądzie. Sąd oczywiście może wyznaczyć wskazane
+    na świadków niezależnie od wcześniejszej zgody, ale warto wcześniej zrobić sobie grunt i mieć pewność, że osoba będzie mówiła zgodnie z prawdą
+    jakie zachowania miały miejsce w pracy, kiedy tam pracowała.
+    {"\n"}{"\n"}
+    - korzystanie z doświadczenia innych osób w podobnej sytuacji{"\n"}{"\n"}
+
+    Zachęcamy do kontakt ze stowarzyszeniem OSA, które od 20 lat zajmuje sie problematyką przeciwdziałania mobbingowi w Polsce - w
+    konsultacjach psychologicznych, prawniczych, a w szczególności do uczestnictwa w grupach wsparcia, gdze następuje głęboka wymiana myśli i
+    doświadczeń związanych z sytuacjami mobbingowymi. Wsparcie ze strony grupy jest ważne na każdym etapie rozwoju sprawy mobbingowej
+    </Text>
     </View>
 )
 
