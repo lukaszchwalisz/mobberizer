@@ -11,17 +11,19 @@ const Krok1 = () => (
       <View style={styles.tabs_header}>
       <Text style={styles.tabs_title}>Krok 1. Diagnoza sytuacji.{"\n"}</Text>
       <Text style={styles.tabs_subtitle}>
-      Na początku po prostu nie wiadomo co właściwie zmieniło się. Odczuwa się, że codzienne przychodzenie do pracy przestało sprawiać przyjemność. Relacje z pracodawcą i współpracownikami są jakieś inne, bardziej zdystansowane. Coraz trudniej
+      Na początku po prostu nie wiadomo co właściwie zmieniło się. Odczuwa się, że codzienne przychodzenie do pracy przestało sprawiać przyjemność. 
+      Relacje z pracodawcą i współpracownikami są jakieś inne, bardziej zdystansowane. Coraz trudniej
       doprosić się o załatwienie konkretnej rzeczy od kolegów, z czasem nie ma się już chęci, aby prosić.{"\n"}{"\n"} 
       
-      Na domiar złego ma się wrażenie bycia obserwowanym, może obgadywanym za plecami. Kiedy wchodzi się do biura, rozmowy cichną albo temat jest zmieniany. Współpracownicy rozmawiają ze sobą, nie zauważają Twojej obecności. Niby nie możesz do niczego se doczepić, ale czujesz, że nie jesteś traktowany poważnie. Zaczynasz się zastanawiać co jest nie tak z Tobą. Z czasem słabnie Twoja odporność,
-      coraz częściej chorujesz, bierzesz L4, dłuższe zwolnienia. Kiedy wracasz do pracy, masz wrażenie, że wszyscy mają Tobie za złość, że robisz sobie wakacje, kiedy wszyscy pracują. Pracodawca wzywa Ciebie na dywanik, daje ostrzeżenia, że nie
-      będzie tego dalej tolerował.{"\n"}{"\n"}
+      Na domiar złego ma się wrażenie bycia obserwowanym, może obgadywanym za plecami. Kiedy wchodzi się do biura, rozmowy cichną albo temat jest zmieniany. 
+      Współpracownicy rozmawiają ze sobą, nie zauważają Twojej obecności. Niby nie możesz do niczego se doczepić, ale czujesz, że nie jesteś traktowany poważnie. 
+      Zaczynasz się zastanawiać co jest nie tak z Tobą. Z czasem słabnie Twoja odporność, coraz częściej chorujesz, bierzesz L4, dłuższe zwolnienia. Kiedy wracasz do pracy,
+      masz wrażenie, że wszyscy mają Tobie za złość, że robisz sobie wakacje, kiedy wszyscy pracują. Pracodawca wzywa Ciebie na dywanik, daje ostrzeżenia, że nie będzie tego dalej tolerował.{"\n"}{"\n"}
       
-      Starasz się więc pracować z większym zaangażowaniem, choć nie możesz liczyć na nikogo. Pracodawca nie tylko nie docenia Twoich wysiłków, ale dodaje kolejne zadania, 
-      które tylko zabierają Ci czas, a jednocześnie jesteś rozliczany ze swoich normalnych obowiązków. Z czasem przestajesz wyrabiać, bierzesz kolejne zwolnienie. 
-      Tłumaczysz się pracodawcy jak wygląda sytuacja, ale on nie widzi problemu. To ty masz problem ! Zawsze możesz zmienić pracę. Odczuwasz silny stres, który 
-      nie mija kiedy wracasz do domu. Nie masz ochoty rozmawiać z domownikami, jesteś zbyt zmęczony, co sprawia, że pogarszają się także relacje w Twoim domu.{"\n"}{"\n"}
+      Starasz się więc pracować z większym zaangażowaniem, choć nie możesz liczyć na nikogo. Pracodawca nie tylko nie docenia Twoich wysiłków, ale dodatkowo daje Tobie kolejne zadania, 
+      które tylko zabierają Ci czas, a jednocześnie jesteś rozliczany ze swoich normalnych obowiązków. Z czasem przestajesz wyrabiać, bierzesz kolejne zwolnienie itd. 
+      Tłumaczysz się pracodawcy jak wygląda sytuacja, ale on nie widzi problemu. To ty masz problem. Przecież zawsze możesz zmienić pracę. Odczuwasz silny stres, który
+      nie mija kiedy wracasz do domu. Tam często obarczasz domowników swoimi emocjami, z czasem wszyscy już mają już dość, a co sprawia, że pogarszają się także relacje w Twoim domu.{"\n"}{"\n"}
       Aż w końcu nie wyrabiasz. Albo popełniasz błąd. Zapominasz o jakieś ważnej rzeczy. Firma jest narażona na koszty. Dostajesz naganę. Próbujesz się bronić, tłumaczysz,
       że pracujesz ponad swoje obowiązki, bez wsparcia. Masz wrażenie, że wszystkim sprawia przyjemność, że w końcu maja na Ciebie haka i od teraz za nawet drobne przewinienie
       możesz wylecieć z pracy. Zastanawiasz się co Ciebie spotkało. Czy to był mobbing ? Czy może przesadzasz ? Zaczynasz poszukiwać pomocy.{"\n"}{"\n"}
@@ -80,7 +82,7 @@ const Krok3 = () => (
       zachowaniom mobbingowym pogłębiają się zaburzenia psychosomatyczne, które nie pozwalają pracować i 
       z czasem stają się zagrożeniem dla zdrowia pracownika. {"\n"}{"\n"}
 
-      Może pojawić się zwątpienie,frustracja, pytania czy dotychczasowe działania mają sens. Konieczna jest w takich sytuacjach
+      Może pojawić się zwątpienie, frustracja, pytania czy dotychczasowe działania mają sens. Konieczna jest w takich sytuacjach
       pomoc specjalistów zdrowia psychicznego oraz innych, którzy mogą zdiagnozować zmiany psychosomatyczne u osoby poddanej silnemu
       stresowi. Motywujemy do przekonania samego siebie, że warto nadal walczyć o swoje prawa, kiedy odczuje się gotowość, pewność i
       bezpieczeństwo. Dalsze kroki będą wiązały się z działaniami wykraczającymi swoim zasięgiem poza zakład pracy.
