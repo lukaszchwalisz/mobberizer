@@ -1,14 +1,9 @@
 import React from 'react';
-import { View, Text, Image, Button, StatusBar, StyleSheet,TouchableWithoutFeedback } from 'react-native';
-import { NavigationContainer, DrawerActions } from '@react-navigation/native';
-import {
-  createDrawerNavigator,
-  DrawerContentScrollView,
-  DrawerItemList,
-  DrawerItem,
-} from '@react-navigation/drawer';
+import { View, Image, StatusBar, StyleSheet,TouchableWithoutFeedback } from 'react-native';
+import { DrawerActions } from '@react-navigation/native';
+import { createDrawerNavigator } from '@react-navigation/drawer';
 import Main from '../components/main.js';
-import { styles } from '../styles/global.js';
+
 
 
 function MainScreen({ navigation }) {
@@ -16,20 +11,12 @@ function MainScreen({ navigation }) {
     <View style={style.container}>
         <TouchableWithoutFeedback onPress={() => navigation.dispatch(DrawerActions.openDrawer())}> 
         <Image
-        style={{margin: 10, width: 50, height: 50}}
+        style={{margin: 10, width: 70, height: 70}}
         source={require('../images/logox.png')}
         />
         </TouchableWithoutFeedback>
         <StatusBar />
   </View>
-  );
-}
-
-function Notifications() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Notifications Screen</Text>
-    </View>
   );
 }
 
@@ -62,7 +49,6 @@ function MyDrawer() {
       headerTintColor:  '#9FE2BF'
       }}
       />
-      <Drawer.Screen name="Notifications" component={Notifications} />
     </Drawer.Navigator>
   );
 }
