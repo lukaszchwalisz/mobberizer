@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <Card style={styles.contain}>
     <Card.Content>
-    <Title style={styles.tabs_title}>Czy pracodawca może dowolnie wynagradzać różnych pracowników za pracę jednakowej wartości ?</Title>
+    <Title style={styles.tabs_title}>Czy pracodawca może dowolnie wynagradzać różnych pracowników za pracę jednakowej wartości ?{"\n"}</Title>
       <Paragraph style={styles.tabs_subtitle}>Według Art. 18(3c). Kodeksu Pracy takie praktyki naruszają zasadę równego traktowania w zatrudnieniu.
        Osoba, wobec której ta zasada została naruszona ma prawo do odszkodowania. Powołanie się na zasadę nierównego traktowania nie może
        być później powodem do niekorzystnego traktowania pracownika.

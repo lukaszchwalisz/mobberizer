@@ -14,7 +14,7 @@ export default function Q2({ navigation, route }) {
            nie będzie nosiło za sobą konsekwencji prawnych ?{"\n"}</Title>
              <Paragraph style={styles.tabs_subtitle}>Paragrafy §6 i §7 Art. 18 Kodeksu Pracy odnoszą się do molestowania seksualnego, które może stanowić jedną z form
                   niepożądanych zachowań w pracy. Z paragrafu §7 jasno wynika, że podporządkowanie się pracodawcy odnośnie molestowania seksualnego, 
-                  jak i podjęcie działań przeciwstawiających się molestowaniu seksualnemu nie niesie za sobą konsekwencji wobec pracownika.{"\n"}
+                  jak i podjęcie działań przeciwstawiających się molestowaniu seksualnemu nie niesie za sobą konsekwencji wobec pracownika.
              </Paragraph>
              <Paragraph style={styles.quotes}>
              Kodeks Pracy {"\n"}
