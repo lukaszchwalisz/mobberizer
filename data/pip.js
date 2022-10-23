@@ -6,7 +6,7 @@ const PIP = [
 	adres:'ul. Płocka 11/13, 01-231 Warszawa ',
 	tel:'(22) 425 11 94',
 	email:'kancelaria@warszawa.pip.gov.pl',
-	www:'',
+	www:'https://warszawa.pip.gov.pl/pl/',
 	epuap:'/526-10-53-222/SkrytkaESP',
 	tag: 'mazowieckie, Warszawa',
 },
