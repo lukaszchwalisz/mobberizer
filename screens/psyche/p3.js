@@ -87,10 +87,13 @@ export default function P3({ navigation, route }) {
        <Divider/>
 
        <Text style={styles.tabs_bold}>Style reagowania.</Text>
-       <Image    
-        style={{width: 350, height: 350}}
-        source={require('./../../images/strategie.png')}
-      />
+        <View style={styles.pics}>
+        <Image    
+          style={{width: 350, height: 350}}
+          source={require('./../../images/strategie.png')}
+        />
+        </View>
+
        <Text style={styles.tabs_text}>
         <Text style={styles.cards_bold}>Unikanie  {"\n"}</Text>
         - sposób, w którym nikt nie osiąga swoich celów, to znaczy nie są zaspokajane ani

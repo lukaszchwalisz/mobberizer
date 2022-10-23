@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, View, Text } from 'react-native';
+import { ScrollView, View, Text, Image } from 'react-native';
 import 'react-native-gesture-handler';
 import { Divider } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
@@ -33,7 +33,12 @@ export default function P1({ navigation, route }) {
               <Divider/>
 
               <Text style={styles.tabs_text}>
-                
+              <View style={styles.pics}>
+                <Image    
+                  style={{width: 300, height: 320}}
+                  source={require('./../../images/neustres.png')}
+                />
+              </View>
               <Text style={styles.cards_bold}>Eustres </Text>
               – bodziec pozytywnie mobilizujący do działania, nie na tyle mocny, aby zagrażać
               organizmowi, ale wystarczająco odczuwalny, że następuje mobilizacja i skupienie na działaniu.

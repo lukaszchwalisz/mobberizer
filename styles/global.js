@@ -88,4 +88,9 @@ export const styles = StyleSheet.create({
     fontSize: 14,
     fontFamily: "serif",
     },
+    pics: {
+      padding:10, 
+      margin:10, 
+      backgroundColor:"white",
+    }
 });
