@@ -15,7 +15,7 @@ const PIP = [
 	adres:'ul. Zielonego Dębu 22, 51-621 Wrocław',
 	tel:'(71) 37 10 430, 37 10 468',
 	email:'kancelaria@wroclaw.pip.gov.pl',
-	www:'',
+	www:'https://wroclaw.pip.gov.pl/pl/',
 	epuap:'/OIPWroclaw/SkrytkaESP',
 	tag: 'dolnośląskie, Wrocław',
 },
@@ -24,7 +24,7 @@ const PIP = [
 	adres:'ul. Dekoracyjna 8, 65-722 Zielona Góra',
 	tel:'(68) 451 39 00',
 	email:'kancelaria@zgora.pip.gov.pl',
-	www:'',
+	www:'https://zielonagora.pip.gov.pl/pl/',
 	epuap:'/OIPZG/SkrytkaESP',
 	tag: 'lubuskie, Zielona Góra',
 },
@@ -33,7 +33,7 @@ const PIP = [
 	adres:'ul. Mikołaja Kopernika 5, 51-622 Wrocław ',
 	tel:'(71) 37 10 404',
 	email:'kancelaria@ospip.pl',
-	www:'',
+	www:'http://www.ospip.pl/',
 	epuap:'/ospip_wroclaw/SkrytkaESP',
 	tag: 'dolnoślaskie, Wrocław',
 },
@@ -42,7 +42,7 @@ const PIP = [
 	adres:'ul. Fabryczna 2, 15-483 Białystok',
 	tel:'(85) 678 57 00',
 	email:'kancelaria@bialystok.pip.gov.pl',
-	www:'',
+	www:'https://bialystok.pip.gov.pl/pl/',
 	epuap:'/PipOipBialystok/SkrytkaESP',
 	tag: 'podlaskie, Białystok',
 },
@@ -51,7 +51,7 @@ const PIP = [
 	adres: 'pl. Szczepański 5, 31-011 Kraków',
 	tel: '(12) 424 04 50',
 	email: 'kancelaria@krakow.pip.gov.pl',
-	www:'',
+	www:'https://krakow.pip.gov.pl/pl/',
 	epuap: '/gsiodlarzepuap/SkrytkaESP',
 	tag:'małopolskie, Kraków'
 },
@@ -60,7 +60,7 @@ const PIP = [
 	adres: 'ul. Oleska 121 „C”, 45-231 Opole', 
 	tel: '(77) 47 00 900',
 	email: 'kancelaria@opole.pip.gov.pl',
-	www:'',
+	www:'https://opole.pip.gov.pl/pl/',
 	epuap: '/oipople/SkrytkaESP',
 	tag:'opolskie, Opole' 
 },
@@ -69,7 +69,7 @@ const PIP = [
 	adres: 'Al. Tysiąclecia Państwa Polskiego nr 4, 25-314 Kielce', 
 	tel: '(41) 343 82 76',
 	email: 'kancelaria@kielce.pip.gov.pl',
-	www:'',
+	www:'https://kielce.pip.gov.pl/pl/',
 	epuap: '/OIPKielce/SkrytkaESP',
 	tag: 'świętokrzyskie, Kielce'
 },
@@ -78,7 +78,7 @@ const PIP = [
 	adres: 'ul. Okopowa 7, 80-819 Gdańsk', 
 	tel: '(58) 520 18 22 lub 23 ',
 	email: 'kancelaria@gdansk.pip.gov.pl',
-	www:'',
+	www:'https://gdansk.pip.gov.pl/pl/',
 	epuap: '/OIPGD/skrytka',
 	tag: 'pomorskie, Gdańsk'
 },
@@ -87,7 +87,7 @@ const PIP = [
 	adres: 'ul. Marcelińska 90, 60-324 Poznań', 
 	tel: '(61) 628 40 00',
 	email: 'kancelaria@poznan.pip.gov.pl',
-	www:'',
+	www:'https://poznan.pip.gov.pl/pl/',
 	epuap: '/oippoznan/SkrytkaESP',
 	tag: 'wielkopolskie, Poznań'
 },
@@ -96,7 +96,7 @@ const PIP = [
 	adres: 'ul. Gen. St. Maczka 4, 35-234 Rzeszów', 
 	tel: '(17) 717 20 00',
 	email: 'kancelaria@rzeszow.pip.gov.pl',
-	www:'',
+	www:'https://rzeszow.pip.gov.pl/pl/',
 	epuap: 'OIP/SkrytkaESP',
 	tag: 'podkarpackie, Rzeszów'
 },
@@ -105,7 +105,7 @@ const PIP = [
 	adres: 'ul. Pszczelna 7, 71-663 Szczecin', 
 	tel: '(91) 431 19 30',
 	email: 'kancelaria@szczecin.pip.gov.pl',
-	www:'',
+	www:'https://szczecin.pip.gov.pl/pl/',
 	epuap: '/oipszczecin/SkrytkaESP',
 	tag: 'zachodnopomorskie, Szczecin'
 },
@@ -114,7 +114,7 @@ const PIP = [
 	adres: 'Plac Piastowski 4a, 85-012 Bydgoszcz', 
 	tel: '(52) 320 24 00',
 	email: 'kancelaria@bydgoszcz.pip.gov.pl',
-	www:'',
+	www:'https://bydgoszcz.pip.gov.pl/pl/',
 	epuap: '/PIPOIPBydgoszcz/SkrytkaESP',
 	tag: 'kujawsko-pomorskie, Bydgoszcz'
 },
@@ -123,7 +123,7 @@ const PIP = [
 	adres: 'ul. Kopernika 29, 10-512 Olsztyn', 
 	tel: '(89) 527 42 75',
 	email: 'kancelaria@olsztyn.pip.gov.pl',
-	www:'',
+	www:'https://olsztyn.pip.gov.pl/pl/',
 	epuap: '/OIP10/SkrytkaESP',
 	tag: 'warmińsko-mazurskie, Olsztyn'
 },
@@ -132,7 +132,7 @@ const PIP = [
 	adres: 'ul. Owocowa 6-6a, 40-158 Katowice', 
 	tel: '(32) 60 41 208',
 	email: 'kancelaria@katowice.pip.gov.pl',
-	www:'',
+	www:'https://katowice.pip.gov.pl/pl/',
 	epuap: '/oipkatowice/SkrytkaESP',
 	tag: 'ślaskie, Katowice'
 },
@@ -141,7 +141,7 @@ const PIP = [
 	adres: 'Al. Piłsudskiego 13, 20-011 Lublin', 
 	tel: '(81) 53 71 131',
 	email: 'kancelaria@lublin.pip.gov.pl',
-	www:'',
+	www:'https://lublin.pip.gov.pl/pl/',
 	epuap: '/PIP/SkrytkaESP',
 	tag: 'lubelskie, Lublin'
 },
@@ -150,7 +150,7 @@ const PIP = [
 	adres: 'al. Kościuszki 123, 90-441 Łódź', 
 	tel: '(42) 636 23 13',
 	email: 'kancelaria@lodz.pip.gov.pl',
-	www:'',
+	www:'https://lodz.pip.gov.pl/pl/',
 	epuap: '/OIP09/SkrytkaESP',
 	tag: 'łódzkie, Łódź'
 }
