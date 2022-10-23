@@ -15,7 +15,6 @@ const Header = ({onSearch}) => {
             borderRadius: 5,
             padding: 3,
             backgroundColor: "#f5f5dc", 
-            // sflexDirection: "row",
             alignItems: "center",
           }}
         >
@@ -25,12 +24,8 @@ const Header = ({onSearch}) => {
           onChangeText={onSearch}
           style={{ flex: 1, fontSize:16, fontFamily:"Roboto"}} 
         />
-
         </View>
-
-
       </View>
-
     )
   };
 
