@@ -53,7 +53,7 @@ const Krok2 = () => (
       mobbingowane od podjęcia stosownych działań. Podobnie jednak, kiedy wskazani w piśmie zostaną współpracownicy powstaje obawa związana z postrzeganiem
       swojej osoby w pracy. Ryzyko wiąże się z uznaniem za donoszącego, za pomawiającego; za osobę, która działa przeciwko grupie. {"\n"}{"\n"}
 
-      Na każdym kroku moga pojawić się wątpliwości np. czy mogę sobie zaszkodzić ? czy będzie odpowiednia reakcja na pismo ?  Staramy się przyjrzeć się
+      Na każdym kroku moga pojawić się wątpliwości np. Czy mogę sobie zaszkodzić ? Czy będzie odpowiednia reakcja pracodawcy ?  Staramy się przyjrzeć się
       tym wątpliwościom w ramach konsultacji psychologicznych w stowarzyszeniu OSA. Ważne, aby osoba postępowała świadomie, bez lęku, nie odczuwając przymusu.
       Sama zadecyduje, kiedy będzie gotowa, aby zgłosić w swoim zakładzie pracy przypadki łamania prawa.
       </Text>
