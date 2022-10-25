@@ -50,7 +50,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/wsse-katowice',
 	psse:'Bielsko-Biała, Bytom, Chorzów, Cieszyn, Częstochowa, Dąbrowa Górnicza, Gliwice, Jaworzno, Katowice, Kłobuck, Lubliniec, Myszków, Racibórz, Ruda Śląska, Rybnik, Sosnowiec, Tychy, Wodzisław Śląski, Zawiercie, Żywiec',
     gsse:'',
-	tag: 'ślaskie, Bielsko-Biała, Bytom, Chorzów, Cieszyn, Częstochowa, Dąbrowa Górnicza, Gliwice, Jaworzno, Katowice, Kłobuck, Lubliniec, Myszków, Racibórz, Ruda Śląska, Rybnik, Sosnowiec, Tychy, Wodzisław Śląski, Zawiercie, Żywiec ',
+	tag: 'śląskie, Bielsko-Biała, Bytom, Chorzów, Cieszyn, Częstochowa, Dąbrowa Górnicza, Gliwice, Jaworzno, Katowice, Kłobuck, Lubliniec, Myszków, Racibórz, Ruda Śląska, Rybnik, Sosnowiec, Tychy, Wodzisław Śląski, Zawiercie, Żywiec ',
 },
 {
 	title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Kielcach',

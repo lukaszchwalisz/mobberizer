@@ -35,7 +35,7 @@ const PIP = [
 	email:'kancelaria@ospip.pl',
 	www:'http://www.ospip.pl/',
 	epuap:'/ospip_wroclaw/SkrytkaESP',
-	tag: 'dolnoślaskie, Wrocław',
+	tag: 'dolnośląskie, Wrocław',
 },
 {
 	title:'Państwowa Inspekcja Pracy Okręgowy Inspektorat Pracy w Białymstoku',
