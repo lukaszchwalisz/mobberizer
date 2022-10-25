@@ -134,7 +134,7 @@ const PIP = [
 	email: 'kancelaria@katowice.pip.gov.pl',
 	www:'https://katowice.pip.gov.pl/pl/',
 	epuap: '/oipkatowice/SkrytkaESP',
-	tag: 'ślaskie, Katowice'
+	tag: 'śląskie, Katowice'
 },
 {
 	title: 'Państwowa Inspekcja Pracy Okręgowy Inspektorat Pracy w Lublinie',
