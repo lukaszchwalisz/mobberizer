@@ -22,7 +22,7 @@ export default function App() {
         headerTitleStyle: { color: '#9FE2BF' }}} />
         <Root.Screen name="Prawo" component={ Prawo } options={{ headerShown: false}} /> 
         <Root.Screen name="Zdrowie" component={ Zdrowie } options={{ headerShown: false}} />
-        <Root.Screen name="Szukaj" component={ Szukaj } options={{ title: 'Szukaj pomocy',
+        <Root.Screen name="Szukaj" component={ Szukaj } options={{ headerShown: false,
           headerStyle: {backgroundColor: '#2f2f2f'}, 
           headerTintColor:  '#9FE2BF', 
           headerTitleStyle: { color: '#9FE2BF' }}} />

@@ -1,19 +1,28 @@
-import React from 'react'
-import { ScrollView, View, Text } from 'react-native';
-import { styles } from '../styles/global.js';
+import React from 'react';
+import 'react-native-gesture-handler';
+import { createStackNavigator } from '@react-navigation/stack';
+import S0  from './szukaj/s0.js';
+import S1  from './szukaj/s1.js';
+import S2  from './szukaj/s2.js';
 
-export default function Szukaj (){
- 
+
+const Sear = createStackNavigator()
+
+export default function Szukaj({ navigation, route }) {
   return (
-        <ScrollView style={styles.contain}>
-
-        <View style={styles.tabs_header}>
-          <Text style={styles.tabs_title}>Wyszukiwarka instytucji pomocowych</Text>
-          <Text style={styles.tabs_subtitle}>Znajdź najbliższy sąd pracy, PIP, Sanepid.
-          </Text>
-        </View>
-
-        </ScrollView>
-
+       <Sear.Navigator>
+             <Sear.Screen name="s0" component={ S0 } options={{ title: 'Wyszukiwarka instytucji',
+              headerStyle: {backgroundColor: '#2f2f2f'}, 
+              headerTintColor:  '#9FE2BF', 
+              headerTitleStyle: { color: '#9FE2BF' }}} />
+             <Sear.Screen name="s1" component={ S1 } options={{ title: 'Państwowa Inspecja Pracy',
+              headerStyle: {backgroundColor: '#2f2f2f'}, 
+              headerTintColor:  '#9FE2BF', 
+              headerTitleStyle: { color: '#9FE2BF' }}} />
+             <Sear.Screen name="s2" component={ S2 } options={{ title: 'Sanepid',        
+              headerStyle: {backgroundColor: '#2f2f2f'}, 
+              headerTintColor:  '#9FE2BF', 
+              headerTitleStyle: { color: '#9FE2BF' }}} />
+       </Sear.Navigator>
   )
-}
+};
