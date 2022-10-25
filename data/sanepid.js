@@ -78,7 +78,7 @@ const Sanepid = [
 	tel:'12 25 49 555',
 	email:'wsse.krakow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/wsse-krakow',
-	psse:'Bochnia, Brzesko, Chrzanów, Dąbrowa Tarnowska, Gorlice, Kraków, Limanowa, Miechów, Myślenice, Nowy Sącz, Nowy Targ, Olkusz, Oświęcim, Proszowice, Sucha Beskidzka, Tarnów, Wadowice, Wieliczka, Zakopane',,
+	psse:'Bochnia, Brzesko, Chrzanów, Dąbrowa Tarnowska, Gorlice, Kraków, Limanowa, Miechów, Myślenice, Nowy Sącz, Nowy Targ, Olkusz, Oświęcim, Proszowice, Sucha Beskidzka, Tarnów, Wadowice, Wieliczka, Zakopane',
     gsse:'',
 	tag: 'małopolskie, Bochnia, Brzesko, Chrzanów, Dąbrowa Tarnowska, Gorlice, Kraków, Limanowa, Miechów, Myślenice, Nowy Sącz, Nowy Targ, Olkusz, Oświęcim, Proszowice, Sucha Beskidzka, Tarnów, Wadowice, Wieliczka, Zakopane ',
 },
