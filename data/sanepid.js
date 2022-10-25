@@ -3,16 +3,6 @@ import React from 'react';
 
 const Sanepid = [
 {
-	title:'',
-	adres:'',
-	tel:'',
-	email:'',
-	www:'',
-	psse:'',
-    gsse:'',
-	tag: '',
-},
-{
 	title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Białymstoku',
 	adres:'ul. Legionowa 8 15-099 Białystok',
 	tel:'(85) 740 85 40',
