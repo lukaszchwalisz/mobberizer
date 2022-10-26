@@ -26,12 +26,11 @@ const RenderItem = ({ data }) => {
 }
 
 const RenderItem_s1 = ({ data }) => {
-    // const navigation = useNavigation();
    
     const args = {
-        number: data.tel, // String value with the number to call
-        prompt: false, // Optional boolean property. Determines if the user should be prompted prior to the call 
-        skipCanOpen: true // Skip the canOpenURL check
+        number: data.tel, 
+        prompt: false, 
+        skipCanOpen: true 
     }
   
     return (  
@@ -40,11 +39,10 @@ const RenderItem_s1 = ({ data }) => {
             <Text style={styles.tabs_text}>{data.title}</Text>
             <Text style={styles.tabs_text}>adres:  {data.adres}</Text>
             <TouchableWithoutFeedback style={styles.button} onPress={() => {
-                call(args).catch(console.error)
+                call(args).catch(console.error);
             }}> 
             <Text style={styles.tabs_text}>tel.:  {data.tel}</Text>
             </TouchableWithoutFeedback>
-
             <Text style={styles.tabs_text}>email:  {data.email}</Text>
             <Text style={styles.tabs_text}>www:  <A href={data.www}>{data.www}</A></Text>
             <Text style={styles.tabs_text}>epuap:  {data.epuap}</Text>
@@ -54,7 +52,7 @@ const RenderItem_s1 = ({ data }) => {
 }
 
 const RenderItem_s2 = ({ data }) => {
-    // const navigation = useNavigation();
+
     const args = {
         number: data.tel, // String value with the number to call
         prompt: false, // Optional boolean property. Determines if the user should be prompted prior to the call 
@@ -66,15 +64,12 @@ const RenderItem_s2 = ({ data }) => {
 
         <Surface style={styles.surface} elevation={2}>
             <Text style={styles.tabs_text}>{data.title}</Text>
+            <Text style={styles.tabs_text}>{data.adres}</Text>
             <TouchableWithoutFeedback style={styles.button} onPress={() => {
-                call(args).catch(console.error)
+                call(args).catch(console.error);
             }}> 
             <Text style={styles.tabs_text}>tel.:  {data.tel}</Text>
             </TouchableWithoutFeedback>
-
-            {/* <Text style={styles.tabs_text}>tel.:  {data.tel}</Text> */}
-
-
             <Text style={styles.tabs_text}>email:  {data.email}</Text>
             <Text style={styles.tabs_text}>www:  <A href={data.www}>{data.www}</A></Text>
             <Text style={styles.tabs_text}>PSSE:  {data.psse}</Text>
