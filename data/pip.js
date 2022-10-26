@@ -4,7 +4,7 @@ const PIP = [
 {
 	title:'Państwowa Inspekcja Pracy Okręgowy Inspektorat Pracy w Warszawie',
 	adres:'ul. Płocka 11/13, 01-231 Warszawa ',
-	tel:'(22) 425 11 94',
+	tel:'224251194',
 	email:'kancelaria@warszawa.pip.gov.pl',
 	www:'https://warszawa.pip.gov.pl/pl/',
 	epuap:'/526-10-53-222/SkrytkaESP',
@@ -85,7 +85,7 @@ const PIP = [
 {
 	title: 'Państwowa Inspekcja Pracy Okręgowy Inspektorat Pracy w Poznaniu',
 	adres: 'ul. Marcelińska 90, 60-324 Poznań', 
-	tel: '(61) 628 40 00',
+	tel: '61 628 40 00',
 	email: 'kancelaria@poznan.pip.gov.pl',
 	www:'https://poznan.pip.gov.pl/pl/',
 	epuap: '/oippoznan/SkrytkaESP',

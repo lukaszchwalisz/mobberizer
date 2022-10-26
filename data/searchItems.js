@@ -1,11 +1,12 @@
 import React from 'react';
-import { Text } from "react-native";
+import { Text,Linking } from "react-native";
 import { styles } from '../styles/global.js';
 import { Surface } from 'react-native-paper';
 import 'react-native-gesture-handler';
 import { ScrollView, TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import { useNavigation } from "@react-navigation/native";
 import A from 'react-native-a';
+
 
 const RenderItem = ({ data }) => {
     const navigation = useNavigation();
@@ -33,6 +34,7 @@ const RenderItem_s1 = ({ data }) => {
             <Text style={styles.tabs_text}>{data.title}</Text>
             <Text style={styles.tabs_text}>adres:  {data.adres}</Text>
             <Text style={styles.tabs_text}>tel.:  {data.tel}</Text>
+            <Text onPress={()=>{Linking.openURL('tel://{data.tel}')}} style={styles.tabs_text}>{data.tel}</Text>
             <Text style={styles.tabs_text}>email:  {data.email}</Text>
             <Text style={styles.tabs_text}>www:  <A href={data.www}>{data.www}</A></Text>
             <Text style={styles.tabs_text}>epuap:  {data.epuap}</Text>
