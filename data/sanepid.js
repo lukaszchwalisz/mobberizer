@@ -161,8 +161,161 @@ const Sanepid = [
 	psse:'Bolesławiec, Dzierżonów, Głogów, Góra, Jawor, Jelenia Góra, Kłodzko, Legnica, Lubań, Lublin, Lwówek Śląski, Milicz, Oleśnica, Oława, Polkowice, Strzelin, Środa Śląska, Świdnica, Trzebnica, Wałbrzych, Wołów, Wrocław, Ząbkowice Śląskie, Zgorzelec, Złotoryja',
     gsse:'',
 	tag: 'dolnośląskie, Bolesławiec, Dzierżonów, Głogów, Góra, Jawor, Jelenia Góra, Kłodzko, Legnica, Lubań, Lublin, Lwówek Śląski, Milicz, Oleśnica, Oława, Polkowice, Strzelin, Środa Śląska, Świdnica, Trzebnica, Wałbrzych, Wołów, Wrocław, Ząbkowice Śląskie, Zgorzelec, Złotoryja',
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Augustowie',
+	adres:'ul. Karola Brzostowskiego 10, 16-300 Augustów',
+	tel:'87 643 32 80',
+	email:'',
+	www:'',
+	psse:'',
+    gsse:'',
+	tag: 'podlaskie, Białystok, Augustów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Białymstoku',
+	adres:'ul. Warszawska 57a, 15-062 Białystok',
+	tel:'85 73 25 23',
+	email:'',
+	www:'',
+	psse:'',
+    gsse:'',
+	tag: 'podlaskie, Białystok'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Bielsku Podlaskim',
+	adres:'ul. Białowieska 28, 17-100 Bielsk Podlaski',
+	tel:'85 730 17 17',
+	email:'',
+	www:'',
+	psse:'',
+    gsse:'',
+	tag: 'podlaskie, Białystok, Bielsk Podlaski'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Grajewie',
+	adres:'Plac Niepodległości 12, 19-200 Grajewo',
+	tel:'86 272 26 00',
+	email:'',
+	www:'',
+	psse:'',
+    gsse:'',
+	tag: 'podlaskie, Białystok, Grajewo'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Hajnówce',
+	adres:'ul. Marszałka Józefa Piłsudskiego 10, 17-200 Hajnówka',
+	tel:'85 682 28 09',
+	email:'',
+	www:'',
+	psse:'',
+    gsse:'',
+	tag: 'podlaskie, Białystok, Hajnówka'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kolnie',
+	adres:'ul. Wojska Polskiego 4 | 18-500 Kolno',
+	tel:'86 278 31 91',
+	email:'',
+	www:'',
+	psse:'',
+    gsse:'',
+	tag: 'podlaskie, Białystok, Kolno'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Łomży',
+	adres:'ul. Gen. Sikorskiego 156, 18-400 Łomża',
+	tel:'86 216 52 61, 85 216 52 65',
+	email:'',
+	www:'',
+	psse:'',
+    gsse:'',
+	tag: 'podlaskie, Białystok, Łomża'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Mońkach',
+	adres:'ul. Tysiaclecia 5, 19-100 Mońki',
+	tel:'85 716 26 17',
+	email:'',
+	www:'',
+	psse:'',
+    gsse:'',
+	tag: 'podlaskie, Białystok, Mońki'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sejnach',
+	adres:'ul. Dr Edwarda Rittlera 2, 16-500 Sejny',
+	tel:'87 517 33 50',
+	email:'',
+	www:'',
+	psse:'',
+    gsse:'',
+	tag: 'podlaskie, Białystok, Sejny'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Siemiatyczach',
+	adres:'ul. Kościuszki 36, 17-300 Siemiatycze',
+	tel:'85 656 04 36',
+	email:'',
+	www:'',
+	psse:'',
+    gsse:'',
+	tag: 'podlaskie, Białystok, Siemiatycze'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sokółce',
+	adres:'ul. 1-go Maja 13A | 16-100 Sokółka',
+	tel:'85 711 36 25',
+	email:'',
+	www:'',
+	psse:'',
+    gsse:'',
+	tag: 'podlaskie, Białystok, Sokółka'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Suwałkach',
+	adres:'ul. Utrata 9a, 16-400 Suwałki',
+	tel:'87 565 28 60',
+	email:'',
+	www:'',
+	psse:'',
+    gsse:'',
+	tag: 'podlaskie, Białystok, Suwałki'
+},
+{
+	title:'Graniczna Stacja Sanitarno-Epidemiologiczna w Suwałkach',
+	adres:'ul. Utrata 9a, 16-400 Suwałki',
+	tel:'87 566 32 75',
+	email:'',
+	www:'',
+	psse:'',
+    gsse:'',
+	tag: 'podlaskie, Białystok, Suwałki'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wysokiem Mazowieckiem',
+	adres:'ul. 1 Maja 9, 18-200 Wysokie Mazowieckie',
+	tel:'86 275 25 85, 85 275 25 91',
+	email:'',
+	www:'',
+	psse:'',
+    gsse:'',
+	tag: 'podlaskie, Białystok, Wysokie Mazowieckie'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Zambrowie',
+	adres:'ul. Obrońców Zambrowa 50, 18-300 Zambrów',
+	tel:'86 276 30 70',
+	email:'',
+	www:'',
+	psse:'',
+    gsse:'',
+	tag: 'podlaskie, Białystok, Zambrów'
 }
+
+
 
 ];
 
 export { Sanepid };
+
