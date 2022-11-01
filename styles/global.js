@@ -5,6 +5,9 @@ export const styles = StyleSheet.create({
      flex: 1,
      backgroundColor: "#000",
     },
+    button: {
+      margin:5,
+    },
    input: {
     height: 40,
     margin: 12,
@@ -52,7 +55,7 @@ export const styles = StyleSheet.create({
 
     tabs_subtitle: {
     padding: 1,
-    textAlign: "justify",
+    // textAlign: "justify",
     color: "#F5F5DC",
     fontSize: 17,
     fontFamily: "sans-serif-light",
@@ -74,12 +77,25 @@ export const styles = StyleSheet.create({
     fontFamily: "sans-serif-light",
    },
    surface: {
-    padding: 5,
+    padding: 10,
     justifyContent: 'center',
-    borderRadius: 5,
-    margin: 1,
+    borderRadius: 15,
+    margin: 5,
+    justifyContent: "center",
     backgroundColor: "#2f2f2f",
+    borderColor: "#fff",
+    // borderWidth: 0.8,
+    
     },
+
+    text_surface: {
+      justifyContent: 'center',
+      alignContent: 'center',
+      color: "#fff",
+      fontSize: 17,
+      fontFamily: "Roboto",
+      },
+
     quotes: {
     padding: 10,
     textAlign: "justify",

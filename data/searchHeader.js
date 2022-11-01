@@ -44,7 +44,7 @@ const Header = ({onSearch}) => {
           }}
         >
         <TextInput
-          placeholder="Szukaj"
+          placeholder="szukaj: województwo, miasto"
           placeholderfontSize="16"
           onChangeText={onSearch}
           style={{ flex: 1, fontSize:16, fontFamily:"Roboto"}} 
@@ -70,7 +70,7 @@ const Header = ({onSearch}) => {
           }}
         >
         <TextInput
-          placeholder="Szukaj"
+          placeholder="szukaj: województwo, miasto"
           placeholderfontSize="16"
           onChangeText={onSearch}
           style={{ flex: 1, fontSize:16, fontFamily:"Roboto"}} 

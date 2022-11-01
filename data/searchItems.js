@@ -36,16 +36,17 @@ const RenderItem_s1 = ({ data }) => {
     return (  
         <ScrollView > 
         <Surface style={styles.surface} elevation={2}>
-            <Text style={styles.tabs_text}>{data.title}</Text>
-            <Text style={styles.tabs_text}>adres:  {data.adres}</Text>
-            <TouchableWithoutFeedback style={styles.button} onPress={() => {
+            <Text style={styles.text_surface}>{data.title}</Text>
+            <Text style={styles.tabs_subtitle}>adres:  {data.adres}</Text>
+            <Text style={styles.tabs_subtitle}>epuap:  {data.epuap}</Text>
+            <TouchableWithoutFeedback icon="phone"style={styles.tabs_text} onPress={() => {
                 call(args).catch(console.error);
             }}> 
-            <Text style={styles.tabs_text}>tel.:  {data.tel}</Text>
+            <Text style={styles.tabs_subtitle}>tel.:  {data.tel}</Text>
             </TouchableWithoutFeedback>
-            <Text style={styles.tabs_text}>email:  {data.email}</Text>
-            <Text style={styles.tabs_text}>www:  <A href={data.www}>{data.www}</A></Text>
-            <Text style={styles.tabs_text}>epuap:  {data.epuap}</Text>
+            <Text style={styles.tabs_subtitle}>email:  {data.email}</Text>
+            <Text style={styles.tabs_subtitle}>www:  <A href={data.www}>{data.www}</A></Text>
+            
         </Surface>
         </ScrollView>
     );
@@ -63,17 +64,17 @@ const RenderItem_s2 = ({ data }) => {
         <ScrollView > 
 
         <Surface style={styles.surface} elevation={2}>
-            <Text style={styles.tabs_text}>{data.title}</Text>
-            <Text style={styles.tabs_text}>{data.adres}</Text>
-            <TouchableWithoutFeedback style={styles.button} onPress={() => {
+            <Text style={styles.text_surface}>{data.title}</Text>
+            <Text style={styles.tabs_subtitle}>{data.adres}</Text>
+            <TouchableWithoutFeedback style={styles.tabs_text} onPress={() => {
                 call(args).catch(console.error);
             }}> 
-            <Text style={styles.tabs_text}>tel.:  {data.tel}</Text>
+            <Text style={styles.tabs_subtitle}>tel.:  {data.tel}</Text>
             </TouchableWithoutFeedback>
-            <Text style={styles.tabs_text}>email:  {data.email}</Text>
-            <Text style={styles.tabs_text}>www:  <A href={data.www}>{data.www}</A></Text>
-            <Text style={styles.tabs_text}>PSSE:  {data.psse}</Text>
-            <Text style={styles.tabs_text}>GSSE:  {data.gsse}</Text>
+            <Text style={styles.tabs_subtitle}>email:  {data.email}</Text>
+            <Text style={styles.tabs_subtitle}>www:  <A href={data.www}>{data.www}</A></Text>
+            {/* <Text style={styles.tabs_subtitle}>PSSE:  {data.psse}</Text>
+            <Text style={styles.tabs_subtitle}>GSSE:  {data.gsse}</Text> */}
         </Surface>
 
         </ScrollView>
