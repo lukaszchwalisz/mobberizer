@@ -8,9 +8,9 @@ const Sanepid = [
 	tel:'(85) 740 85 40',
 	email:'wsse.bialystok@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/wsse-bialystok',
-	psse:'Augustów, Białystok, Bielsk Podlaski,Grajewo,Hajnówka,Kolno,Łomża, Mońki, Sejny, Siemiatycze, Sokółka, Suwałki, Wysokie Mazowieckie, Zambrów',
+	psse:'Augustów, Białystok, Bielsk Podlaski, Grajewo, Hajnówka, Kolno, Łomża, Mońki, Sejny, Siemiatycze, Sokółka, Suwałki, Wysokie Mazowieckie, Zambrów',
     gsse:'Suwałki',
-	tag: 'podlaskie, Augustów, Białystok, Bielsk Podlaski,Grajewo,Hajnówka,Kolno,Łomża, Mońki, Sejny, Siemiatycze, Sokółka, Suwałki, Wysokie Mazowieckie, Zambrósw',
+	tag: 'podlaskie, Augustów, Białystok, Bielsk Podlaski, Grajewo, Hajnówka, Kolno, Łomża, Mońki, Sejny, Siemiatycze, Sokółka, Suwałki, Wysokie Mazowieckie, Zambrósw',
 },
 {
 	title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Bydgoszczy',
