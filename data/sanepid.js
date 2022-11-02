@@ -10,7 +10,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/wsse-bialystok',
 	psse:'Augustów, Białystok, Bielsk Podlaski, Grajewo, Hajnówka, Kolno, Łomża, Mońki, Sejny, Siemiatycze, Sokółka, Suwałki, Wysokie Mazowieckie, Zambrów',
     gsse:'Suwałki',
-	tag: 'podlaskie, Augustów, Białystok, Bielsk Podlaski, Grajewo, Hajnówka, Kolno, Łomża, Mońki, Sejny, Siemiatycze, Sokółka, Suwałki, Wysokie Mazowieckie, Zambrósw',
+	tag: 'podlaskie, Białystok, Augustów, Bielsk Podlaski, Grajewo, Hajnówka, Kolno, Łomża, Mońki, Sejny, Siemiatycze, Sokółka, Suwałki, Wysokie Mazowieckie, Zambrósw',
 },
 {
 	title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Bydgoszczy',
@@ -20,7 +20,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/wsse-bydgoszcz',
 	psse:'Aleksandrów Kujawski, Brodnica, Bydgoszcz, Chełmno, Golub Dobrzyń, Grudziądz, Inowrocław, Lipno, Mogilno, Nakło nad Notecią, Radziejów, Rypin, Sępólno Krajeńskie, Świecie, Toruń, Tuchola, Wąbrzeźno, Włocławek, Żnin',
     gsse:'',
-	tag: 'kujawsko-pomorskie, Aleksandrów Kujawski, Brodnica, Bydgoszcz, Chełmno, Golub Dobrzyń, Grudziądz, Inowrocław, Lipno, Mogilno, Nakło nad Notecią, Radziejów, Rypin, Sępólno Krajeńskie, Świecie, Toruń, Tuchola, Wąbrzeźno, Włocławek, Żnin',
+	tag: 'kujawsko-pomorskie, Bydgoszcz, Aleksandrów Kujawski, Brodnica, Chełmno, Golub Dobrzyń, Grudziądz, Inowrocław, Lipno, Mogilno, Nakło nad Notecią, Radziejów, Rypin, Sępólno Krajeńskie, Świecie, Toruń, Tuchola, Wąbrzeźno, Włocławek, Żnin',
 },
 {
 	title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Gdańsku',
@@ -30,7 +30,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/wsse-gdansk',
 	psse:'Bytów, Chojnice, Człuchów, Gdańsk, Gdynia, Kartuzy, Kościerzyna, Kwidzyń, Lębork, Malbork, Nowy Dwór Gdański, Pruszcz Gdański, Puck, Słupsk, Sopot, Starogard Gdański, Tczew, Wejherowo, Gdynia, Ustka',
     gsse:'Gdynia, Ustka',
-	tag: 'pomorskie, Bytów, Chojnice, Człuchów, Gdańsk, Gdynia, Kartuzy, Kościerzyna, Kwidzyń, Lębork, Malbork, Nowy Dwór Gdański, Pruszcz Gdański, Puck, Słupsk, Sopot, Starogard Gdański, Tczew, Wejherowo, Gdynia, Ustka',
+	tag: 'pomorskie, Gdańsk, Bytów, Chojnice, Człuchów, Gdynia, Kartuzy, Kościerzyna, Kwidzyń, Lębork, Malbork, Nowy Dwór Gdański, Pruszcz Gdański, Puck, Słupsk, Sopot, Starogard Gdański, Tczew, Wejherowo, Gdynia, Ustka',
 },
 {
 	title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Gorzowie Wlkp.',
@@ -40,7 +40,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/wsse-gorzowwlkp',
 	psse:'Drezdenko, Gorzów Wlkp, Krosno Obrzańskie, Międzyrzecz, Nowa Sól, Słubice, Sulęcin, Świebodzin, Zielona Góra, Żagań, Żary',
     gsse:'',
-	tag: 'lubuskie, Drezdenko, Gorzów Wlkp, Krosno Obrzańskie, Międzyrzecz, Nowa Sól, Słubice, Sulęcin, Świebodzin, Zielona Góra, Żagań, Żary',
+	tag: 'lubuskie, Gorzów Wlkp, Drezdenko, Krosno Obrzańskie, Międzyrzecz, Nowa Sól, Słubice, Sulęcin, Świebodzin, Zielona Góra, Żagań, Żary',
 },
 {
 	title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Katowicach',
@@ -50,7 +50,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/wsse-katowice',
 	psse:'Bielsko-Biała, Bytom, Chorzów, Cieszyn, Częstochowa, Dąbrowa Górnicza, Gliwice, Jaworzno, Katowice, Kłobuck, Lubliniec, Myszków, Racibórz, Ruda Śląska, Rybnik, Sosnowiec, Tychy, Wodzisław Śląski, Zawiercie, Żywiec',
     gsse:'',
-	tag: 'śląskie, Bielsko-Biała, Bytom, Chorzów, Cieszyn, Częstochowa, Dąbrowa Górnicza, Gliwice, Jaworzno, Katowice, Kłobuck, Lubliniec, Myszków, Racibórz, Ruda Śląska, Rybnik, Sosnowiec, Tychy, Wodzisław Śląski, Zawiercie, Żywiec ',
+	tag: 'śląskie, Katowice, Bielsko-Biała, Bytom, Chorzów, Cieszyn, Częstochowa, Dąbrowa Górnicza, Gliwice, Jaworzno, Kłobuck, Lubliniec, Myszków, Racibórz, Ruda Śląska, Rybnik, Sosnowiec, Tychy, Wodzisław Śląski, Zawiercie, Żywiec ',
 },
 {
 	title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Kielcach',
@@ -60,7 +60,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/wsse-kielce',
 	psse:'Busko Zdrój, Jędrzejów, Kielce, Końskie, Opatów, Ostrowiec Świętokrzyski, Sandomierz, Skarżysko Kamienna, Starachowice, Staszów, Włoszczowa',
     gsse:'',
-	tag: 'świętokrzyskie, Busko Zdrój, Jędrzejów, Kielce, Końskie, Opatów, Ostrowiec Świętokrzyski, Sandomierz, Skarżysko Kamienna, Starachowice, Staszów, Włoszczowa',
+	tag: 'świętokrzyskie, Kielce, Busko Zdrój, Jędrzejów, Końskie, Opatów, Ostrowiec Świętokrzyski, Sandomierz, Skarżysko Kamienna, Starachowice, Staszów, Włoszczowa',
 },
 {
 	title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Krakowie',
@@ -70,7 +70,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/wsse-krakow',
 	psse:'Bochnia, Brzesko, Chrzanów, Dąbrowa Tarnowska, Gorlice, Kraków, Limanowa, Miechów, Myślenice, Nowy Sącz, Nowy Targ, Olkusz, Oświęcim, Proszowice, Sucha Beskidzka, Tarnów, Wadowice, Wieliczka, Zakopane',
     gsse:'',
-	tag: 'małopolskie, Bochnia, Brzesko, Chrzanów, Dąbrowa Tarnowska, Gorlice, Kraków, Limanowa, Miechów, Myślenice, Nowy Sącz, Nowy Targ, Olkusz, Oświęcim, Proszowice, Sucha Beskidzka, Tarnów, Wadowice, Wieliczka, Zakopane ',
+	tag: 'małopolskie, Kraków, Bochnia, Brzesko, Chrzanów, Dąbrowa Tarnowska, Gorlice, Limanowa, Miechów, Myślenice, Nowy Sącz, Nowy Targ, Olkusz, Oświęcim, Proszowice, Sucha Beskidzka, Tarnów, Wadowice, Wieliczka, Zakopane ',
 },
 {
 	title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Lublinie',
@@ -80,7 +80,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/wsse-lublin',
 	psse:'Biała Podlaska, Biłgoraj, Chełm, Hrubieszów, Janów Lubelski, Krasnysław, Kraśnik, Lubartów, Lublin, Łęczna, Łuków, Opole Lubelskie, Parczew, Puławy, Radzyń Podlaski, Ryki, Świdnik, Tomaszów Lubelski, Włodawa, Zamość',
     gsse:'Koroszczyn, Dorohusk, Hrebenne',
-	tag: 'lubelskie, Biała Podlaska, Biłgoraj, Chełm, Hrubieszów, Janów Lubelski, Krasnysław, Kraśnik, Lubartów, Lublin, Łęczna, Łuków, Opole Lubelskie, Parczew, Puławy, Radzyń Podlaski, Ryki, Świdnik, Tomaszów Lubelski, Włodawa, Zamość, Koroszczyn, Dorohusk, Hrebenne',
+	tag: 'lubelskie, Lublin, Biała Podlaska, Biłgoraj, Chełm, Hrubieszów, Janów Lubelski, Krasnysław, Kraśnik, Lubartów, Łęczna, Łuków, Opole Lubelskie, Parczew, Puławy, Radzyń Podlaski, Ryki, Świdnik, Tomaszów Lubelski, Włodawa, Zamość, Koroszczyn, Dorohusk, Hrebenne',
 },
 {
 	title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Łodzi',
@@ -90,7 +90,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/wsse-lodz',
 	psse:'Bełchatów, Brzeziny, Kutno, Łask, Łęczyca, Łódź, Łowicz, Opoczno, Pabianice, Pajęczno, Piotrków Trybunalski, Poddębice, Radomsko, Rawa Mazowiecka, Sieradz, Skierniewice, Tomaszów Mazowiecki, Wieluń, Wieruszów, Zduńska Wola, Zgierz',
     gsse:'',
-	tag: 'łódzkie, Bełchatów, Brzeziny, Kutno, Łask, Łęczyca, Łódź, Łowicz, Opoczno, Pabianice, Pajęczno, Piotrków Trybunalski, Poddębice, Radomsko, Rawa Mazowiecka, Sieradz, Skierniewice, Tomaszów Mazowiecki, Wieluń, Wieruszów, Zduńska Wola, Zgierz',
+	tag: 'łódzkie, Łódź, Bełchatów, Brzeziny, Kutno, Łask, Łęczyca, Łowicz, Opoczno, Pabianice, Pajęczno, Piotrków Trybunalski, Poddębice, Radomsko, Rawa Mazowiecka, Sieradz, Skierniewice, Tomaszów Mazowiecki, Wieluń, Wieruszów, Zduńska Wola, Zgierz',
 },
 {
 	title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Olsztynie',
@@ -100,7 +100,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/wsse-olsztyn',
 	psse:'Bartoszyce, Braniewo, Działdowo, Elbląg, Ełk, Giżycko, Gołdap, Iława, Kętrzyn, Lidzbark Warmiński, Mrągowo, Nidzica, Nowa Miasto Lubawskie, Olecko, Olsztyn, Ostróda, Pisz, Szczytno, Węgorzewo',
     gsse:'Elbląg',
-	tag: 'warmińsko-mazurskie, Bartoszyce, Braniewo, Działdowo, Elbląg, Ełk, Giżycko, Gołdap, Iława, Kętrzyn, Lidzbark Warmiński, Mrągowo, Nidzica, Nowa Miasto Lubawskie, Olecko, Olsztyn, Ostróda, Pisz, Szczytno, Węgorzewo ',
+	tag: 'warmińsko-mazurskie, Olsztyn, Bartoszyce, Braniewo, Działdowo, Elbląg, Ełk, Giżycko, Gołdap, Iława, Kętrzyn, Lidzbark Warmiński, Mrągowo, Nidzica, Nowa Miasto Lubawskie, Olecko, Ostróda, Pisz, Szczytno, Węgorzewo ',
 },
 {
 	title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Opolu',
@@ -110,7 +110,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/wsse-opole',
 	psse:'Brzeg, Głubczyce, Kędzierzyn-Koźle, Kluczbork, Krapkowice, Namysłów, Nysa, Olesno, Opole, Prudnik, Strzelce Opolskie',
     gsse:'',
-	tag: 'opolskie, Brzeg, Głubczyce, Kędzierzyn-Koźle, Kluczbork, Krapkowice, Namysłów, Nysa, Olesno, Opole, Prudnik, Strzelce Opolskie',
+	tag: 'opolskie, Opole, Brzeg, Głubczyce, Kędzierzyn-Koźle, Kluczbork, Krapkowice, Namysłów, Nysa, Olesno, Prudnik, Strzelce Opolskie',
 },
 {
 	title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Poznaniu',
@@ -120,7 +120,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/wsse-poznan',
 	psse:'Chodzież, Czarnków, Gniezno, Gostyń, Grodzisk Wielkopolski, Jarocin, Kalisz, Kępno, Koło, Konin, Kościan, Krotoszyn, Leszno, Mięszychód, Nowy Tomyśl, Oborniki, Ostrów Wielkopolski, Ostrzeszów, Piła, Pleszew, Poznań, Rawicz, Słupca, Szamotuły, Śrem, Środa Wielkopolska, Turek, Wągrowiec, Wolsztyn, Września, Złotów',
     gsse:'',
-	tag: 'wielkopolskie, Chodzież, Czarnków, Gniezno, Gostyń, Grodzisk Wielkopolski, Jarocin, Kalisz, Kępno, Koło, Konin, Kościan, Krotoszyn, Leszno, Mięszychód, Nowy Tomyśl, Oborniki, Ostrów Wielkopolski, Ostrzeszów, Piła, Pleszew, Poznań, Rawicz, Słupca, Szamotuły, Śrem, Środa Wielkopolska, Turek, Wągrowiec, Wolsztyn, Września, Złotów ',
+	tag: 'wielkopolskie, Poznań, Chodzież, Czarnków, Gniezno, Gostyń, Grodzisk Wielkopolski, Jarocin, Kalisz, Kępno, Koło, Konin, Kościan, Krotoszyn, Leszno, Mięszychód, Nowy Tomyśl, Oborniki, Ostrów Wielkopolski, Ostrzeszów, Piła, Pleszew, Rawicz, Słupca, Szamotuły, Śrem, Środa Wielkopolska, Turek, Wągrowiec, Wolsztyn, Września, Złotów ',
 },
 {
 	title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Rzeszowie',
@@ -130,7 +130,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/wsse-rzeszow',
 	psse:'Brzozów, Dębica, Jarosław, Jasło, Kolbuszowa, Krosno, Leżajsk, Lubaszów, Łańcut, Mielec, Nisko, Przeworsk, Ropczyce, Przemyśl, Rzeszów, Sanok, Stalowa Wola, Strzyżow, Tarnobrzeg, Ustrzyki Dolne',
     gsse:'Przemyśl',
-	tag: 'podkarpackie, Brzozów, Dębica, Jarosław, Jasło, Kolbuszowa, Krosno, Leżajsk, Lubaszów, Łańcut, Mielec, Nisko, Przeworsk, Ropczyce, Przemyśl, Rzeszów, Sanok, Stalowa Wola, Strzyżow, Tarnobrzeg, Ustrzyki Dolne ',
+	tag: 'podkarpackie, Rzeszów, Brzozów, Dębica, Jarosław, Jasło, Kolbuszowa, Krosno, Leżajsk, Lubaszów, Łańcut, Mielec, Nisko, Przeworsk, Ropczyce, Przemyśl, Sanok, Stalowa Wola, Strzyżow, Tarnobrzeg, Ustrzyki Dolne ',
 },
 {
 	title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Szczecinie',
@@ -140,7 +140,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/wsse-szczecin',
 	psse:'Białogard, Choszczno, Drawsko Pomorskie, Goleniów, Gryfice, Gryfino, Kamień Pomorski, Kołobrzeg, Koszalin, Łobez Myslibórz, Police, Pyrzyce, Sławno, Stargard, Szczecin, Szczecinek, Świdwin, Świnoujście, Wałcz',
     gsse:'',
-	tag: 'zachodniopomorskie, Białogard, Choszczno, Drawsko Pomorskie, Goleniów, Gryfice, Gryfino, Kamień Pomorski, Kołobrzeg, Koszalin, Łobez Myslibórz, Police, Pyrzyce, Sławno, Stargard, Szczecin, Szczecinek, Świdwin, Świnoujście, Wałcz',
+	tag: 'zachodniopomorskie, Szczecin, Białogard, Choszczno, Drawsko Pomorskie, Goleniów, Gryfice, Gryfino, Kamień Pomorski, Kołobrzeg, Koszalin, Łobez Myslibórz, Police, Pyrzyce, Sławno, Stargard, Szczecinek, Świdwin, Świnoujście, Wałcz',
 },
 {
 	title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Warszawie',
@@ -150,7 +150,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/wsse-warszawa',
 	psse:'Białobrzegi, Ciechanów, Garwolin, Gostynin, Grodzisk Mazowiecki, Grójec, Kozienice, Legionowo, Lipsko, Łosice, Maków Mazowiecki, Mińsk Mazowiecki, Mława, Nowy Dwór Mazowiecki, Ostrołęka, Ostrów Mazowiecka, Otwock, Piaseczno, Płock, Płońsk, Pruszczków, Przasnysz, Przysucha, Pułtusk, Radom, Siedlce, Sierpc, Sochaczew, Sokołów Podlaski, Szydłowiec, Warszawa, Warszawa Zachód (Ożarów Mazowiecki), Węgrów, Wołomin, Wyszków, Zwoleń, Żuromin, Żydardów',
     gsse:'Warszawa',
-	tag: 'mazowieckie, Białobrzegi, Ciechanów, Garwolin, Gostynin, Grodzisk Mazowiecki, Grójec, Kozienice, Legionowo, Lipsko, Łosice, Maków Mazowiecki, Mińsk Mazowiecki, Mława, Nowy Dwór Mazowiecki, Ostrołęka, Ostrów Mazowiecka, Otwock, Piaseczno, Płock, Płońsk, Pruszczków, Przasnysz, Przysucha, Pułtusk, Radom, Siedlce, Sierpc, Sochaczew, Sokołów Podlaski, Szydłowiec, Warszawa, Warszawa Zachód (Ożarów Mazowiecki), Węgrów, Wołomin, Wyszków, Zwoleń, Żuromin, Żydardów',
+	tag: 'mazowieckie, Warszawa, Białobrzegi, Ciechanów, Garwolin, Gostynin, Grodzisk Mazowiecki, Grójec, Kozienice, Legionowo, Lipsko, Łosice, Maków Mazowiecki, Mińsk Mazowiecki, Mława, Nowy Dwór Mazowiecki, Ostrołęka, Ostrów Mazowiecka, Otwock, Piaseczno, Płock, Płońsk, Pruszczków, Przasnysz, Przysucha, Pułtusk, Radom, Siedlce, Sierpc, Sochaczew, Sokołów Podlaski, Szydłowiec, Warszawa Zachód (Ożarów Mazowiecki), Węgrów, Wołomin, Wyszków, Zwoleń, Żuromin, Żydardów',
 },
 {
 	title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna we Wrocławiu',
@@ -160,7 +160,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/wsse-wroclaw',
 	psse:'Bolesławiec, Dzierżonów, Głogów, Góra, Jawor, Jelenia Góra, Kłodzko, Legnica, Lubań, Lublin, Lwówek Śląski, Milicz, Oleśnica, Oława, Polkowice, Strzelin, Środa Śląska, Świdnica, Trzebnica, Wałbrzych, Wołów, Wrocław, Ząbkowice Śląskie, Zgorzelec, Złotoryja',
     gsse:'',
-	tag: 'dolnośląskie, Bolesławiec, Dzierżonów, Głogów, Góra, Jawor, Jelenia Góra, Kłodzko, Legnica, Lubań, Lublin, Lwówek Śląski, Milicz, Oleśnica, Oława, Polkowice, Strzelin, Środa Śląska, Świdnica, Trzebnica, Wałbrzych, Wołów, Wrocław, Ząbkowice Śląskie, Zgorzelec, Złotoryja',
+	tag: 'dolnośląskie, Wrocław, Bolesławiec, Dzierżonów, Głogów, Góra, Jawor, Jelenia Góra, Kłodzko, Legnica, Lubań, Lublin, Lwówek Śląski, Milicz, Oleśnica, Oława, Polkowice, Strzelin, Środa Śląska, Świdnica, Trzebnica, Wałbrzych, Wołów, Ząbkowice Śląskie, Zgorzelec, Złotoryja',
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Augustowie',
@@ -170,7 +170,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-augustow',
 	psse:'',
     gsse:'',
-	tag: 'podlaskie, Białystok, Augustów'
+	tag: 'Augustów, podlaskie'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Białymstoku',
@@ -180,7 +180,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-bialystok',
 	psse:'',
     gsse:'',
-	tag: 'podlaskie, Białystok'
+	tag: 'Białystok, podlaskie'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Bielsku Podlaskim',
@@ -190,7 +190,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-bielsk-podlaski',
 	psse:'',
     gsse:'',
-	tag: 'podlaskie, Białystok, Bielsk Podlaski'
+	tag: 'Bielsk Podlaski, podlaskie'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Grajewie',
@@ -200,7 +200,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-grajewo',
 	psse:'',
     gsse:'',
-	tag: 'podlaskie, Białystok, Grajewo'
+	tag: 'Grajewo, podlaskie'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Hajnówce',
@@ -210,7 +210,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-hajnowka',
 	psse:'',
     gsse:'',
-	tag: 'podlaskie, Białystok, Hajnówka'
+	tag: 'Hajnówka, podlaskie'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kolnie',
@@ -220,7 +220,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-kolno',
 	psse:'',
     gsse:'',
-	tag: 'podlaskie, Białystok, Kolno'
+	tag: 'Kolno, podlaskie'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Łomży',
@@ -230,7 +230,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-lomza',
 	psse:'',
     gsse:'',
-	tag: 'podlaskie, Białystok, Łomża'
+	tag: 'Łomża, podlaskie'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Mońkach',
@@ -240,7 +240,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-monki',
 	psse:'',
     gsse:'',
-	tag: 'podlaskie, Białystok, Mońki'
+	tag: 'Mońki, podlaskie'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sejnach',
@@ -250,7 +250,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-sejny ',
 	psse:'',
     gsse:'',
-	tag: 'podlaskie, Białystok, Sejny'
+	tag: 'Sejny, podlaskie'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Siemiatyczach',
@@ -260,7 +260,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-siemiatycze',
 	psse:'',
     gsse:'',
-	tag: 'podlaskie, Białystok, Siemiatycze'
+	tag: 'Siemiatycze, podlaskie'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sokółce',
@@ -270,7 +270,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-sokolka',
 	psse:'',
     gsse:'',
-	tag: 'podlaskie, Białystok, Sokółka'
+	tag: 'Sokółka, podlaskie'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Suwałkach',
@@ -280,7 +280,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-suwalki',
 	psse:'',
     gsse:'',
-	tag: 'podlaskie, Białystok, Suwałki'
+	tag: 'Suwałki, podlaskie'
 },
 {
 	title:'Graniczna Stacja Sanitarno-Epidemiologiczna w Suwałkach',
@@ -290,7 +290,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/gsse-suwalki',
 	psse:'',
     gsse:'',
-	tag: 'podlaskie, Białystok, Suwałki'
+	tag: 'Suwałki, podlaskie'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wysokiem Mazowieckiem',
@@ -300,7 +300,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-wysokie-mazowieckie',
 	psse:'',
     gsse:'',
-	tag: 'podlaskie, Białystok, Wysokie Mazowieckie'
+	tag: 'Wysokie Mazowieckie, podlaskie'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Zambrowie',
@@ -310,7 +310,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-zambrow/',
 	psse:'',
     gsse:'',
-	tag: 'podlaskie, Białystok, Zambrów'
+	tag: 'Zambrów, podlaskie'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Białej Podlaskiej',
@@ -320,7 +320,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-biala-podlaska',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Biała Podlaska'
+	tag: 'lubelskie, Biała Podlaska'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Biłgoraju',
@@ -330,7 +330,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-bilgoraj',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Biłgoraj'
+	tag: 'lubelskie, Biłgoraj'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Chełmie',
@@ -340,7 +340,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-chelm',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Chełm'
+	tag: 'lubelskie, Chełm'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Hrubieszowie',
@@ -350,7 +350,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-hrubieszow',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Hrubieszów'
+	tag: 'lubelskie, Hrubieszów'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Janowie Lubelskim',
@@ -360,7 +360,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-janow-lubelski',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Janów Lubelski'
+	tag: 'lubelskie, Janów Lubelski'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Krasnymstawie',
@@ -370,7 +370,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-krasnystaw',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Krasnystaw'
+	tag: 'lubelskie, Krasnystaw'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kraśniku',
@@ -380,7 +380,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-krasnik',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Kraśnik'
+	tag: 'lubelskie, Kraśnik'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Lubartowie',
@@ -390,7 +390,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-lubartow',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Lubartów'
+	tag: 'lubelskie, Lubartów'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Lublinie',
@@ -410,7 +410,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-leczna',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Łęczna'
+	tag: 'lubelskie, Łęczna'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Łukowie',
@@ -420,7 +420,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-lukow',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Łuków'
+	tag: 'lubelskie, Łuków'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Opolu Lubelskim',
@@ -430,7 +430,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-opole-lubelskie',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Opole Lubelskie'
+	tag: 'lubelskie, Opole Lubelskie'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Parczewie',
@@ -440,7 +440,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-parczew',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Parczew'
+	tag: 'lubelskie, Parczew'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Puławach',
@@ -450,7 +450,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-pulawy',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Puławy'
+	tag: 'lubelskie, Puławy'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Radzyniu Podlaskim',
@@ -460,7 +460,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-radzyn-podlaski',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Radzyń Podlaski'
+	tag: 'lubelskie, Radzyń Podlaski'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Rykach',
@@ -470,7 +470,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-ryki',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Ryki'
+	tag: 'lubelskie, Ryki'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Świdniku',
@@ -480,7 +480,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-swidnik',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Świdnik'
+	tag: 'lubelskie, Świdnik'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Tomaszowie Lubelskim',
@@ -490,7 +490,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-tomaszow-lubelski',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Tomaszów Lubelski'
+	tag: 'lubelskie, Tomaszów Lubelski'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna we Włodawie',
@@ -500,7 +500,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-wlodawa',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Włodawa'
+	tag: 'lubelskie, Włodawa'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Zamościu',
@@ -510,7 +510,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-zamosc',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Zamość'
+	tag: 'lubelskie, Zamość'
 },
 {
 	title:'Graniczna Stacja Sanitarno-Epidemiologiczna w Dorohusku',
@@ -520,7 +520,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/gsse-dorohusk',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Dorohusk'
+	tag: 'lubelskie, Dorohusk'
 },
 {
 	title:'Graniczna Stacja Sanitarno-Epidemiologiczna w Hrebennem',
@@ -530,7 +530,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/gsse-hrebenne',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Lubycza Królewska, Hrebenne'
+	tag: 'lubelskie, Lubycza Królewska, Hrebenne'
 },
 {
 	title:'Graniczna Stacja Sanitarno-Epidemiologiczna w Koroszczynie',
@@ -540,7 +540,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/gsse-koroszczyn',
 	psse:'',
     gsse:'',
-	tag: 'lubelskie, Lublin, Terespol'
+	tag: 'lubelskie, Terespol'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Brzozowie',
@@ -550,7 +550,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-brzozow',
 	psse:'',
     gsse:'',
-	tag: 'podkarpackie, Rzeszów, Brzozów'
+	tag: 'podkarpackie, Brzozów'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Dębicy',
@@ -560,7 +560,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-debica',
 	psse:'',
     gsse:'',
-	tag: 'podkarpackie, Rzeszów, Dębica'
+	tag: 'podkarpackie, Dębica'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Jarosławiu',
@@ -570,7 +570,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-jaroslaw',
 	psse:'',
     gsse:'',
-	tag: 'podkarpackie, Rzeszów, Jarosław'
+	tag: 'podkarpackie, Jarosław'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Jaśle',
@@ -580,7 +580,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-jaslo',
 	psse:'',
     gsse:'',
-	tag: 'podkarpackie, Rzeszów, Jasło'
+	tag: 'podkarpackie, Jasło'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kolbuszowej',
@@ -590,7 +590,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-kolbuszowa',
 	psse:'',
     gsse:'',
-	tag: 'podkarpackie, Rzeszów, Kolbuszowa'
+	tag: 'podkarpackie, Kolbuszowa'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Krośnie',
@@ -600,7 +600,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-krosno',
 	psse:'',
     gsse:'',
-	tag: 'podkarpackie, Rzeszów, Krosno'
+	tag: 'podkarpackie, Krosno'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Leżajsku',
@@ -610,7 +610,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-lezajsk',
 	psse:'',
     gsse:'',
-	tag: 'podkarpackie, Rzeszów, Leżajsk'
+	tag: 'podkarpackie, Leżajsk'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Lubaczowie',
@@ -620,7 +620,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-lubaczow',
 	psse:'',
     gsse:'',
-	tag: 'podkarpackie, Rzeszów, Lubaczów'
+	tag: 'podkarpackie, Lubaczów'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Łańcucie',
@@ -630,7 +630,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-lancut',
 	psse:'',
     gsse:'',
-	tag: 'podkarpackie, Rzeszów, Łańcut'
+	tag: 'podkarpackie, Łańcut'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Mielcu',
@@ -640,7 +640,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-mielec',
 	psse:'',
     gsse:'',
-	tag: 'podkarpackie, Rzeszów, Mielec'
+	tag: 'podkarpackie, Mielec'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Nisku',
@@ -650,7 +650,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-nisko',
 	psse:'',
     gsse:'',
-	tag: 'podkarpackie, Rzeszów, Nisko'
+	tag: 'podkarpackie, Nisko'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Przemyślu',
@@ -660,7 +660,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-przemysl',
 	psse:'',
     gsse:'',
-	tag: 'podkarpackie, Rzeszów, Przemyśl'
+	tag: 'podkarpackie, Przemyśl'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Przeworsku',
@@ -670,7 +670,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-przeworsk',
 	psse:'',
     gsse:'',
-	tag: 'podkarpackie, Rzeszów, Przeworsk'
+	tag: 'podkarpackie, Przeworsk'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Ropczycach',
@@ -680,7 +680,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-ropczyce',
 	psse:'',
     gsse:'',
-	tag: 'podkarpackie, Rzeszów, Ropczyce'
+	tag: 'podkarpackie, Ropczyce'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Rzeszowie',
@@ -700,7 +700,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-sanok',
 	psse:'',
     gsse:'',
-	tag: 'podkarpackie, Rzeszów, Sanok'
+	tag: 'podkarpackie, Sanok'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Stalowej Woli',
@@ -710,7 +710,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-stalowa-wola',
 	psse:'',
     gsse:'',
-	tag: 'podkarpackie, Rzeszów, Stalowa Wola'
+	tag: 'podkarpackie, Stalowa Wola'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Strzyżowie',
@@ -720,7 +720,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-strzyzow',
 	psse:'',
     gsse:'',
-	tag: 'podkarpackie, Rzeszów, Strzyżów'
+	tag: 'podkarpackie, Strzyżów'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Tarnobrzegu',
@@ -730,7 +730,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-tarnobrzeg',
 	psse:'',
     gsse:'',
-	tag: 'podkarpackie, Rzeszów, Tarnobrzeg'
+	tag: 'podkarpackie, Tarnobrzeg'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Ustrzykach Dolnych',
@@ -740,7 +740,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-ustrzyki-dolne',
 	psse:'',
     gsse:'',
-	tag: 'podkarpackie, Rzeszów, Ustrzyki Dolne'
+	tag: 'podkarpackie, Ustrzyki Dolne'
 },
 {
 	title:'Graniczna Stacja Sanitarno-Epidemiologiczna w Przemyślu',
@@ -750,7 +750,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/gsse-przemysl',
 	psse:'',
     gsse:'',
-	tag: 'podkarpackie, Rzeszów, Przemyśl'
+	tag: 'podkarpackie, Przemyśl'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Białobrzegach',
@@ -760,7 +760,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-bialobrzeg',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Białobrzegi'
+	tag: 'mazowieckie, Białobrzegi'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Ciechanowie',
@@ -770,7 +770,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-ciechanow',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Ciechanów'
+	tag: 'mazowieckie, Ciechanów'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Garwolinie',
@@ -780,7 +780,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-garwolin',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Garwolin'
+	tag: 'mazowieckie, Garwolin'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Gostyninie',
@@ -790,7 +790,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-gostynin',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Gostynin'
+	tag: 'mazowieckie, Gostynin'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Grodzisku Mazowieckim',
@@ -800,7 +800,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-grodzisk-mazowiecki',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Grodzisk Mazowiecki'
+	tag: 'mazowieckie, Grodzisk Mazowiecki'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Grójcu',
@@ -810,7 +810,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-grojec',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Grójec'
+	tag: 'mazowieckie, Grójec'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kozienicach',
@@ -820,7 +820,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-kozienice',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Kozienice'
+	tag: 'mazowieckie, Kozienice'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Legionowie',
@@ -830,7 +830,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-legionowo',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Legionowo'
+	tag: 'mazowieckie, Legionowo'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Lipsku',
@@ -840,7 +840,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-lipsko',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Lipsko'
+	tag: 'mazowieckie, Lipsko'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Łosicach',
@@ -850,7 +850,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-losice',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Łosicach'
+	tag: 'mazowieckie, Łosicach'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Warszawie',
@@ -870,7 +870,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-makow-mazowiecki',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Maków Mazowiecki'
+	tag: 'mazowieckie, Maków Mazowiecki'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Mińsku Mazowieckim',
@@ -880,7 +880,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-minsk-mazowiecki',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Mińsk Mazowiecki'
+	tag: 'mazowieckie, Mińsk Mazowiecki'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Mławie',
@@ -890,7 +890,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-mlawa',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Mława'
+	tag: 'mazowieckie, Mława'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Nowym Dworze Mazowieckim',
@@ -900,7 +900,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-nowy-dwor-mazowiecki',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Nowy Dwór Mazowiecki'
+	tag: 'mazowieckie, Nowy Dwór Mazowiecki'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Ostrołęce',
@@ -910,7 +910,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-ostroleka',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Ostrołęka'
+	tag: 'mazowieckie, Ostrołęka'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Ostrowi Mazowieckiej',
@@ -920,7 +920,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-ostrow-mazowiecka',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Ostrów Mazowiecka'
+	tag: 'mazowieckie, Ostrów Mazowiecka'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Otwocku',
@@ -930,7 +930,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-otwock',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Otwock'
+	tag: 'mazowieckie, Otwock'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Piasecznie z siedzibą w Chylicach',
@@ -940,7 +940,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-piaseczno',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Piaseczno, Chylice'
+	tag: 'mazowieckie, Piaseczno, Chylice'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Płocku',
@@ -950,7 +950,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-plock',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Płock'
+	tag: 'mazowieckie, Płock'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Płońsku',
@@ -960,7 +960,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-plonsk',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Płock'
+	tag: 'mazowieckie, Płońsk'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Pruszkowie',
@@ -970,7 +970,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-pruszkow',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Pruszków'
+	tag: 'mazowieckie, Pruszków'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Przasnyszu',
@@ -980,7 +980,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-prasnysz',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Przasnysz'
+	tag: 'mazowieckie, Przasnysz'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Przysusze',
@@ -990,7 +990,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-przysucha',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Przysucha'
+	tag: 'mazowieckie, Przysucha'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Pułtusku',
@@ -1000,7 +1000,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-pultusk',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Pułtusk'
+	tag: 'mazowieckie, Pułtusk'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Radomiu',
@@ -1010,7 +1010,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-radom',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Radom'
+	tag: 'mazowieckie, Radom'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Siedlcach',
@@ -1020,7 +1020,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-siedlce',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Siedlce'
+	tag: 'mazowieckie, Siedlce'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sierpcu',
@@ -1030,7 +1030,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-sierpc',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Sierpc'
+	tag: 'mazowieckie, Sierpc'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sochaczewie',
@@ -1040,7 +1040,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-sochaczew',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Sochaczew'
+	tag: 'mazowieckie, Sochaczew'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sokołowie Podlaskim',
@@ -1050,7 +1050,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-sokolow-podlaski',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Sokołów Podlaski'
+	tag: 'mazowieckie, Sokołów Podlaski'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Szydłowcu',
@@ -1060,7 +1060,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-szydlowiec',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Szydłowiec'
+	tag: 'mazowieckie, Szydłowiec'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna Warszawa Zachód',
@@ -1070,7 +1070,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-ozarow-mazowiecki',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Ożarów Mazowiecki'
+	tag: 'mazowieckie, Ożarów Mazowiecki'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Węgrowie',
@@ -1080,7 +1080,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-wegrow',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Węgrów'
+	tag: 'mazowieckie, Węgrów'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wołominie',
@@ -1090,7 +1090,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-wolomin',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Wołomin'
+	tag: 'mazowieckie, Wołomin'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wyszkowie',
@@ -1100,7 +1100,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-wyszkow',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Wyszków'
+	tag: 'mazowieckie, Wyszków'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Zwoleniu',
@@ -1110,7 +1110,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-zwolen',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Zwoleń'
+	tag: 'mazowieckie, Zwoleń'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Żurominie',
@@ -1120,7 +1120,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-zuromim',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Żuromin'
+	tag: 'mazowieckie, Żuromin'
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Żyrardowie',
@@ -1130,7 +1130,7 @@ const Sanepid = [
 	www:'https://www.gov.pl/web/psse-zyrardow',
 	psse:'',
     gsse:'',
-	tag: 'mazowieckie, Warszawa, Żyrardów'
+	tag: 'mazowieckie, Żyrardów'
 },
 {
 	title:'Graniczna Stacja Sanitarno-Epidemiologiczna w Warszawie',
