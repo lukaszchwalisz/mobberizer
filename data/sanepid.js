@@ -541,10 +541,220 @@ const Sanepid = [
 	psse:'',
     gsse:'',
 	tag: 'lubelskie, Lublin, Terespol'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Brzozowie',
+	adres:'ul. Moniuszki 17, 36-200 Brzozów ',
+	tel:'13 434 14 59',
+	email:'psse.brzozow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-brzozow',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów, Brzozów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Dębicy',
+	adres:'ul. Parkowa 2, 39-200 Dębica',
+	tel:'14 680 93 70',
+	email:'psse.debica@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-debica',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów, Dębica'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Jarosławiu',
+	adres:'ul. Grunwaldzka 7, 37-500 Jarosław',
+	tel:'16 624 24 40, 16 624 24 41',
+	email:'sekretariat.psse.jaroslaw@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-jaroslaw',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów, Jarosław'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Jaśle',
+	adres:'ul. Koralewskiego 13, 38-200 Jasło',
+	tel:'13 446 30 08 wew.41',
+	email:'psse.jaslo@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-jaslo',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów, Jasło'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kolbuszowej',
+	adres:'ul. 11 listopada 10 | 36-100 Kolbuszowa',
+	tel:'17 227 11 50',
+	email:'psse.kolbuszowa@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-kolbuszowa',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów, Kolbuszowa'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Krośnie',
+	adres:'ul.Kisielewskiego 12 | 38-400 Krosno',
+	tel:'13 432 19 42',
+	email:'psse.krosno@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-krosno',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów, Krosno'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Leżajsku',
+	adres:'ul. Mickiewicza 71 | 37-300 Leżajsk',
+	tel:'17 242 07 54',
+	email:'psse.lezajsk@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-lezajsk',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów, Leżajsk'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Lubaczowie',
+	adres:'ul. Mickiewicza 45 | 37-600 Lubaczów',
+	tel:'16 632 15 28',
+	email:'psse.lubaczow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-lubaczow',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów, Lubaczów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Łańcucie',
+	adres:'ul. Mickiewicza 6 | 37-100 Łańcut',
+	tel:'17 225 00 70',
+	email:'psse.lancut@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-lancut',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów, Łańcut'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Mielcu',
+	adres:'ul. M. Skłodowskiej 8 | 39-300 Mielec',
+	tel:'17 586 30 21, 17 586 33 43',
+	email:'psse.mielec@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-mielec',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów, Mielec'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Nisku',
+	adres:'ul. Rudnicka 13 | 37-400 Nisko',
+	tel:'15 841 20 10',
+	email:'psse.nisko@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-nisko',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów, Nisko'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Przemyślu',
+	adres:'ul. Mariacka 4 | 37-700 Przemyśl',
+	tel:'16 670 76 91',
+	email:'psse.przemysl@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-przemysl',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów, Przemyśl'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Przeworsku',
+	adres:'Rynek 1 | 37-200 Przeworsk',
+	tel:'16 648 79 01',
+	email:'psse.przeworsk@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-przeworsk',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów, Przeworsk'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Ropczycach',
+	adres:'ul. Mickiewicza 57 | 39-100 Ropczyce',
+	tel:'17 221 83 21',
+	email:'psse.ropczyce@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-ropczyce',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów, Ropczyce'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Rzeszowie',
+	adres:'ul. Jarosława Dąbrowskiego 79A | 35-040 Rzeszów',
+	tel:'17 742 13 08',
+	email:'psse.rzeszow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-rzeszow',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sanoku',
+	adres:'ul. Jezierskiego 39 | 38-500 Sanok',
+	tel:'13 464 12 19',
+	email:'psse.sanok@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-sanok',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów, Sanok'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Stalowej Woli',
+	adres:'ul. Niezłomnych 66 | 37-450 Stalowa Wola',
+	tel:'15 842 51 30, 507 133 285',
+	email:'psse.stalowawola@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-stalowa-wola',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów, Stalowa Wola'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Strzyżowie',
+	adres:'ul. Słowackiego 8 | 38-100 Strzyżów',
+	tel:'17 276 11 52',
+	email:'psse.strzyzow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-strzyzow',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów, Strzyżów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Tarnobrzegu',
+	adres:'ul. 1-go Maja 1 | 39-400 Tarnobrzeg',
+	tel:'15 822 65 83',
+	email:'psse.tarnobrzeg@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-tarnobrzeg',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów, Tarnobrzeg'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Ustrzykach Dolnych',
+	adres:'ul. 29 Listopada 53 | 38-700 Ustrzyki Dolne',
+	tel:'13 461 28 06',
+	email:'psse.ustrzykidolne@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-ustrzyki-dolne',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów, Ustrzyki Dolne'
+},
+{
+	title:'Graniczna Stacja Sanitarno-Epidemiologiczna w Przemyślu',
+	adres:'ul. Mariacka 4 | 37-700 Przemyśl',
+	tel:'16 678 27 86',
+	email:'gsse.przemysl@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/gsse-przemysl',
+	psse:'',
+    gsse:'',
+	tag: 'podkarpackie, Rzeszów, Przemyśl'
 }
-
 
 ];
 
 export { Sanepid };
+
 
