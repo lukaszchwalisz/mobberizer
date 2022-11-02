@@ -166,8 +166,8 @@ const Sanepid = [
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Augustowie',
 	adres:'ul. Karola Brzostowskiego 10, 16-300 Augustów',
 	tel:'87 643 32 80',
-	email:'',
-	www:'',
+	email:'psse.augustow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-augustow',
 	psse:'',
     gsse:'',
 	tag: 'podlaskie, Białystok, Augustów'
@@ -176,8 +176,8 @@ const Sanepid = [
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Białymstoku',
 	adres:'ul. Warszawska 57a, 15-062 Białystok',
 	tel:'85 73 25 23',
-	email:'',
-	www:'',
+	email:'psse.bialystok@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-bialystok',
 	psse:'',
     gsse:'',
 	tag: 'podlaskie, Białystok'
@@ -186,8 +186,8 @@ const Sanepid = [
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Bielsku Podlaskim',
 	adres:'ul. Białowieska 28, 17-100 Bielsk Podlaski',
 	tel:'85 730 17 17',
-	email:'',
-	www:'',
+	email:'psse.bielsk.podlaski@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-bielsk-podlaski',
 	psse:'',
     gsse:'',
 	tag: 'podlaskie, Białystok, Bielsk Podlaski'
@@ -196,8 +196,8 @@ const Sanepid = [
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Grajewie',
 	adres:'Plac Niepodległości 12, 19-200 Grajewo',
 	tel:'86 272 26 00',
-	email:'',
-	www:'',
+	email:'psse.grajewo@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-grajewo',
 	psse:'',
     gsse:'',
 	tag: 'podlaskie, Białystok, Grajewo'
@@ -206,8 +206,8 @@ const Sanepid = [
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Hajnówce',
 	adres:'ul. Marszałka Józefa Piłsudskiego 10, 17-200 Hajnówka',
 	tel:'85 682 28 09',
-	email:'',
-	www:'',
+	email:'psse.hajnowka@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-hajnowka',
 	psse:'',
     gsse:'',
 	tag: 'podlaskie, Białystok, Hajnówka'
@@ -216,8 +216,8 @@ const Sanepid = [
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kolnie',
 	adres:'ul. Wojska Polskiego 4 | 18-500 Kolno',
 	tel:'86 278 31 91',
-	email:'',
-	www:'',
+	email:'psse.kolno@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-kolno',
 	psse:'',
     gsse:'',
 	tag: 'podlaskie, Białystok, Kolno'
@@ -226,8 +226,8 @@ const Sanepid = [
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Łomży',
 	adres:'ul. Gen. Sikorskiego 156, 18-400 Łomża',
 	tel:'86 216 52 61, 85 216 52 65',
-	email:'',
-	www:'',
+	email:'psse.lomza@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-lomza',
 	psse:'',
     gsse:'',
 	tag: 'podlaskie, Białystok, Łomża'
@@ -236,8 +236,8 @@ const Sanepid = [
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Mońkach',
 	adres:'ul. Tysiaclecia 5, 19-100 Mońki',
 	tel:'85 716 26 17',
-	email:'',
-	www:'',
+	email:'psse.monki@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-monki',
 	psse:'',
     gsse:'',
 	tag: 'podlaskie, Białystok, Mońki'
@@ -246,8 +246,8 @@ const Sanepid = [
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sejnach',
 	adres:'ul. Dr Edwarda Rittlera 2, 16-500 Sejny',
 	tel:'87 517 33 50',
-	email:'',
-	www:'',
+	email:'psse.sejny@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-sejny ',
 	psse:'',
     gsse:'',
 	tag: 'podlaskie, Białystok, Sejny'
@@ -256,8 +256,8 @@ const Sanepid = [
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Siemiatyczach',
 	adres:'ul. Kościuszki 36, 17-300 Siemiatycze',
 	tel:'85 656 04 36',
-	email:'',
-	www:'',
+	email:'psse.siemiatycze@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-siemiatycze',
 	psse:'',
     gsse:'',
 	tag: 'podlaskie, Białystok, Siemiatycze'
@@ -266,8 +266,8 @@ const Sanepid = [
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sokółce',
 	adres:'ul. 1-go Maja 13A | 16-100 Sokółka',
 	tel:'85 711 36 25',
-	email:'',
-	www:'',
+	email:'psse.sokoloka@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-sokolka',
 	psse:'',
     gsse:'',
 	tag: 'podlaskie, Białystok, Sokółka'
@@ -276,8 +276,8 @@ const Sanepid = [
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Suwałkach',
 	adres:'ul. Utrata 9a, 16-400 Suwałki',
 	tel:'87 565 28 60',
-	email:'',
-	www:'',
+	email:'psse.suwalki@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-suwalki',
 	psse:'',
     gsse:'',
 	tag: 'podlaskie, Białystok, Suwałki'
@@ -286,8 +286,8 @@ const Sanepid = [
 	title:'Graniczna Stacja Sanitarno-Epidemiologiczna w Suwałkach',
 	adres:'ul. Utrata 9a, 16-400 Suwałki',
 	tel:'87 566 32 75',
-	email:'',
-	www:'',
+	email:'gsse.suwalki@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/gsse-suwalki',
 	psse:'',
     gsse:'',
 	tag: 'podlaskie, Białystok, Suwałki'
@@ -296,8 +296,8 @@ const Sanepid = [
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wysokiem Mazowieckiem',
 	adres:'ul. 1 Maja 9, 18-200 Wysokie Mazowieckie',
 	tel:'86 275 25 85, 85 275 25 91',
-	email:'',
-	www:'',
+	email:'psse.wysokie.mazowieckie@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-wysokie-mazowieckie',
 	psse:'',
     gsse:'',
 	tag: 'podlaskie, Białystok, Wysokie Mazowieckie'
@@ -306,13 +306,242 @@ const Sanepid = [
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Zambrowie',
 	adres:'ul. Obrońców Zambrowa 50, 18-300 Zambrów',
 	tel:'86 276 30 70',
-	email:'',
-	www:'',
+	email:'psse.zambrow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-zambrow/',
 	psse:'',
     gsse:'',
 	tag: 'podlaskie, Białystok, Zambrów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Białej Podlaskiej',
+	adres:'ul. Warszawska 18, 21-500 Biała Podlaska',
+	tel:'83 344 41 60 (61,62)',
+	email:'psse.bialapodlaska@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-biala-podlaska',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Biała Podlaska'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Biłgoraju',
+	adres:'ul. gen. Henryka Dąbrowskiego 15,23-400 Biłgoraj',
+	tel:'84 686 15 22',
+	email:'psse.bilgoraj@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-bilgoraj',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Biłgoraj'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Chełmie',
+	adres:'ul. Szpitalna 48,22-100 Chełm',
+	tel:'82 565 34 21 (22)',
+	email:'psse.chelm@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-chelm',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Chełm'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Hrubieszowie',
+	adres:'27 Wołyńskiej Dywizji Piechoty AK 6,22 – 500 Hrubieszów',
+	tel:'84 696 50 10, 84 696 41 51',
+	email:'psse.hrubieszow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-hrubieszow',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Hrubieszów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Janowie Lubelskim',
+	adres:'ul. Wojska Polskiego 28, 23 – 300 Janów Lubelski',
+	tel:'15 872 54 00',
+	email:'psse.janowlubelski@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-janow-lubelski',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Janów Lubelski'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Krasnymstawie',
+	adres:'ul. Sikorskiego 3a, 22-300 Krasnystaw',
+	tel:'887 436 164',
+	email:'psse.krasnystaw@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-krasnystaw',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Krasnystaw'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kraśniku',
+	adres:'ul. Tadeusza Kościuszki 36, 23-200 Kraśnik',
+	tel:'81 884 36 73',
+	email:'psse.krasnik@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-krasnik',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Kraśnik'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Lubartowie',
+	adres:'ul. Lubelska 103, 21-100 Lubartów',
+	tel:'81 855 24 43',
+	email:'psse.lubartow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-lubartow',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Lubartów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Lublinie',
+	adres:'ul. Uniwersytecka 12, 20–029 Lublin',
+	tel:'81 532 79 05',
+	email:'psse.lublin@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-lublin',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Łęcznej',
+	adres:'ul. Krasnystawska 52, 21-010 Łęczna',
+	tel:'81 752 31 67, 81 752 71 40',
+	email:'psse.leczna@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-leczna',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Łęczna'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Łukowie',
+	adres:'ul. Spółdzielcza 4, 21-400 Łuków',
+	tel:'25 798 21 96 (97)',
+	email:'psse.lukow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-lukow',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Łuków'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Opolu Lubelskim',
+	adres:'ul. Puławska 1, 24-300 Opole Lubelskie',
+	tel:'81 470 84 39, 81 827 20 41',
+	email:'psse.opolelubelskie@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-opole-lubelskie',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Opole Lubelskie'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Parczewie',
+	adres:'ul. Piwonia 54, 21-200 Parczew',
+	tel:'83 354 23 29',
+	email:'psse.parczew@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-parczew',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Parczew'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Puławach',
+	adres:'al. Królewska 19, 24 – 100 Puławy',
+	tel:'81 886 48 91',
+	email:'psse.pulawy@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-pulawy',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Puławy'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Radzyniu Podlaskim',
+	adres:'ul. Pocztowa 5 | 21-300 Radzyń Podlaski',
+	tel:'83 352 74 16',
+	email:'psse.radzynpodlaski@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-radzyn-podlaski',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Radzyń Podlaski'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Rykach',
+	adres:'ul. Poniatowskiego 2, 08-500 Ryki',
+	tel:'81 865 16 37',
+	email:'psse.ryki@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-ryki',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Ryki'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Świdniku',
+	adres:'al. Lotników Polskich 1, 21-045 Świdnik',
+	tel:'81 745 56 10',
+	email:'psse.swidnik@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-swidnik',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Świdnik'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Tomaszowie Lubelskim',
+	adres:'ul. Lwowska 51, 22-600 Tomaszów Lubelski',
+	tel:'84 664 44 78 (79)',
+	email:'psse.tomaszowlubelski@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-tomaszow-lubelski',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Tomaszów Lubelski'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna we Włodawie',
+	adres:'Al. Józefa Piłsudskiego 66, 22-200 Włodawa',
+	tel:'82 572 14 05',
+	email:'psse.wlodawa@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-wlodawa',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Włodawa'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Zamościu',
+	adres:'ul. Peowiaków 96, 22-400 Zamość',
+	tel:'84 639 36 91, 84 627 10 59',
+	email:'psse.zamosc@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-zamosc',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Zamość'
+},
+{
+	title:'Graniczna Stacja Sanitarno-Epidemiologiczna w Dorohusku',
+	adres:'Przejście Graniczne nr 9, 22-175 Dorohusk',
+	tel:'82 566 17 14',
+	email:'gsse.dorohusk@pis.gov.pl',
+	www:'https://www.gov.pl/web/gsse-dorohusk',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Dorohusk'
+},
+{
+	title:'Graniczna Stacja Sanitarno-Epidemiologiczna w Hrebennem',
+	adres:'Drogowe Przejście Graniczne w Hrebennem, 22-680 Lubycza Królewska',
+	tel:'84 667 41 33',
+	email:'gsse.hrebenne@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/gsse-hrebenne',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Lubycza Królewska, Hrebenne'
+},
+{
+	title:'Graniczna Stacja Sanitarno-Epidemiologiczna w Koroszczynie',
+	adres:'Terminal Samochodowy Koroszczyn, 21-550 Terespol',
+	tel:'83 375 30 56',
+	email:'sekretariat.gsse.koroszczyn@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/gsse-koroszczyn',
+	psse:'',
+    gsse:'',
+	tag: 'lubelskie, Lublin, Terespol'
 }
-
 
 
 ];
