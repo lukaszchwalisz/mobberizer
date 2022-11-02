@@ -214,7 +214,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kolnie',
-	adres:'ul. Wojska Polskiego 4 | 18-500 Kolno',
+	adres:'ul. Wojska Polskiego 4, 18-500 Kolno',
 	tel:'86 278 31 91',
 	email:'psse.kolno@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-kolno',
@@ -264,7 +264,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sokółce',
-	adres:'ul. 1-go Maja 13A | 16-100 Sokółka',
+	adres:'ul. 1-go Maja 13A, 16-100 Sokółka',
 	tel:'85 711 36 25',
 	email:'psse.sokoloka@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-sokolka',
@@ -454,7 +454,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Radzyniu Podlaskim',
-	adres:'ul. Pocztowa 5 | 21-300 Radzyń Podlaski',
+	adres:'ul. Pocztowa 5, 21-300 Radzyń Podlaski',
 	tel:'83 352 74 16',
 	email:'psse.radzynpodlaski@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-radzyn-podlaski',
@@ -584,7 +584,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kolbuszowej',
-	adres:'ul. 11 listopada 10 | 36-100 Kolbuszowa',
+	adres:'ul. 11 listopada 10, 36-100 Kolbuszowa',
 	tel:'17 227 11 50',
 	email:'psse.kolbuszowa@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-kolbuszowa',
@@ -594,7 +594,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Krośnie',
-	adres:'ul.Kisielewskiego 12 | 38-400 Krosno',
+	adres:'ul.Kisielewskiego 12, 38-400 Krosno',
 	tel:'13 432 19 42',
 	email:'psse.krosno@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-krosno',
@@ -604,7 +604,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Leżajsku',
-	adres:'ul. Mickiewicza 71 | 37-300 Leżajsk',
+	adres:'ul. Mickiewicza 71, 37-300 Leżajsk',
 	tel:'17 242 07 54',
 	email:'sekretariat.psse.lezajsk@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lezajsk',
@@ -614,7 +614,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Lubaczowie',
-	adres:'ul. Mickiewicza 45 | 37-600 Lubaczów',
+	adres:'ul. Mickiewicza 45, 37-600 Lubaczów',
 	tel:'16 632 15 28',
 	email:'psse.lubaczow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lubaczow',
@@ -624,7 +624,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Łańcucie',
-	adres:'ul. Mickiewicza 6 | 37-100 Łańcut',
+	adres:'ul. Mickiewicza 6, 37-100 Łańcut',
 	tel:'17 225 00 70',
 	email:'psse.lancut@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lancut',
@@ -634,7 +634,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Mielcu',
-	adres:'ul. M. Skłodowskiej 8 | 39-300 Mielec',
+	adres:'ul. M. Skłodowskiej 8, 39-300 Mielec',
 	tel:'17 586 30 21, 17 586 33 43',
 	email:'psse.mielec@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-mielec',
@@ -644,7 +644,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Nisku',
-	adres:'ul. Rudnicka 13 | 37-400 Nisko',
+	adres:'ul. Rudnicka 13, 37-400 Nisko',
 	tel:'15 841 20 10',
 	email:'sekretariat.psse.nisko@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-nisko',
@@ -654,7 +654,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Przemyślu',
-	adres:'ul. Mariacka 4 | 37-700 Przemyśl',
+	adres:'ul. Mariacka 4, 37-700 Przemyśl',
 	tel:'16 670 76 91',
 	email:'psse.przemysl@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-przemysl',
@@ -664,7 +664,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Przeworsku',
-	adres:'Rynek 1 | 37-200 Przeworsk',
+	adres:'Rynek 1, 37-200 Przeworsk',
 	tel:'16 648 79 01',
 	email:'psse.przeworsk@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-przeworsk',
@@ -674,7 +674,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Ropczycach',
-	adres:'ul. Mickiewicza 57 | 39-100 Ropczyce',
+	adres:'ul. Mickiewicza 57, 39-100 Ropczyce',
 	tel:'17 221 83 21',
 	email:'psse.ropczyce@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-ropczyce',
@@ -684,7 +684,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Rzeszowie',
-	adres:'ul. Jarosława Dąbrowskiego 79A | 35-040 Rzeszów',
+	adres:'ul. Jarosława Dąbrowskiego 79A, 35-040 Rzeszów',
 	tel:'17 742 13 08',
 	email:'psse.rzeszow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-rzeszow',
@@ -694,7 +694,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sanoku',
-	adres:'ul. Jezierskiego 39 | 38-500 Sanok',
+	adres:'ul. Jezierskiego 39, 38-500 Sanok',
 	tel:'13 464 12 19',
 	email:'psse.sanok@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-sanok',
@@ -704,7 +704,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Stalowej Woli',
-	adres:'ul. Niezłomnych 66 | 37-450 Stalowa Wola',
+	adres:'ul. Niezłomnych 66, 37-450 Stalowa Wola',
 	tel:'15 842 51 30, 507 133 285',
 	email:'psse.stalowawola@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-stalowa-wola',
@@ -714,7 +714,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Strzyżowie',
-	adres:'ul. Słowackiego 8 | 38-100 Strzyżów',
+	adres:'ul. Słowackiego 8, 38-100 Strzyżów',
 	tel:'17 276 11 52',
 	email:'psse.strzyzow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-strzyzow',
@@ -724,7 +724,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Tarnobrzegu',
-	adres:'ul. 1-go Maja 1 | 39-400 Tarnobrzeg',
+	adres:'ul. 1-go Maja 1, 39-400 Tarnobrzeg',
 	tel:'15 822 65 83',
 	email:'psse.tarnobrzeg@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-tarnobrzeg',
@@ -734,7 +734,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Ustrzykach Dolnych',
-	adres:'ul. 29 Listopada 53 | 38-700 Ustrzyki Dolne',
+	adres:'ul. 29 Listopada 53, 38-700 Ustrzyki Dolne',
 	tel:'13 461 28 06',
 	email:'psse.ustrzykidolne@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-ustrzyki-dolne',
@@ -744,7 +744,7 @@ const Sanepid = [
 },
 {
 	title:'Graniczna Stacja Sanitarno-Epidemiologiczna w Przemyślu',
-	adres:'ul. Mariacka 4 | 37-700 Przemyśl',
+	adres:'ul. Mariacka 4, 37-700 Przemyśl',
 	tel:'16 678 27 86',
 	email:'gsse.przemysl@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/gsse-przemysl',
@@ -754,7 +754,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Białobrzegach',
-	adres:'ul. Krakowska 28 | 26-800 Białobrzegach',
+	adres:'ul. Krakowska 28, 26-800 Białobrzegach',
 	tel:'48 613 23 60',
 	email:'sekretariat.psse.bialobrzegi@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-bialobrzeg',
@@ -764,7 +764,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Ciechanowie',
-	adres:'ul. Henryka Sienkiewicza 27 | 06-400 Ciechanów',
+	adres:'ul. Henryka Sienkiewicza 27, 06-400 Ciechanów',
 	tel:'23 672 33 13',
 	email:'sekretariat.psse.ciechanow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-ciechanow',
@@ -774,7 +774,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Garwolinie',
-	adres:'ul. Kard. Stefana Wyszyńskiego 13 | 08-400 Garwolin',
+	adres:'ul. Kard. Stefana Wyszyńskiego 13, 08-400 Garwolin',
 	tel:'25 684 35 95, 25 684 39 57, 25 684 33 08',
 	email:'sekretariat.psse.garwolin@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-garwolin',
@@ -784,7 +784,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Gostyninie',
-	adres:'ul.Bierzewicka 67 | 09-500 Gostynin',
+	adres:'ul.Bierzewicka 67, 09-500 Gostynin',
 	tel:'24 235 22 04',
 	email:'sekretariat.psse.gostynin@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-gostynin',
@@ -794,7 +794,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Grodzisku Mazowieckim',
-	adres:'ul. Żwirki i Wigury 10 | 05-825 Grodzisk Mazowiecki',
+	adres:'ul. Żwirki i Wigury 10, 05-825 Grodzisk Mazowiecki',
 	tel:'22 755 57 76',
 	email:'sekretariat.psse.grodziskmazowiecki@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-grodzisk-mazowiecki',
@@ -804,7 +804,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Grójcu',
-	adres:'ul. Mogielnicka 67 | 05-600 Grójec',
+	adres:'ul. Mogielnicka 67, 05-600 Grójec',
 	tel:'48 664 22 58',
 	email:'sekretariat.psse.grojec@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-grojec',
@@ -814,7 +814,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kozienicach',
-	adres:'ul. Sławna 27 | 26-900 Kozienice',
+	adres:'ul. Sławna 27, 26-900 Kozienice',
 	tel:'48 611 04 20',
 	email:'sekretariat.psse.kozienice@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-kozienice',
@@ -824,7 +824,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Legionowie',
-	adres:'ul. gen. Władysława Sikorskiego 11 | 05-119 Legionowo',
+	adres:'ul. gen. Władysława Sikorskiego 11, 05-119 Legionowo',
 	tel:'22 774 15 76',
 	email:'sekretariat.psse.legionowo@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-legionowo',
@@ -834,7 +834,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Lipsku',
-	adres:'ul. Iłżecka 6 | 27-300 Lipsko',
+	adres:'ul. Iłżecka 6, 27-300 Lipsko',
 	tel:'48 378 00 87',
 	email:'sekretariat.psse.lipsko@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lipsko',
@@ -844,7 +844,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Łosicach',
-	adres:'ul. Kilińskiego 2 | 08-200 Łosicach',
+	adres:'ul. Kilińskiego 2, 08-200 Łosicach',
 	tel:'83 357 36 28',
 	email:'sekretariat.psse.losice@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-losice',
@@ -854,7 +854,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Warszawie',
-	adres:'ul. Jana Kochanowskiego 21 | 01-864 Warszawie',
+	adres:'ul. Jana Kochanowskiego 21, 01-864 Warszawie',
 	tel:'22 310 79 00',
 	email:'kancelaria.psse.warszawa@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-warszawa',
@@ -864,7 +864,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Makowie Mazowieckim',
-	adres:'ul. Adama Mickiewicza 31 | 06-200 Maków Mazowiecki',
+	adres:'ul. Adama Mickiewicza 31, 06-200 Maków Mazowiecki',
 	tel:'29 717 13 00',
 	email:'sekretariat.psse.makowmazowiecki@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-makow-mazowiecki',
@@ -874,7 +874,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Mińsku Mazowieckim',
-	adres:'pl. Jana Kilińskiego 10 | 05-300 Mińsk Mazowiecki',
+	adres:'pl. Jana Kilińskiego 10, 05-300 Mińsk Mazowiecki',
 	tel:'25 758 22 32',
 	email:'sekretariat.psse.minskmazowiecki@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-minsk-mazowiecki',
@@ -884,7 +884,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Mławie',
-	adres:'Pl. 1 Maja 6 | 06-500 Mława',
+	adres:'Pl. 1 Maja 6, 06-500 Mława',
 	tel:'23 654 35 73',
 	email:'sekretariat.psse.mlawa@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-mlawa',
@@ -894,7 +894,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Nowym Dworze Mazowieckim',
-	adres:'ul. Chemików 6 | 05-100 Nowy Dwór Mazowiecki',
+	adres:'ul. Chemików 6, 05-100 Nowy Dwór Mazowiecki',
 	tel:'22 775 34 61',
 	email:'sekretariat.psse.nowydwormaz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-nowy-dwor-mazowiecki',
@@ -904,7 +904,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Ostrołęce',
-	adres:'ul. Targowa 4 | 07 – 410 Ostrołęka',
+	adres:'ul. Targowa 4, 07 – 410 Ostrołęka',
 	tel:'29 769 12 95',
 	email:'sekretariat.psse.ostroleka@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-ostroleka',
@@ -914,7 +914,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Ostrowi Mazowieckiej',
-	adres:'ul. gen. Władysława Sikorskiego 3 | 07-300 Ostrów Mazowiecka',
+	adres:'ul. gen. Władysława Sikorskiego 3, 07-300 Ostrów Mazowiecka',
 	tel:'29 644 06 80 wew. 31',
 	email:'sekretariat.psse.ostrow.maz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-ostrow-mazowiecka',
@@ -934,7 +934,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Piasecznie z siedzibą w Chylicach',
-	adres:'ul. Dworska 7 | 05-510 Chylice',
+	adres:'ul. Dworska 7, 05-510 Chylice',
 	tel:'22 756 46 20',
 	email:'sekretariat.psse.piaseczno@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-piaseczno',
@@ -944,7 +944,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Płocku',
-	adres:'ul. Kolegialna 20 | 09-402 Płock',
+	adres:'ul. Kolegialna 20, 09-402 Płock',
 	tel:'24 367 26 01',
 	email:'sekretariat.psse.plock@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-plock',
@@ -954,7 +954,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Płońsku',
-	adres:'ul. Henryka Sienkiewicza 7a | 09-100 Płońsk',
+	adres:'ul. Henryka Sienkiewicza 7a, 09-100 Płońsk',
 	tel:'23 662 28 39',
 	email:'sekretariat.psse.plonsk@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-plonsk',
@@ -964,7 +964,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Pruszkowie',
-	adres:'ul. Staszica 1 | 05-800 Pruszków',
+	adres:'ul. Staszica 1, 05-800 Pruszków',
 	tel:'22 758 75 26',
 	email:'sekretariat.psse.pruszkow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-pruszkow',
@@ -974,7 +974,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Przasnyszu',
-	adres:'ul. Gołymińskiej 13 | 06-300 Przasnysz',
+	adres:'ul. Gołymińskiej 13, 06-300 Przasnysz',
 	tel:'29 752 25 04',
 	email:'sekretariat.psse.prasnysz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-prasnysz',
@@ -984,7 +984,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Przysusze',
-	adres:'ul. Szkolna 7 | 26-400 Przysucha',
+	adres:'ul. Szkolna 7, 26-400 Przysucha',
 	tel:'48 675 24 22, 48 675 23 37',
 	email:'sekretariat.psse.przysucha@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-przysucha',
@@ -994,7 +994,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Pułtusku',
-	adres:'ul. 3 Maja 20 | 06-100 Pułtusk',
+	adres:'ul. 3 Maja 20, 06-100 Pułtusk',
 	tel:'23 692 50 71',
 	email:'sekretariat.psse.pultusk@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-pultusk',
@@ -1004,7 +1004,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Radomiu',
-	adres:'ul. gen. Leopolda Okulickiego 9D | 26-601 Radom',
+	adres:'ul. gen. Leopolda Okulickiego 9D, 26-601 Radom',
 	tel:'48 386 42 00, 48 345 15 94',
 	email:'sekretariat.psse.radom@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-radom',
@@ -1014,7 +1014,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Siedlcach',
-	adres:'ul. Księcia Józefa Poniatowskiego 31 | 08-110 Siedlce',
+	adres:'ul. Księcia Józefa Poniatowskiego 31, 08-110 Siedlce',
 	tel:'25 632 28 75',
 	email:'sekretariat.psse.siedlce@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-siedlce',
@@ -1024,7 +1024,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sierpcu',
-	adres:'ul. Piastowska 24a | 09-200 Sierpc',
+	adres:'ul. Piastowska 24a, 09-200 Sierpc',
 	tel:'24 275 26 01',
 	email:'sekretariat.psse.sierpc@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-sierpc',
@@ -1034,7 +1034,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sochaczewie',
-	adres:'ul. Romualda Traugutta 18 | 96-500 Sochaczew',
+	adres:'ul. Romualda Traugutta 18, 96-500 Sochaczew',
 	tel:'46 862 22 66',
 	email:'sekretariat.psse.sochaczew@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-sochaczew',
@@ -1044,7 +1044,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sokołowie Podlaskim',
-	adres:'ul. Oleksiaka Wichury 3 | 08-300 Sokołów Podlaski',
+	adres:'ul. Oleksiaka Wichury 3, 08-300 Sokołów Podlaski',
 	tel:'25 506 50 10',
 	email:'sekretariat.psse.sokolowpodlaski@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-sokolow-podlaski',
@@ -1054,7 +1054,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Szydłowcu',
-	adres:'ul. Metalowa 7 | 26-500 Szydłowiec',
+	adres:'ul. Metalowa 7, 26-500 Szydłowiec',
 	tel:'48 617 12 19',
 	email:'sekretariat.psse.szydlowiec@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-szydlowiec',
@@ -1064,7 +1064,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna Warszawa Zachód',
-	adres:'ul. Poznańska 129/133 | 05-850 Ożarów Mazowiecki',
+	adres:'ul. Poznańska 129/133, 05-850 Ożarów Mazowiecki',
 	tel:'22 733 73 33',
 	email:'sekretariat.psse.pwz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-ozarow-mazowiecki',
@@ -1074,7 +1074,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Węgrowie',
-	adres:'ul. Kard. Stefana Wyszyńskiego 3 | 07-100 Węgrów',
+	adres:'ul. Kard. Stefana Wyszyńskiego 3, 07-100 Węgrów',
 	tel:'25 506 55 80',
 	email:'sekretariat.psse.wegrow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wegrow',
@@ -1094,7 +1094,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wyszkowie',
-	adres:'ul. Ignacego Daszyńskiego 28 | 07-200 Wyszków',
+	adres:'ul. Ignacego Daszyńskiego 28, 07-200 Wyszków',
 	tel:'29 742 32 45, 29 742 32 45',
 	email:'sekretariat.psse.wyszkow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wyszkow',
@@ -1104,7 +1104,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Zwoleniu',
-	adres:'ul. Bogusza 37 | 26-700 Zwoleń',
+	adres:'ul. Bogusza 37, 26-700 Zwoleń',
 	tel:'48 676 23 12',
 	email:'sekretariat.psse.zwolen@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-zwolen',
@@ -1124,7 +1124,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Żyrardowie',
-	adres:'ul. Stanisława Moniuszki 40 | 96-300 Żyrardów',
+	adres:'ul. Stanisława Moniuszki 40, 96-300 Żyrardów',
 	tel:'48 855 32 42',
 	email:'sekretariat.psse.zyrardow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-zyrardow',
@@ -1134,7 +1134,7 @@ const Sanepid = [
 },
 {
 	title:'Graniczna Stacja Sanitarno-Epidemiologiczna w Warszawie',
-	adres:'ul. Żwirki i Wigury 1 | 00-906 Warszawa',
+	adres:'ul. Żwirki i Wigury 1, 00-906 Warszawa',
 	tel:'22 650 25 33',
 	email:'sekretariat.gsse.warszawa@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/gsse-warszawa',
