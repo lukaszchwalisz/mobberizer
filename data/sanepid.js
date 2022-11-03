@@ -1332,8 +1332,342 @@ const Sanepid = [
     gsse:'',
 	tag: 'małopolskie, Zakopane'
 },
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Busku - Zdroju',
+	adres:'ul. Stefana Batorego 2, 28-100 Busko-Zdrój',
+	tel:'41 378 35 73',
+	email:'sekretariat.psse.busko@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-busko-zdroj',
+	psse:'',
+    gsse:'',
+	tag: 'świętokrzyskie, Busko-Zdrój'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Jędrzejowie',
+	adres:'ul. 11-go Listopada 33, 28-300 Jędrzejów',
+	tel:'41 386 14 80',
+	email:'sekretariat.psse.jedrzejow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-jedrzejow',
+	psse:'',
+    gsse:'',
+	tag: 'świętokrzyskie, Jędrzejów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kielcach',
+	adres:'ul. Leona Skibińskiego 4, 25-819 Kielce',
+	tel:'41 345 46 22',
+	email:'sekretariat.psse.kielce@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-kielce',
+	psse:'',
+    gsse:'',
+	tag: 'świętokrzyskie, Kielce'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Końskich',
+	adres:'ul. Sportowa 7, 26-200 Końskie',
+	tel:'41 372 30 22, 41 372 30 23',
+	email:'sekretariat.psse.konskie@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-konskie',
+	psse:'',
+    gsse:'',
+	tag: 'świętokrzyskie, Końskie'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Opatowie',
+	adres:'ul. Stefanii Sempołowskiej 3, 27-500 Opatów',
+	tel:'15 868 21 49',
+	email:'sekretariat.psse.opatow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-opatow',
+	psse:'',
+    gsse:'',
+	tag: 'świętokrzyskie, Opatów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Ostrowcu Świętokrzyskim',
+	adres:'ul. Smolna 3, 27-400 Ostrowiec Świętokrzyski',
+	tel:'41 247 96 95',
+	email:'sekretariat.psse.ostrowiec@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-ostrowiec-swietokrzyski',
+	psse:'',
+    gsse:'',
+	tag: 'świętokrzyskie, Ostrowiec Świętokrzyski'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sandomierzu',
+	adres:'ul. Leona Frankowskiego 8, 27-600 Sandomierz',
+	tel:'15 832 23 22, 15 832 22 63',
+	email:'sekretariat.psse.sandomierz@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-sandomierz',
+	psse:'',
+    gsse:'',
+	tag: 'świętokrzyskie, Sandomierz'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Skarżysku - Kamiennej',
+	adres:'ul. Czerwonego Krzyża 10, 26-110 Skarżysko–Kamienna',
+	tel:'41 251 18 68, 41 251 18 69',
+	email:'sekretariat.psse.skarzysko@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-skarzysko-kamienna',
+	psse:'',
+    gsse:'',
+	tag: 'świętokrzyskie, Skarżysko–Kamienna'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Starachowicach',
+	adres:'ul. Złota 6, 27-200 Starachowice',
+	tel:'41 274 62 67',
+	email:'sekretariat.psse.starachowice@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-starachowice',
+	psse:'',
+    gsse:'',
+	tag: 'świętokrzyskie, Starachowice'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Staszowie',
+	adres:'ul. Szpitalna 37/14, 28-200 Staszów',
+	tel:'15 864 27 86',
+	email:'sekretariat.psse.staszow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-staszow',
+	psse:'',
+    gsse:'',
+	tag: 'świętokrzyskie, Staszów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Włoszczowie',
+	adres:'ul. Jana III Sobieskiego 38, 29-100 Włoszczowa',
+	tel:'41 394 27 41, 41 394 34 95',
+	email:'sekretariat.psse.wloszczowa@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-wloszczowa',
+	psse:'',
+    gsse:'',
+	tag: 'świętokrzyskie, Włoszczowa'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Brzegu',
+	adres:'ul. Armii Krajowej 22, 49-300 Brzeg',
+	tel:'77 444 18 50',
+	email:'sekretariat.psse.brzeg@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-brzeg',
+	psse:'',
+    gsse:'',
+	tag: 'opolskie, Brzeg'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Głubczycach',
+	adres:'ul. Grunwaldzka 1B, 48-100 Głubczyce',
+	tel:'77 485 26 68',
+	email:'sekretariat.psse.glubczyce@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-glubszyce',
+	psse:'',
+    gsse:'',
+	tag: 'opolskie, Głubczyce'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kędzierzynie–Koźlu',
+	adres:'ul. Anny 14, 47-200 Kędzierzyn-Koźle',
+	tel:'77 482 39 60',
+	email:'sekretariat.psse.kkozle@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-kedzierzyn-kozle',
+	psse:'',
+    gsse:'',
+	tag: 'opolskie, Kędzierzyn-Koźle'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kluczborku',
+	adres:'ul. Jagiellońska 8, 46-200 Kluczbork',
+	tel:'77 418 22 57',
+	email:'sekretariat.psse.kluczbork@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-kluczbork',
+	psse:'',
+    gsse:'',
+	tag: 'opolskie, Kluczbork'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Krapkowicach',
+	adres:'ul. Księdza Koziołka 30, 47-303 Krapkowice',
+	tel:'77 446 67 40',
+	email:'sekretariat.psse.krapkowice@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-krapkowice',
+	psse:'',
+    gsse:'',
+	tag: 'opolskie, Krapkowice'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Namysłowie',
+	adres:'ul. Józefa Piłsudskiego 13, 46-100 Namysłów',
+	tel:'77 419 04 80, 77 419 04 81',
+	email:'sekretariat.psse.namyslow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-namyslow',
+	psse:'',
+    gsse:'',
+	tag: 'opolskie, Namysłów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Nysie',
+	adres:'ul. Stefana Żeromskiego 7/9, 48-304 Nysa',
+	tel:'77 435 25 53',
+	email:'sekretariat.psse.nysa@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-nysa',
+	psse:'',
+    gsse:'',
+	tag: 'opolskie, Nysa'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Oleśnie',
+	adres:'ul. Wielkie Przedmieście 7, 46-300 Olesno',
+	tel:'34 358 26 73',
+	email:'psse.olesno@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-olesno',
+	psse:'',
+    gsse:'',
+	tag: 'opolskie, Olesno'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Opolu',
+	adres:'ul. Krakowska 51, 45-018 Opole',
+	tel:'77 442 85 00',
+	email:'sekretariat.psse.opole@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-opole',
+	psse:'',
+    gsse:'',
+	tag: 'opolskie, Opole'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Prudniku',
+	adres:'ul. Klasztorna 4, 48-200 Prudnik',
+	tel:'77 436 20 74',
+	email:'sekretariat.psse.prudnik@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-prudnik',
+	psse:'',
+    gsse:'',
+	tag: 'opolskie, Prudnik'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Strzelcach Opolskich',
+	adres:'ul. Marszałka Józefa Piłsudskiego 20, 47-100 Strzelce Opolskie',
+	tel:'77 440 03 13',
+	email:'sekretariat.psse.strzelceop@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-strzelce-opolskie',
+	psse:'',
+    gsse:'',
+	tag: 'opolskie, Strzelce Opolskie'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Drezdenku',
+	adres:'ul. Chrobrego 11, 66-530 Drezdenko',
+	tel:'(95) 762-05-20',
+	email:'psse.drezdenko@sanepid.gov.pl',
+	www:'http://bip.wsse.gorzow.pl/pssedrezdenko',
+	psse:'',
+    gsse:'',
+	tag: 'lubuskie, Drezdenko'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Gorzowie Wlkp',
+	adres:'ul. Kosynierów Gdyńskich 27, 66-400 Gorzów Wlkp.',
+	tel:'(95) 722-89-86',
+	email:'psse.drezdenko@sanepid.gov.pl',
+	www:'http://bip.wsse.gorzow.pl/pssegorzow',
+	psse:'',
+    gsse:'',
+	tag: 'lubuskie, Gorzów Wlkp'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Krośnie Odrzańskim',
+	adres:'ul. Nadodrzańska 24, 66-600 Krosno Odrzańskie',
+	tel:'(68) 383-80-77',
+	email:'psse.krosnoodrzanskie@sanepid.gov.pl',
+	www:'http://bip.wsse.gorzow.pl/pssekrosno',
+	psse:'',
+    gsse:'',
+	tag: 'lubuskie, Krosno Odrzańskie'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Międzyrzeczu',
+	adres:'os. Centrum 16, 66-300 Międzyrzecz',
+	tel:'(95) 741-22-27, 95 741 22 28',
+	email:'psse.miedzyrzecz@sanepid.gov.pl',
+	www:'http://bip.wsse.gorzow.pl/pssemiedzyrzecz',
+	psse:'',
+    gsse:'',
+	tag: 'lubuskie, Międzyrzecz'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Nowej Soli',
+	adres:'ul. Wojska Polskiego 11, 67-100 Nowa Sól',
+	tel:'(95) 741-22-27, 95 741 22 28',
+	email:'psse.nowasol@sanepid.gov.pl',
+	www:'http://edu.wsse.gorzow.pl/nowasol/',
+	psse:'',
+    gsse:'',
+	tag: 'lubuskie, Nowa Sól'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Słubicach',
+	adres:'ul. Mickiewicza 6, 69-100 Słubice',
+	tel:'(68) 387-24-61',
+	email:'psse.slubice@sanepid.gov.pl',
+	www:'http://bip.wsse.gorzow.pl/psseslubice',
+	psse:'',
+    gsse:'',
+	tag: 'lubuskie, Słubice'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sulęcinie',
+	adres:'ul. Lipowa 14b, 69-200 Sulęcin',
+	tel:'(68) 387-24-61',
+	email:'psse.sulecin@sanepid.gov.pl',
+	www:'http://bip.wsse.gorzow.pl/pssesulecin',
+	psse:'',
+    gsse:'',
+	tag: 'lubuskie, Sulęcin'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Świebodzinie',
+	adres:'ul. 30 Stycznia 5, 66-200 Świebodzin',
+	tel:'68 382-07-47, 68 382-43-54',
+	email:'psse.swiebodzin@sanepid.gov.pl',
+	www:'http://bip.wsse.gorzow.pl/psseswiebodzin',
+	psse:'',
+    gsse:'',
+	tag: 'lubuskie, Świebodzin'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Zielonej Górze',
+	adres:'ul. Jasna 10, 65-470 Zielona Góra',
+	tel:'(68) 325-46-71',
+	email:'psse.zielonagora@sanepid.gov.pl',
+	www:'http://bip.wsse.gorzow.pl/pssezielonagora',
+	psse:'',
+    gsse:'',
+	tag: 'lubuskie, Zielona Góra'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Żaganiu',
+	adres:'ul. Szprotawska 45a, 68-100 Żagań',
+	tel:'(68) 477-66-00',
+	email:'psse.zagan@sanepid.gov.pl',
+	www:'http://bip.wsse.gorzow.pl/pssezagan',
+	psse:'',
+    gsse:'',
+	tag: 'lubuskie, Żagań'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Żarach',
+	adres:'ul. Podchorążych 23a, 68-200 Żary',
+	tel:'(68) 470-62-58',
+	email:'psse.zary@sanepid.gov.pl',
+	www:'http://bip.wsse.gorzow.pl/pssezary',
+	psse:'',
+    gsse:'',
+	tag: 'lubuskie, Żary'
+}
 
 
 ]
 
 export { Sanepid };
+
+
+
+
