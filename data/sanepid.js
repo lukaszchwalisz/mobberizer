@@ -924,7 +924,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Otwocku',
-	adres:'ul. Jana Kilińskiego 1 |05-400 Otwock',
+	adres:'ul. Jana Kilińskiego 1,05-400 Otwock',
 	tel:'22 779 48 33, 22 779 26 63',
 	email:'sekretariat.psse.otwock@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-otwock',
@@ -1084,7 +1084,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wołominie',
-	adres:'ul. Legionów 78 |05-200 Wołomin',
+	adres:'ul. Legionów 78,05-200 Wołomin',
 	tel:'22 776 38 33, 22 776 21 92',
 	email:'sekretariat.psse.wolomin@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wolomin',
@@ -1114,7 +1114,7 @@ const Sanepid = [
 },
 {
 	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Żurominie',
-	adres:'ul. Przemysłowa 10 |09-300 Żuromin',
+	adres:'ul. Przemysłowa 10,09-300 Żuromin',
 	tel:'23 657 22 17',
 	email:'serketariat.psse.zuromin@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-zuromim',
@@ -1142,9 +1142,198 @@ const Sanepid = [
     gsse:'',
 	tag: 'mazowieckie, Warszawa'
 },
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Bochni',
+	adres:'ul. Konstytucji 3 Maja 5, 32-700 Bochnia',
+	tel:'14 612 39 47',
+	email:'psse.bochnia@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-bochnia',
+	psse:'',
+    gsse:'',
+	tag: 'małopolskie, Bochnia'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Brzesku',
+	adres:'ul. Okocimska 44, 32-800 Brzesko',
+	tel:'14 663 07 43',
+	email:'psse.brzesko@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-brzesko',
+	psse:'',
+    gsse:'',
+	tag: 'małopolskie, Brzesko'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Chrzanowie',
+	adres:'ul. Mjr. Grzybowskiego 7, 32-500 Chrzanów',
+	tel:'32 623 24 07',
+	email:'psse.chrzanow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-chrzanow',
+	psse:'',
+    gsse:'',
+	tag: 'małopolskie, Chrzanów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Dąbrowie Tarnowskiej',
+	adres:'ul. Piłsudskiego 14, 33-200 Dąbrowa Tarnowska',
+	tel:'14 642 25 71',
+	email:'psse.dabrowatarnowska@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-dabrowa-tarnowska',
+	psse:'',
+    gsse:'',
+	tag: 'małopolskie, Dąbrowa Tarnowska'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Gorlicach',
+	adres:'ul. Michalusa 1, 38-300 Gorlice',
+	tel:'18 353 73 43',
+	email:'psse.gorlice@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-gorlice',
+	psse:'',
+    gsse:'',
+	tag: 'małopolskie, Gorlice'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Krakowie',
+	adres:'ul. Kornela Makuszyńskiego 9, 31-752 Kraków',
+	tel:'12 430 70 46',
+	email:'psse.krakow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-krakow',
+	psse:'',
+    gsse:'',
+	tag: 'małopolskie, Kraków'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Limanowej',
+	adres:'ul. Matki Boskiej Bolesnej 16B, 34-600, Limanowa',
+	tel:'18 337 21 01',
+	email:'psse.limanowa@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-limanowa',
+	psse:'',
+    gsse:'',
+	tag: 'małopolskie, Kraków'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Miechowie',
+	adres:'ul. Marii Konopnickiej 6, 32-200 Miechów',
+	tel:'41 389 04 50',
+	email:'psse.miechow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-miechow',
+	psse:'',
+    gsse:'',
+	tag: 'małopolskie, Miechów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Myślenicach',
+	adres:'ul. Juliusza Słowackiego 106, 32 – 400 Myślenice',
+	tel:'12 272 06 06',
+	email:'psse.myslenice@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-myslenice',
+	psse:'',
+    gsse:'',
+	tag: 'małopolskie, Myślenice'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Nowym Sączu',
+	adres:'ul. Stefana Czarnieckiego 19, 33-300 Nowy Sącz',
+	tel:'18 443 54 64',
+	email:'psse.nowysacz@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-nowy-sacz',
+	psse:'',
+    gsse:'',
+	tag: 'małopolskie, Nowy Sącz'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Nowym Targu',
+	adres:'ul. Jana Kazimierza 6, 34-400 Nowy Targ',
+	tel:'18 266 29 14',
+	email:'psse.nowytarg@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-nowy-targ',
+	psse:'',
+    gsse:'',
+	tag: 'małopolskie, Nowy Targ'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Olkuszu',
+	adres:'Al. 1000-lecia 13A, 32-300 Olkusz',
+	tel:'32 754 57 20',
+	email:'psse.olkusz@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-olkusz',
+	psse:'',
+    gsse:'',
+	tag: 'małopolskie, Olkusz'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Oświęcimiu',
+	adres:'ul. Więźniów Oświęcimia 10, 32-600 Oświęcim',
+	tel:'33 843 09 28',
+	email:'psse.oswiecim@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-oswiecim',
+	psse:'',
+    gsse:'',
+	tag: 'małopolskie, Oświęcim'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Proszowicach',
+	adres:'ul. Adama Grzymały-Siedleckiego 2, 32-100 Proszowice',
+	tel:'22 250 01 15',
+	email:'psse.proszowice@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-proszowice',
+	psse:'',
+    gsse:'',
+	tag: 'małopolskie, Proszowice'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Suchej Beskidzkiej',
+	adres:'ul. Marii Konopnickiej 7, 34-200 Sucha Beskidzka',
+	tel:'33 874 22 34',
+	email:'psse.suchabeskidzka@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-sucha-beskidzka',
+	psse:'',
+    gsse:'',
+	tag: 'małopolskie, Sucha Beskidzka'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Tarnowie',
+	adres:'ul. Ignacego Mościckiego 10, 33-100 Tarnów',
+	tel:'14 621 70 97',
+	email:'psse.tarnow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-tarnow',
+	psse:'',
+    gsse:'',
+	tag: 'małopolskie, Tarnów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wadowicach',
+	adres:'ul. Teatralna 2, 34-100 Wadowice',
+	tel:'33 823 37 66',
+	email:'psse.wadowice@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-wadowice',
+	psse:'',
+    gsse:'',
+	tag: 'małopolskie, Wadowice'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wieliczce',
+	adres:'ul. Henryka Sienkiewicza 13, 32-020 Wieliczka',
+	tel:'12 288 01 38',
+	email:'psse.wieliczka@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-wieliczka',
+	psse:'',
+    gsse:'',
+	tag: 'małopolskie, Wieliczka'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Zakopanem',
+	adres:'ul. Chramcówki 19a, 34-500 Zakopane',
+	tel:'18 206 86 97',
+	email:'psse.zakopane@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-zakopane',
+	psse:'',
+    gsse:'',
+	tag: 'małopolskie, Zakopane'
+},
 
 
 ]
 
 export { Sanepid };
-
