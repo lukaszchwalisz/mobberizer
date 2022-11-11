@@ -1661,13 +1661,210 @@ const Sanepid = [
 	psse:'',
     gsse:'',
 	tag: 'lubuskie, Żary'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Bartoszycach',
+	adres:'ul. Bohaterów Warszawy 12, 11-200 Bartoszyce',
+	tel:'89 762 32 57',
+	email:'psse.bartoszyce@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-bartoszyce',
+	psse:'',
+    gsse:'',
+	tag: 'warmińsko-mazurskie, Bartoszyce'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Braniewie',
+	adres:'ul. Królewiecka 2, 14-500 Braniewo',
+	tel:'+48 604 218 685',
+	email:'psse.braniewo@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-braniewo',
+	psse:'',
+    gsse:'',
+	tag: 'warmińsko-mazurskie, Braniewo'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Działdowie',
+	adres:'Pl. Biedrawy 5, 13-200 Działdowo',
+	tel:'(23) 697 26 34',
+	email:'psse.dzialdowo@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-dzialdowo',
+	psse:'',
+    gsse:'',
+	tag: 'warmińsko-mazurskie, Działdowo'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Elblągu',
+	adres:'ul. Królewiecka 195, 82-300 Elbląg',
+	tel:'55 232 74 31',
+	email:'psse.elblag@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-elblag',
+	psse:'',
+    gsse:'',
+	tag: 'warmińsko-mazurskie, Elbląg'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Ełku',
+	adres:'ul. Toruńska 6A/1, 19-300 Ełk',
+	tel:'87 621 77 50',
+	email:'psse.elk@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-elk',
+	psse:'',
+    gsse:'',
+	tag: 'warmińsko-mazurskie, Elbląg'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Giżycku',
+	adres:'ul. Suwalska 3, 11-500 Giżycko',
+	tel:'87 428 54 98',
+	email:'psse.gizycko@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-gizycko',
+	psse:'',
+    gsse:'',
+	tag: 'warmińsko-mazurskie, Giżycko'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Gołdapi',
+	adres:'ul. Wolności 11, 19-500 Gołdap',
+	tel:'87 428 54 98',
+	email:'psse.goldap@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-goldap',
+	psse:'',
+    gsse:'',
+	tag: 'warmińsko-mazurskie, Gołdap'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Iławie',
+	adres:'ul. Sienkiewicza 10, 14-200 Iława',
+	tel:'89 649 04 20',
+	email:'psse.ilawa@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-ilawa',
+	psse:'',
+    gsse:'',
+	tag: 'warmińsko-mazurskie, Iława'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kętrzynie',
+	adres:'ul. Piłsudskiego 5, 11-400 Kętrzyn',
+	tel:'89 754 21 40',
+	email:'psse.ketrzyn@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-ketrzyn',
+	psse:'',
+    gsse:'',
+	tag: 'warmińsko-mazurskie, Kętrzyn'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Lidzbarku Warmińskim',
+	adres:'ul. Orła Białego 6, 11-100 Lidzbark Warm.',
+	tel:'89 767 23 22',
+	email:'psse.lidzbarkwarminski@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-lidzbark-warminski',
+	psse:'',
+    gsse:'',
+	tag: 'warmińsko-mazurskie, Lidzbark Warmiński'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Mrągowie',
+	adres:'ul. Królewiecka 60 B, 11-700 Mrągowo',
+	tel:'89 741 26 34',
+	email:'psse.mragowo@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-mragowo',
+	psse:'',
+    gsse:'',
+	tag: 'warmińsko-mazurskie, Mrągowo'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Nidzicy',
+	adres:'ul. Żeromskiego 8, 13-100 Nidzica',
+	tel:'89 625 20 81',
+	email:'psse.nidzica@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-nidzica',
+	psse:'',
+    gsse:'',
+	tag: 'warmińsko-mazurskie, Nidzica'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Nowym Mieście Lubawskim',
+	adres:'ul. Grunwaldzka 3, 13-300 Nowe Miasto Lubawskie',
+	tel:'56 4742 692',
+	email:'psse.nowemiastolubawskie@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-nowe-miasto-lubawskie',
+	psse:'',
+    gsse:'',
+	tag: 'warmińsko-mazurskie, Nowe Miasto Lubawskie'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Olecku',
+	adres:'ul. Wojska Polskiego 13, 19-400 Olecko',
+	tel:'87 520 30 55',
+	email:'psse.olecko@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-olecko',
+	psse:'',
+    gsse:'',
+	tag: 'warmińsko-mazurskie, Olecko'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Olsztynie',
+	adres:'ul. Żołnierska 16, 10-561 Olsztyn',
+	tel:'89 524 83 00',
+	email:'psse.olsztyn@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-olsztyn',
+	psse:'',
+    gsse:'',
+	tag: 'warmińsko-mazurskie, Olsztyn'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Ostródzie',
+	adres:'ul. Kościuszki 2, 14-100 Ostróda',
+	tel:'89 64 60 870',
+	email:'psse.ostroda@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-ostroda',
+	psse:'',
+    gsse:'',
+	tag: 'warmińsko-mazurskie, Ostróda'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Piszu',
+	adres:'ul. Warszawska 5, 12-200 Pisz',
+	tel:'87 423 23 78',
+	email:'psse.pisz@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-pisz',
+	psse:'',
+    gsse:'',
+	tag: 'warmińsko-mazurskie, Pisz'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Szczytnie',
+	adres:'ul. M. Curie-Skłodowskiej 8, 12-100 Szczytno',
+	tel:'89 624 87 31',
+	email:'psse.szczytno@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-szczytno',
+	psse:'',
+    gsse:'',
+	tag: 'warmińsko-mazurskie, Szczytno'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Węgorzewie',
+	adres:'ul. 3 Maja 17B, 11-600 Węgorzewo',
+	tel:'87 427 28 13',
+	email:'psse.wegorzewo@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-wegorzewo',
+	psse:'',
+    gsse:'',
+	tag: 'warmińsko-mazurskie, Węgorzewo'
+},
+{
+	title:'Graniczna Stacja Sanitarno-Epidemiologiczna w Elblągu',
+	adres:'ul. Bema 17, 82-300 Elbląg',
+	tel:'55 232 70 80',
+	email:'gsse.elblag@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/gsse-elblag',
+	psse:'',
+    gsse:'',
+	tag: 'warmińsko-mazurskie, Elbląg'
 }
 
 
 ]
 
 export { Sanepid };
-
-
-
 
