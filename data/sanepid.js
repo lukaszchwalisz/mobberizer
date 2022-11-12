@@ -2051,7 +2051,207 @@ const Sanepid = [
 	psse:'',
     gsse:'',
 	tag: 'łódzkie, Zgierz'
-}
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Bielsku-Białej',
+	adres:'ul. Władysława Broniewskiego 21, 43-300 Bielsko-Biała',
+	tel:'33 816 00 12',
+	email:'psse.bielskobiala@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-bielsko-biala',
+	psse:'',
+    gsse:'',
+	tag: 'śląskie, Bielsko-Biała'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Bytomiu',
+	adres:'ul. Moniuszki 25, 41-902 Bytom',
+	tel:'32 397 66 66,887 435 272',
+	email:'psse.bytom@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-bytom',
+	psse:'',
+    gsse:'',
+	tag: 'śląskie, Bytom'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Chorzowie',
+	adres:'ul. Kazimierza Wielkiego 6, 41-500 Chorzów',
+	tel:'32 2412 494, 887 435 281',
+	email:'psse.chorzow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-chorzow',
+	psse:'',
+    gsse:'',
+	tag: 'śląskie, Chorzów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Cieszynie',
+	adres:'ul. Liburnia 2a, 43-400 Cieszyn',
+	tel:'48 33 4797010',
+	email:'psse.cieszyn@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-cieszyn',
+	psse:'',
+    gsse:'',
+	tag: 'śląskie, Cieszyn'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Częstochowie',
+	adres:'ul. Jasnogórska 15A, 42-200 Częstochowa',
+	tel:'34 344 99 00',
+	email:'psse.czestochowa@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-czestochowa',
+	psse:'',
+    gsse:'',
+	tag: 'śląskie, Częstochowa'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Dąbrowie Górniczej',
+	adres:'ul. Henryka Dąbrowskiego 9a, 41-300 Dąbrowa Górnicza',
+	tel:'(32) 360-27-90,795-513-569',
+	email:'psse.dabrowagornicza@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-dabrowa-gornicza',
+	psse:'',
+    gsse:'',
+	tag: 'śląskie, Dąbrowa Górnicza'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Gliwicach',
+	adres:'ul. Banacha 4, 44-100 Gliwice',
+	tel:'48 32 338 05 00,48 507 220 222',
+	email:'psse.gliwice@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-gliwice',
+	psse:'',
+    gsse:'',
+	tag: 'śląskie, Gliwice'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Jaworznie',
+	adres:'ul. Pocztowa 7, 43-600 Jaworzno',
+	tel:'32 6164058, 690 538 610',
+	email:'psse.jaworzno@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-jaworzno',
+	psse:'',
+    gsse:'',
+	tag: 'śląskie, Jaworzno'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Katowicach',
+	adres:'Plac Grunwaldzki 8-10, 40-127 Katowice',
+	tel:'32 253 24 60, 604 868 095',
+	email:'psse.katowice@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-katowice',
+	psse:'',
+    gsse:'',
+	tag: 'śląskie, Katowice'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kłobucku',
+	adres:'ul. Stanisława Staszica 28, 42-100 Kłobuck',
+	tel:'48 343172260',
+	email:'psse.klobuck@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-klobuck',
+	psse:'',
+    gsse:'',
+	tag: 'śląskie, Kłobuck'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Lublińcu',
+	adres:'ul. Dworcowa 17, 42-700 Lubliniec',
+	tel:'34 356 32 85, 48 604 619 629',
+	email:'psse.lubliniec@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-lubliniec',
+	psse:'',
+    gsse:'',
+	tag: 'śląskie, Lubliniec'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Myszkowie',
+	adres:'ul. Kazimierza Pułaskiego 42, 42-300 Myszków',
+	tel:'34 3131305, 603 779 492',
+	email:'psse.myszkow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-myszkow',
+	psse:'',
+    gsse:'',
+	tag: 'śląskie, Myszków'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Raciborzu',
+	adres:'ul. Stefana Batorego 8, 47-400 Racibórz',
+	tel:'32 459 41 32, 604 106 359',
+	email:'psse.raciborz@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-raciborz',
+	psse:'',
+    gsse:'',
+	tag: 'śląskie, Racibórz'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Rudzie Śląskiej',
+	adres:'ul. Dąbrowskiego 9, 41-710 Ruda Śląska',
+	tel:'(32) 340 03 84, 889 457 734',
+	email:'psse.rudaslaska@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-ruda-slaska',
+	psse:'',
+    gsse:'',
+	tag: 'śląskie, Ruda Śląska'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Rybniku',
+	adres:'ul. Kpt. L. Janiego 1, 44-200 Rybnik',
+	tel:'32 42 24 009, 48 880 448 734',
+	email:'psse.rybnik@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-rybnik',
+	psse:'',
+    gsse:'',
+	tag: 'śląskie, Rybnik'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sosnowcu',
+	adres:'ul. Pogotowia 1, 41-200 Sosnowiec',
+	tel:'32 266 28 23, 48 887 435 195',
+	email:'psse.sosnowiec@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-sosnowiec',
+	psse:'',
+    gsse:'',
+	tag: 'śląskie, Sosnowiec'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Tychach',
+	adres:'ul. Budowlanych 131, 43-100 Tychy',
+	tel:'32 227 62 15, 48 887 435 207',
+	email:'psse.tychy@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-tychy',
+	psse:'',
+    gsse:'',
+	tag: 'śląskie, Tychy'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wodzisławiu Śląskim',
+	adres:'ul. Bogumińska 3, 44-300 Wodzisław Śląski',
+	tel:'32 456 38 10, 48 695 155 157',
+	email:'psse.wodzislawslaski@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-wodzislaw-slaski',
+	psse:'',
+    gsse:'',
+	tag: 'śląskie, Wodzisław Śląski'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Zawierciu',
+	adres:'ul. 11 Listopada 15, 42-400 Zawiercie',
+	tel:'(32) 672 34 91, 48 607 131 032',
+	email:'psse.zawiercie@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-wodzislaw-zawiercie',
+	psse:'',
+    gsse:'',
+	tag: 'śląskie, Zawiercie'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Żywcu',
+	adres:'ul. Krasińskiego 3, 34-300 Żywiec',
+	tel:'33 860 23 91',
+	email:'psse.zywiec@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-zywiec',
+	psse:'',
+    gsse:'',
+	tag: 'śląskie, Żywiec'
+},
 
 ]
 
