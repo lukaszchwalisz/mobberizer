@@ -1861,10 +1861,198 @@ const Sanepid = [
 	psse:'',
     gsse:'',
 	tag: 'warmińsko-mazurskie, Elbląg'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Bełchatowie',
+	adres:'ul. Okrzei 49, 97-400 Bełchatów',
+	tel:'44 631 31 08, 44 631 31 18',
+	email:'sekretariat.psse.belchatow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-belchatow',
+	psse:'',
+    gsse:'',
+	tag: 'łódzkie, Bełchatów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Brzezinach',
+	adres:'ul. Reformacka 3, 95-060 Brzeziny',
+	tel:'46 874 31 60',
+	email:'sekretariat.psse.brzeziny@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-brzeziny',
+	psse:'',
+    gsse:'',
+	tag: 'łódzkie, Brzeziny'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Łęczycy',
+	adres:'ul. A. Mickiewicza 18, 99-100 Łęczyca',
+	tel:'663 73 56 28',
+	email:'sekretariat.psse.leczyca@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-leczyca',
+	psse:'',
+    gsse:'',
+	tag: 'łódzkie, Łęczyca'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Łodzi',
+	adres:'ul. Przybyszewskiego 10, 93-189 Łódź',
+	tel:'(042) 253 99 00,(042) 253 90 10',
+	email:'sekretariat.psse.lodz@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-lodz',
+	psse:'',
+    gsse:'',
+	tag: 'łódzkie, Łódź'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Łowiczu',
+	adres:'ul. Podrzeczna 24, 99-400 Łowicz',
+	tel:'48 604 691 091',
+	email:'sekretariat.psse.lowicz@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-lowicz',
+	psse:'',
+    gsse:'',
+	tag: 'łódzkie, Łowicz'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Opocznie',
+	adres:'Plac Kościuszki 9, 26-300 Opoczno',
+	tel:'48 609 318 812',
+	email:'sekretariat.psse.opoczno@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-opoczno',
+	psse:'',
+    gsse:'',
+	tag: 'łódzkie, Opoczno'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Pabianicach',
+	adres:'ul. J. Kilińskiego 10/12, 95-200 Pabianice',
+	tel:'42 215 27 76',
+	email:'sekretariat.psse.pabianice@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-pabianice',
+	psse:'',
+    gsse:'',
+	tag: 'łódzkie, Pabianice'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Pajęcznie',
+	adres:'ul. Żeromskiego 7, 98-330 Pajęczno',
+	tel:'48 34 311 10 31',
+	email:'sekretariat.psse.pajeczno@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-pajeczno',
+	psse:'',
+    gsse:'',
+	tag: 'łódzkie, Pajęczno'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Piotrkowie Trybunalskim',
+	adres:'al. 3 Maja 8, 97-300 Piotrków Trybunalski',
+	tel:'48 661 616 805',
+	email:'sekretariat.psse.piotrkowtrybunalski@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-piotrkow-trybunalski',
+	psse:'',
+    gsse:'',
+	tag: 'łódzkie, Piotrków Trybunalski'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Poddębicach',
+	adres:'ul. Mickiewicza 16, 99-200 Poddębice',
+	tel:'43 607 880 455',
+	email:'sekretariat.psse.poddebice@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-poddebice',
+	psse:'',
+    gsse:'',
+	tag: 'łódzkie, Poddębice'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Radomsku',
+	adres:'al. Jana Pawła II 9, 97-500 Radomsko',
+	tel:'44 887 436 537',
+	email:'sekretariat.psse.radomsko@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-radomsko',
+	psse:'',
+    gsse:'',
+	tag: 'łódzkie, Radomsko'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Rawie Mazowieckiej',
+	adres:'ul. Łowicka 15, 96-200 Rawa Mazowiecka',
+	tel:'48 609 733 252',
+	email:'sekretariat.psse.rawamazowiecka@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-rawa-mazowiecka',
+	psse:'',
+    gsse:'',
+	tag: 'łódzkie, Rawa Mazowiecka'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sieradzu',
+	adres:'ul. POW 52, 98-200 Sieradz',
+	tel:'48 601 823 685',
+	email:'sekretariat.psse.sieradz@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-sieradz',
+	psse:'',
+    gsse:'',
+	tag: 'łódzkie, Sieradz'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Skierniewicach',
+	adres:'ul. Piłsudskiego 33, 96-100 Skierniewice',
+	tel:'48 509 425 343',
+	email:'sekretariat.psse.skierniewice@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-skierniewice',
+	psse:'',
+    gsse:'',
+	tag: 'łódzkie, Skierniewice'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Tomaszowie Mazowieckim',
+	adres:'ul. Majowa 1/13, 97-200 Tomaszów Mazowiecki',
+	tel:'48 502 237 659',
+	email:'sekretariat.psse.tomaszowmazowiecki@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-tomaszow-mazowiecki',
+	psse:'',
+    gsse:'',
+	tag: 'łódzkie, Tomaszów Mazowiecki'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wieluniu',
+	adres:'ul. POW 14, 98-300 Wieluń',
+	tel:'48 509 876 857',
+	email:'sekretariat.psse.wielun@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-wielun',
+	psse:'',
+    gsse:'',
+	tag: 'łódzkie, Wieluń'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wieruszowie',
+	adres:'ul. Warszawska 75, 98-400 Wieruszów',
+	tel:'48 661 239 699',
+	email:'sekretariat.psse.wieruszow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-wieruszow',
+	psse:'',
+    gsse:'',
+	tag: 'łódzkie, Wieruszów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Zduńskiej Woli',
+	adres:'ul. Łaska 13, 98-220 Zduńska Wola',
+	tel:'48 512 185 986',
+	email:'sekretariat.psse.zdunskawola@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-zdunska-wola',
+	psse:'',
+    gsse:'',
+	tag: 'łódzkie, Zduńska Wola'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Zgierzu',
+	adres:'ul. Andrzeja Struga 23, 95-100 Zgierz',
+	tel:'48 887 436 547',
+	email:'sekretariat.psse.zgierz@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-zgierz',
+	psse:'',
+    gsse:'',
+	tag: 'łódzkie, Zgierz'
 }
-
 
 ]
 
 export { Sanepid };
-
