@@ -2651,9 +2651,208 @@ const Sanepid = [
 	psse:'',
     gsse:'',
 	tag: 'pomorskie, Ustka'
-}
-
-
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Białogardzie',
+	adres:'ul. Przechodnia 2, 78-200 Białogard',
+	tel:'94 312 20 55',
+	email:'psse.bialogard@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-bialogard',
+	psse:'',
+    gsse:'',
+	tag: 'zachodniopomorskie, Białogard'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Choszcznie',
+	adres:'ul. Bolesława Chrobrego 27a, 73-200 Choszczno',
+	tel:'95 765 72 82',
+	email:'psse.choszczno@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-choszczno',
+	psse:'',
+    gsse:'',
+	tag: 'zachodniopomorskie, Choszczno'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Drawsku Pomorskim',
+	adres:'ul. Sobieskiego 1, 78-500 Drawsko Pomorskie',
+	tel:'94 36 36 195, 48 694 493 760',
+	email:'psse.drawskopomorskie@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-drawsko-pomorskie',
+	psse:'',
+    gsse:'',
+	tag: 'zachodniopomorskie, Drawsko Pomorskie'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Goleniowie',
+	adres:'ul. Pocztowa 36, 72-100 Goleniów',
+	tel:'91 418 23 22',
+	email:'psse.goleniow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-goleniow',
+	psse:'',
+    gsse:'',
+	tag: 'zachodniopomorskie, Goleniów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Gryficach',
+	adres:'ul. Nowy Świat 6, 72-300 Gryfice',
+	tel:'91 38 78 320, 48 668 895 701',
+	email:'psse.gryfice@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-gryfice',
+	psse:'',
+    gsse:'',
+	tag: 'zachodniopomorskie, Gryfice'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Gryfinie',
+	adres:'ul. Flisacza 6, 74-100 Gryfino',
+	tel:'91 416 38 58, 48 694 493 763',
+	email:'psse.gryfino@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-gryfino',
+	psse:'',
+    gsse:'',
+	tag: 'zachodniopomorskie, Gryfino'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kamieniu Pomorskim',
+	adres:'ul. Wolińska 7b, 72-400 Kamień Pomorski',
+	tel:'91 382 01 44, 48 694 493 754',
+	email:'psse.kamienpomorski@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-kamien-pomorski',
+	psse:'',
+    gsse:'',
+	tag: 'zachodniopomorskie, Kamień Pomorski'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kołobrzegu',
+	adres:'ul. Waryńskiego 8, 78-100 Kołobrzeg',
+	tel:'94 352 35 54',
+	email:'psse.kolobrzeg@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-kolobrzeg',
+	psse:'',
+    gsse:'',
+	tag: 'zachodniopomorskie, Kołobrzeg'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Koszalinie',
+	adres:'ul. Zwycięstwa 136, 75-613 Koszalin',
+	tel:'94 342 40 85',
+	email:'psse.koszalin@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-koszalin',
+	psse:'',
+    gsse:'',
+	tag: 'zachodniopomorskie, Koszalin'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Łobzie',
+	adres:'ul. Niepodległości 66/2, 73-150 Łobez',
+	tel:'91 397 45 42, 694 493 768',
+	email:'psse.lobez@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-lobez',
+	psse:'',
+    gsse:'',
+	tag: 'zachodniopomorskie, Łobez'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Myśliborzu',
+	adres:'ul. Północna 15, 74-300 Myślibórz',
+	tel:'95 747 56 16, 48 784 689 783',
+	email:'psse.mysliborz@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-mysliborz',
+	psse:'',
+    gsse:'',
+	tag: 'zachodniopomorskie, Myślibórz'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Policach',
+	adres:'ul. Kresowa 14, 72-010 Police',
+	tel:'(91) 424 12 32, 48 887 437 307',
+	email:'psse.police@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-police',
+	psse:'',
+    gsse:'',
+	tag: 'zachodniopomorskie, Police'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Pyrzycach',
+	adres:'ul. Młodych Techników 5a, 74-200 Pyrzyce',
+	tel:'(91) 570 34 29',
+	email:'psse.pyrzyce@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-pyrzyce',
+	psse:'',
+    gsse:'',
+	tag: 'zachodniopomorskie, Pyrzyce'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sławnie',
+	adres:'ul. Stefanii Sempołowskiej 2A, 76-100 Sławno',
+	tel:'59 810 73 11',
+	email:'psse.slawno@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-slawno',
+	psse:'',
+    gsse:'',
+	tag: 'zachodniopomorskie, Sławno'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Stargardzie',
+	adres:'ul. Czarneckiego 34, 73-110 Stargard',
+	tel:'91 561 26 10',
+	email:'psse.stargard@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-stargard',
+	psse:'',
+    gsse:'',
+	tag: 'zachodniopomorskie, Stargard'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Szczecinie',
+	adres:'ul. Wincentego Pola 6, 71-342 Szczecin',
+	tel:'91 487 03 13',
+	email:'psse.szczecin@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-szczecin',
+	psse:'',
+    gsse:'',
+	tag: 'zachodniopomorskie, Szczecin'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Szczecinku',
+	adres:'ul. Ordona 22, 78-400 Szczecinek',
+	tel:'94 37 405 59',
+	email:'psse.szczecinek@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-szczecinek',
+	psse:'',
+    gsse:'',
+	tag: 'zachodniopomorskie, Szczecinek'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Świdwinie',
+	adres:'ul. Drawska 38, 78-300 Świdwin',
+	tel:'94 365 26 84',
+	email:'psse.swidwin@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-swidwin',
+	psse:'',
+    gsse:'',
+	tag: 'zachodniopomorskie, Świdwin'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Świnoujściu',
+	adres:'ul. Dąbrowskiego 4, 72-600 Świnoujście',
+	tel:'91 321 24 94',
+	email:'psse.swinoujscie@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-swinoujscie',
+	psse:'',
+    gsse:'',
+	tag: 'zachodniopomorskie, Świnoujście'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wałczu',
+	adres:'al. Zdobywców Wału Pomorskiego 54, 78-600 Wałcz',
+	tel:'67 258 23 31',
+	email:'psse.walcz@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-walcz',
+	psse:'',
+    gsse:'',
+	tag: 'zachodniopomorskie, Wałcz'
+},
 ]
 
 export { Sanepid };
+
