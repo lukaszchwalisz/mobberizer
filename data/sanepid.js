@@ -3112,8 +3112,318 @@ const Sanepid = [
     gsse:'',
 	tag: 'dolnośląskie, Złotoryja'
 },
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Chodzieży',
+	adres:'ul. Składowa 5, 64-800 Chodzież',
+	tel:'67 282 02 72',
+	email:'sekretariat.psse.chodziez@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-chodziez',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Chodzież'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Czarnkowie',
+	adres:'ul. Zamkowa 8, 64-700 Czarnków',
+	tel:'67 255 22 40',
+	email:'sekretariat.psse.czarnkow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-czarnkow',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Czarnków'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Gnieźnie',
+	adres:'ul. Św. Wawrzyńca 18, 62-200 Gniezno',
+	tel:'61 426 22 42, 885 511 050',
+	email:'sekretariat.psse.gniezno@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-gniezno',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Gniezno'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Gostyniu',
+	adres:'ul. Przy Dworcu 4, 63-800 Gostyń',
+	tel:'65 572 14 66, 505 019 375',
+	email:'sekretariat.psse.gostyn@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-gostyn',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Gostyń'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Grodzisk Wielkopolski',
+	adres:'ul. Rakoniewicka 42,	62-065 Grodzisk Wielkopolski',
+	tel:'61 44 46 067, 881 915 880',
+	email:'sekretariat.psse.grodziskwlkp@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-grodzisk-wielkopolski',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Grodzisk Wielkopolski'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Jarocinie',
+	adres:'ul. Wąska 2, 63-200 Jarocin',
+	tel:'(62) 747 23 17, (62) 747 62 43',
+	email:'sekretariat.psse.jarocin@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-jarocin',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Jarocin'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kaliszu',
+	adres:'ul. Kościuszki 6, 62-800 Kalisz',
+	tel:'62 767 76 10, 796 767 020',
+	email:'sekretariat.psse.kalisz@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-kalisz',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Kalisz'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kępnie',
+	adres:'ul. Pocztowa 1/3, 63-600 Kępno',
+	tel:'62 78 295 10, 62 78 232 38',
+	email:'sekretariat.psse.kepno@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-kepno',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Kępno'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kole',
+	adres:'ul. Toruńska 72, 62-600 Koło',
+	tel:'63 27 22 279, 695 426 274',
+	email:'sekretariat.psse.kolo@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-kolo',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Koło'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Koninie',
+	adres:'ul. Staszica 16, 62-500 Konin',
+	tel:'63 243 90 52, 509 698 188',
+	email:'sekretariat.psse.konin@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-konin',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Konin'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kościanie',
+	adres:'ul. Bączkowskiego 5a, 64-000 Kościan',
+	tel:'65 512 22 33, 603 098 263',
+	email:'sekretariat.psse.koscian@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-koscian',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Kościan'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Krotoszynie',
+	adres:'ul. Floriańska 10, 63-700 Krotoszyn',
+	tel:'62 725 32 34, 62 725 32 35, 603 119 875',
+	email:'sekretariat.psse.krotoszyn@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-krotoszyn',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Krotoszyn'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Lesznie',
+	adres:'ul. Niepodległości 66, 64-100 Leszno',
+	tel:'65 526 15 15, 65 526 21 97, 65 529 37 13',
+	email:'sekretariat.psse.leszno@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-leszno',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Leszno'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Międzychodzie',
+	adres:'ul. Strzelecka 12, 64-400 Międzychód',
+	tel:'(95) 74 82 411',
+	email:'sekretariat.psse.miedzychod@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-miedzychod',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Międzychód'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Nowym Tomyślu',
+	adres:'Plac Niepodległości 4, 64-300 Nowy Tomyśl',
+	tel:'61 44 20 800, 795 457 382',
+	email:'sekretariat.psse.nowytomysl@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-nowy-tomysl',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Nowy Tomyśl'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Obornikach',
+	adres:'ul. Józefa Piłsudskiego 76, 64-600 Oborniki',
+	tel:'61 29 60 407, 502 305 913',
+	email:'sekretariat.psse.oborniki@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-oborniki',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Oborniki'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Ostrówie Wielkopolskim',
+	adres:'Pl. Stefana Rowińskiego 3, 63-400 Ostrów Wielkopolski',
+	tel:'62 737 89 00, 504 285 334',
+	email:'sekretariat.psse.ostrowwlkp@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-ostrow-wielkopolski',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Ostrów Wielkopolski'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Ostrzeszowie',
+	adres:'ul. Gen. Sikorskiego 58,	63-500 Ostrzeszów',
+	tel:'62 732 07 70, 693 461 169',
+	email:'sekretariat.psse.ostrzeszow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-ostrzeszow',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Ostrzeszów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Pile',
+	adres:'Al. Wojska Polskiego 43, 64-920 Piła',
+	tel:'67 349 71 10, 693 530 008',
+	email:'sekretariat.psse.pila@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-pila',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Piła'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Pleszewie',
+	adres:'ul. Poznańska 30, 63-300 Pleszew',
+	tel:'62 508 13 30, 694 534 040',
+	email:'sekretariat.psse.pleszew@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-pleszew',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Pleszew'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Poznaniu',
+	adres:'ul. Gronowa 22, 61-655 Poznań',
+	tel:'61 646 78 51',
+	email:'sekretariat.psse.poznan@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-poznan',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Poznań'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Rawiczu',
+	adres:'ul. Wały Jarosława Dąbrowskiego 2, 63-900 Rawicz',
+	tel:'65 545 39 37, 602 534 361',
+	email:'sekretariat.psse.rawicz@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-rawicz',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Rawicz'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Słupcy',
+	adres:'ul. Kościuszki 9, 62-400 Słupca',
+	tel:'63 274 36 42, 691 751 835',
+	email:'sekretariat.psse.slupca@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-slupca',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Słupca'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Szamotułach',
+	adres:'ul. Chrobrego 8, 64-500 Szamotuły',
+	tel:'61 292 15 34, 500 062 249',
+	email:'sekretariat.psse.szamotuly@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-szamotuly',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Szamotuły'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Śremie',
+	adres:'ul. Wiejska 2, 63-100 Śrem',
+	tel:'61 283 54 75',
+	email:'sekretariat.psse.srem@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-srem',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Śrem'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Środzie Wielkopolskiej',
+	adres:'ul. Żwirki i Wigury 1, 63-000 Środa Wielkopolskiej',
+	tel:'61 286 70 80, 602 297 591',
+	email:'sekretariat.psse.srodawlkp@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-sroda-wielkopolska',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Środa Wielkopolska'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Turku',
+	adres:'ul. Uniejowska 1a, 62-700 Turek',
+	tel:'63 280 36 82, 697 777 304',
+	email:'sekretariat.psse.turek@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-turek',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Turek'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wągrowcu',
+	adres:'ul. Gnieźnieńska 49, 62-100 Wągrowiec',
+	tel:'67 26 85 680, 504 156 611',
+	email:'sekretariat.psse.wagrowiec@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-wagrowiec',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Wągrowiec'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wolsztynie',
+	adres:'ul. Michała Drzymały 16, 64-200 Wolsztyn',
+	tel:'68 384 20 23, 508 396 948',
+	email:'sekretariat.psse.wolsztyn@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-wolsztyn',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Wolsztyn'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna we Wrześni',
+	adres:'ul. Słowackiego 2, 62-300 Września',
+	tel:'61 436 07 32, 887 436 907',
+	email:'sekretariat.psse.wrzesnia@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-wrzesnia',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Września'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Złotowie',
+	adres:'pl. Michała Hubego 1/1, 77-400 Złotów',
+	tel:'67 349 16 92, 693 532 730',
+	email:'sekretariat.psse.zlotow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-zlotow',
+	psse:'',
+    gsse:'',
+	tag: 'wielkopolskie, Złotów'
+},
+
 ]
 
 export { Sanepid };
-
 
