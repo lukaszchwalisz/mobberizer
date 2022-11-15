@@ -2852,7 +2852,268 @@ const Sanepid = [
     gsse:'',
 	tag: 'zachodniopomorskie, Wałcz'
 },
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Bolesławcu',
+	adres:'ul. Górników 8, 59-700 Bolesławiec',
+	tel:'75 732 32 46, 75 732 35 68',
+	email:'psse.boleslawiec@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-boleslawiec',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Bolesławiec'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Dzierżoniowie',
+	adres:'ul. Ignacego Krasickiego 36, 58-200 Dzierżoniów',
+	tel:'74 832 33 33',
+	email:'psse.dzierzoniow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-dzierzoniow',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Dzierżoniów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Głogowie',
+	adres:'ul. Piotra Skargi 4, 67-200 Głogów',
+	tel:'76 72 72 594',
+	email:'psse.glogow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-glogow',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Głogów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Górze',
+	adres:'ul. Hirszfelda 6, 56-200 Góra',
+	tel:'65 543 23 54',
+	email:'psse.gora@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-gora',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Góra'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Jaworze',
+	adres:'ul. Piwna 1, 59-400 Jawor',
+	tel:'76 870 23 48, 76 870 28 74, 76 729 27 27',
+	email:'psse.jawor@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-jawor',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Jawor'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Jeleniej Górze',
+	adres:'ul. Jana Kasprowicza 17, 58-500 Jelenia Góra',
+	tel:'75 64 35 560',
+	email:'psse.jeleniagora@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-jelenia-gora',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Jelenia Góra'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kamiennej Górze',
+	adres:'ul. H. Sienkiewicza 5, 58-400 Kamienna Góra',
+	tel:'75 645 01 40',
+	email:'psse.kamiennagora@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-kamienna-gora',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Kamienna Góra'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kłodzku',
+	adres:'ul. Stefana Okrzei 16, 57-300 Kłodzko',
+	tel:'74 867 35 26',
+	email:'psse.klodzko@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-klodzko',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Kłodzko'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Legnicy',
+	adres:'ul. Adama Mickiewicza 24, 59-220 Legnica',
+	tel:'76 72 45 310',
+	email:'psse.legnica@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-legnica',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Legnica'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Lubaniu',
+	adres:'ul. Bankowa 9b, 59-800 Lubań',
+	tel:'75 646 40 43',
+	email:'psse.luban@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-luban',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Lubań'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Lubinie',
+	adres:'ul.1-go Maja 15, 59-300 Lubin',
+	tel:'76 846 67 00, 76 846 67 02',
+	email:'psse.lubin@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-lubin',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Lubin'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Lwówku Śląskim',
+	adres:'ul. Partyzantów 6, 59-600 Lwówek Śląski',
+	tel:'75 782 43 59, 75 782 39 89',
+	email:'psse.lwowekslaski@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-lwowek-slaski',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Lwówek Śląski'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Miliczu',
+	adres:'ul. Armii Krajowej 5, 56-300 Milicz',
+	tel:'71 38 40 200',
+	email:'psse.milicz@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-milicz',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Milicz'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Oleśnicy',
+	adres:'ul. 3 Maja 20, 56-400 Oleśnica',
+	tel:'71 314 20 34',
+	email:'psse.olesnica@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-olesnica',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Oleśnica'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Oławie',
+	adres:'ul. Warszawska 5,55-200 Oława',
+	tel:'71 313 21 64, 71 313 38 21',
+	email:'psse.olawa@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-olawa',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Oława'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Polkowicach',
+	adres:'ul. Rynek 22, 59-100 Polkowice',
+	tel:'76 746 22 46',
+	email:'psse.polkowice@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-polkowice',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Polkowice'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Strzelinie',
+	adres:'ul. Mickiewicza 18, 57-100 Strzelin',
+	tel:'71 392 03 21, 71 392 10 44',
+	email:'psse.strzelin@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-strzelin',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Strzelin'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Środzie Śląskiej',
+	adres:'ul. Ogrody Zamkowe 5, 55-300 Środa Śląska',
+	tel:'71 317 27 60',
+	email:'psse.srodaslaska@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-sroda-slaska',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Środa Śląska'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Świdnicy',
+	adres:'ul. Wałbrzyska 15, 58-100 Świdnica',
+	tel:'74 852 20 91, 74 852 05 35',
+	email:'psse.swidnica@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-swidnica',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Świdnica'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Trzebnicy',
+	adres:'ul. Kościuszki 10, 55-100 Trzebnica',
+	tel:'71 312 09 16',
+	email:'psse.trzebnica@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-trzebnica',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Trzebnica'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wałbrzychu',
+	adres:'ul. Armii Krajowej 35, 58-302 Wałbrzych',
+	tel:'74 847 75 68',
+	email:'psse.walbrzych@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-walbrzych',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Wałbrzych'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wołowie',
+	adres:'ul. Marszałka Józefa Piłsudskiego 36, 56-100 Wołów',
+	tel:'71 389 26 72',
+	email:'psse.wolow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-wolow',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Wołów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna we Wrocławiu',
+	adres:'ul. Kleczkowska 20, 50-227 Wrocław',
+	tel:'71 329 58 43, 71 361 46 91',
+	email:'psse.wroclaw@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-wroclaw',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Wrocław'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Ząbkowicach Śląskich',
+	adres:'ul. Kłodzka 2, 57-200 Ząbkowice Śląskie',
+	tel:'74 816 67 50',
+	email:'psse.zabkowiceslaskie@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-zabkowice-slaskie',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Ząbkowice Śląskie'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Zgorzelcu',
+	adres:'ul. Warszawska 11, 59-900 Zgorzelec',
+	tel:'75 649 45 20',
+	email:'psse.zgorzelec@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-zgorzelec',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Zgorzelec'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Złotoryi',
+	adres:'ul. Stanisława Staszica 22, 59-500 Złotoryja',
+	tel:'76 878 34 33, 76 878 37 21, 76 878 78 31',
+	email:'psse.zlotoryja@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-zlotoryja',
+	psse:'',
+    gsse:'',
+	tag: 'dolnośląskie, Złotoryja'
+},
 ]
 
 export { Sanepid };
+
 
