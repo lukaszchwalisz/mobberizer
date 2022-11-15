@@ -2252,6 +2252,196 @@ const Sanepid = [
     gsse:'',
 	tag: 'śląskie, Żywiec'
 },
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Aleksandrowie Kujawskim',
+	adres:'ul. Słowackiego 8a, 87-700 Aleksandrów Kujawski',
+	tel:'54 282 42 06',
+	email:'sekretariat.psse.aleksandrowkujawski@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-aleksandrow-kujawski',
+	psse:'',
+    gsse:'',
+	tag: 'kujawsko-pomorskie, Aleksandrów Kujawski'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Brodnicy',
+	adres:'ul. Żwirki i Wigury 1, 87-300 Brodnica',
+	tel:'56 697 49 74',
+	email:'sekretariat.psse.brodnica@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-brodnica',
+	psse:'',
+    gsse:'',
+	tag: 'kujawsko-pomorskie, Brodnica'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Bydgoszczy',
+	adres:'ul. Kościuszki 27, 85-079 Bydgoszcz',
+	tel:'52 515 40 20',
+	email:'sekretariat.psse.bydgoszcz@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-bydgoszcz',
+	psse:'',
+    gsse:'',
+	tag: 'kujawsko-pomorskie, Bydgoszcz'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Chełmna',
+	adres:'ul. Łunawska 2a, 86- 200 Chełmno',
+	tel:'56 676 17 00',
+	email:'sekretariat.psse.chelmno@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-chelmno',
+	psse:'',
+    gsse:'',
+	tag: 'kujawsko-pomorskie, Chełmno'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Golubiu-Dobrzyniu',
+	adres:'ul. Dr Jerzego Gerarda Koppa 1A, 87-400 Golub-Dobrzyń',
+	tel:'56 683 24 85,  56 683 24 42',
+	email:'sekretariat.psse.golub-dobrzyn@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-golub-dobrzyn',
+	psse:'',
+    gsse:'',
+	tag: 'kujawsko-pomorskie, Golub Dobrzyń'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Grudziądzu',
+	adres:'ul. Kosynierów Gdyńskich 31, 86-300 Grudziądz',
+	tel:'56 45 178 10',
+	email:'sekretariat.psse.grudziadz@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-grudziadz',
+	psse:'',
+    gsse:'',
+	tag: 'kujawsko-pomorskie, Grudziądz'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Inowrocławiu',
+	adres:'Plac Klasztorny 1b, 88-100 Inowrocław',
+	tel:'52 357 46 57, 52 357 44 47, 52 357 04 03',
+	email:'sekretariat.psse.inowroclaw@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-inowroclaw',
+	psse:'',
+    gsse:'',
+	tag: 'kujawsko-pomorskie, Inowrocław'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Lipnie',
+	adres:'ul. Kościuszki 18/20, 87-600 Lipno',
+	tel:'54 287 32 24',
+	email:'sekretariat.psse.lipno@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-lipno',
+	psse:'',
+    gsse:'',
+	tag: 'kujawsko-pomorskie, Lipno'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Mogilnie',
+	adres:'ul. Tadeusza Kościuszki 4, 88-300 Mogilno',
+	tel:'52 318 87 60',
+	email:'sekretariat.psse.mogilno@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-mogilno',
+	psse:'',
+    gsse:'',
+	tag: 'kujawsko-pomorskie, Mogilno'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Nakle nad Notecią',
+	adres:'ul. Mickiewicza 11, 89-100 Nakło nad Notecią',
+	tel:'52 386 00 03',
+	email:'sekretariat.psse.naklo@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-naklo',
+	psse:'',
+    gsse:'',
+	tag: 'kujawsko-pomorskie, Nakło nad Notecią'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Radziejowie',
+	adres:'ul. Kościuszki 20/22, 88-200 Radziejów',
+	tel:'54 285 36 14',
+	email:'sekretariat.psse.radziejow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-radziejow',
+	psse:'',
+    gsse:'',
+	tag: 'kujawsko-pomorskie, Radziejów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Rypinie',
+	adres:'ul. Warszawska 38a, 87-500 Rypin',
+	tel:'54 429 81 99',
+	email:'sekretariat.psse.rypin@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-rypin',
+	psse:'',
+    gsse:'',
+	tag: 'kujawsko-pomorskie, Rypin'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sępólnie Krajeńskim',
+	adres:'ul. Kościuszki 28, 89-400 Sępólno Krajeńskie',
+	tel:'52 388 12 30',
+	email:'sekretariat.psse.sepolnokrajenskie@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-sepolno-krajenskie',
+	psse:'',
+    gsse:'',
+	tag: 'kujawsko-pomorskie, Sępólno Krajeński'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Świeciu',
+	adres:'ul. Sądowa 5, 86-100 Świecie',
+	tel:'52 33 11 253',
+	email:'sekretariat.psse.swiecie@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-swiecie',
+	psse:'',
+    gsse:'',
+	tag: 'kujawsko-pomorskie, Świecie'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Toruniu',
+	adres:'ul. Szosa Bydgoska 1, 87-100 Toruń',
+	tel:'56 62 250 29, 56 62 233 12, 56 65 862 41',
+	email:'sekretariat.psse.torun@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-torun',
+	psse:'',
+    gsse:'',
+	tag: 'kujawsko-pomorskie, Toruń'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Tucholi',
+	adres:'pl. Wolności 23, 89-500 Tuchola',
+	tel:'52 334 20 21, 52 334 21 09',
+	email:'sekretariat.psse.tuchola@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-tuchola',
+	psse:'',
+    gsse:'',
+	tag: 'kujawsko-pomorskie, Tuchola'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wąbrzeźnie',
+	adres:'ul. 1 Maja 46 , 87-200 Wąbrzeźno',
+	tel:'56 688 17 55',
+	email:'sekretariat.psse.wabrzezno@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-wabrzezno',
+	psse:'',
+    gsse:'',
+	tag: 'kujawsko-pomorskie, Wąbrzeźno'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Włocławku',
+	adres:'ul. Kilińskiego 16, 87-800 Włocławek',
+	tel:'54 411 68 33',
+	email:'sekretariat.psse.wloclawek@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-wloclawek',
+	psse:'',
+    gsse:'',
+	tag: 'kujawsko-pomorskie, Włocławek'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Żninie',
+	adres:'ul. Mickiewicza 24, 88-400 Żnin',
+	tel:'52 30 311 35',
+	email:'sekretariat.psse.znin@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-znin',
+	psse:'',
+    gsse:'',
+	tag: 'kujawsko-pomorskie, Żnin'
+},
 
 ]
 
