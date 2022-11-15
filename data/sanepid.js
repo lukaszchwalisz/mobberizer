@@ -3421,7 +3421,7 @@ const Sanepid = [
 	psse:'',
     gsse:'',
 	tag: 'wielkopolskie, Złotów'
-},
+}
 
 ]
 
