@@ -2442,6 +2442,217 @@ const Sanepid = [
     gsse:'',
 	tag: 'kujawsko-pomorskie, Żnin'
 },
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Bytowie',
+	adres:'ul. Władysław Sikorskiego 27, 77-100 Bytów',
+	tel:'(59) 822 36 85,(59) 822 71 71',
+	email:'psse.bytow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-bytow',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Bytów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Chojnicach',
+	adres:'ul. Józefa Piłsudskiego 39, 89-620 Chojnice',
+	tel:'52 397 63 95',
+	email:'psse.chojnice@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-chojnice',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Chojnice'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Człuchowie',
+	adres:'ul. Jana Sobieskiego 4, 77-300 Człuchów',
+	tel:'59 83 41 142',
+	email:'psse.czluchow@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-czluchow',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Człuchów'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Gdańsku',
+	adres:'ul. Wałowa 27, 80-858 Gdańsk',
+	tel:'58 320 08 00, 48 698 941 776',
+	email:'psse.gdansk@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-gdansk',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Gdańsk'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Gdyni',
+	adres:'ul. Starowiejska 50, 81-356 Gdynia',
+	tel:'58 620-17-98, 48 605 462 480',
+	email:'psse.gdynia@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-gdynia',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Gdynia'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kartuzach',
+	adres:'ul. Sambora 30a, 83-300 Kartuzy',
+	tel:'48 681 07 21',
+	email:'psse.kartuzy@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-kartuzy',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Kartuzy'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kościerzynie',
+	adres:'ul. Wodna 15, 83-400 Kościerzyna',
+	tel:'58 686 33 64, 48 692 101 253',
+	email:'psse.koscierzyna@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-koscierzyna',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Kościerzyna'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kościerzynie',
+	adres:'ul. Fryderyka Chopina 40, 82-500 Kwidzyn',
+	tel:'55 279 38 15, 55 279 33 15',
+	email:'psse.kwidzyn@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-kwidzyn',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Kwidzyn'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Lęborku',
+	adres:'ul. Gdańska 63, 84-300 Lębork',
+	tel:'59 862 10 10',
+	email:'psse.lebork@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-lebork',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Lębork'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Malborku',
+	adres:'ul. Słowackiego 64, 82-200 Malbork',
+	tel:'55 647 25 55',
+	email:'psse.malbork@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-malbork',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Malbork'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Nowym Dworze Gdańskim',
+	adres:'ul. Dworcowa 14, 82-100 Nowy Dwór Gdański',
+	tel:'55 247 57 01',
+	email:'psse.nowydworgdanski@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-nowy-dwor-gdanski',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Nowy Dwór Gdański'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Pruszczu Gdańskim',
+	adres:'ul. Grunwaldzka 25, 83-000 Pruszcz Gdański',
+	tel:'58 683 54 12',
+	email:'psse.pruszczgdanski@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-nowy-pruszcz-gdanski',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Pruszcz Gdański'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Pucku',
+	adres:'ul. Żeromskiego 2, 84-100 Puck',
+	tel:'58 673 03 41',
+	email:'psse.puck@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-puck',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Puck'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Słupsku',
+	adres:'ul. Piotra Skargi 8, 76-200 Słupsk',
+	tel:'59 843 12 91',
+	email:'psse.slupsk@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-slupsk',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Słupsk'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sopocie',
+	adres:'ul. Kościuszki 23, 81-704 Sopot',
+	tel:'58 551 06 35',
+	email:'psse.sopot@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-sopot',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Sopot'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Starogardzie Gdańskim',
+	adres:'ul. Kanałowa 5, 83-200 Starogard Gdański',
+	tel:'58 56 24 011',
+	email:'psse.starogardgdanski@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-starogard-gdanski',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Starogard Gdański'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Tczewie',
+	adres:'ul. Obrońców Westerplatte 10, 83-110 Tczew',
+	tel:'58 531 39 31',
+	email:'psse.tczew@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-tczew',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Starogard Gdański'
+},
+{
+	title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wejherowie',
+	adres:'ul. Obrońców Helu 3, 84-200 Wejherowo',
+	tel:'58 677 79 01',
+	email:'psse.wejherowo@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/psse-wejherowo',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Wejherowo'
+},
+{
+	title:'Graniczna Stacja Sanitarno-Epidemiologiczna w Gdyni',
+	adres:'ul. Kontenerowa 69, 81-155 Gdynia',
+	tel:'58 620 81 15, 882 085 679',
+	email:'sekretariat.gsse.gdynia@sanepid.gov.pl',
+	www:'https://www.gov.pl/web/gsse-gdynia',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Gdynia'
+},
+{
+	title:'Punkt Granicznej Kontroli Sanitarno-Epidemiologicznej w Gdańsku',
+	adres:'ul. Oliwska 14/15, 80-542 Gdańsk',
+	tel:'58 343 09 48',
+	email:'sekretariat.gpkse.gdansk@sanepid.gov.pl',
+	www:'',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Gdańsk'
+},
+{
+	title:'Punkt Granicznej Kontroli Sanitarno-Epidemiologicznej w Ustce',
+	adres:'ul. Marynarki Polskiej 5, 76-270 Ustka',
+	tel:'59 814 45 48',
+	email:'sekretariat.gpkse.ustka@sanepid.gov.pl',
+	www:'',
+	psse:'',
+    gsse:'',
+	tag: 'pomorskie, Ustka'
+}
+
 
 ]
 
