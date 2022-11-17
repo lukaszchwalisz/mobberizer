@@ -9,8 +9,6 @@ const Sanepid = [
 	tel:'87 643 32 80',
 	email:'psse.augustow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-augustow',
-	psse:'',
-    gsse:'',
 	tag: 'Augustów, podlaskie'
 },
 {
@@ -19,8 +17,6 @@ const Sanepid = [
 	tel:'85 73 25 23',
 	email:'psse.bialystok@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-bialystok',
-	psse:'',
-    gsse:'',
 	tag: 'Białystok, podlaskie'
 },
 {
@@ -29,8 +25,6 @@ const Sanepid = [
 	tel:'85 730 17 17',
 	email:'psse.bielsk.podlaski@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-bielsk-podlaski',
-	psse:'',
-    gsse:'',
 	tag: 'Bielsk Podlaski, podlaskie'
 },
 {
@@ -39,8 +33,6 @@ const Sanepid = [
 	tel:'86 272 26 00',
 	email:'psse.grajewo@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-grajewo',
-	psse:'',
-    gsse:'',
 	tag: 'Grajewo, podlaskie'
 },
 {
@@ -49,8 +41,6 @@ const Sanepid = [
 	tel:'85 682 28 09',
 	email:'psse.hajnowka@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-hajnowka',
-	psse:'',
-    gsse:'',
 	tag: 'Hajnówka, podlaskie'
 },
 {
@@ -59,8 +49,6 @@ const Sanepid = [
 	tel:'86 278 31 91',
 	email:'psse.kolno@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-kolno',
-	psse:'',
-    gsse:'',
 	tag: 'Kolno, podlaskie'
 },
 {
@@ -69,8 +57,6 @@ const Sanepid = [
 	tel:'86 216 52 61, 85 216 52 65',
 	email:'psse.lomza@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lomza',
-	psse:'',
-    gsse:'',
 	tag: 'Łomża, podlaskie'
 },
 {
@@ -79,8 +65,6 @@ const Sanepid = [
 	tel:'85 716 26 17',
 	email:'psse.monki@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-monki',
-	psse:'',
-    gsse:'',
 	tag: 'Mońki, podlaskie'
 },
 {
@@ -89,8 +73,6 @@ const Sanepid = [
 	tel:'87 517 33 50',
 	email:'psse.sejny@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-sejny ',
-	psse:'',
-    gsse:'',
 	tag: 'Sejny, podlaskie'
 },
 {
@@ -99,8 +81,6 @@ const Sanepid = [
 	tel:'85 656 04 36',
 	email:'psse.siemiatycze@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-siemiatycze',
-	psse:'',
-    gsse:'',
 	tag: 'Siemiatycze, podlaskie'
 },
 {
@@ -109,8 +89,6 @@ const Sanepid = [
 	tel:'85 711 36 25',
 	email:'psse.sokoloka@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-sokolka',
-	psse:'',
-    gsse:'',
 	tag: 'Sokółka, podlaskie'
 },
 {
@@ -119,8 +97,6 @@ const Sanepid = [
 	tel:'87 565 28 60',
 	email:'psse.suwalki@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-suwalki',
-	psse:'',
-    gsse:'',
 	tag: 'Suwałki, podlaskie'
 },
 {
@@ -129,8 +105,6 @@ const Sanepid = [
 	tel:'87 566 32 75',
 	email:'gsse.suwalki@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/gsse-suwalki',
-	psse:'',
-    gsse:'',
 	tag: 'Suwałki, podlaskie'
 },
 {
@@ -139,8 +113,6 @@ const Sanepid = [
 	tel:'86 275 25 85, 85 275 25 91',
 	email:'psse.wysokie.mazowieckie@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wysokie-mazowieckie',
-	psse:'',
-    gsse:'',
 	tag: 'Wysokie Mazowieckie, podlaskie'
 },
 {
@@ -149,8 +121,6 @@ const Sanepid = [
 	tel:'86 276 30 70',
 	email:'psse.zambrow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-zambrow/',
-	psse:'',
-    gsse:'',
 	tag: 'Zambrów, podlaskie'
 },
 {
@@ -159,8 +129,6 @@ const Sanepid = [
 	tel:'83 344 41 60 (61,62)',
 	email:'psse.bialapodlaska@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-biala-podlaska',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Biała Podlaska'
 },
 {
@@ -169,8 +137,6 @@ const Sanepid = [
 	tel:'84 686 15 22',
 	email:'psse.bilgoraj@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-bilgoraj',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Biłgoraj'
 },
 {
@@ -179,8 +145,6 @@ const Sanepid = [
 	tel:'82 565 34 21 (22)',
 	email:'psse.chelm@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-chelm',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Chełm'
 },
 {
@@ -189,8 +153,6 @@ const Sanepid = [
 	tel:'84 696 50 10, 84 696 41 51',
 	email:'psse.hrubieszow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-hrubieszow',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Hrubieszów'
 },
 {
@@ -199,8 +161,6 @@ const Sanepid = [
 	tel:'15 872 54 00',
 	email:'psse.janowlubelski@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-janow-lubelski',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Janów Lubelski'
 },
 {
@@ -209,8 +169,6 @@ const Sanepid = [
 	tel:'887 436 164',
 	email:'psse.krasnystaw@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-krasnystaw',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Krasnystaw'
 },
 {
@@ -219,8 +177,6 @@ const Sanepid = [
 	tel:'81 884 36 73',
 	email:'psse.krasnik@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-krasnik',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Kraśnik'
 },
 {
@@ -229,8 +185,6 @@ const Sanepid = [
 	tel:'81 855 24 43',
 	email:'psse.lubartow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lubartow',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Lubartów'
 },
 {
@@ -239,8 +193,6 @@ const Sanepid = [
 	tel:'81 532 79 05',
 	email:'psse.lublin@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lublin',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Lublin'
 },
 {
@@ -249,8 +201,6 @@ const Sanepid = [
 	tel:'81 752 31 67, 81 752 71 40',
 	email:'psse.leczna@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-leczna',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Łęczna'
 },
 {
@@ -259,8 +209,6 @@ const Sanepid = [
 	tel:'25 798 21 96 (97)',
 	email:'psse.lukow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lukow',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Łuków'
 },
 {
@@ -269,8 +217,6 @@ const Sanepid = [
 	tel:'81 470 84 39, 81 827 20 41',
 	email:'psse.opolelubelskie@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-opole-lubelskie',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Opole Lubelskie'
 },
 {
@@ -279,8 +225,6 @@ const Sanepid = [
 	tel:'83 354 23 29',
 	email:'psse.parczew@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-parczew',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Parczew'
 },
 {
@@ -289,8 +233,6 @@ const Sanepid = [
 	tel:'81 886 48 91',
 	email:'psse.pulawy@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-pulawy',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Puławy'
 },
 {
@@ -299,8 +241,6 @@ const Sanepid = [
 	tel:'83 352 74 16',
 	email:'psse.radzynpodlaski@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-radzyn-podlaski',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Radzyń Podlaski'
 },
 {
@@ -309,8 +249,6 @@ const Sanepid = [
 	tel:'81 865 16 37',
 	email:'psse.ryki@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-ryki',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Ryki'
 },
 {
@@ -319,8 +257,6 @@ const Sanepid = [
 	tel:'81 745 56 10',
 	email:'psse.swidnik@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-swidnik',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Świdnik'
 },
 {
@@ -329,8 +265,6 @@ const Sanepid = [
 	tel:'84 664 44 78 (79)',
 	email:'psse.tomaszowlubelski@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-tomaszow-lubelski',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Tomaszów Lubelski'
 },
 {
@@ -339,8 +273,6 @@ const Sanepid = [
 	tel:'82 572 14 05',
 	email:'psse.wlodawa@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wlodawa',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Włodawa'
 },
 {
@@ -349,8 +281,6 @@ const Sanepid = [
 	tel:'84 639 36 91, 84 627 10 59',
 	email:'psse.zamosc@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-zamosc',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Zamość'
 },
 {
@@ -359,8 +289,6 @@ const Sanepid = [
 	tel:'82 566 17 14',
 	email:'gsse.dorohusk@pis.gov.pl',
 	www:'https://www.gov.pl/web/gsse-dorohusk',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Dorohusk'
 },
 {
@@ -369,8 +297,6 @@ const Sanepid = [
 	tel:'84 667 41 33',
 	email:'gsse.hrebenne@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/gsse-hrebenne',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Lubycza Królewska, Hrebenne'
 },
 {
@@ -379,8 +305,6 @@ const Sanepid = [
 	tel:'83 375 30 56',
 	email:'sekretariat.gsse.koroszczyn@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/gsse-koroszczyn',
-	psse:'',
-    gsse:'',
 	tag: 'lubelskie, Terespol'
 },
 {
@@ -389,8 +313,6 @@ const Sanepid = [
 	tel:'13 434 14 59',
 	email:'psse.brzozow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-brzozow',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Brzozów'
 },
 {
@@ -399,8 +321,6 @@ const Sanepid = [
 	tel:'14 680 93 70',
 	email:'psse.debica@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-debica',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Dębica'
 },
 {
@@ -409,8 +329,6 @@ const Sanepid = [
 	tel:'16 624 24 40, 16 624 24 41',
 	email:'sekretariat.psse.jaroslaw@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-jaroslaw',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Jarosław'
 },
 {
@@ -419,8 +337,6 @@ const Sanepid = [
 	tel:'13 446 30 08 wew.41',
 	email:'psse.jaslo@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-jaslo',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Jasło'
 },
 {
@@ -429,8 +345,6 @@ const Sanepid = [
 	tel:'17 227 11 50',
 	email:'psse.kolbuszowa@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-kolbuszowa',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Kolbuszowa'
 },
 {
@@ -439,8 +353,6 @@ const Sanepid = [
 	tel:'13 432 19 42',
 	email:'psse.krosno@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-krosno',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Krosno'
 },
 {
@@ -449,8 +361,6 @@ const Sanepid = [
 	tel:'17 242 07 54',
 	email:'sekretariat.psse.lezajsk@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lezajsk',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Leżajsk'
 },
 {
@@ -459,8 +369,6 @@ const Sanepid = [
 	tel:'16 632 15 28',
 	email:'psse.lubaczow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lubaczow',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Lubaczów'
 },
 {
@@ -469,8 +377,6 @@ const Sanepid = [
 	tel:'17 225 00 70',
 	email:'psse.lancut@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lancut',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Łańcut'
 },
 {
@@ -479,8 +385,6 @@ const Sanepid = [
 	tel:'17 586 30 21, 17 586 33 43',
 	email:'psse.mielec@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-mielec',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Mielec'
 },
 {
@@ -489,8 +393,6 @@ const Sanepid = [
 	tel:'15 841 20 10',
 	email:'sekretariat.psse.nisko@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-nisko',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Nisko'
 },
 {
@@ -499,8 +401,6 @@ const Sanepid = [
 	tel:'16 670 76 91',
 	email:'psse.przemysl@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-przemysl',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Przemyśl'
 },
 {
@@ -509,8 +409,6 @@ const Sanepid = [
 	tel:'16 648 79 01',
 	email:'psse.przeworsk@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-przeworsk',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Przeworsk'
 },
 {
@@ -519,8 +417,6 @@ const Sanepid = [
 	tel:'17 221 83 21',
 	email:'psse.ropczyce@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-ropczyce',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Ropczyce'
 },
 {
@@ -529,8 +425,6 @@ const Sanepid = [
 	tel:'17 742 13 08',
 	email:'psse.rzeszow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-rzeszow',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Rzeszów'
 },
 {
@@ -539,8 +433,6 @@ const Sanepid = [
 	tel:'13 464 12 19',
 	email:'psse.sanok@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-sanok',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Sanok'
 },
 {
@@ -549,8 +441,6 @@ const Sanepid = [
 	tel:'15 842 51 30, 507 133 285',
 	email:'psse.stalowawola@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-stalowa-wola',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Stalowa Wola'
 },
 {
@@ -559,8 +449,6 @@ const Sanepid = [
 	tel:'17 276 11 52',
 	email:'psse.strzyzow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-strzyzow',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Strzyżów'
 },
 {
@@ -569,8 +457,6 @@ const Sanepid = [
 	tel:'15 822 65 83',
 	email:'psse.tarnobrzeg@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-tarnobrzeg',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Tarnobrzeg'
 },
 {
@@ -579,8 +465,6 @@ const Sanepid = [
 	tel:'13 461 28 06',
 	email:'psse.ustrzykidolne@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-ustrzyki-dolne',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Ustrzyki Dolne'
 },
 {
@@ -589,8 +473,6 @@ const Sanepid = [
 	tel:'16 678 27 86',
 	email:'gsse.przemysl@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/gsse-przemysl',
-	psse:'',
-    gsse:'',
 	tag: 'podkarpackie, Przemyśl'
 },
 {
@@ -599,8 +481,6 @@ const Sanepid = [
 	tel:'48 613 23 60',
 	email:'sekretariat.psse.bialobrzegi@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-bialobrzeg',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Białobrzegi'
 },
 {
@@ -609,8 +489,6 @@ const Sanepid = [
 	tel:'23 672 33 13',
 	email:'sekretariat.psse.ciechanow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-ciechanow',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Ciechanów'
 },
 {
@@ -619,8 +497,6 @@ const Sanepid = [
 	tel:'25 684 35 95, 25 684 39 57, 25 684 33 08',
 	email:'sekretariat.psse.garwolin@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-garwolin',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Garwolin'
 },
 {
@@ -629,8 +505,6 @@ const Sanepid = [
 	tel:'24 235 22 04',
 	email:'sekretariat.psse.gostynin@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-gostynin',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Gostynin'
 },
 {
@@ -639,8 +513,6 @@ const Sanepid = [
 	tel:'22 755 57 76',
 	email:'sekretariat.psse.grodziskmazowiecki@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-grodzisk-mazowiecki',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Grodzisk Mazowiecki'
 },
 {
@@ -649,8 +521,6 @@ const Sanepid = [
 	tel:'48 664 22 58',
 	email:'sekretariat.psse.grojec@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-grojec',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Grójec'
 },
 {
@@ -659,8 +529,6 @@ const Sanepid = [
 	tel:'48 611 04 20',
 	email:'sekretariat.psse.kozienice@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-kozienice',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Kozienice'
 },
 {
@@ -669,8 +537,6 @@ const Sanepid = [
 	tel:'22 774 15 76',
 	email:'sekretariat.psse.legionowo@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-legionowo',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Legionowo'
 },
 {
@@ -679,8 +545,6 @@ const Sanepid = [
 	tel:'48 378 00 87',
 	email:'sekretariat.psse.lipsko@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lipsko',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Lipsko'
 },
 {
@@ -689,8 +553,6 @@ const Sanepid = [
 	tel:'83 357 36 28',
 	email:'sekretariat.psse.losice@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-losice',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Łosicach'
 },
 {
@@ -699,8 +561,6 @@ const Sanepid = [
 	tel:'22 310 79 00',
 	email:'kancelaria.psse.warszawa@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-warszawa',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Warszawa'
 },
 {
@@ -709,8 +569,6 @@ const Sanepid = [
 	tel:'29 717 13 00',
 	email:'sekretariat.psse.makowmazowiecki@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-makow-mazowiecki',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Maków Mazowiecki'
 },
 {
@@ -719,8 +577,6 @@ const Sanepid = [
 	tel:'25 758 22 32',
 	email:'sekretariat.psse.minskmazowiecki@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-minsk-mazowiecki',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Mińsk Mazowiecki'
 },
 {
@@ -729,8 +585,6 @@ const Sanepid = [
 	tel:'23 654 35 73',
 	email:'sekretariat.psse.mlawa@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-mlawa',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Mława'
 },
 {
@@ -739,8 +593,6 @@ const Sanepid = [
 	tel:'22 775 34 61',
 	email:'sekretariat.psse.nowydwormaz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-nowy-dwor-mazowiecki',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Nowy Dwór Mazowiecki'
 },
 {
@@ -749,8 +601,6 @@ const Sanepid = [
 	tel:'29 769 12 95',
 	email:'sekretariat.psse.ostroleka@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-ostroleka',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Ostrołęka'
 },
 {
@@ -759,8 +609,6 @@ const Sanepid = [
 	tel:'29 644 06 80 wew. 31',
 	email:'sekretariat.psse.ostrow.maz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-ostrow-mazowiecka',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Ostrów Mazowiecka'
 },
 {
@@ -769,8 +617,6 @@ const Sanepid = [
 	tel:'22 779 48 33, 22 779 26 63',
 	email:'sekretariat.psse.otwock@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-otwock',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Otwock'
 },
 {
@@ -779,8 +625,6 @@ const Sanepid = [
 	tel:'22 756 46 20',
 	email:'sekretariat.psse.piaseczno@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-piaseczno',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Piaseczno, Chylice'
 },
 {
@@ -789,8 +633,6 @@ const Sanepid = [
 	tel:'24 367 26 01',
 	email:'sekretariat.psse.plock@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-plock',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Płock'
 },
 {
@@ -799,8 +641,6 @@ const Sanepid = [
 	tel:'23 662 28 39',
 	email:'sekretariat.psse.plonsk@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-plonsk',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Płońsk'
 },
 {
@@ -809,8 +649,6 @@ const Sanepid = [
 	tel:'22 758 75 26',
 	email:'sekretariat.psse.pruszkow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-pruszkow',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Pruszków'
 },
 {
@@ -819,8 +657,6 @@ const Sanepid = [
 	tel:'29 752 25 04',
 	email:'sekretariat.psse.prasnysz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-prasnysz',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Przasnysz'
 },
 {
@@ -829,8 +665,6 @@ const Sanepid = [
 	tel:'48 675 24 22, 48 675 23 37',
 	email:'sekretariat.psse.przysucha@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-przysucha',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Przysucha'
 },
 {
@@ -839,8 +673,6 @@ const Sanepid = [
 	tel:'23 692 50 71',
 	email:'sekretariat.psse.pultusk@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-pultusk',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Pułtusk'
 },
 {
@@ -849,8 +681,6 @@ const Sanepid = [
 	tel:'48 386 42 00, 48 345 15 94',
 	email:'sekretariat.psse.radom@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-radom',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Radom'
 },
 {
@@ -859,8 +689,6 @@ const Sanepid = [
 	tel:'25 632 28 75',
 	email:'sekretariat.psse.siedlce@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-siedlce',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Siedlce'
 },
 {
@@ -869,8 +697,6 @@ const Sanepid = [
 	tel:'24 275 26 01',
 	email:'sekretariat.psse.sierpc@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-sierpc',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Sierpc'
 },
 {
@@ -879,8 +705,6 @@ const Sanepid = [
 	tel:'46 862 22 66',
 	email:'sekretariat.psse.sochaczew@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-sochaczew',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Sochaczew'
 },
 {
@@ -889,8 +713,6 @@ const Sanepid = [
 	tel:'25 506 50 10',
 	email:'sekretariat.psse.sokolowpodlaski@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-sokolow-podlaski',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Sokołów Podlaski'
 },
 {
@@ -899,8 +721,6 @@ const Sanepid = [
 	tel:'48 617 12 19',
 	email:'sekretariat.psse.szydlowiec@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-szydlowiec',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Szydłowiec'
 },
 {
@@ -909,8 +729,6 @@ const Sanepid = [
 	tel:'22 733 73 33',
 	email:'sekretariat.psse.pwz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-ozarow-mazowiecki',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Ożarów Mazowiecki'
 },
 {
@@ -919,8 +737,6 @@ const Sanepid = [
 	tel:'25 506 55 80',
 	email:'sekretariat.psse.wegrow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wegrow',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Węgrów'
 },
 {
@@ -929,8 +745,6 @@ const Sanepid = [
 	tel:'22 776 38 33, 22 776 21 92',
 	email:'sekretariat.psse.wolomin@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wolomin',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Wołomin'
 },
 {
@@ -939,8 +753,6 @@ const Sanepid = [
 	tel:'29 742 32 45, 29 742 32 45',
 	email:'sekretariat.psse.wyszkow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wyszkow',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Wyszków'
 },
 {
@@ -949,8 +761,6 @@ const Sanepid = [
 	tel:'48 676 23 12',
 	email:'sekretariat.psse.zwolen@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-zwolen',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Zwoleń'
 },
 {
@@ -959,8 +769,6 @@ const Sanepid = [
 	tel:'23 657 22 17',
 	email:'serketariat.psse.zuromin@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-zuromim',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Żuromin'
 },
 {
@@ -969,8 +777,6 @@ const Sanepid = [
 	tel:'48 855 32 42',
 	email:'sekretariat.psse.zyrardow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-zyrardow',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Żyrardów'
 },
 {
@@ -979,8 +785,6 @@ const Sanepid = [
 	tel:'22 650 25 33',
 	email:'sekretariat.gsse.warszawa@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/gsse-warszawa',
-	psse:'',
-    gsse:'',
 	tag: 'mazowieckie, Warszawa'
 },
 {
@@ -989,8 +793,6 @@ const Sanepid = [
 	tel:'14 612 39 47',
 	email:'psse.bochnia@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-bochnia',
-	psse:'',
-    gsse:'',
 	tag: 'małopolskie, Bochnia'
 },
 {
@@ -999,8 +801,6 @@ const Sanepid = [
 	tel:'14 663 07 43',
 	email:'psse.brzesko@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-brzesko',
-	psse:'',
-    gsse:'',
 	tag: 'małopolskie, Brzesko'
 },
 {
@@ -1009,8 +809,6 @@ const Sanepid = [
 	tel:'32 623 24 07',
 	email:'psse.chrzanow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-chrzanow',
-	psse:'',
-    gsse:'',
 	tag: 'małopolskie, Chrzanów'
 },
 {
@@ -1019,8 +817,6 @@ const Sanepid = [
 	tel:'14 642 25 71',
 	email:'psse.dabrowatarnowska@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-dabrowa-tarnowska',
-	psse:'',
-    gsse:'',
 	tag: 'małopolskie, Dąbrowa Tarnowska'
 },
 {
@@ -1029,8 +825,6 @@ const Sanepid = [
 	tel:'18 353 73 43',
 	email:'psse.gorlice@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-gorlice',
-	psse:'',
-    gsse:'',
 	tag: 'małopolskie, Gorlice'
 },
 {
@@ -1039,8 +833,6 @@ const Sanepid = [
 	tel:'12 430 70 46',
 	email:'psse.krakow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-krakow',
-	psse:'',
-    gsse:'',
 	tag: 'małopolskie, Kraków'
 },
 {
@@ -1049,8 +841,6 @@ const Sanepid = [
 	tel:'18 337 21 01',
 	email:'psse.limanowa@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-limanowa',
-	psse:'',
-    gsse:'',
 	tag: 'małopolskie, Kraków'
 },
 {
@@ -1059,8 +849,6 @@ const Sanepid = [
 	tel:'41 389 04 50',
 	email:'psse.miechow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-miechow',
-	psse:'',
-    gsse:'',
 	tag: 'małopolskie, Miechów'
 },
 {
@@ -1069,8 +857,6 @@ const Sanepid = [
 	tel:'12 272 06 06',
 	email:'psse.myslenice@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-myslenice',
-	psse:'',
-    gsse:'',
 	tag: 'małopolskie, Myślenice'
 },
 {
@@ -1079,8 +865,6 @@ const Sanepid = [
 	tel:'18 443 54 64',
 	email:'psse.nowysacz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-nowy-sacz',
-	psse:'',
-    gsse:'',
 	tag: 'małopolskie, Nowy Sącz'
 },
 {
@@ -1089,8 +873,6 @@ const Sanepid = [
 	tel:'18 266 29 14',
 	email:'psse.nowytarg@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-nowy-targ',
-	psse:'',
-    gsse:'',
 	tag: 'małopolskie, Nowy Targ'
 },
 {
@@ -1099,8 +881,6 @@ const Sanepid = [
 	tel:'32 754 57 20',
 	email:'psse.olkusz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-olkusz',
-	psse:'',
-    gsse:'',
 	tag: 'małopolskie, Olkusz'
 },
 {
@@ -1109,8 +889,6 @@ const Sanepid = [
 	tel:'33 843 09 28',
 	email:'psse.oswiecim@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-oswiecim',
-	psse:'',
-    gsse:'',
 	tag: 'małopolskie, Oświęcim'
 },
 {
@@ -1119,8 +897,6 @@ const Sanepid = [
 	tel:'22 250 01 15',
 	email:'psse.proszowice@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-proszowice',
-	psse:'',
-    gsse:'',
 	tag: 'małopolskie, Proszowice'
 },
 {
@@ -1129,8 +905,6 @@ const Sanepid = [
 	tel:'33 874 22 34',
 	email:'psse.suchabeskidzka@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-sucha-beskidzka',
-	psse:'',
-    gsse:'',
 	tag: 'małopolskie, Sucha Beskidzka'
 },
 {
@@ -1139,8 +913,6 @@ const Sanepid = [
 	tel:'14 621 70 97',
 	email:'psse.tarnow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-tarnow',
-	psse:'',
-    gsse:'',
 	tag: 'małopolskie, Tarnów'
 },
 {
@@ -1149,8 +921,6 @@ const Sanepid = [
 	tel:'33 823 37 66',
 	email:'psse.wadowice@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wadowice',
-	psse:'',
-    gsse:'',
 	tag: 'małopolskie, Wadowice'
 },
 {
@@ -1159,8 +929,6 @@ const Sanepid = [
 	tel:'12 288 01 38',
 	email:'psse.wieliczka@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wieliczka',
-	psse:'',
-    gsse:'',
 	tag: 'małopolskie, Wieliczka'
 },
 {
@@ -1169,8 +937,6 @@ const Sanepid = [
 	tel:'18 206 86 97',
 	email:'psse.zakopane@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-zakopane',
-	psse:'',
-    gsse:'',
 	tag: 'małopolskie, Zakopane'
 },
 {
@@ -1179,8 +945,6 @@ const Sanepid = [
 	tel:'41 378 35 73',
 	email:'sekretariat.psse.busko@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-busko-zdroj',
-	psse:'',
-    gsse:'',
 	tag: 'świętokrzyskie, Busko-Zdrój'
 },
 {
@@ -1189,8 +953,6 @@ const Sanepid = [
 	tel:'41 386 14 80',
 	email:'sekretariat.psse.jedrzejow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-jedrzejow',
-	psse:'',
-    gsse:'',
 	tag: 'świętokrzyskie, Jędrzejów'
 },
 {
@@ -1199,8 +961,6 @@ const Sanepid = [
 	tel:'41 345 46 22',
 	email:'sekretariat.psse.kielce@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-kielce',
-	psse:'',
-    gsse:'',
 	tag: 'świętokrzyskie, Kielce'
 },
 {
@@ -1209,8 +969,6 @@ const Sanepid = [
 	tel:'41 372 30 22, 41 372 30 23',
 	email:'sekretariat.psse.konskie@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-konskie',
-	psse:'',
-    gsse:'',
 	tag: 'świętokrzyskie, Końskie'
 },
 {
@@ -1219,8 +977,6 @@ const Sanepid = [
 	tel:'15 868 21 49',
 	email:'sekretariat.psse.opatow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-opatow',
-	psse:'',
-    gsse:'',
 	tag: 'świętokrzyskie, Opatów'
 },
 {
@@ -1229,8 +985,6 @@ const Sanepid = [
 	tel:'41 247 96 95',
 	email:'sekretariat.psse.ostrowiec@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-ostrowiec-swietokrzyski',
-	psse:'',
-    gsse:'',
 	tag: 'świętokrzyskie, Ostrowiec Świętokrzyski'
 },
 {
@@ -1239,8 +993,6 @@ const Sanepid = [
 	tel:'15 832 23 22, 15 832 22 63',
 	email:'sekretariat.psse.sandomierz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-sandomierz',
-	psse:'',
-    gsse:'',
 	tag: 'świętokrzyskie, Sandomierz'
 },
 {
@@ -1249,8 +1001,6 @@ const Sanepid = [
 	tel:'41 251 18 68, 41 251 18 69',
 	email:'sekretariat.psse.skarzysko@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-skarzysko-kamienna',
-	psse:'',
-    gsse:'',
 	tag: 'świętokrzyskie, Skarżysko–Kamienna'
 },
 {
@@ -1259,8 +1009,6 @@ const Sanepid = [
 	tel:'41 274 62 67',
 	email:'sekretariat.psse.starachowice@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-starachowice',
-	psse:'',
-    gsse:'',
 	tag: 'świętokrzyskie, Starachowice'
 },
 {
@@ -1269,8 +1017,6 @@ const Sanepid = [
 	tel:'15 864 27 86',
 	email:'sekretariat.psse.staszow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-staszow',
-	psse:'',
-    gsse:'',
 	tag: 'świętokrzyskie, Staszów'
 },
 {
@@ -1279,8 +1025,6 @@ const Sanepid = [
 	tel:'41 394 27 41, 41 394 34 95',
 	email:'sekretariat.psse.wloszczowa@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wloszczowa',
-	psse:'',
-    gsse:'',
 	tag: 'świętokrzyskie, Włoszczowa'
 },
 {
@@ -1289,8 +1033,6 @@ const Sanepid = [
 	tel:'77 444 18 50',
 	email:'sekretariat.psse.brzeg@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-brzeg',
-	psse:'',
-    gsse:'',
 	tag: 'opolskie, Brzeg'
 },
 {
@@ -1299,8 +1041,6 @@ const Sanepid = [
 	tel:'77 485 26 68',
 	email:'sekretariat.psse.glubczyce@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-glubszyce',
-	psse:'',
-    gsse:'',
 	tag: 'opolskie, Głubczyce'
 },
 {
@@ -1309,8 +1049,6 @@ const Sanepid = [
 	tel:'77 482 39 60',
 	email:'sekretariat.psse.kkozle@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-kedzierzyn-kozle',
-	psse:'',
-    gsse:'',
 	tag: 'opolskie, Kędzierzyn-Koźle'
 },
 {
@@ -1319,8 +1057,6 @@ const Sanepid = [
 	tel:'77 418 22 57',
 	email:'sekretariat.psse.kluczbork@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-kluczbork',
-	psse:'',
-    gsse:'',
 	tag: 'opolskie, Kluczbork'
 },
 {
@@ -1329,8 +1065,6 @@ const Sanepid = [
 	tel:'77 446 67 40',
 	email:'sekretariat.psse.krapkowice@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-krapkowice',
-	psse:'',
-    gsse:'',
 	tag: 'opolskie, Krapkowice'
 },
 {
@@ -1339,8 +1073,6 @@ const Sanepid = [
 	tel:'77 419 04 80, 77 419 04 81',
 	email:'sekretariat.psse.namyslow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-namyslow',
-	psse:'',
-    gsse:'',
 	tag: 'opolskie, Namysłów'
 },
 {
@@ -1349,8 +1081,6 @@ const Sanepid = [
 	tel:'77 435 25 53',
 	email:'sekretariat.psse.nysa@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-nysa',
-	psse:'',
-    gsse:'',
 	tag: 'opolskie, Nysa'
 },
 {
@@ -1359,8 +1089,6 @@ const Sanepid = [
 	tel:'34 358 26 73',
 	email:'psse.olesno@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-olesno',
-	psse:'',
-    gsse:'',
 	tag: 'opolskie, Olesno'
 },
 {
@@ -1369,8 +1097,6 @@ const Sanepid = [
 	tel:'77 442 85 00',
 	email:'sekretariat.psse.opole@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-opole',
-	psse:'',
-    gsse:'',
 	tag: 'opolskie, Opole'
 },
 {
@@ -1379,8 +1105,6 @@ const Sanepid = [
 	tel:'77 436 20 74',
 	email:'sekretariat.psse.prudnik@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-prudnik',
-	psse:'',
-    gsse:'',
 	tag: 'opolskie, Prudnik'
 },
 {
@@ -1389,8 +1113,6 @@ const Sanepid = [
 	tel:'77 440 03 13',
 	email:'sekretariat.psse.strzelceop@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-strzelce-opolskie',
-	psse:'',
-    gsse:'',
 	tag: 'opolskie, Strzelce Opolskie'
 },
 {
@@ -1399,8 +1121,6 @@ const Sanepid = [
 	tel:'(95) 762-05-20',
 	email:'psse.drezdenko@sanepid.gov.pl',
 	www:'http://bip.wsse.gorzow.pl/pssedrezdenko',
-	psse:'',
-    gsse:'',
 	tag: 'lubuskie, Drezdenko'
 },
 {
@@ -1409,8 +1129,6 @@ const Sanepid = [
 	tel:'(95) 722-89-86',
 	email:'psse.drezdenko@sanepid.gov.pl',
 	www:'http://bip.wsse.gorzow.pl/pssegorzow',
-	psse:'',
-    gsse:'',
 	tag: 'lubuskie, Gorzów Wlkp'
 },
 {
@@ -1419,8 +1137,6 @@ const Sanepid = [
 	tel:'(68) 383-80-77',
 	email:'psse.krosnoodrzanskie@sanepid.gov.pl',
 	www:'http://bip.wsse.gorzow.pl/pssekrosno',
-	psse:'',
-    gsse:'',
 	tag: 'lubuskie, Krosno Odrzańskie'
 },
 {
@@ -1429,8 +1145,6 @@ const Sanepid = [
 	tel:'(95) 741-22-27, 95 741 22 28',
 	email:'psse.miedzyrzecz@sanepid.gov.pl',
 	www:'http://bip.wsse.gorzow.pl/pssemiedzyrzecz',
-	psse:'',
-    gsse:'',
 	tag: 'lubuskie, Międzyrzecz'
 },
 {
@@ -1439,8 +1153,6 @@ const Sanepid = [
 	tel:'(95) 741-22-27, 95 741 22 28',
 	email:'psse.nowasol@sanepid.gov.pl',
 	www:'http://edu.wsse.gorzow.pl/nowasol/',
-	psse:'',
-    gsse:'',
 	tag: 'lubuskie, Nowa Sól'
 },
 {
@@ -1449,8 +1161,6 @@ const Sanepid = [
 	tel:'(68) 387-24-61',
 	email:'psse.slubice@sanepid.gov.pl',
 	www:'http://bip.wsse.gorzow.pl/psseslubice',
-	psse:'',
-    gsse:'',
 	tag: 'lubuskie, Słubice'
 },
 {
@@ -1459,8 +1169,6 @@ const Sanepid = [
 	tel:'(68) 387-24-61',
 	email:'psse.sulecin@sanepid.gov.pl',
 	www:'http://bip.wsse.gorzow.pl/pssesulecin',
-	psse:'',
-    gsse:'',
 	tag: 'lubuskie, Sulęcin'
 },
 {
@@ -1469,8 +1177,6 @@ const Sanepid = [
 	tel:'68 382-07-47, 68 382-43-54',
 	email:'psse.swiebodzin@sanepid.gov.pl',
 	www:'http://bip.wsse.gorzow.pl/psseswiebodzin',
-	psse:'',
-    gsse:'',
 	tag: 'lubuskie, Świebodzin'
 },
 {
@@ -1479,8 +1185,6 @@ const Sanepid = [
 	tel:'(68) 325-46-71',
 	email:'psse.zielonagora@sanepid.gov.pl',
 	www:'http://bip.wsse.gorzow.pl/pssezielonagora',
-	psse:'',
-    gsse:'',
 	tag: 'lubuskie, Zielona Góra'
 },
 {
@@ -1489,8 +1193,6 @@ const Sanepid = [
 	tel:'(68) 477-66-00',
 	email:'psse.zagan@sanepid.gov.pl',
 	www:'http://bip.wsse.gorzow.pl/pssezagan',
-	psse:'',
-    gsse:'',
 	tag: 'lubuskie, Żagań'
 },
 {
@@ -1499,8 +1201,6 @@ const Sanepid = [
 	tel:'(68) 470-62-58',
 	email:'psse.zary@sanepid.gov.pl',
 	www:'http://bip.wsse.gorzow.pl/pssezary',
-	psse:'',
-    gsse:'',
 	tag: 'lubuskie, Żary'
 },
 {
@@ -1509,8 +1209,6 @@ const Sanepid = [
 	tel:'89 762 32 57',
 	email:'psse.bartoszyce@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-bartoszyce',
-	psse:'',
-    gsse:'',
 	tag: 'warmińsko-mazurskie, Bartoszyce'
 },
 {
@@ -1519,8 +1217,6 @@ const Sanepid = [
 	tel:'+48 604 218 685',
 	email:'psse.braniewo@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-braniewo',
-	psse:'',
-    gsse:'',
 	tag: 'warmińsko-mazurskie, Braniewo'
 },
 {
@@ -1529,8 +1225,6 @@ const Sanepid = [
 	tel:'(23) 697 26 34',
 	email:'psse.dzialdowo@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-dzialdowo',
-	psse:'',
-    gsse:'',
 	tag: 'warmińsko-mazurskie, Działdowo'
 },
 {
@@ -1539,8 +1233,6 @@ const Sanepid = [
 	tel:'55 232 74 31',
 	email:'psse.elblag@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-elblag',
-	psse:'',
-    gsse:'',
 	tag: 'warmińsko-mazurskie, Elbląg'
 },
 {
@@ -1549,8 +1241,6 @@ const Sanepid = [
 	tel:'87 621 77 50',
 	email:'psse.elk@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-elk',
-	psse:'',
-    gsse:'',
 	tag: 'warmińsko-mazurskie, Elbląg'
 },
 {
@@ -1559,8 +1249,6 @@ const Sanepid = [
 	tel:'87 428 54 98',
 	email:'psse.gizycko@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-gizycko',
-	psse:'',
-    gsse:'',
 	tag: 'warmińsko-mazurskie, Giżycko'
 },
 {
@@ -1569,8 +1257,6 @@ const Sanepid = [
 	tel:'87 428 54 98',
 	email:'psse.goldap@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-goldap',
-	psse:'',
-    gsse:'',
 	tag: 'warmińsko-mazurskie, Gołdap'
 },
 {
@@ -1579,8 +1265,6 @@ const Sanepid = [
 	tel:'89 649 04 20',
 	email:'psse.ilawa@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-ilawa',
-	psse:'',
-    gsse:'',
 	tag: 'warmińsko-mazurskie, Iława'
 },
 {
@@ -1589,8 +1273,6 @@ const Sanepid = [
 	tel:'89 754 21 40',
 	email:'psse.ketrzyn@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-ketrzyn',
-	psse:'',
-    gsse:'',
 	tag: 'warmińsko-mazurskie, Kętrzyn'
 },
 {
@@ -1599,8 +1281,6 @@ const Sanepid = [
 	tel:'89 767 23 22',
 	email:'psse.lidzbarkwarminski@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lidzbark-warminski',
-	psse:'',
-    gsse:'',
 	tag: 'warmińsko-mazurskie, Lidzbark Warmiński'
 },
 {
@@ -1609,8 +1289,6 @@ const Sanepid = [
 	tel:'89 741 26 34',
 	email:'psse.mragowo@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-mragowo',
-	psse:'',
-    gsse:'',
 	tag: 'warmińsko-mazurskie, Mrągowo'
 },
 {
@@ -1619,8 +1297,6 @@ const Sanepid = [
 	tel:'89 625 20 81',
 	email:'psse.nidzica@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-nidzica',
-	psse:'',
-    gsse:'',
 	tag: 'warmińsko-mazurskie, Nidzica'
 },
 {
@@ -1629,8 +1305,6 @@ const Sanepid = [
 	tel:'56 4742 692',
 	email:'psse.nowemiastolubawskie@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-nowe-miasto-lubawskie',
-	psse:'',
-    gsse:'',
 	tag: 'warmińsko-mazurskie, Nowe Miasto Lubawskie'
 },
 {
@@ -1639,8 +1313,6 @@ const Sanepid = [
 	tel:'87 520 30 55',
 	email:'psse.olecko@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-olecko',
-	psse:'',
-    gsse:'',
 	tag: 'warmińsko-mazurskie, Olecko'
 },
 {
@@ -1649,8 +1321,6 @@ const Sanepid = [
 	tel:'89 524 83 00',
 	email:'psse.olsztyn@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-olsztyn',
-	psse:'',
-    gsse:'',
 	tag: 'warmińsko-mazurskie, Olsztyn'
 },
 {
@@ -1659,8 +1329,6 @@ const Sanepid = [
 	tel:'89 64 60 870',
 	email:'psse.ostroda@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-ostroda',
-	psse:'',
-    gsse:'',
 	tag: 'warmińsko-mazurskie, Ostróda'
 },
 {
@@ -1669,8 +1337,6 @@ const Sanepid = [
 	tel:'87 423 23 78',
 	email:'psse.pisz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-pisz',
-	psse:'',
-    gsse:'',
 	tag: 'warmińsko-mazurskie, Pisz'
 },
 {
@@ -1679,8 +1345,6 @@ const Sanepid = [
 	tel:'89 624 87 31',
 	email:'psse.szczytno@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-szczytno',
-	psse:'',
-    gsse:'',
 	tag: 'warmińsko-mazurskie, Szczytno'
 },
 {
@@ -1689,8 +1353,6 @@ const Sanepid = [
 	tel:'87 427 28 13',
 	email:'psse.wegorzewo@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wegorzewo',
-	psse:'',
-    gsse:'',
 	tag: 'warmińsko-mazurskie, Węgorzewo'
 },
 {
@@ -1699,8 +1361,6 @@ const Sanepid = [
 	tel:'55 232 70 80',
 	email:'gsse.elblag@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/gsse-elblag',
-	psse:'',
-    gsse:'',
 	tag: 'warmińsko-mazurskie, Elbląg'
 },
 {
@@ -1709,8 +1369,6 @@ const Sanepid = [
 	tel:'44 631 31 08, 44 631 31 18',
 	email:'sekretariat.psse.belchatow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-belchatow',
-	psse:'',
-    gsse:'',
 	tag: 'łódzkie, Bełchatów'
 },
 {
@@ -1719,8 +1377,6 @@ const Sanepid = [
 	tel:'46 874 31 60',
 	email:'sekretariat.psse.brzeziny@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-brzeziny',
-	psse:'',
-    gsse:'',
 	tag: 'łódzkie, Brzeziny'
 },
 {
@@ -1729,8 +1385,6 @@ const Sanepid = [
 	tel:'663 73 56 28',
 	email:'sekretariat.psse.leczyca@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-leczyca',
-	psse:'',
-    gsse:'',
 	tag: 'łódzkie, Łęczyca'
 },
 {
@@ -1739,8 +1393,6 @@ const Sanepid = [
 	tel:'(042) 253 99 00,(042) 253 90 10',
 	email:'sekretariat.psse.lodz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lodz',
-	psse:'',
-    gsse:'',
 	tag: 'łódzkie, Łódź'
 },
 {
@@ -1749,8 +1401,6 @@ const Sanepid = [
 	tel:'48 604 691 091',
 	email:'sekretariat.psse.lowicz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lowicz',
-	psse:'',
-    gsse:'',
 	tag: 'łódzkie, Łowicz'
 },
 {
@@ -1759,8 +1409,6 @@ const Sanepid = [
 	tel:'48 609 318 812',
 	email:'sekretariat.psse.opoczno@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-opoczno',
-	psse:'',
-    gsse:'',
 	tag: 'łódzkie, Opoczno'
 },
 {
@@ -1769,8 +1417,6 @@ const Sanepid = [
 	tel:'42 215 27 76',
 	email:'sekretariat.psse.pabianice@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-pabianice',
-	psse:'',
-    gsse:'',
 	tag: 'łódzkie, Pabianice'
 },
 {
@@ -1779,8 +1425,6 @@ const Sanepid = [
 	tel:'48 34 311 10 31',
 	email:'sekretariat.psse.pajeczno@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-pajeczno',
-	psse:'',
-    gsse:'',
 	tag: 'łódzkie, Pajęczno'
 },
 {
@@ -1789,8 +1433,6 @@ const Sanepid = [
 	tel:'48 661 616 805',
 	email:'sekretariat.psse.piotrkowtrybunalski@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-piotrkow-trybunalski',
-	psse:'',
-    gsse:'',
 	tag: 'łódzkie, Piotrków Trybunalski'
 },
 {
@@ -1799,8 +1441,6 @@ const Sanepid = [
 	tel:'43 607 880 455',
 	email:'sekretariat.psse.poddebice@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-poddebice',
-	psse:'',
-    gsse:'',
 	tag: 'łódzkie, Poddębice'
 },
 {
@@ -1809,8 +1449,6 @@ const Sanepid = [
 	tel:'44 887 436 537',
 	email:'sekretariat.psse.radomsko@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-radomsko',
-	psse:'',
-    gsse:'',
 	tag: 'łódzkie, Radomsko'
 },
 {
@@ -1819,8 +1457,6 @@ const Sanepid = [
 	tel:'48 609 733 252',
 	email:'sekretariat.psse.rawamazowiecka@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-rawa-mazowiecka',
-	psse:'',
-    gsse:'',
 	tag: 'łódzkie, Rawa Mazowiecka'
 },
 {
@@ -1829,8 +1465,6 @@ const Sanepid = [
 	tel:'48 601 823 685',
 	email:'sekretariat.psse.sieradz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-sieradz',
-	psse:'',
-    gsse:'',
 	tag: 'łódzkie, Sieradz'
 },
 {
@@ -1839,8 +1473,6 @@ const Sanepid = [
 	tel:'48 509 425 343',
 	email:'sekretariat.psse.skierniewice@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-skierniewice',
-	psse:'',
-    gsse:'',
 	tag: 'łódzkie, Skierniewice'
 },
 {
@@ -1849,8 +1481,6 @@ const Sanepid = [
 	tel:'48 502 237 659',
 	email:'sekretariat.psse.tomaszowmazowiecki@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-tomaszow-mazowiecki',
-	psse:'',
-    gsse:'',
 	tag: 'łódzkie, Tomaszów Mazowiecki'
 },
 {
@@ -1859,8 +1489,6 @@ const Sanepid = [
 	tel:'48 509 876 857',
 	email:'sekretariat.psse.wielun@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wielun',
-	psse:'',
-    gsse:'',
 	tag: 'łódzkie, Wieluń'
 },
 {
@@ -1869,8 +1497,6 @@ const Sanepid = [
 	tel:'48 661 239 699',
 	email:'sekretariat.psse.wieruszow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wieruszow',
-	psse:'',
-    gsse:'',
 	tag: 'łódzkie, Wieruszów'
 },
 {
@@ -1879,8 +1505,6 @@ const Sanepid = [
 	tel:'48 512 185 986',
 	email:'sekretariat.psse.zdunskawola@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-zdunska-wola',
-	psse:'',
-    gsse:'',
 	tag: 'łódzkie, Zduńska Wola'
 },
 {
@@ -1889,8 +1513,6 @@ const Sanepid = [
 	tel:'48 887 436 547',
 	email:'sekretariat.psse.zgierz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-zgierz',
-	psse:'',
-    gsse:'',
 	tag: 'łódzkie, Zgierz'
 },
 {
@@ -1899,8 +1521,6 @@ const Sanepid = [
 	tel:'33 816 00 12',
 	email:'psse.bielskobiala@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-bielsko-biala',
-	psse:'',
-    gsse:'',
 	tag: 'śląskie, Bielsko-Biała'
 },
 {
@@ -1909,8 +1529,6 @@ const Sanepid = [
 	tel:'32 397 66 66,887 435 272',
 	email:'psse.bytom@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-bytom',
-	psse:'',
-    gsse:'',
 	tag: 'śląskie, Bytom'
 },
 {
@@ -1919,8 +1537,6 @@ const Sanepid = [
 	tel:'32 2412 494, 887 435 281',
 	email:'psse.chorzow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-chorzow',
-	psse:'',
-    gsse:'',
 	tag: 'śląskie, Chorzów'
 },
 {
@@ -1929,8 +1545,6 @@ const Sanepid = [
 	tel:'48 33 4797010',
 	email:'psse.cieszyn@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-cieszyn',
-	psse:'',
-    gsse:'',
 	tag: 'śląskie, Cieszyn'
 },
 {
@@ -1939,8 +1553,6 @@ const Sanepid = [
 	tel:'34 344 99 00',
 	email:'psse.czestochowa@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-czestochowa',
-	psse:'',
-    gsse:'',
 	tag: 'śląskie, Częstochowa'
 },
 {
@@ -1949,8 +1561,6 @@ const Sanepid = [
 	tel:'(32) 360-27-90,795-513-569',
 	email:'psse.dabrowagornicza@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-dabrowa-gornicza',
-	psse:'',
-    gsse:'',
 	tag: 'śląskie, Dąbrowa Górnicza'
 },
 {
@@ -1959,8 +1569,6 @@ const Sanepid = [
 	tel:'48 32 338 05 00,48 507 220 222',
 	email:'psse.gliwice@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-gliwice',
-	psse:'',
-    gsse:'',
 	tag: 'śląskie, Gliwice'
 },
 {
@@ -1969,8 +1577,6 @@ const Sanepid = [
 	tel:'32 6164058, 690 538 610',
 	email:'psse.jaworzno@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-jaworzno',
-	psse:'',
-    gsse:'',
 	tag: 'śląskie, Jaworzno'
 },
 {
@@ -1979,8 +1585,6 @@ const Sanepid = [
 	tel:'32 253 24 60, 604 868 095',
 	email:'psse.katowice@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-katowice',
-	psse:'',
-    gsse:'',
 	tag: 'śląskie, Katowice'
 },
 {
@@ -1989,8 +1593,6 @@ const Sanepid = [
 	tel:'48 343172260',
 	email:'psse.klobuck@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-klobuck',
-	psse:'',
-    gsse:'',
 	tag: 'śląskie, Kłobuck'
 },
 {
@@ -1999,8 +1601,6 @@ const Sanepid = [
 	tel:'34 356 32 85, 48 604 619 629',
 	email:'psse.lubliniec@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lubliniec',
-	psse:'',
-    gsse:'',
 	tag: 'śląskie, Lubliniec'
 },
 {
@@ -2009,8 +1609,6 @@ const Sanepid = [
 	tel:'34 3131305, 603 779 492',
 	email:'psse.myszkow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-myszkow',
-	psse:'',
-    gsse:'',
 	tag: 'śląskie, Myszków'
 },
 {
@@ -2019,8 +1617,6 @@ const Sanepid = [
 	tel:'32 459 41 32, 604 106 359',
 	email:'psse.raciborz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-raciborz',
-	psse:'',
-    gsse:'',
 	tag: 'śląskie, Racibórz'
 },
 {
@@ -2029,8 +1625,6 @@ const Sanepid = [
 	tel:'(32) 340 03 84, 889 457 734',
 	email:'psse.rudaslaska@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-ruda-slaska',
-	psse:'',
-    gsse:'',
 	tag: 'śląskie, Ruda Śląska'
 },
 {
@@ -2039,8 +1633,6 @@ const Sanepid = [
 	tel:'32 42 24 009, 48 880 448 734',
 	email:'psse.rybnik@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-rybnik',
-	psse:'',
-    gsse:'',
 	tag: 'śląskie, Rybnik'
 },
 {
@@ -2049,8 +1641,6 @@ const Sanepid = [
 	tel:'32 266 28 23, 48 887 435 195',
 	email:'psse.sosnowiec@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-sosnowiec',
-	psse:'',
-    gsse:'',
 	tag: 'śląskie, Sosnowiec'
 },
 {
@@ -2059,8 +1649,6 @@ const Sanepid = [
 	tel:'32 227 62 15, 48 887 435 207',
 	email:'psse.tychy@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-tychy',
-	psse:'',
-    gsse:'',
 	tag: 'śląskie, Tychy'
 },
 {
@@ -2069,8 +1657,6 @@ const Sanepid = [
 	tel:'32 456 38 10, 48 695 155 157',
 	email:'psse.wodzislawslaski@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wodzislaw-slaski',
-	psse:'',
-    gsse:'',
 	tag: 'śląskie, Wodzisław Śląski'
 },
 {
@@ -2079,8 +1665,6 @@ const Sanepid = [
 	tel:'(32) 672 34 91, 48 607 131 032',
 	email:'psse.zawiercie@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wodzislaw-zawiercie',
-	psse:'',
-    gsse:'',
 	tag: 'śląskie, Zawiercie'
 },
 {
@@ -2089,8 +1673,6 @@ const Sanepid = [
 	tel:'33 860 23 91',
 	email:'psse.zywiec@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-zywiec',
-	psse:'',
-    gsse:'',
 	tag: 'śląskie, Żywiec'
 },
 {
@@ -2099,8 +1681,6 @@ const Sanepid = [
 	tel:'54 282 42 06',
 	email:'sekretariat.psse.aleksandrowkujawski@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-aleksandrow-kujawski',
-	psse:'',
-    gsse:'',
 	tag: 'kujawsko-pomorskie, Aleksandrów Kujawski'
 },
 {
@@ -2109,8 +1689,6 @@ const Sanepid = [
 	tel:'56 697 49 74',
 	email:'sekretariat.psse.brodnica@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-brodnica',
-	psse:'',
-    gsse:'',
 	tag: 'kujawsko-pomorskie, Brodnica'
 },
 {
@@ -2119,8 +1697,6 @@ const Sanepid = [
 	tel:'52 515 40 20',
 	email:'sekretariat.psse.bydgoszcz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-bydgoszcz',
-	psse:'',
-    gsse:'',
 	tag: 'kujawsko-pomorskie, Bydgoszcz'
 },
 {
@@ -2129,8 +1705,6 @@ const Sanepid = [
 	tel:'56 676 17 00',
 	email:'sekretariat.psse.chelmno@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-chelmno',
-	psse:'',
-    gsse:'',
 	tag: 'kujawsko-pomorskie, Chełmno'
 },
 {
@@ -2139,8 +1713,6 @@ const Sanepid = [
 	tel:'56 683 24 85,  56 683 24 42',
 	email:'sekretariat.psse.golub-dobrzyn@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-golub-dobrzyn',
-	psse:'',
-    gsse:'',
 	tag: 'kujawsko-pomorskie, Golub Dobrzyń'
 },
 {
@@ -2149,8 +1721,6 @@ const Sanepid = [
 	tel:'56 45 178 10',
 	email:'sekretariat.psse.grudziadz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-grudziadz',
-	psse:'',
-    gsse:'',
 	tag: 'kujawsko-pomorskie, Grudziądz'
 },
 {
@@ -2159,8 +1729,6 @@ const Sanepid = [
 	tel:'52 357 46 57, 52 357 44 47, 52 357 04 03',
 	email:'sekretariat.psse.inowroclaw@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-inowroclaw',
-	psse:'',
-    gsse:'',
 	tag: 'kujawsko-pomorskie, Inowrocław'
 },
 {
@@ -2169,8 +1737,6 @@ const Sanepid = [
 	tel:'54 287 32 24',
 	email:'sekretariat.psse.lipno@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lipno',
-	psse:'',
-    gsse:'',
 	tag: 'kujawsko-pomorskie, Lipno'
 },
 {
@@ -2179,8 +1745,6 @@ const Sanepid = [
 	tel:'52 318 87 60',
 	email:'sekretariat.psse.mogilno@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-mogilno',
-	psse:'',
-    gsse:'',
 	tag: 'kujawsko-pomorskie, Mogilno'
 },
 {
@@ -2189,8 +1753,6 @@ const Sanepid = [
 	tel:'52 386 00 03',
 	email:'sekretariat.psse.naklo@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-naklo',
-	psse:'',
-    gsse:'',
 	tag: 'kujawsko-pomorskie, Nakło nad Notecią'
 },
 {
@@ -2199,8 +1761,6 @@ const Sanepid = [
 	tel:'54 285 36 14',
 	email:'sekretariat.psse.radziejow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-radziejow',
-	psse:'',
-    gsse:'',
 	tag: 'kujawsko-pomorskie, Radziejów'
 },
 {
@@ -2209,8 +1769,6 @@ const Sanepid = [
 	tel:'54 429 81 99',
 	email:'sekretariat.psse.rypin@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-rypin',
-	psse:'',
-    gsse:'',
 	tag: 'kujawsko-pomorskie, Rypin'
 },
 {
@@ -2219,8 +1777,6 @@ const Sanepid = [
 	tel:'52 388 12 30',
 	email:'sekretariat.psse.sepolnokrajenskie@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-sepolno-krajenskie',
-	psse:'',
-    gsse:'',
 	tag: 'kujawsko-pomorskie, Sępólno Krajeński'
 },
 {
@@ -2229,8 +1785,6 @@ const Sanepid = [
 	tel:'52 33 11 253',
 	email:'sekretariat.psse.swiecie@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-swiecie',
-	psse:'',
-    gsse:'',
 	tag: 'kujawsko-pomorskie, Świecie'
 },
 {
@@ -2239,8 +1793,6 @@ const Sanepid = [
 	tel:'56 62 250 29, 56 62 233 12, 56 65 862 41',
 	email:'sekretariat.psse.torun@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-torun',
-	psse:'',
-    gsse:'',
 	tag: 'kujawsko-pomorskie, Toruń'
 },
 {
@@ -2249,8 +1801,6 @@ const Sanepid = [
 	tel:'52 334 20 21, 52 334 21 09',
 	email:'sekretariat.psse.tuchola@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-tuchola',
-	psse:'',
-    gsse:'',
 	tag: 'kujawsko-pomorskie, Tuchola'
 },
 {
@@ -2259,8 +1809,6 @@ const Sanepid = [
 	tel:'56 688 17 55',
 	email:'sekretariat.psse.wabrzezno@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wabrzezno',
-	psse:'',
-    gsse:'',
 	tag: 'kujawsko-pomorskie, Wąbrzeźno'
 },
 {
@@ -2269,8 +1817,6 @@ const Sanepid = [
 	tel:'54 411 68 33',
 	email:'sekretariat.psse.wloclawek@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wloclawek',
-	psse:'',
-    gsse:'',
 	tag: 'kujawsko-pomorskie, Włocławek'
 },
 {
@@ -2279,8 +1825,6 @@ const Sanepid = [
 	tel:'52 30 311 35',
 	email:'sekretariat.psse.znin@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-znin',
-	psse:'',
-    gsse:'',
 	tag: 'kujawsko-pomorskie, Żnin'
 },
 {
@@ -2289,8 +1833,6 @@ const Sanepid = [
 	tel:'(59) 822 36 85,(59) 822 71 71',
 	email:'psse.bytow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-bytow',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Bytów'
 },
 {
@@ -2299,8 +1841,6 @@ const Sanepid = [
 	tel:'52 397 63 95',
 	email:'psse.chojnice@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-chojnice',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Chojnice'
 },
 {
@@ -2309,8 +1849,6 @@ const Sanepid = [
 	tel:'59 83 41 142',
 	email:'psse.czluchow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-czluchow',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Człuchów'
 },
 {
@@ -2319,8 +1857,6 @@ const Sanepid = [
 	tel:'58 320 08 00, 48 698 941 776',
 	email:'psse.gdansk@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-gdansk',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Gdańsk'
 },
 {
@@ -2329,8 +1865,6 @@ const Sanepid = [
 	tel:'58 620-17-98, 48 605 462 480',
 	email:'psse.gdynia@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-gdynia',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Gdynia'
 },
 {
@@ -2339,8 +1873,6 @@ const Sanepid = [
 	tel:'48 681 07 21',
 	email:'psse.kartuzy@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-kartuzy',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Kartuzy'
 },
 {
@@ -2349,8 +1881,6 @@ const Sanepid = [
 	tel:'58 686 33 64, 48 692 101 253',
 	email:'psse.koscierzyna@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-koscierzyna',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Kościerzyna'
 },
 {
@@ -2359,8 +1889,6 @@ const Sanepid = [
 	tel:'55 279 38 15, 55 279 33 15',
 	email:'psse.kwidzyn@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-kwidzyn',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Kwidzyn'
 },
 {
@@ -2369,8 +1897,6 @@ const Sanepid = [
 	tel:'59 862 10 10',
 	email:'psse.lebork@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lebork',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Lębork'
 },
 {
@@ -2379,8 +1905,6 @@ const Sanepid = [
 	tel:'55 647 25 55',
 	email:'psse.malbork@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-malbork',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Malbork'
 },
 {
@@ -2389,8 +1913,6 @@ const Sanepid = [
 	tel:'55 247 57 01',
 	email:'psse.nowydworgdanski@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-nowy-dwor-gdanski',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Nowy Dwór Gdański'
 },
 {
@@ -2399,8 +1921,6 @@ const Sanepid = [
 	tel:'58 683 54 12',
 	email:'psse.pruszczgdanski@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-nowy-pruszcz-gdanski',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Pruszcz Gdański'
 },
 {
@@ -2409,8 +1929,6 @@ const Sanepid = [
 	tel:'58 673 03 41',
 	email:'psse.puck@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-puck',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Puck'
 },
 {
@@ -2419,8 +1937,6 @@ const Sanepid = [
 	tel:'59 843 12 91',
 	email:'psse.slupsk@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-slupsk',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Słupsk'
 },
 {
@@ -2429,8 +1945,6 @@ const Sanepid = [
 	tel:'58 551 06 35',
 	email:'psse.sopot@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-sopot',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Sopot'
 },
 {
@@ -2439,8 +1953,6 @@ const Sanepid = [
 	tel:'58 56 24 011',
 	email:'psse.starogardgdanski@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-starogard-gdanski',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Starogard Gdański'
 },
 {
@@ -2449,8 +1961,6 @@ const Sanepid = [
 	tel:'58 531 39 31',
 	email:'psse.tczew@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-tczew',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Starogard Gdański'
 },
 {
@@ -2459,8 +1969,6 @@ const Sanepid = [
 	tel:'58 677 79 01',
 	email:'psse.wejherowo@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wejherowo',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Wejherowo'
 },
 {
@@ -2469,8 +1977,6 @@ const Sanepid = [
 	tel:'58 620 81 15, 882 085 679',
 	email:'sekretariat.gsse.gdynia@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/gsse-gdynia',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Gdynia'
 },
 {
@@ -2479,8 +1985,6 @@ const Sanepid = [
 	tel:'58 343 09 48',
 	email:'sekretariat.gpkse.gdansk@sanepid.gov.pl',
 	www:'',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Gdańsk'
 },
 {
@@ -2489,8 +1993,6 @@ const Sanepid = [
 	tel:'59 814 45 48',
 	email:'sekretariat.gpkse.ustka@sanepid.gov.pl',
 	www:'',
-	psse:'',
-    gsse:'',
 	tag: 'pomorskie, Ustka'
 },
 {
@@ -2499,8 +2001,6 @@ const Sanepid = [
 	tel:'94 312 20 55',
 	email:'psse.bialogard@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-bialogard',
-	psse:'',
-    gsse:'',
 	tag: 'zachodniopomorskie, Białogard'
 },
 {
@@ -2509,8 +2009,6 @@ const Sanepid = [
 	tel:'95 765 72 82',
 	email:'psse.choszczno@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-choszczno',
-	psse:'',
-    gsse:'',
 	tag: 'zachodniopomorskie, Choszczno'
 },
 {
@@ -2519,8 +2017,6 @@ const Sanepid = [
 	tel:'94 36 36 195, 48 694 493 760',
 	email:'psse.drawskopomorskie@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-drawsko-pomorskie',
-	psse:'',
-    gsse:'',
 	tag: 'zachodniopomorskie, Drawsko Pomorskie'
 },
 {
@@ -2529,8 +2025,6 @@ const Sanepid = [
 	tel:'91 418 23 22',
 	email:'psse.goleniow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-goleniow',
-	psse:'',
-    gsse:'',
 	tag: 'zachodniopomorskie, Goleniów'
 },
 {
@@ -2539,8 +2033,6 @@ const Sanepid = [
 	tel:'91 38 78 320, 48 668 895 701',
 	email:'psse.gryfice@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-gryfice',
-	psse:'',
-    gsse:'',
 	tag: 'zachodniopomorskie, Gryfice'
 },
 {
@@ -2549,8 +2041,6 @@ const Sanepid = [
 	tel:'91 416 38 58, 48 694 493 763',
 	email:'psse.gryfino@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-gryfino',
-	psse:'',
-    gsse:'',
 	tag: 'zachodniopomorskie, Gryfino'
 },
 {
@@ -2559,8 +2049,6 @@ const Sanepid = [
 	tel:'91 382 01 44, 48 694 493 754',
 	email:'psse.kamienpomorski@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-kamien-pomorski',
-	psse:'',
-    gsse:'',
 	tag: 'zachodniopomorskie, Kamień Pomorski'
 },
 {
@@ -2569,8 +2057,6 @@ const Sanepid = [
 	tel:'94 352 35 54',
 	email:'psse.kolobrzeg@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-kolobrzeg',
-	psse:'',
-    gsse:'',
 	tag: 'zachodniopomorskie, Kołobrzeg'
 },
 {
@@ -2579,8 +2065,6 @@ const Sanepid = [
 	tel:'94 342 40 85',
 	email:'psse.koszalin@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-koszalin',
-	psse:'',
-    gsse:'',
 	tag: 'zachodniopomorskie, Koszalin'
 },
 {
@@ -2589,8 +2073,6 @@ const Sanepid = [
 	tel:'91 397 45 42, 694 493 768',
 	email:'psse.lobez@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lobez',
-	psse:'',
-    gsse:'',
 	tag: 'zachodniopomorskie, Łobez'
 },
 {
@@ -2599,8 +2081,6 @@ const Sanepid = [
 	tel:'95 747 56 16, 48 784 689 783',
 	email:'psse.mysliborz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-mysliborz',
-	psse:'',
-    gsse:'',
 	tag: 'zachodniopomorskie, Myślibórz'
 },
 {
@@ -2609,8 +2089,6 @@ const Sanepid = [
 	tel:'(91) 424 12 32, 48 887 437 307',
 	email:'psse.police@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-police',
-	psse:'',
-    gsse:'',
 	tag: 'zachodniopomorskie, Police'
 },
 {
@@ -2619,8 +2097,6 @@ const Sanepid = [
 	tel:'(91) 570 34 29',
 	email:'psse.pyrzyce@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-pyrzyce',
-	psse:'',
-    gsse:'',
 	tag: 'zachodniopomorskie, Pyrzyce'
 },
 {
@@ -2629,8 +2105,6 @@ const Sanepid = [
 	tel:'59 810 73 11',
 	email:'psse.slawno@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-slawno',
-	psse:'',
-    gsse:'',
 	tag: 'zachodniopomorskie, Sławno'
 },
 {
@@ -2639,8 +2113,6 @@ const Sanepid = [
 	tel:'91 561 26 10',
 	email:'psse.stargard@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-stargard',
-	psse:'',
-    gsse:'',
 	tag: 'zachodniopomorskie, Stargard'
 },
 {
@@ -2649,8 +2121,6 @@ const Sanepid = [
 	tel:'91 487 03 13',
 	email:'psse.szczecin@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-szczecin',
-	psse:'',
-    gsse:'',
 	tag: 'zachodniopomorskie, Szczecin'
 },
 {
@@ -2659,8 +2129,6 @@ const Sanepid = [
 	tel:'94 37 405 59',
 	email:'psse.szczecinek@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-szczecinek',
-	psse:'',
-    gsse:'',
 	tag: 'zachodniopomorskie, Szczecinek'
 },
 {
@@ -2669,8 +2137,6 @@ const Sanepid = [
 	tel:'94 365 26 84',
 	email:'psse.swidwin@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-swidwin',
-	psse:'',
-    gsse:'',
 	tag: 'zachodniopomorskie, Świdwin'
 },
 {
@@ -2679,8 +2145,6 @@ const Sanepid = [
 	tel:'91 321 24 94',
 	email:'psse.swinoujscie@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-swinoujscie',
-	psse:'',
-    gsse:'',
 	tag: 'zachodniopomorskie, Świnoujście'
 },
 {
@@ -2689,8 +2153,6 @@ const Sanepid = [
 	tel:'67 258 23 31',
 	email:'psse.walcz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-walcz',
-	psse:'',
-    gsse:'',
 	tag: 'zachodniopomorskie, Wałcz'
 },
 {
@@ -2699,8 +2161,6 @@ const Sanepid = [
 	tel:'75 732 32 46, 75 732 35 68',
 	email:'psse.boleslawiec@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-boleslawiec',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Bolesławiec'
 },
 {
@@ -2709,8 +2169,6 @@ const Sanepid = [
 	tel:'74 832 33 33',
 	email:'psse.dzierzoniow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-dzierzoniow',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Dzierżoniów'
 },
 {
@@ -2719,8 +2177,6 @@ const Sanepid = [
 	tel:'76 72 72 594',
 	email:'psse.glogow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-glogow',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Głogów'
 },
 {
@@ -2729,8 +2185,6 @@ const Sanepid = [
 	tel:'65 543 23 54',
 	email:'psse.gora@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-gora',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Góra'
 },
 {
@@ -2739,8 +2193,6 @@ const Sanepid = [
 	tel:'76 870 23 48, 76 870 28 74, 76 729 27 27',
 	email:'psse.jawor@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-jawor',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Jawor'
 },
 {
@@ -2749,8 +2201,6 @@ const Sanepid = [
 	tel:'75 64 35 560',
 	email:'psse.jeleniagora@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-jelenia-gora',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Jelenia Góra'
 },
 {
@@ -2759,8 +2209,6 @@ const Sanepid = [
 	tel:'75 645 01 40',
 	email:'psse.kamiennagora@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-kamienna-gora',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Kamienna Góra'
 },
 {
@@ -2769,8 +2217,6 @@ const Sanepid = [
 	tel:'74 867 35 26',
 	email:'psse.klodzko@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-klodzko',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Kłodzko'
 },
 {
@@ -2779,8 +2225,6 @@ const Sanepid = [
 	tel:'76 72 45 310',
 	email:'psse.legnica@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-legnica',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Legnica'
 },
 {
@@ -2789,8 +2233,6 @@ const Sanepid = [
 	tel:'75 646 40 43',
 	email:'psse.luban@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-luban',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Lubań'
 },
 {
@@ -2799,8 +2241,6 @@ const Sanepid = [
 	tel:'76 846 67 00, 76 846 67 02',
 	email:'psse.lubin@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lubin',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Lubin'
 },
 {
@@ -2809,8 +2249,6 @@ const Sanepid = [
 	tel:'75 782 43 59, 75 782 39 89',
 	email:'psse.lwowekslaski@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-lwowek-slaski',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Lwówek Śląski'
 },
 {
@@ -2819,8 +2257,6 @@ const Sanepid = [
 	tel:'71 38 40 200',
 	email:'psse.milicz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-milicz',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Milicz'
 },
 {
@@ -2829,8 +2265,6 @@ const Sanepid = [
 	tel:'71 314 20 34',
 	email:'psse.olesnica@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-olesnica',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Oleśnica'
 },
 {
@@ -2839,8 +2273,6 @@ const Sanepid = [
 	tel:'71 313 21 64, 71 313 38 21',
 	email:'psse.olawa@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-olawa',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Oława'
 },
 {
@@ -2849,8 +2281,6 @@ const Sanepid = [
 	tel:'76 746 22 46',
 	email:'psse.polkowice@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-polkowice',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Polkowice'
 },
 {
@@ -2859,8 +2289,6 @@ const Sanepid = [
 	tel:'71 392 03 21, 71 392 10 44',
 	email:'psse.strzelin@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-strzelin',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Strzelin'
 },
 {
@@ -2869,8 +2297,6 @@ const Sanepid = [
 	tel:'71 317 27 60',
 	email:'psse.srodaslaska@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-sroda-slaska',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Środa Śląska'
 },
 {
@@ -2879,8 +2305,6 @@ const Sanepid = [
 	tel:'74 852 20 91, 74 852 05 35',
 	email:'psse.swidnica@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-swidnica',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Świdnica'
 },
 {
@@ -2889,8 +2313,6 @@ const Sanepid = [
 	tel:'71 312 09 16',
 	email:'psse.trzebnica@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-trzebnica',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Trzebnica'
 },
 {
@@ -2899,8 +2321,6 @@ const Sanepid = [
 	tel:'74 847 75 68',
 	email:'psse.walbrzych@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-walbrzych',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Wałbrzych'
 },
 {
@@ -2909,8 +2329,6 @@ const Sanepid = [
 	tel:'71 389 26 72',
 	email:'psse.wolow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wolow',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Wołów'
 },
 {
@@ -2919,8 +2337,6 @@ const Sanepid = [
 	tel:'71 329 58 43, 71 361 46 91',
 	email:'psse.wroclaw@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wroclaw',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Wrocław'
 },
 {
@@ -2929,8 +2345,6 @@ const Sanepid = [
 	tel:'74 816 67 50',
 	email:'psse.zabkowiceslaskie@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-zabkowice-slaskie',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Ząbkowice Śląskie'
 },
 {
@@ -2939,8 +2353,6 @@ const Sanepid = [
 	tel:'75 649 45 20',
 	email:'psse.zgorzelec@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-zgorzelec',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Zgorzelec'
 },
 {
@@ -2949,8 +2361,6 @@ const Sanepid = [
 	tel:'76 878 34 33, 76 878 37 21, 76 878 78 31',
 	email:'psse.zlotoryja@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-zlotoryja',
-	psse:'',
-    gsse:'',
 	tag: 'dolnośląskie, Złotoryja'
 },
 {
@@ -2959,8 +2369,6 @@ const Sanepid = [
 	tel:'67 282 02 72',
 	email:'sekretariat.psse.chodziez@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-chodziez',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Chodzież'
 },
 {
@@ -2969,8 +2377,6 @@ const Sanepid = [
 	tel:'67 255 22 40',
 	email:'sekretariat.psse.czarnkow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-czarnkow',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Czarnków'
 },
 {
@@ -2979,8 +2385,6 @@ const Sanepid = [
 	tel:'61 426 22 42, 885 511 050',
 	email:'sekretariat.psse.gniezno@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-gniezno',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Gniezno'
 },
 {
@@ -2989,8 +2393,6 @@ const Sanepid = [
 	tel:'65 572 14 66, 505 019 375',
 	email:'sekretariat.psse.gostyn@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-gostyn',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Gostyń'
 },
 {
@@ -2999,8 +2401,6 @@ const Sanepid = [
 	tel:'61 44 46 067, 881 915 880',
 	email:'sekretariat.psse.grodziskwlkp@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-grodzisk-wielkopolski',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Grodzisk Wielkopolski'
 },
 {
@@ -3009,8 +2409,6 @@ const Sanepid = [
 	tel:'(62) 747 23 17, (62) 747 62 43',
 	email:'sekretariat.psse.jarocin@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-jarocin',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Jarocin'
 },
 {
@@ -3019,8 +2417,6 @@ const Sanepid = [
 	tel:'62 767 76 10, 796 767 020',
 	email:'sekretariat.psse.kalisz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-kalisz',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Kalisz'
 },
 {
@@ -3029,8 +2425,6 @@ const Sanepid = [
 	tel:'62 78 295 10, 62 78 232 38',
 	email:'sekretariat.psse.kepno@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-kepno',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Kępno'
 },
 {
@@ -3039,8 +2433,6 @@ const Sanepid = [
 	tel:'63 27 22 279, 695 426 274',
 	email:'sekretariat.psse.kolo@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-kolo',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Koło'
 },
 {
@@ -3049,8 +2441,6 @@ const Sanepid = [
 	tel:'63 243 90 52, 509 698 188',
 	email:'sekretariat.psse.konin@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-konin',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Konin'
 },
 {
@@ -3059,8 +2449,6 @@ const Sanepid = [
 	tel:'65 512 22 33, 603 098 263',
 	email:'sekretariat.psse.koscian@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-koscian',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Kościan'
 },
 {
@@ -3069,8 +2457,6 @@ const Sanepid = [
 	tel:'62 725 32 34, 62 725 32 35, 603 119 875',
 	email:'sekretariat.psse.krotoszyn@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-krotoszyn',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Krotoszyn'
 },
 {
@@ -3079,8 +2465,6 @@ const Sanepid = [
 	tel:'65 526 15 15, 65 526 21 97, 65 529 37 13',
 	email:'sekretariat.psse.leszno@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-leszno',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Leszno'
 },
 {
@@ -3089,8 +2473,6 @@ const Sanepid = [
 	tel:'(95) 74 82 411',
 	email:'sekretariat.psse.miedzychod@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-miedzychod',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Międzychód'
 },
 {
@@ -3099,8 +2481,6 @@ const Sanepid = [
 	tel:'61 44 20 800, 795 457 382',
 	email:'sekretariat.psse.nowytomysl@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-nowy-tomysl',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Nowy Tomyśl'
 },
 {
@@ -3109,8 +2489,6 @@ const Sanepid = [
 	tel:'61 29 60 407, 502 305 913',
 	email:'sekretariat.psse.oborniki@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-oborniki',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Oborniki'
 },
 {
@@ -3119,8 +2497,6 @@ const Sanepid = [
 	tel:'62 737 89 00, 504 285 334',
 	email:'sekretariat.psse.ostrowwlkp@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-ostrow-wielkopolski',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Ostrów Wielkopolski'
 },
 {
@@ -3129,8 +2505,6 @@ const Sanepid = [
 	tel:'62 732 07 70, 693 461 169',
 	email:'sekretariat.psse.ostrzeszow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-ostrzeszow',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Ostrzeszów'
 },
 {
@@ -3139,8 +2513,6 @@ const Sanepid = [
 	tel:'67 349 71 10, 693 530 008',
 	email:'sekretariat.psse.pila@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-pila',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Piła'
 },
 {
@@ -3149,8 +2521,6 @@ const Sanepid = [
 	tel:'62 508 13 30, 694 534 040',
 	email:'sekretariat.psse.pleszew@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-pleszew',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Pleszew'
 },
 {
@@ -3159,8 +2529,6 @@ const Sanepid = [
 	tel:'61 646 78 51',
 	email:'sekretariat.psse.poznan@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-poznan',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Poznań'
 },
 {
@@ -3169,8 +2537,6 @@ const Sanepid = [
 	tel:'65 545 39 37, 602 534 361',
 	email:'sekretariat.psse.rawicz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-rawicz',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Rawicz'
 },
 {
@@ -3179,8 +2545,6 @@ const Sanepid = [
 	tel:'63 274 36 42, 691 751 835',
 	email:'sekretariat.psse.slupca@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-slupca',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Słupca'
 },
 {
@@ -3189,8 +2553,6 @@ const Sanepid = [
 	tel:'61 292 15 34, 500 062 249',
 	email:'sekretariat.psse.szamotuly@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-szamotuly',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Szamotuły'
 },
 {
@@ -3199,8 +2561,6 @@ const Sanepid = [
 	tel:'61 283 54 75',
 	email:'sekretariat.psse.srem@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-srem',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Śrem'
 },
 {
@@ -3209,8 +2569,6 @@ const Sanepid = [
 	tel:'61 286 70 80, 602 297 591',
 	email:'sekretariat.psse.srodawlkp@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-sroda-wielkopolska',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Środa Wielkopolska'
 },
 {
@@ -3219,8 +2577,6 @@ const Sanepid = [
 	tel:'63 280 36 82, 697 777 304',
 	email:'sekretariat.psse.turek@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-turek',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Turek'
 },
 {
@@ -3229,8 +2585,6 @@ const Sanepid = [
 	tel:'67 26 85 680, 504 156 611',
 	email:'sekretariat.psse.wagrowiec@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wagrowiec',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Wągrowiec'
 },
 {
@@ -3239,8 +2593,6 @@ const Sanepid = [
 	tel:'68 384 20 23, 508 396 948',
 	email:'sekretariat.psse.wolsztyn@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wolsztyn',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Wolsztyn'
 },
 {
@@ -3249,8 +2601,6 @@ const Sanepid = [
 	tel:'61 436 07 32, 887 436 907',
 	email:'sekretariat.psse.wrzesnia@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-wrzesnia',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Września'
 },
 {
@@ -3259,8 +2609,6 @@ const Sanepid = [
 	tel:'67 349 16 92, 693 532 730',
 	email:'sekretariat.psse.zlotow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/psse-zlotow',
-	psse:'',
-    gsse:'',
 	tag: 'wielkopolskie, Złotów'
 },
 {
@@ -3269,8 +2617,6 @@ const Sanepid = [
 	tel:'(85) 740 85 40',
 	email:'wsse.bialystok@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/wsse-bialystok',
-	psse:'Augustów, Białystok, Bielsk Podlaski, Grajewo, Hajnówka, Kolno, Łomża, Mońki, Sejny, Siemiatycze, Sokółka, Suwałki, Wysokie Mazowieckie, Zambrów',
-    gsse:'Suwałki',
 	tag: 'podlaskie, Białystok, Augustów, Bielsk Podlaski, Grajewo, Hajnówka, Kolno, Łomża, Mońki, Sejny, Siemiatycze, Sokółka, Suwałki, Wysokie Mazowieckie, Zambrósw',
 },
 {
@@ -3279,8 +2625,6 @@ const Sanepid = [
 	tel:'52 37 618 00',
 	email:'sekretariat.wsse.bydgoszcz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/wsse-bydgoszcz',
-	psse:'Aleksandrów Kujawski, Brodnica, Bydgoszcz, Chełmno, Golub Dobrzyń, Grudziądz, Inowrocław, Lipno, Mogilno, Nakło nad Notecią, Radziejów, Rypin, Sępólno Krajeńskie, Świecie, Toruń, Tuchola, Wąbrzeźno, Włocławek, Żnin',
-    gsse:'',
 	tag: 'kujawsko-pomorskie, Bydgoszcz, Aleksandrów Kujawski, Brodnica, Chełmno, Golub Dobrzyń, Grudziądz, Inowrocław, Lipno, Mogilno, Nakło nad Notecią, Radziejów, Rypin, Sępólno Krajeńskie, Świecie, Toruń, Tuchola, Wąbrzeźno, Włocławek, Żnin',
 },
 {
@@ -3289,8 +2633,6 @@ const Sanepid = [
 	tel:'58 77 63 200 ',
 	email:'wsse.gdansk@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/wsse-gdansk',
-	psse:'Bytów, Chojnice, Człuchów, Gdańsk, Gdynia, Kartuzy, Kościerzyna, Kwidzyń, Lębork, Malbork, Nowy Dwór Gdański, Pruszcz Gdański, Puck, Słupsk, Sopot, Starogard Gdański, Tczew, Wejherowo, Gdynia, Ustka',
-    gsse:'Gdynia, Ustka',
 	tag: 'pomorskie, Gdańsk, Bytów, Chojnice, Człuchów, Gdynia, Kartuzy, Kościerzyna, Kwidzyń, Lębork, Malbork, Nowy Dwór Gdański, Pruszcz Gdański, Puck, Słupsk, Sopot, Starogard Gdański, Tczew, Wejherowo, Gdynia, Ustka',
 },
 {
@@ -3299,8 +2641,6 @@ const Sanepid = [
 	tel:'95 722-60-57',
 	email:'wsse.gorzow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/wsse-gorzowwlkp',
-	psse:'Drezdenko, Gorzów Wlkp, Krosno Obrzańskie, Międzyrzecz, Nowa Sól, Słubice, Sulęcin, Świebodzin, Zielona Góra, Żagań, Żary',
-    gsse:'',
 	tag: 'lubuskie, Gorzów Wlkp, Drezdenko, Krosno Obrzańskie, Międzyrzecz, Nowa Sól, Słubice, Sulęcin, Świebodzin, Zielona Góra, Żagań, Żary',
 },
 {
@@ -3309,8 +2649,6 @@ const Sanepid = [
 	tel:'32 351 23 00',
 	email:'wsse.katowice@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/wsse-katowice',
-	psse:'Bielsko-Biała, Bytom, Chorzów, Cieszyn, Częstochowa, Dąbrowa Górnicza, Gliwice, Jaworzno, Katowice, Kłobuck, Lubliniec, Myszków, Racibórz, Ruda Śląska, Rybnik, Sosnowiec, Tychy, Wodzisław Śląski, Zawiercie, Żywiec',
-    gsse:'',
 	tag: 'śląskie, Katowice, Bielsko-Biała, Bytom, Chorzów, Cieszyn, Częstochowa, Dąbrowa Górnicza, Gliwice, Jaworzno, Kłobuck, Lubliniec, Myszków, Racibórz, Ruda Śląska, Rybnik, Sosnowiec, Tychy, Wodzisław Śląski, Zawiercie, Żywiec ',
 },
 {
@@ -3319,8 +2657,6 @@ const Sanepid = [
 	tel:'41 365 54 00',
 	email:'sekretariat.wsse.kielce@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/wsse-kielce',
-	psse:'Busko Zdrój, Jędrzejów, Kielce, Końskie, Opatów, Ostrowiec Świętokrzyski, Sandomierz, Skarżysko Kamienna, Starachowice, Staszów, Włoszczowa',
-    gsse:'',
 	tag: 'świętokrzyskie, Kielce, Busko Zdrój, Jędrzejów, Końskie, Opatów, Ostrowiec Świętokrzyski, Sandomierz, Skarżysko Kamienna, Starachowice, Staszów, Włoszczowa',
 },
 {
@@ -3329,8 +2665,6 @@ const Sanepid = [
 	tel:'12 25 49 555',
 	email:'wsse.krakow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/wsse-krakow',
-	psse:'Bochnia, Brzesko, Chrzanów, Dąbrowa Tarnowska, Gorlice, Kraków, Limanowa, Miechów, Myślenice, Nowy Sącz, Nowy Targ, Olkusz, Oświęcim, Proszowice, Sucha Beskidzka, Tarnów, Wadowice, Wieliczka, Zakopane',
-    gsse:'',
 	tag: 'małopolskie, Kraków, Bochnia, Brzesko, Chrzanów, Dąbrowa Tarnowska, Gorlice, Limanowa, Miechów, Myślenice, Nowy Sącz, Nowy Targ, Olkusz, Oświęcim, Proszowice, Sucha Beskidzka, Tarnów, Wadowice, Wieliczka, Zakopane ',
 },
 {
@@ -3339,8 +2673,6 @@ const Sanepid = [
 	tel:'222 500 115',
 	email:'wsse.lublin@sanepid.gov.pl ',
 	www:'https://www.gov.pl/web/wsse-lublin',
-	psse:'Biała Podlaska, Biłgoraj, Chełm, Hrubieszów, Janów Lubelski, Krasnysław, Kraśnik, Lubartów, Lublin, Łęczna, Łuków, Opole Lubelskie, Parczew, Puławy, Radzyń Podlaski, Ryki, Świdnik, Tomaszów Lubelski, Włodawa, Zamość',
-    gsse:'Koroszczyn, Dorohusk, Hrebenne',
 	tag: 'lubelskie, Lublin, Biała Podlaska, Biłgoraj, Chełm, Hrubieszów, Janów Lubelski, Krasnysław, Kraśnik, Lubartów, Łęczna, Łuków, Opole Lubelskie, Parczew, Puławy, Radzyń Podlaski, Ryki, Świdnik, Tomaszów Lubelski, Włodawa, Zamość, Koroszczyn, Dorohusk, Hrebenne',
 },
 {
@@ -3349,8 +2681,6 @@ const Sanepid = [
 	tel:'42 253 62 00',
 	email:'sekretariat.wsse.lodz@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/wsse-lodz',
-	psse:'Bełchatów, Brzeziny, Kutno, Łask, Łęczyca, Łódź, Łowicz, Opoczno, Pabianice, Pajęczno, Piotrków Trybunalski, Poddębice, Radomsko, Rawa Mazowiecka, Sieradz, Skierniewice, Tomaszów Mazowiecki, Wieluń, Wieruszów, Zduńska Wola, Zgierz',
-    gsse:'',
 	tag: 'łódzkie, Łódź, Bełchatów, Brzeziny, Kutno, Łask, Łęczyca, Łowicz, Opoczno, Pabianice, Pajęczno, Piotrków Trybunalski, Poddębice, Radomsko, Rawa Mazowiecka, Sieradz, Skierniewice, Tomaszów Mazowiecki, Wieluń, Wieruszów, Zduńska Wola, Zgierz',
 },
 {
@@ -3359,8 +2689,6 @@ const Sanepid = [
 	tel:'89 524 83 00',
 	email:'wsse.olsztyn@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/wsse-olsztyn',
-	psse:'Bartoszyce, Braniewo, Działdowo, Elbląg, Ełk, Giżycko, Gołdap, Iława, Kętrzyn, Lidzbark Warmiński, Mrągowo, Nidzica, Nowa Miasto Lubawskie, Olecko, Olsztyn, Ostróda, Pisz, Szczytno, Węgorzewo',
-    gsse:'Elbląg',
 	tag: 'warmińsko-mazurskie, Olsztyn, Bartoszyce, Braniewo, Działdowo, Elbląg, Ełk, Giżycko, Gołdap, Iława, Kętrzyn, Lidzbark Warmiński, Mrągowo, Nidzica, Nowa Miasto Lubawskie, Olecko, Ostróda, Pisz, Szczytno, Węgorzewo ',
 },
 {
@@ -3369,8 +2697,6 @@ const Sanepid = [
 	tel:'77 44 26 985',
 	email:'sekretariat.wsse.opole@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/wsse-opole',
-	psse:'Brzeg, Głubczyce, Kędzierzyn-Koźle, Kluczbork, Krapkowice, Namysłów, Nysa, Olesno, Opole, Prudnik, Strzelce Opolskie',
-    gsse:'',
 	tag: 'opolskie, Opole, Brzeg, Głubczyce, Kędzierzyn-Koźle, Kluczbork, Krapkowice, Namysłów, Nysa, Olesno, Prudnik, Strzelce Opolskie',
 },
 {
@@ -3379,8 +2705,6 @@ const Sanepid = [
 	tel:'61 85 44 800',
 	email:'sekretariat.wssepoznan@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/wsse-poznan',
-	psse:'Chodzież, Czarnków, Gniezno, Gostyń, Grodzisk Wielkopolski, Jarocin, Kalisz, Kępno, Koło, Konin, Kościan, Krotoszyn, Leszno, Mięszychód, Nowy Tomyśl, Oborniki, Ostrów Wielkopolski, Ostrzeszów, Piła, Pleszew, Poznań, Rawicz, Słupca, Szamotuły, Śrem, Środa Wielkopolska, Turek, Wągrowiec, Wolsztyn, Września, Złotów',
-    gsse:'',
 	tag: 'wielkopolskie, Poznań, Chodzież, Czarnków, Gniezno, Gostyń, Grodzisk Wielkopolski, Jarocin, Kalisz, Kępno, Koło, Konin, Kościan, Krotoszyn, Leszno, Mięszychód, Nowy Tomyśl, Oborniki, Ostrów Wielkopolski, Ostrzeszów, Piła, Pleszew, Rawicz, Słupca, Szamotuły, Śrem, Środa Wielkopolska, Turek, Wągrowiec, Wolsztyn, Września, Złotów ',
 },
 {
@@ -3389,8 +2713,6 @@ const Sanepid = [
 	tel:'17 85 22 111',
 	email:'kancelaria.wsse.rzeszow@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/wsse-rzeszow',
-	psse:'Brzozów, Dębica, Jarosław, Jasło, Kolbuszowa, Krosno, Leżajsk, Lubaszów, Łańcut, Mielec, Nisko, Przeworsk, Ropczyce, Przemyśl, Rzeszów, Sanok, Stalowa Wola, Strzyżow, Tarnobrzeg, Ustrzyki Dolne',
-    gsse:'Przemyśl',
 	tag: 'podkarpackie, Rzeszów, Brzozów, Dębica, Jarosław, Jasło, Kolbuszowa, Krosno, Leżajsk, Lubaszów, Łańcut, Mielec, Nisko, Przeworsk, Ropczyce, Przemyśl, Sanok, Stalowa Wola, Strzyżow, Tarnobrzeg, Ustrzyki Dolne ',
 },
 {
@@ -3399,8 +2721,6 @@ const Sanepid = [
 	tel:'914 624 060',
 	email:'wsse.szczecin@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/wsse-szczecin',
-	psse:'Białogard, Choszczno, Drawsko Pomorskie, Goleniów, Gryfice, Gryfino, Kamień Pomorski, Kołobrzeg, Koszalin, Łobez Myslibórz, Police, Pyrzyce, Sławno, Stargard, Szczecin, Szczecinek, Świdwin, Świnoujście, Wałcz',
-    gsse:'',
 	tag: 'zachodniopomorskie, Szczecin, Białogard, Choszczno, Drawsko Pomorskie, Goleniów, Gryfice, Gryfino, Kamień Pomorski, Kołobrzeg, Koszalin, Łobez Myslibórz, Police, Pyrzyce, Sławno, Stargard, Szczecinek, Świdwin, Świnoujście, Wałcz',
 },
 {
@@ -3409,8 +2729,6 @@ const Sanepid = [
 	tel:'22 620 90 01-06 ',
 	email:'sekretariat.wsse.warszawa@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/wsse-warszawa',
-	psse:'Białobrzegi, Ciechanów, Garwolin, Gostynin, Grodzisk Mazowiecki, Grójec, Kozienice, Legionowo, Lipsko, Łosice, Maków Mazowiecki, Mińsk Mazowiecki, Mława, Nowy Dwór Mazowiecki, Ostrołęka, Ostrów Mazowiecka, Otwock, Piaseczno, Płock, Płońsk, Pruszczków, Przasnysz, Przysucha, Pułtusk, Radom, Siedlce, Sierpc, Sochaczew, Sokołów Podlaski, Szydłowiec, Warszawa, Warszawa Zachód (Ożarów Mazowiecki), Węgrów, Wołomin, Wyszków, Zwoleń, Żuromin, Żydardów',
-    gsse:'Warszawa',
 	tag: 'mazowieckie, Warszawa, Białobrzegi, Ciechanów, Garwolin, Gostynin, Grodzisk Mazowiecki, Grójec, Kozienice, Legionowo, Lipsko, Łosice, Maków Mazowiecki, Mińsk Mazowiecki, Mława, Nowy Dwór Mazowiecki, Ostrołęka, Ostrów Mazowiecka, Otwock, Piaseczno, Płock, Płońsk, Pruszczków, Przasnysz, Przysucha, Pułtusk, Radom, Siedlce, Sierpc, Sochaczew, Sokołów Podlaski, Szydłowiec, Warszawa Zachód (Ożarów Mazowiecki), Węgrów, Wołomin, Wyszków, Zwoleń, Żuromin, Żydardów',
 },
 {
@@ -3419,8 +2737,6 @@ const Sanepid = [
 	tel:'71 328 30 41 do 49',
 	email:'wsse.wroclaw@sanepid.gov.pl',
 	www:'https://www.gov.pl/web/wsse-wroclaw',
-	psse:'Bolesławiec, Dzierżonów, Głogów, Góra, Jawor, Jelenia Góra, Kłodzko, Legnica, Lubań, Lublin, Lwówek Śląski, Milicz, Oleśnica, Oława, Polkowice, Strzelin, Środa Śląska, Świdnica, Trzebnica, Wałbrzych, Wołów, Wrocław, Ząbkowice Śląskie, Zgorzelec, Złotoryja',
-    gsse:'',
 	tag: 'dolnośląskie, Wrocław, Bolesławiec, Dzierżonów, Głogów, Góra, Jawor, Jelenia Góra, Kłodzko, Legnica, Lubań, Lublin, Lwówek Śląski, Milicz, Oleśnica, Oława, Polkowice, Strzelin, Środa Śląska, Świdnica, Trzebnica, Wałbrzych, Wołów, Ząbkowice Śląskie, Zgorzelec, Złotoryja',
 }
 

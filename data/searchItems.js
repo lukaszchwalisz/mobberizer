@@ -55,9 +55,9 @@ const RenderItem_s1 = ({ data }) => {
 const RenderItem_s2 = ({ data }) => {
 
     const args = {
-        number: data.tel, // String value with the number to call
-        prompt: false, // Optional boolean property. Determines if the user should be prompted prior to the call 
-        skipCanOpen: true // Skip the canOpenURL check
+        number: data.tel,
+        prompt: false,
+        skipCanOpen: true
     }
 
     return (  
@@ -73,8 +73,6 @@ const RenderItem_s2 = ({ data }) => {
             </TouchableWithoutFeedback>
             <Text style={styles.tabs_subtitle}>email:  {data.email}</Text>
             <Text style={styles.tabs_subtitle}>www:  <A href={data.www}>{data.www}</A></Text>
-            {/* <Text style={styles.tabs_subtitle}>PSSE:  {data.psse}</Text>
-            <Text style={styles.tabs_subtitle}>GSSE:  {data.gsse}</Text> */}
         </Surface>
 
         </ScrollView>
