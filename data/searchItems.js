@@ -36,16 +36,16 @@ const RenderItem_s1 = ({ data }) => {
     return (  
         <ScrollView > 
         <Surface style={styles.surface} elevation={2}>
-            <Text style={styles.text_surface}>{data.title}</Text>
-            <Text style={styles.tabs_subtitle}>adres:  {data.adres}</Text>
-            <Text style={styles.tabs_subtitle}>epuap:  {data.epuap}</Text>
+            <Text style={styles.text_surface} key={data.title}>{data.title}</Text>
+            <Text style={styles.tabs_subtitle} key={data.adres}>adres:  {data.adres}</Text>
+            <Text style={styles.tabs_subtitle} key={data.epuap}>epuap:  {data.epuap}</Text>
             <TouchableWithoutFeedback icon="phone"style={styles.tabs_text} onPress={() => {
                 call(args).catch(console.error);
             }}> 
-            <Text style={styles.tabs_subtitle}>tel.:  {data.tel}</Text>
+            <Text style={styles.tabs_subtitle} key={data.tel}>tel.:  {data.tel}</Text>
             </TouchableWithoutFeedback>
-            <Text style={styles.tabs_subtitle}>email:  {data.email}</Text>
-            <Text style={styles.tabs_subtitle}>www:  <A href={data.www}>{data.www}</A></Text>
+            <Text style={styles.tabs_subtitle} key={data.email}>email:  {data.email}</Text>
+            <Text style={styles.tabs_subtitle} kwy={data.www}>www:  <A href={data.www}>{data.www}</A></Text>
             
         </Surface>
         </ScrollView>
@@ -56,23 +56,25 @@ const RenderItem_s2 = ({ data }) => {
 
     const args = {
         number: data.tel,
-        prompt: false,
-        skipCanOpen: true
+        prompt: false, 
+        skipCanOpen: true 
     }
 
     return (  
         <ScrollView > 
 
         <Surface style={styles.surface} elevation={2}>
-            <Text style={styles.text_surface}>{data.title}</Text>
-            <Text style={styles.tabs_subtitle}>{data.adres}</Text>
+            <Text style={styles.text_surface} key={data.title} >{data.title}</Text>
+            <Text style={styles.tabs_subtitle} key={data.adres} >{data.adres}</Text>
+
             <TouchableWithoutFeedback style={styles.tabs_text} onPress={() => {
                 call(args).catch(console.error);
             }}> 
-            <Text style={styles.tabs_subtitle}>tel.:  {data.tel}</Text>
+            <Text style={styles.tabs_subtitle} key={data.tel} >tel.:  {data.tel}</Text>
             </TouchableWithoutFeedback>
-            <Text style={styles.tabs_subtitle}>email:  {data.email}</Text>
-            <Text style={styles.tabs_subtitle}>www:  <A href={data.www}>{data.www}</A></Text>
+            
+            <Text style={styles.tabs_subtitle} key={data.email} >email:  {data.email}</Text>
+            <Text style={styles.tabs_subtitle} key={data.www} >www:  <A href={data.www}>{data.www}</A></Text>
         </Surface>
 
         </ScrollView>

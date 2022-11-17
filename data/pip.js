@@ -13,9 +13,9 @@ const PIP = [
 {
 	title:'Państwowa Inspekcja Pracy Okręgowy Inspektorat Pracy we Wrocławiu',
 	adres:'ul. Zielonego Dębu 22, 51-621 Wrocław',
-	tel:'(71) 37 10 430, 37 10 468',
+	tel: '(71) 37 10 430, 71 37 10 468',
 	email:'kancelaria@wroclaw.pip.gov.pl',
-	www:'https://wroclaw.pip.gov.pl/pl/',
+	www:'https://wroclaw.pip.gov.pl/pl/', 
 	epuap:'/OIPWroclaw/SkrytkaESP',
 	tag: 'dolnośląskie, Wrocław',
 },
