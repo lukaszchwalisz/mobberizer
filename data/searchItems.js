@@ -81,8 +81,41 @@ const RenderItem_s2 = ({ data }) => {
     );
 }
 
+const RenderItem_s3 = ({ data }) => {
+
+    const args = {
+        number: data.tel,
+        prompt: false, 
+        skipCanOpen: true 
+    }
+
+    return (  
+        <ScrollView > 
+
+        <Surface style={styles.surface} elevation={2}>
+            <Text style={styles.text_surface} key={data.title} >{data.title}</Text>
+            <Text style={styles.tabs_subtitle} key={data.adres} >{data.adres}</Text>
+            <Text style={styles.tabs_subtitle} key={data.ap}>apelacja: {data.ap}</Text>
+            <Text style={styles.tabs_subtitle} key={data.ap}>okręg: {data.ok}</Text>
+            <TouchableWithoutFeedback style={styles.tabs_text} onPress={() => {
+                call(args).catch(console.error);
+            }}> 
+            <Text style={styles.tabs_subtitle} key={data.tel} >tel.:  {data.tel}</Text>
+            </TouchableWithoutFeedback>
+            
+            <Text style={styles.tabs_subtitle} key={data.email} >email:  {data.email}</Text>
+            <Text style={styles.tabs_subtitle} key={data.www} >www:  <A href={data.www}>{data.www}</A></Text>
+
+        </Surface>
+
+        </ScrollView>
+    );
+}
+
+
 export { 
         RenderItem, 
         RenderItem_s1, 
-        RenderItem_s2
+        RenderItem_s2,
+        RenderItem_s3
     };

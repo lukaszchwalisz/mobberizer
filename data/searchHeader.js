@@ -80,8 +80,35 @@ const Header = ({onSearch}) => {
     )
   };
 
+  const Header_s3 = ({onSearch}) => {
+    return (
+        <View style={styles.tabs_header}>
+        <Text style={styles.tabs_title}>Struktura sądów powszechnych.</Text>
+        <Text style={styles.tabs_subtitle}>Sądy apelacyjne, sądy okręgowe, sądy rejonowe, ze szczególnym uzwględnieniem Wydziałów Pracy.{"\n"}
+
+        </Text>
+        <View
+          style={{
+            borderRadius: 5,
+            padding: 3,
+            backgroundColor: "#f5f5dc", 
+            alignItems: "center",
+          }}
+        >
+        <TextInput
+          placeholder="szukaj: apelacja, okręg, miasto, #wp"
+          placeholderfontSize="16"
+          onChangeText={onSearch}
+          style={{ flex: 1, fontSize:16, fontFamily:"Roboto"}} 
+        />
+        </View>
+      </View>
+    )
+  };
+
   export {
     Header,
     Header_s1,
-    Header_s2
+    Header_s2,
+    Header_s3
   };
