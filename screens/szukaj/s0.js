@@ -15,7 +15,11 @@ export default function S0({ navigation }) {
     },
     {
       id: 's2',
-      title: 'Sanepid',
+      title: 'Stacje sanitarno-epidemiologiczne',
+    },
+    {
+      id: 's3',
+      title: 'Sądy powszechne',
     }
   ];
 

@@ -84,7 +84,7 @@ const Header = ({onSearch}) => {
     return (
         <View style={styles.tabs_header}>
         <Text style={styles.tabs_title}>Struktura sądów powszechnych.</Text>
-        <Text style={styles.tabs_subtitle}>Sądy apelacyjne, sądy okręgowe, sądy rejonowe, ze szczególnym uzwględnieniem Wydziałów Pracy.{"\n"}
+        <Text style={styles.tabs_subtitle}>Sądy apelacyjne, sądy okręgowe, sądy rejonowe, ze szczególnym uzwględnieniem sądów pracy (tag: #wp).{"\n"}
 
         </Text>
         <View
