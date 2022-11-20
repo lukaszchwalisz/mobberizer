@@ -46,7 +46,7 @@ const RenderItem_s1 = ({ data }) => {
             </TouchableWithoutFeedback>
             <Text style={styles.tabs_subtitle}>email:  {data.email}</Text>
             <Text style={styles.tabs_subtitle}>www:  <A href={data.www}>{data.www}</A></Text>
-            
+            {/* <Text style={styles.tabs_subtitle}>#tag:  {data.tag}</Text> */}
         </Surface>
         </ScrollView>
     );
@@ -75,6 +75,7 @@ const RenderItem_s2 = ({ data }) => {
             
             <Text style={styles.tabs_subtitle}>email:  {data.email}</Text>
             <Text style={styles.tabs_subtitle}>www:  <A href={data.www}>{data.www}</A></Text>
+            {/* <Text style={styles.tabs_subtitle}>#tag:  {data.tag}</Text> */}
         </Surface>
 
         </ScrollView>
@@ -102,6 +103,10 @@ const RenderItem_s3 = ({ data }) => {
             </TouchableWithoutFeedback>
             <Text style={styles.tabs_subtitle}>email:  {data.email}</Text>
             <Text style={styles.tabs_subtitle}>www:  <A href={data.www}>{data.www}</A></Text>
+            <Text style={{fontSize:12,color:"#F5F5DC"}}>apelacja:
+            <Text style={{fontSize:12,color:"yellow"}}> {data.apelacja}</Text></Text>
+            <Text style={{fontSize:12,color:"#F5F5DC"}}>okręg: 
+            <Text style={{fontSize:12,color:"yellow"}}> {data.okręg}</Text></Text>
         </Surface>
         </ScrollView>
     );
