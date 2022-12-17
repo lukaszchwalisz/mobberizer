@@ -2993,265 +2993,1179 @@ const Courts = [
 	okręg:'zielonogórski',
 	tag: 'Żary, poznańska, zielonogórski, #wp',
 },
+{
+	id:'262',
+	title:'Sąd Okręgowy w Przemyślu',
+	adres:'ul. Konarskiego 6, 37-700 Przemyśl',
+	tel:'(16) 676 13 01, 16 676 13 02',
+	email:'biuro@przemysl.so.gov.pl',
+	www:'http://przemysl.so.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'przemyski',
+	tag: 'Przemyśl, rzeszowska, przemyski, #wp',
+},
+{
+	id:'263',
+	title:'Sąd Rejonowy w Jarosławiu',
+	adres:'ul. Jana Pawła II 11, 37-500	Jarosław',
+	tel:'(16) 624 01 02',
+	email:'boi@jaroslaw.sr.gov.pl',
+	www:'http://jaroslaw.sr.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'przemyski',
+	tag: 'Jarosław, rzeszowska, przemyski, #wp',
+},
+{
+	id:'264',
+	title:'Sąd Rejonowy w Przeworsku',
+	adres:'ul. Lwowska 9, 37-200 Przeworsk',
+	tel:'(16) 649 08 10',
+	email:'boi@przeworsk.sr.gov.pl',
+	www:'http://przeworsk.sr.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'przemyski',
+	tag: 'Przeworsk, rzeszowska, przemyski',
+},
+{
+	id:'265',
+	title:'Sąd Rejonowy w Lubaczowie',
+	adres:'ul. Mickiewicza 24, 37-600 Lubaczów',
+	tel:'(16) 632 50 64',
+	email:'sad@lubaczow.sr.gov.pl',
+	www:'http://lubaczow.sr.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'przemyski',
+	tag: 'Lubaczów, rzeszowska, przemyski',
+},
+{
+	id:'266',
+	title:'Sąd Rejonowy w Przemyślu',
+	adres:'ul. Mickiewicza 14, 37-700 Przemyśl',
+	tel:'(16) 679 45 50',
+	email:'boi@przemysl.sr.gov.pl',
+	www:'http://przemysl.sr.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'przemyski',
+	tag: 'Przemyśl, rzeszowska, przemyski, #wp',
+},
+{
+	id:'267',
+	title:'Sąd Okręgowy w Krośnie',
+	adres:'ul. Sienkiewicza 12, 38-400 Krosno',
+	tel:'(13) 437 36 00',
+	email:'poi@krosno.so.gov.pl',
+	www:'http://krosno.so.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'krośnieński',
+	tag: 'Krosno, rzeszowska, krośnieński, #wp',
+},
+{
+	id:'268',
+	title:'Sąd Rejonowy w Brzozowie',
+	adres:'ul. 3 Maja 2a, 36-200 Brzozów',
+	tel:'(13) 433 83 30',
+	email:'administracja@brzozow.sr.gov.pl',
+	www:'http://brzozow.sr.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'krośnieński',
+	tag: 'Brzozów, rzeszowska, krośnieński',
+},
+{
+	id:'269',
+	title:'Sąd Rejonowy w Jaśle',
+	adres:'ul. Armii Krajowej 3, 38-200	Jasło',
+	tel:'(13) 446 20 80',
+	email:'administracja@jaslo.sr.gov.pl',
+	www:'http://jaslo.sr.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'krośnieński',
+	tag: 'Jasło, rzeszowska, krośnieński',
+},
+{
+	id:'270',
+	title:'Sąd Rejonowy w Krośnie',
+	adres:'ul. Sienkiewicza 12,	38-400 Krosno',
+	tel:'(13) 437 56 00',
+	email:'adm@krosno.sr.gov.pl ',
+	www:'http://krosno.sr.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'krośnieński',
+	tag: 'Krosno, rzeszowska, krośnieński, #wp',
+},
+{
+	id:'271',
+	title:'Sąd Rejonowy w Lesku',
+	adres:'Pl. Konstytucji 3 Maja 9, 38-600	Lesko',
+	tel:'(13) 468 98 00',
+	email:'administracja@lesko.sr.gov.pl',
+	www:'http://lesko.sr.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'krośnieński',
+	tag: 'Lesko, rzeszowska, krośnieński',
+},
+{
+	id:'272',
+	title:'Sąd Rejonowy w Sanoku',
+	adres:'ul. Kościuszki 5, 38-500	Sanok',
+	tel:'(13) 465 67 87',
+	email:'boi@sanok.sr.gov.pl',
+	www:'http://sanok.sr.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'krośnieński',
+	tag: 'Sanok, rzeszowska, krośnieński, #wp',
+},
+{
+	id:'273',
+	title:'Sąd Okręgowy w Rzeszowie',
+	adres:'Pl. Śreniawitów 3, 35-959 Rzeszów',
+	tel:'(17) 875 63 00',
+	email:'boi@rzeszow.so.gov.pl',
+	www:'http://rzeszow.so.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'rzeszowski',
+	tag: 'Rzeszów, rzeszowska, rzeszowski, #wp',
+},
+{
+	id:'274',
+	title:'Sąd Rejonowy w Ropczycach',
+	adres:'ul. Słowackiego 7, 39-100 Ropczyce',
+	tel:'(17) 222 03 00',
+	email:'sekretariat@ropczyce.sr.gov.pl',
+	www:'http://ropczyce.sr.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'rzeszowski',
+	tag: 'Ropczyce, rzeszowska, rzeszowski',
+},
+{
+	id:'275',
+	title:'Sąd Rejonowy w Leżajsku',
+	adres:'ul. Mickiewicza 47, 37-300 Leżajsk',
+	tel:'(17) 240 53 00',
+	email:'sekretariat@lezajsk.sr.gov.pl',
+	www:'http://lezajsk.sr.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'rzeszowski',
+	tag: 'Leżajsk, rzeszowska, rzeszowski',
+},
+{
+	id:'276',
+	title:'Sąd Rejonowy w Łańcucie',
+	adres:'ul. Grunwaldzka 10, 37-100 Łańcut',
+	tel:'(17) 224 23 31',
+	email:'boi@lancut.sr.gov.pl',
+	www:'http://lancut.sr.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'rzeszowski',
+	tag: 'Łańcut, rzeszowska, rzeszowski',
+},
+{
+	id:'277',
+	title:'Sąd Rejonowy w Dębicy',
+	adres:'ul. Słoneczna 3, 39-200 Dębica',
+	tel:'(14) 680 76 70',
+	email:'boi@debica.sr.gov.pl',
+	www:'http://debica.sr.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'rzeszowski',
+	tag: 'Dębica, rzeszowska, rzeszowski',
+},
+{
+	id:'278',
+	title:'Sąd Rejonowy w Rzeszowie',
+	adres:'ul. Kustronia 4, 35-303 Rzeszów',
+	tel:'(17) 715 24 00',
+	email:'boi@rzeszow.sr.gov.pl',
+	www:'http://rzeszow.sr.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'rzeszowski',
+	tag: 'Rzeszów, rzeszowska, rzeszowski, #wp',
+},
+{
+	id:'279',
+	title:'Sąd Rejonowy w Strzyżowie',
+	adres:'ul. 3 Maja 14, 38-100 Strzyżów',
+	tel:'(17) 272 81 00',
+	email:'sekretariat@strzyzow.sr.gov.pl',
+	www:'http://strzyzow.sr.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'rzeszowski',
+	tag: 'Strzyżów, rzeszowska, rzeszowski',
+},
+{
+	id:'280',
+	title:'Sąd Okręgowy w Tarnobrzegu',
+	adres:'ul. Sienkiewicza 27, 39-400 Tarnobrzeg',
+	tel:'(15) 688 25 17',
+	email:'boi@tarnobrzeg.so.gov.pl',
+	www:'http://tarnobrzeg.so.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'tarnobrzeski',
+	tag: 'Tarnobrzeg, rzeszowska, tarnobrzeski, #wp',
+},
+{
+	id:'281',
+	title:'Sąd Rejonowy w Nisku',
+	adres:'Pl. Wolności 14,	37-400 Nisko',
+	tel:'(15) 841 20 48',
+	email:'boi@nisko.sr.gov.pl',
+	www:'http://nisko.sr.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'tarnobrzeski',
+	tag: 'Nisko, rzeszowska, tarnobrzeski',
+},
+{
+	id:'282',
+	title:'Sąd Rejonowy w Mielcu',
+	adres:'ul. Kościuszki 15, 39-300 Mielec',
+	tel:'(17) 582 04 01',
+	email:'administracja@mielec.sr.gov.pl',
+	www:'http://mielec.sr.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'tarnobrzeski',
+	tag: 'Mielec, rzeszowska, tarnobrzeski, #wp',
+},
+{
+	id:'283',
+	title:'Sąd Rejonowy w Stalowej Woli',
+	adres:'ul. Popiełuszki 16, 37-450 Stalowa Wola',
+	tel:'(15) 643 45 50, 15 643 45 51',
+	email:'boi@stalowawola.sr.gov.pl',
+	www:'http://stalowawola.sr.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'tarnobrzeski',
+	tag: 'Stalowa Wola, rzeszowska, tarnobrzeski, #wp',
+},
+{
+	id:'284',
+	title:'Sąd Rejonowy w Tarnobrzegu',
+	adres:'ul. Sienkiewicza 27,	39-400 Tarnobrzeg',
+	tel:'(15) 688 25 00',
+	email:'sekretariat@tarnobrzeg.sr.gov.pl',
+	www:'http://tarnobrzeg.sr.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'tarnobrzeski',
+	tag: 'Tarnobrzeg, rzeszowska, tarnobrzeski, #wp',
+},
+{
+	id:'285',
+	title:'Sąd Rejonowy w Kolbuszowej',
+	adres:'ul. Tyszkiewiczów 4, 36-100 Kolbuszowa',
+	tel:'(17) 227 72 00',
+	email:'boi@kolbuszowa.sr.gov.pl',
+	www:'http://kolbuszowa.sr.gov.pl/',
+	apelacja:'rzeszowska',
+	okręg:'tarnobrzeski',
+	tag: 'Kolbuszowa, rzeszowska, tarnobrzeski',
+},
+{
+	id:'286',
+	title:'Sąd Okręgowy w Szczecinie',
+	adres:'ul. Kaszubska 42, 70-952	Szczecin',
+	tel:'(91) 448 00 02',
+	email:'boi@szczecin.so.gov.pl',
+	www:'http://szczecin.so.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'szczeciński',
+	tag: 'Szczecin, szczecińska, szczeciński, #wp',
+},
+{
+	id:'287',
+	title:'Sąd Rejonowy w Gryficach',
+	adres:'ul. Wysoka Brama 2, 72-300 Gryfice',
+	tel:'(91) 386 68 01',
+	email:'sr.gryfice@gryfice.sr.gov.pl',
+	www:'http://gryfice.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'szczeciński',
+	tag: 'Gryfice, szczecińska, szczeciński',
+},
+{
+	id:'288',
+	title:'Sąd Rejonowy Szczecin-Prawobrzeże i Zachód w Szczecinie',
+	adres:'Pl. Żołnierza Polskiego 16, 70-551 Szczecin',
+	tel:'(91) 460 35 33',
+	email:'boi@szczecin-pz.sr.gov.pl',
+	www:'http://szczecin-pz.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'szczeciński',
+	tag: 'Szczecin Prawobrzeże, szczecińska, szczeciński',
+},
+{
+	id:'289',
+	title:'Sąd Rejonowy Szczecin-Centrum w Szczecinie',
+	adres:'ul. Kaszubska 42, 70-227	Szczecin',
+	tel:'(91) 485 55 42',
+	email:'boi@szczecin-centrum.sr.gov.pl',
+	www:'http://szczecin-centrum.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'szczeciński',
+	tag: 'Szczecin Centrum, szczecińska, szczeciński, #wp',
+},
+{
+	id:'290',
+	title:'Sąd Rejonowy w Świnoujściu',
+	adres:'ul. Paderewskiego 6,	72-600 Świnoujście',
+	tel:'(91) 326 28 70',
+	email:'boi@swinoujscie.sr.gov.pl',
+	www:'http://swinoujscie.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'szczeciński',
+	tag: 'Świnoujście, szczecińska, szczeciński',
+},
+{
+	id:'291',
+	title:'Sąd Rejonowy w Stargardzie',
+	adres:'ul. Wojska Polskiego 17-19, 73-110 Starogard',
+	tel:'(91) 578 74 31',
+	email:'sekretariat@stargard.sr.gov.pl',
+	www:'http://stargard.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'szczeciński',
+	tag: 'Starogard, szczecińska, szczeciński, #wp',
+},
+{
+	id:'292',
+	title:'Sąd Rejonowy w Myśliborzu',
+	adres:'ul. Niedziałkowskiego 6,	74-300 Myslibórz',
+	tel:'(95) 747 34 46',
+	email:'sr.mysliborz@mysliborz.sr.gov.pl',
+	www:'http://mysliborz.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'szczeciński',
+	tag: 'Myslibórz, szczecińska, szczeciński',
+},
+{
+	id:'293',
+	title:'Sąd Rejonowy w Goleniowie',
+	adres:'ul. Konstytucji 3 Maja 45, 72-100 Goleniów',
+	tel:'(91) 466 74 46, 91 466 68 48',
+	email:'boi@goleniow.sr.gov.pl',
+	www:'http://goleniow.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'szczeciński',
+	tag: 'Goleniów, szczecińska, szczeciński, #wp',
+},
+{
+	id:'294',
+	title:'Sąd Rejonowy w Gryfinie',
+	adres:'ul. Grunwaldzka 2, 74-100 Gryfino',
+	tel:'91 42 00 301',
+	email:'informacje@gryfino.sr.gov.pl',
+	www:'http://gryfino.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'szczeciński',
+	tag: 'Gryfino, szczecińska, szczeciński',
+},
+{
+	id:'295',
+	title:'Sąd Rejonowy w Łobzie',
+	adres:'ul. Niepodległości 15, 73-150 Łobez',
+	tel:'(91) 397 06 31',
+	email:'hbobko@lobez.sr.gov.pl',
+	www:'http://lobez.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'szczeciński',
+	tag: 'Łobez, szczecińska, szczeciński',
+},
+{
+	id:'296',
+	title:'Sąd Rejonowy w Kamieniu Pomorskim',
+	adres:'ul. Kościuszki 13, 72-400 Kamień Pomorski',
+	tel:'(91) 382 57 80',
+	email:'sekretariat@kamien.sr.gov.pl',
+	www:'http://kamien.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'szczeciński',
+	tag: 'Kamień Pomorski, szczecińska, szczeciński',
+},
+{
+	id:'297',
+	title:'Sąd Rejonowy w Choszcznie',
+	adres:'ul. Wolności 14, 73-200 Choszczno',
+	tel:'(95) 765 70 69',
+	email:'sekretariat@choszczno.sr.gov.pl',
+	www:'http://choszczno.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'szczeciński',
+	tag: 'Choszczno, szczecińska, szczeciński',
+},
+{
+	id:'298',
+	title:'Sąd Okręgowy w Koszalinie',
+	adres:'ul. Waryńskiego 7, 75-541 Koszalin',
+	tel:'(94) 342 88 71',
+	email:'boi@koszalin.so.gov.pl',
+	www:'http://koszalin.so.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'koszaliński',
+	tag: 'Koszalin, szczecińska, koszaliński, #wp',
+},
+{
+	id:'299',
+	title:'Sąd Rejonowy w Koszalinie',
+	adres:'ul. Andersa 34 B, 75-626	Koszalin',
+	tel:'(94) 317 02 21, 342 86 28',
+	email:'informacja@koszalin.sr.gov.pl',
+	www:'http://koszalin.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'koszaliński',
+	tag: 'Koszalin, szczecińska, koszaliński, #wp',
+},
+{
+	id:'300',
+	title:'Sąd Rejonowy w Kołobrzegu',
+	adres:'ul. Katedralna 13, 78-100 Kołobrzeg',
+	tel:'(34) 357 51 42',
+	email:'poi@kolobrzeg.sr.gov.pl',
+	www:'http://kolobrzeg.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'koszaliński',
+	tag: 'Kołobrzeg, szczecińska, koszaliński, #wp',
+},
+{
+	id:'301',
+	title:'Sąd Rejonowy w Wałczu',
+	adres:'ul. Sądowa 2, 78-600	Wałcz',
+	tel:'(67) 250 19 46',
+	email:'boi@walcz.sr.gov.pl',
+	www:'http://walcz.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'koszaliński',
+	tag: 'Wałcz, szczecińska, koszaliński',
+},
+{
+	id:'302',
+	title:'Sąd Rejonowy w Białogardzie',
+	adres:'ul. Lipowa 1, 78-200	Białogard',
+	tel:'(94) 312 01 10',
+	email:'o.administracyjny@bialogard.sr.gov.pl',
+	www:'http://bialogard.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'koszaliński',
+	tag: 'Białogard, szczecińska, koszaliński, #wp',
+},
+{
+	id:'303',
+	title:'Sąd Rejonowy w Drawsku Pomorskim',
+	adres:'ul. Złocieniecka 5, 78-500 Drawsko Pomorskie',
+	tel:'(94) 363 64 60',
+	email:'poi@drawsko-pom.sr.gov.pl',
+	www:'http://drawsko-pom.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'koszaliński',
+	tag: 'Drawsko Pomorskie, szczecińska, koszaliński',
+},
+{
+	id:'304',
+	title:'Sąd Rejonowy w Szczecinku',
+	adres:'ul. Bohaterów Warszawy 42, 78-400 Szczecinek',
+	tel:'(94) 373 08 00',
+	email:'boi@szczecinek.sr.gov.pl',
+	www:'http://szczecinek.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'koszaliński',
+	tag: 'Szczecinek, szczecińska, koszaliński, #wp',
+},
+{
+	id:'305',
+	title:'Sąd Rejonowy w Sławnie',
+	adres:'ul. I Pułku Ułanów 20, 76-100 Sławno',
+	tel:'(59) 810 67 46',
+	email:'biuropodawcze@slawno.sr.gov.pl',
+	www:'http://slawno.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'koszaliński',
+	tag: 'Sławno, szczecińska, koszaliński',
+},
+{
+	id:'306',
+	title:'Sąd Okręgowy w Gorzowie Wielkopolskim',
+	adres:'ul. Mieszka I 33	66-400	Gorzów Wielkopolski',
+	tel:'(95) 725 67 65',
+	email:'boi@gorzow-wlkp.so.gov.pl',
+	www:'http://gorzow-wlkp.so.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'gorzowski',
+	tag: 'Gorzów Wielkopolski, szczecińska, gorzowski, #wp',
+},
+{
+	id:'307',
+	title:'Sąd Rejonowy w Gorzowie Wielkopolskim',
+	adres:'ul. Chopina 52 blok 10, 66-400 Gorzów Wielkopolski',
+	tel:'(95) 725 65 04',
+	email:'boi@gorzow-wlkp.sr.gov.pl',
+	www:'http://gorzow-wlkp.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'gorzowski',
+	tag: 'Gorzów Wielkopolski, szczecińska, gorzowski, #wp',
+},
+{
+	id:'308',
+	title:'Sąd Rejonowy w Słubicach',
+	adres:'ul. Bohaterów Warszawy 3B, 69-100 Słubice',
+	tel:'(95) 750 70 03',
+	email:'sekretariat@slubice.sr.gov.pl',
+	www:'http://slubice.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'gorzowski',
+	tag: 'Słubice, szczecińska, gorzowski, #wp',
+},
+{
+	id:'309',
+	title:'Sąd Rejonowy w Strzelcach Krajeńskich',
+	adres:'ul. Rynek 2-3, 66-500 Strzelce Krajeńskie',
+	tel:'(95) 763 21 55',
+	email:'informacja@strzelce-kraj.sr.gov.pl',
+	www:'http://strzelce-kraj.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'gorzowski',
+	tag: 'Strzelce Krajeńskie, szczecińska, gorzowski',
+},
+{
+	id:'310',
+	title:'Sąd Rejonowy w Sulęcinie',
+	adres:'ul. Kościuszki 30, 69-200 Sulęcin',
+	tel:'(95) 755 48 24',
+	email:'boi@sulecin.sr.gov.pl',
+	www:'http://sulecin.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'gorzowski',
+	tag: 'Sulęcin, szczecińska, gorzowski',
+},
+{
+	id:'311',
+	title:'Sąd Rejonowy w Międzyrzeczu',
+	adres:'ul. Wojska Polskiego 1, 66-300 Międzyrzecz',
+	tel:'(95) 741 23 95',
+	email:'info@miedzyrzecz.sr.gov.pl',
+	www:'http://miedzyrzecz.sr.gov.pl/',
+	apelacja:'szczecińska',
+	okręg:'gorzowski',
+	tag: 'Międzyrzecz, szczecińska, gorzowski',
+},
+{
+	id:'312',
+	title:'Sąd Okręgowy w Warszawie',
+	adres:'Al. Solidarności 127, 00-898	Warszawa',
+	tel:'(22) 440 80 00',
+	email:'boi@warszawa.so.gov.pl',
+	www:'http://warszawa.so.gov.pl/',
+	apelacja:'warszawska',
+	okręg:'warszawski',
+	tag: 'Warszawa, warszawska, warszawski, #wp',
+},
+{
+	id:'313',
+	title:'Sąd Rejonowy dla m.st. Warszawy w Warszawie',
+	adres:'ul. Marszałkowska 82, 00-517	Warszawa',
+	tel:'(22) 553 97 71',
+	email:'boi_marszałkowska@warszawa.sr.gov.pl',
+	www:'http://warszawa.sr.gov.pl/',
+	apelacja:'warszawska',
+	okręg:'warszawski',
+	tag: 'Warszawa, warszawska, warszawski, #wp',
+},
+{
+	id:'314',
+	title:'Sąd Rejonowy dla Warszawy-Śródmieścia w Warszawie',
+	adres:'ul. Marszałkowska 82, 00-517	Warszawa',
+	tel:'(22) 553 90 00',
+	email:'boi@warszawa-srodmiescie.sr.gov.pl',
+	www:'http://warszawa-srodmiescie.sr.gov.pl/',
+	apelacja:'warszawska',
+	okręg:'warszawski',
+	tag: 'Warszawa Śródmieście, warszawska, warszawski, #wp',
+},
+{
+	id:'315',
+	title:'Sąd Rejonowy dla Warszawy-Żoliborza w Warszawie',
+	adres:'ul. Kocjana 3, 01-473 Warszawa',
+	tel:'(22) 328 60 30',
+	email:'boi@srzoliborz.pl',
+	www:'https://warszawa-zoliborz.sr.gov.pl/',
+	apelacja:'warszawska',
+	okręg:'warszawski',
+	tag: 'Warszawa Żoliborz, warszawska, warszawski, #wp',
+},
+{
+	id:'316',
+	title:'Sąd Rejonowy dla Warszawy-Mokotowa w Warszawie',
+	adres:'ul. Ogrodowa 51a, 00-873	Warszawa',
+	tel:'(22) 501 97 20',
+	email:'boi@mokotow.sr.gov.pl',
+	www:'https://mokotow.sr.gov.pl/',
+	apelacja:'warszawska',
+	okręg:'warszawski',
+	tag: 'Warszawa Mokotów, warszawska, warszawski',
+},
+{
+	id:'317',
+	title:'Sąd Rejonowy dla Warszawy-Woli w Warszawie',
+	adres:'ul. Kocjana 3, 01-473 Warszawa',
+	tel:'(22) 328 60 20',
+	email:'boi@warszawa-wola.sr.gov.pl',
+	www:'https://warszawa-wola.sr.gov.pl/',
+	apelacja:'warszawska',
+	okręg:'warszawski',
+	tag: 'Warszawa Wola, warszawska, warszawski',
+},
+{
+	id:'318',
+	title:'Sąd Rejonowy w Grodzisku Mazowieckim',
+	adres:'ul. Bartniaka 21/23, 05-825 Grodzisk Mazowiecki',
+	tel:'(22) 770 92 31',
+	email:'boi@grodzisk.sr.gov.pl',
+	www:'https://grodzisk.sr.gov.pl/',
+	apelacja:'warszawska',
+	okręg:'warszawski',
+	tag: 'Grodzisk Mazowiecki, warszawska, warszawski',
+},
+{
+	id:'319',
+	title:'Sąd Rejonowy w Piasecznie',
+	adres:'ul. Kościuszki 14, 05-500 Piaseczno',
+	tel:'(22) 703 78 97, 703 79 04',
+	email:'boi@piaseczno.sr.gov.pl',
+	www:'https://piaseczno.sr.gov.pl/',
+	apelacja:'warszawska',
+	okręg:'warszawski',
+	tag: 'Piaseczno, warszawska, warszawski',
+},
+{
+	id:'320',
+	title:'Sąd Rejonowy w Pruszkowie',
+	adres:'ul. Kraszewskiego 22, 05-800	Pruszków',
+	tel:'(22) 733 41 00',
+	email:'boi@pruszkow.sr.gov.pl',
+	www:'https://pruszkow.sr.gov.pl/',
+	apelacja:'warszawska',
+	okręg:'warszawski',
+	tag: 'Pruszków, warszawska, warszawski',
+},
+{
+	id:'321',
+	title:'Sąd Okręgowy Warszawa-Praga w Warszawie',
+	adres:'ul. Poligonowa 3, 04-051	Warszawa',
+	tel:'(22) 417 72 72',
+	email:'kontakt@warszawapraga.so.gov.pl',
+	www:'https://warszawapraga.so.gov.pl/',
+	apelacja:'warszawska',
+	okręg:'warszawsko-praski',
+	tag: 'Warszawa, warszawska, warszawsko-praski, #wp',
+},
+{
+	id:'322',
+	title:'Sąd Rejonowy w Legionowie',
+	adres:'ul. Sobieskiego 47, 05-118 Legionowo',
+	tel:'(22) 782 35 10',
+	email:'administracja@legionowo.sr.gov.pl',
+	www:'https://legionowo.sr.gov.pl/',
+	apelacja:'warszawska',
+	okręg:'warszawsko-praski',
+	tag: 'Legionowo, warszawska, warszawsko-praski',
+},
+{
+	id:'322',
+	title:'Sąd Rejonowy w Nowym Dworze Mazowieckim',
+	adres:'ul. Słowackiego 19, 05-100 Nowy Dwór Mazowiecki',
+	tel:'(22) 732 50 02',
+	email:'boi@nowydwormaz.sr.gov.pl',
+	www:'https://nowydwormaz.sr.gov.pl/',
+	apelacja:'warszawska',
+	okręg:'warszawsko-praski',
+	tag: 'Nowy Dwór Mazowiecki, warszawska, warszawsko-praski',
+},
+{
+	id:'323',
+	title:'Sąd Rejonowy w Otwocku',
+	adres:'ul. Armii Krajowej 2, 05-400	Otwock',
+	tel:'(22) 778 20 50',
+	email:'boi@otwock.sr.gov.pl',
+	www:'https://otwock.sr.gov.pl/',
+	apelacja:'warszawska',
+	okręg:'warszawsko-praski',
+	tag: 'Otwock, warszawska, warszawsko-praski',
+},
+{
+	id:'324',
+	title:'Sąd Rejonowy dla Warszawy Pragi-Południe w Warszawie',
+	adres:'ul. Terespolska 15a, 03-813 Warszawa',
+	tel:'(22) 509 11 61',
+	email:'boi2@warszawa-pragapoludnie.sr.gov.pl',
+	www:'https://warszawa-pragapoludnie.sr.gov.pl/',
+	apelacja:'warszawska',
+	okręg:'warszawsko-praski',
+	tag: 'Warszawa Praga-Południe, warszawska, warszawsko-praski, #wp',
+},
+{
+	id:'325',
+	title:'Sąd Rejonowy dla Warszawy Pragi-Północ w Warszawie',
+	adres:'ul. Terespolska 15a, 03-813 Warszawa',
+	tel:'(22) 50 91 158',
+	email:'boi@warszawapraga-pln.sr.gov.pl',
+	www:'https://warszawapraga-pln.sr.gov.pl/',
+	apelacja:'warszawska',
+	okręg:'warszawsko-praski',
+	tag: 'Warszawa Praga-Północ, warszawska, warszawsko-praski, #wp',
+},
+{
+	id:'326',
+	title:'Sąd Rejonowy w Wołominie',
+	adres:'ul. Prądzyńskiego 3A, 05-200	Wołomin',
+	tel:'(22) 776 21 44',
+	email:'boi@wolomin.sr.gov.pl',
+	www:'https://bip.wolomin.sr.gov.pl/',
+	apelacja:'warszawska',
+	okręg:'warszawsko-praski',
+	tag: 'Wołomin, warszawska, warszawsko-praski',
+},
+{
+	id:'327',
+	title:'Sąd Okręgowy w Jeleniej Górze',
+	adres:'ul. Wojska Polskiego 56, 58-500 Jelenia Góra',
+	tel:'(75) 641 52 51, 641 52 52',
+	email:'p.informacyjny@jelenia-gora.so.gov.pl',
+	www:'https://jelenia-gora.so.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'jeleniogórski',
+	tag: 'Jelenia Góra, wrocławska, jeleniogórski, #wp',
+},
+{
+	id:'328',
+	title:'Sąd Rejonowy w Jeleniej Górze',
+	adres:'ul. Mickiewicza 21, 58-500 Jelenia Góra',
+	tel:'(75) 671 28 30',
+	email:'poi@jelenia-gora.sr.gov.pl',
+	www:'https://jelenia-gora.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'jeleniogórski',
+	tag: 'Jelenia Góra, wrocławska, jeleniogórski, #wp',
+},
+{
+	id:'329',
+	title:'Sąd Rejonowy w Lubaniu',
+	adres:'Pl. 3 Maja 12, 59-800 Lubań',
+	tel:'(75) 646 46 21',
+	email:'p.informacyjny@luban.sr.gov.pl',
+	www:'https://luban.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'jeleniogórski',
+	tag: 'Lubań, wrocławska, jeleniogórski, #wp',
+},
+{
+	id:'330',
+	title:'Sąd Rejonowy w Lwówku Śląskim',
+	adres:'ul. Jaśkiewicza 12, 59-600 Lwówek Śląski',
+	tel:'(75) 646 94 50',
+	email:'biuro.podawcze@lwowekslaski.sr.gov.pl',
+	www:'https://lwowekslaski.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'jeleniogórski',
+	tag: 'Lwówek Śląski, wrocławska, jeleniogórski',
+},
+{
+	id:'331',
+	title:'Sąd Rejonowy w Zgorzelcu',
+	adres:'ul. Poniatowskiego 2, 59-900	Zgorzelec',
+	tel:'(75) 645 69 31',
+	email:'boi@zgorzelec.sr.gov.pl',
+	www:'https://zgorzelec.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'jeleniogórski',
+	tag: 'Zgorzelec, wrocławska, jeleniogórski',
+},
+{
+	id:'332',
+	title:'Sąd Rejonowy w Kamiennej Górze',
+	adres:'ul. Wojska Polskiego 36, 58-400 Kamienna Góra',
+	tel:'(75) 671 24 01',
+	email:'sekretariat@kamienna-gora.sr.gov.pl',
+	www:'https://kamienna-gora.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'jeleniogórski',
+	tag: 'Kamienna Góra, wrocławska, jeleniogórski',
+},
+{
+	id:'333',
+	title:'Sąd Rejonowy w Bolesławcu',
+	adres:'ul. Sądowa 1, 59-700	Bolesławiec',
+	tel:'(75) 646 95 45',
+	email:'boi@boleslawiec.sr.gov.pl',
+	www:'https://boleslawiec.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'jeleniogórski',
+	tag: 'Bolesławiec, wrocławska, jeleniogórski, #wp',
+},
+{
+	id:'334',
+	title:'Sąd Okręgowy w Legnicy',
+	adres:'ul. Złotoryjska 40, 59-220 Legnica',
+	tel:'(76) 754 51 60, 754 51 62',
+	email:'boi@legnica.so.gov.pl',
+	www:'https://legnica.so.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'legnicki',
+	tag: 'Legnica, wrocławska, legnicki, #wp',
+},
+{
+	id:'335',
+	title:'Sąd Rejonowy w Legnicy',
+	adres:'ul. Złotoryjska 19, 59-220 Legnica',
+	tel:'(76) 754 47 40',
+	email:'boi@legnica.sr.gov.pl',
+	www:'https://legnica.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'legnicki',
+	tag: 'Legnica, wrocławska, legnicki, #wp',
+},
+{
+	id:'336',
+	title:'Sąd Rejonowy w Głogowie',
+	adres:'ul. Kutrzeby 2, 67-200 Głogów',
+	tel:'(76) 754 52 40',
+	email:'boi@glogow.sr.gov.pl',
+	www:'https://glogow.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'legnicki',
+	tag: 'Głogów, wrocławska, legnicki',
+},
+{
+	id:'337',
+	title:'Sąd Rejonowy w Jaworze',
+	adres:'ul. Klasztorna 5, 59-400	Jawor',
+	tel:'(76) 754 40 01',
+	email:'sr.jawor@jawor.gov.pl',
+	www:'https://jawor.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'legnicki',
+	tag: 'Jawor, wrocławska, legnicki',
+},
+{
+	id:'338',
+	title:'Sąd Rejonowy w Lubinie',
+	adres:'ul. Wrocławska 3, 59-300	Lubin',
+	tel:'(76) 754 42 10',
+	email:'boi@lubin.sr.gov.pl',
+	www:'https://lubin.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'legnicki',
+	tag: 'Lubin, wrocławska, legnicki, #wp',
+},
+{
+	id:'339',
+	title:'Sąd Rejonowy w Złotoryi',
+	adres:'ul. Kolejowa 3, 59-500 Złotoryja',
+	tel:'(76) 745 90 14',
+	email:'k.kocuj@zlotoryja.sr.gov.pl',
+	www:'https://zlotoryja.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'legnicki',
+	tag: 'Złotoryja, wrocławska, legnicki',
+},
+{
+	id:'340',
+	title:'Sąd Okręgowy w Opolu',
+	adres:'Pl. Daszyńskiego 1, 45-064 Opole',
+	tel:'(77) 541 81 05, 541 81 90',
+	email:'boi@opole.so.gov.pl',
+	www:'https://opole.so.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'opolski',
+	tag: 'Opole, wrocławska, opolski, #wp',
+},
+{
+	id:'341',
+	title:'Sąd Rejonowy w Strzelcach Opolskich',
+	adres:'ul. Opolska 11, 47-100 Strzelce Opolskie',
+	tel:'(77) 463 11 87, 463 11 77, 463 11 88',
+	email:'boi@strzelce.sr.gov.pl',
+	www:'https://strzelce.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'opolski',
+	tag: 'Strzelce Opolskie, wrocławska, opolski',
+},
+{
+	id:'342',
+	title:'Sąd Rejonowy w Kędzierzynie-Koźlu',
+	adres:'ul. Żeromskiego 5, 47-200 Kędzierzyn-Koźle',
+	tel:'(77) 405 30 01',
+	email:'podawcze@kozle.sr.gov.pl',
+	www:'https://kozle.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'opolski',
+	tag: 'Kędzierzyn-Koźle, wrocławska, opolski',
+},
+{
+	id:'343',
+	title:'Sąd Rejonowy w Opolu',
+	adres:'ul. Ozimska 60a, 45-368 Opole',
+	tel:'(77) 541 54 01, 541 54 08, 541 54 07',
+	email:'sr@opole.sr.gov.pl',
+	www:'https://opole.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'opolski',
+	tag: 'Opole, wrocławska, opolski, #wp',
+},
+{
+	id:'344',
+	title:'Sąd Rejonowy w Oleśnie',
+	adres:'ul. Sądowa 3, 46-300	Olesno',
+	tel:'(34) 359 69 00',
+	email:'administracja@olesno.sr.gov.pl',
+	www:'https://olesno.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'opolski',
+	tag: 'Olesno, wrocławska, opolski',
+},
+{
+	id:'345',
+	title:'Sąd Rejonowy w Kluczborku',
+	adres:'ul. Katowicka 2, 46-200 Kluczbork',
+	tel:'(77) 447 16 69',
+	email:'boi@kluczbork.sr.gov.pl',
+	www:'https://kluczbork.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'opolski',
+	tag: 'Kluczbork, wrocławska, opolski',
+},
+{
+	id:'346',
+	title:'Sąd Rejonowy w Głubczycach',
+	adres:'ul. Kochanowskiego 1, 48-100	Głubczyce',
+	tel:'(77) 471 06 01',
+	email:'boi@glubczyce.sr.gov.pl',
+	www:'https://glubczyce.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'opolski',
+	tag: 'Głubczyce, wrocławska, opolski',
+},
+{
+	id:'347',
+	title:'Sąd Rejonowy w Nysie',
+	adres:'Plac Kościelny 6, 48-300	Nysa',
+	tel:'(77) 448 35 00',
+	email:'boi@nysa.sr.gov.pl',
+	www:'https://nysa.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'opolski',
+	tag: 'Nysa, wrocławska, opolski',
+},
+{
+	id:'348',
+	title:'Sąd Rejonowy w Prudniku',
+	adres:'ul. Kościuszki 5, 48-200	Prudnik',
+	tel:'(77) 443 86 03',
+	email:'boi@prudnik.sr.gov.pl',
+	www:'https://prudnik.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'opolski',
+	tag: 'Prudnik, wrocławska, opolski',
+},
+{
+	id:'349',
+	title:'Sąd Rejonowy w Brzegu',
+	adres:'ul. Chrobrego 31, 49-300 Brzeg',
+	tel:'(77) 444 23 31, 444 23 32',
+	email:'boi@brzeg.sr.gov.pl',
+	www:'https://brzeg.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'opolski',
+	tag: 'Brzeg, wrocławska, opolski',
+},
+{
+	id:'350',
+	title:'Sąd Okręgowy w Świdnicy',
+	adres:'Pl. Grunwaldzki 14, 58-100 Świdnica',
+	tel:'(74) 851 83 50',
+	email:'boi@swidnica.so.gov.pl',
+	www:'https://swidnica.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'świdnicki',
+	tag: 'Świdnica, wrocławska, świdnicki, #wp',
+},
+{
+	id:'351',
+	title:'Sąd Rejonowy w Dzierżoniowie',
+	adres:'ul. Świdnicka 51, 58-200	Dzierżoniów',
+	tel:'(74) 633 41 00',
+	email:'informacja@dzierzoniow.sr.gov.pl',
+	www:'https://dzierzoniow.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'świdnicki',
+	tag: 'Dzierżoniów, wrocławska, świdnicki, #wp',
+},
+{
+	id:'352',
+	title:'Sąd Rejonowy w Świdnicy',
+	adres:'ul. Okulickiego 2-4,	58-100 Świdnica',
+	tel:'(74) 851 84 35',
+	email:'srs@swidnica.sr.gov.pl',
+	www:'https://swidnica.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'świdnicki',
+	tag: 'Świdnica, wrocławska, świdnicki, #wp',
+},
+{
+	id:'353',
+	title:'Sąd Rejonowy w Kłodzku',
+	adres:'ul. Bohaterów Getta 15, 57-300 Kłodzko',
+	tel:'(74) 865 13 17',
+	email:'punktinformacyjny@klodzko.sr.gov.pl',
+	www:'https://klodzko.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'świdnicki',
+	tag: 'Kłodzko, wrocławska, świdnicki, #wp',
+},
+{
+	id:'354',
+	title:'Sąd Rejonowy w Wałbrzychu',
+	adres:'ul. Słowackiego 10, 58-300 Wałbrzych',
+	tel:'(74) 843 03 00',
+	email:'informacja@walbrzych.sr.gov.pl',
+	www:'https://walbrzych.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'świdnicki',
+	tag: 'Wałbrzych, wrocławska, świdnicki',
+},
+{
+	id:'355',
+	title:'Sąd Rejonowy w Ząbkowicach Śląskich',
+	adres:'ul. Świerkowa 1, 57-200 Ząbkowice Śląskie',
+	tel:'(74) 816 51 00',
+	email:'poi@zabkowice.sr.gov.pl',
+	www:'https://zabkowice.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'świdnicki',
+	tag: 'Ząbkowice Śląskie, wrocławska, świdnicki, #wp',
+},
+{
+	id:'356',
+	title:'Sąd Okręgowy we Wrocławiu',
+	adres:'ul. Sądowa 1, 50-046 Wrocław',
+	tel:'(71) 370 45 00',
+	email:'punkt.informacyjny@wroclaw.so.gov.pl',
+	www:'https://wroclaw.so.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'wrocławski',
+	tag: 'Wrocław, wrocławska, wrocławski, #wp',
+},
+{
+	id:'357',
+	title:'Sąd Rejonowy w Wołowie',
+	adres:'ul. Reja 11, 56-100 Wołów',
+	tel:'(71) 756 61 49',
+	email:'biuro.podawcze@wolow.sr.gov.pl',
+	www:'https://wolow.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'wrocławski',
+	tag: 'Wołów, wrocławska, wrocławski',
+},
+{
+	id:'358',
+	title:'Sąd Rejonowy w Miliczu',
+	adres:'ul. Piłsudskiego 10, 56-300 Milicz',
+	tel:'(71) 749 90 00',
+	email:'biuro.podawcze@milicz.sr.gov.pl',
+	www:'https://milicz.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'wrocławski',
+	tag: 'Milicz, wrocławska, wrocławski',
+},
+{
+	id:'359',
+	title:'Sąd Rejonowy w Strzelinie',
+	adres:'ul. Bolka I Świdnickiego 7, 57-100 Strzelin',
+	tel:'(71) 749 91 00',
+	email:'biuro.podawcze@strzelin.sr.gov.pl',
+	www:'https://strzelin.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'wrocławski',
+	tag: 'Strzelin, wrocławska, wrocławski',
+},
+{
+	id:'360',
+	title:'Sąd Rejonowy dla Wrocławia-Fabrycznej we Wrocławiu',
+	adres:'ul. Świebodzka 5, 50-046 Wrocław',
+	tel:'(71) 748 90 00',
+	email:'biuro.podawcze@wroclaw-fabryczna.sr.gov.pl',
+	www:'https://wroclaw-fabryczna.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'wrocławski',
+	tag: 'Wrocław Fabryczna, wrocławska, wrocławski',
+},
+{
+	id:'361',
+	title:'Sąd Rejonowy dla Wrocława-Krzyków we Wrocławiu',
+	adres:'ul. Podwale 30, 50-040 Wrocław',
+	tel:'(71) 749 63 00',
+	email:'administracyjny@wroclaw-krzyki.sr.gov.pl',
+	www:'https://wroclaw-krzyki.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'wrocławski',
+	tag: 'Wrocław Krzyki, wrocławska, wrocławski',
+},
+{
+	id:'362',
+	title:'Sąd Rejonowy dla Wrocławia-Śródmieścia we Wrocławiu',
+	adres:'ul. Podwale 30, 50-040 Wrocław',
+	tel:'(71) 748 11 40',
+	email:'biuro.podawcze@wroclaw-srodmiescie.sr.gov.pl',
+	www:'https://wroclaw-srodmiescie.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'wrocławski',
+	tag: 'Wrocław Śródmieście, wrocławska, wrocławski, #wp',
+},
+{
+	id:'363',
+	title:'Sąd Rejonowy w Oławie',
+	adres:'ul. 11 Listopada 12,	55-200 Oława',
+	tel:'(71) 749 92 00',
+	email:'punkt.informacyjny@olawa.sr.gov.pl',
+	www:'https://olawa.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'wrocławski',
+	tag: 'Oława, wrocławska, wrocławski',
+},
+{
+	id:'364',
+	title:'Sąd Rejonowy w Oleśnicy',
+	adres:'ul. 3 Maja 48/49, 56-400	Oleśnica',
+	tel:'(71) 756 63 20',
+	email:'biuro.podawcze@olesnica.sr.gov.pl',
+	www:'https://olesnica.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'wrocławski',
+	tag: 'Oleśnica, wrocławska, wrocławski',
+},
+{
+	id:'365',
+	title:'Sąd Rejonowy w Trzebnicy',
+	adres:'ul. Parkowa 4, 55-100 Trzebnica',
+	tel:'(71) 756 62 04',
+	email:'administracyjny@trzebnica.sr.gov.pl',
+	www:'https://trzebnica.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'wrocławski',
+	tag: 'Trzebnica, wrocławska, wrocławski',
+},
+{
+	id:'366',
+	title:'Sąd Rejonowy w Środzie Śląskiej',
+	adres:'ul. św. Andrzeja 3, 55-300 Środa Śląska',
+	tel:'(71) 396 02 08',
+	email:'boi@srodaslaska.sr.gov.pl',
+	www:'https://srodaslaska.sr.gov.pl/',
+	apelacja:'wrocławska',
+	okręg:'wrocławski',
+	tag: 'Środa Śląska, wrocławska, wrocławski',
+}
 
 
 ];
 
 
 export { Courts };
-						 				
-									
 
-// apelacja lubelska		SA	Sąd Apelacyjny w Lublinie	Obrońców Pokoju 1	20-950	Lublin	(81) 452 33 70 45 	boi@lublin.sa.gov.pl
-
-// apelacja lubelska	okręg lubelski	SO	Sąd Okręgowy w Lublinie	Krakowskie Przedmieście 43	20-076	Lublin	(81) 460 10 00	boi@lublin.so.gov.pl
-// apelacja lubelska	okręg lubelski	SR	Sąd Rejonowy w Białej Podlaskiej	Brzeska 20-22	21-500	Biała Podlaska	(83) 311 10 95	boi@bialapodlaska.sr.gov.pl
-// apelacja lubelska	okręg lubelski	SR	Sąd Rejonowy w Chełmie	Al. I Armii Wojska Polskiego 16	22-100	Chełm	(82) 562 25 06	boi@chelm.sr.gov.pl
-// apelacja lubelska	okręg lubelski	SR	Sąd Rejonowy w Kraśniku	Lubelska 81	23-200	Kraśnik	(81) 825 20 01	krasnik@krasnik.sr.gov.pl
-// apelacja lubelska	okręg lubelski	SR	Sąd Rejonowy w  Lubartowie	Lubelska 57	21-100	Lubartów	(81) 852 68 00	adm@lubartow.sr.gov.pl
-// apelacja lubelska	okręg lubelski	SR	Sąd Rejonowy Lublin-Wschód w Lublinie z siedzibą w Świdniku	Kardynała Stefana Wyszyńskiego 18	21-040	Świdnik	(81) 464 87 22	boi@lublin-wschod.sr.gov.pl
-// apelacja lubelska	okręg lubelski	SR	Sąd Rejonowy Lublin-Zachód w Lublinie	Krakowskie Przedmieście 76	20-950	Lublin	(81) 478 16 07	sek@lublin-zachod.sr.gov.pl 
-// apelacja lubelska	okręg lubelski	SR	Sąd Rejonowy w Opolu Lubelskim	Stary Rynek 46 	24-300 	Opole Lubelskie	(81) 827 28 25	administracyjny@opolelubelskie.sr.gov.pl
-// apelacja lubelska	okręg lubelski	SR	Sąd Rejonowy w Puławach	Lubelska 7	24-100	Puławy	(81) 888 55 85	biuro@pulawy.sr.gov.pl
-// apelacja lubelska	okręg lubelski	SR	Sąd Rejonowy w Radzyniu Podlaskim	Stefana Kardynała Wyszyńskiego 5	21-300	Radzyń	(83) 313 30 01, 313 30 02	boi@radzyn.sr.gov.pl
-// apelacja lubelska	okręg lubelski	SR	Sąd Rejonowy w Rykach	Kościuszki 15	08-500	Ryki	(81) 865 60 51	bpod@ryki.sr.gov.pl
-// apelacja lubelska	okręg lubelski	SR	Sąd Rejonowy we Włodawie	Sejmowa7  	22-200	Włodawa	(82) 572 11 15	sekretariat@wlodawa.sr.gov.pl
-
-// apelacja lubelska	okręg radomski	SO	Sąd Okręgowy w Radomiu	Piłsudskiego 10	26-600	Radom	(48) 677 67 00, 677 67 66	boi@radom.so.gov.pl
-// apelacja lubelska	okręg radomski	SR	Sąd Rejonowy w Grójcu	Sportowa 14	05-600	Grójec	(48)  664 83 01	poi@grojec.sr.gov.pl
-// apelacja lubelska	okręg radomski	SR	Sąd Rejonowy w Kozienicach	Konstytucji 3 Maja 22	26-900	Radom	(48) 614 29 13	biuro@kozienice.sr.gov.pl
-// apelacja lubelska	okręg radomski	SR	Sąd Rejonowy w Lipsku	Partyzantów 1	27-300	Lipsko	(48) 378 44 60	biuropodawcze@lipsko.sr.gov.pl
-// apelacja lubelska	okręg radomski	SR	Sąd Rejonowy w Przysusze	Al. Jana Pawła II 11	26-400	Przysucha	(48) 675 03 70	administracja@przysucha.sr.gov.pl
-// apelacja lubelska	okręg radomski	SR	Sąd Rejonowy w Radomiu	Struga 63	26-600	Radom	(48) 368 04 42, 368 04 44, 368 04 45	boi@radom.sr.gov.pl
-// apelacja lubelska	okręg radomski	SR	Sąd Rejonowy w Szydłowcu	Pl. Marii Konopnickiej 7	26-500	Szydłowiec	(48) 617 87 00	administracja@szydlowiec.sr.gov.pl
-// apelacja lubelska	okręg radomski	SR	Sąd Rejonowy w Zwoleniu	Moniuszki 6	26-700	Zwoleń	(48) 676 30 51	biuropodawcze@zwolen.sr.gov.pl
-
-// apelacja lubelska	okręg siedlecki	SO	Sąd Okręgowy w Siedlcach	Sądowa 2	08-100	Siedlce	(25) 640 78 41	boi@siedlce.so.gov.pl
-// apelacja lubelska	okręg siedlecki	SR	Sąd Rejonowy w Garwolinie	Al. Legionów 46	08-400	Garwolin	(25) 684 17 00	boi@garwolin.sr.gov.pl
-// apelacja lubelska	okręg siedlecki	SR	Sąd Rejonowy w Łukowie	Staropijarska 1	21-400	Łuków	(25) 798 23 51	biuropodawcze@lukow.sr.gov.pl
-// apelacja lubelska	okręg siedlecki	SR	Sąd Rejonowy w Mińsku Mazowieckim	Okrzei 14	05-309	Mińs Mazowiecki	(25) 756 49 10	boi@minsk-mazowiecki.sr.gov.pl
-// apelacja lubelska	okręg siedlecki	SR	Sąd Rejonowy w Węgrowie	Przemysłowa 20	07-100	Węgrów	(25) 792 22 31	poczta@wegrow.sr.gov.pl
-// apelacja lubelska	okręg siedlecki	SR	Sąd Rejonowy w Sokołowie Podlaskim	ks Bosco 3	08-300	Sokołów Podlaski	(25) 787 23 22	biuro.podawcze@sokolow-podlaski.sr.gov.pl
-// apelacja lubelska	okręg siedlecki	SR	Sąd Rejonowy w Siedlcach	Kazimierzowska 31A	08-110	Siedlce	(25) 640 07 01	boi@siedlce.sr.gov.pl
-
-// apelacja lubelska	okręg zamojski	SO	Sąd Okręgowy w Zamościu	Wyszyńskiego 11	22-400	Zamość	(84) 631 68 00	biuro@zamosc.so.gov.pl
-// apelacja lubelska	okręg zamojski	SR	Sąd Rejonowy w Biłgoraju	Kościuszki  29	23-400	Biłgoraj	(84) 685 09 01, 685 09 02 	adm@bilgoraj.sr.gov.pl
-// apelacja lubelska	okręg zamojski	SR	Sąd Rejonowy w Hrubieszowie	Dobrzańskiego "Hubala" 7	22-500	Hrubieszów	(84) 696 40 42	administracja@hrubieszow.sr.gov.pl
-// apelacja lubelska	okręg zamojski	SR	Sąd Rejonowy w Janowie Lubelskim 	Zamoyskiego 94	23-300	Janów Lubelski	(15) 872 00 50, 872 04 49	administracja@janowlubelski.sr.gov.pl
-// apelacja lubelska	okręg zamojski	SR	Sąd Rejonowy w Krasnymstawie	Poniatowskiego 31	22-300	Krasnystaw	(82) 576 28 01	boi@krasnystaw.sr.gov.pl
-// apelacja lubelska	okręg zamojski	SR	Sąd Rejonowy w Tomaszowie Lubelskim	Lwowska 55	22-600	Tomaszów Lubelski	(84) 665 74 55, 665 74 89	boi@tomaszowlub.sr.gov.pl
-// apelacja lubelska	okręg zamojski	SR	Sąd Rejonowy w Zamosciu	Wyszyńskiego 11	22-400	Zamość	(84) 631 65 00	boi@zamosc.sr.gov.pl
-
-// apelacja łódzka		SA	Sąd Apelacyjny w Łodzi	Narutowicza 64	90-136	Łódź	(42) 685 06 96	boi@lodz.sa.gov.pl
-
-// apelacja łódzka	okręg kaliski	SO	Sąd Okręgowy w Kaliszu	Al. Wolności 13	62-800	Kalisz	(62) 765 78 11	biuro_obslugi@kalisz.so.gov.pl
-// apelacja łódzka	okręg kaliski	SR	Sąd Rejonowy w Kaliszu	Al. Wolności 13	62-800	Kalisz	(62) 765 78 61	boi@kalisz.sr.gov.pl
-// apelacja łódzka	okręg kaliski	SR	Sąd Rejonowy w Ostrowie Wielkopolskim	Sądowa 2	63-400	Ostrów Wielkopolski	(62) 592 61 79	poi@ostrow.sr.gov.pl
-// apelacja łódzka	okręg kaliski	SR	Sąd Rejonowy w Jarocinie	Al. Niepodległości 15	63-200	Jarocin	(62) 505 29 60	administracja@jarocin.sr.gov.pl
-// apelacja łódzka	okręg kaliski	SR	Sąd Rejonowy w Pleszewie	Malińska 21	63-300	Pleszew	(62) 742 06 98	administracja@pleszew.sr.gov.pl
-// apelacja łódzka	okręg kaliski	SR	Sąd Rejonowy w Kępnie	Al. Marcinkowskiego 10	63-600	Kępno	(62) 782 72 84	bpodawcze@kepno.sr.gov.pl
-// apelacja łódzka	okręg kaliski	SR	Sąd Rejonowy w Ostrzeszowie	Zamkowa 9 A	63-500	Ostrzeszów	(62) 732 27 20	administracja@ostrzeszow.sr.gov.pl
-// apelacja łódzka	okręg kaliski	SR	Sąd Rejonowy w Krotoszynie	Sienkiewicza 11	63-700	Krotoszyn	(62) 725 11 00	administracja@krotoszyn.sr.gov.pl
-
-// apelacja łódzka	okręg łódzki	SO	Sąd Okręgowy w Łodzi	Pl. Dąbrowskiego 5	90-921	Łódź	(42) 685 04 00	boi@lodz.so.gov.pl
-// apelacja łódzka	okręg łódzki	SR	Sąd Rejonowy w Kutnie	Spokojna 2	99-300	Kutno	(24) 251 13 50	boi@kutno.sr.gov.pl
-// apelacja łódzka	okręg łódzki	SR	Sąd Rejonowy w Łowiczu	Kaliska 1/3	99-400	Łowicz	(46) 830 43 10	boi@lowicz.sr.gov.pl
-// apelacja łódzka	okręg łódzki	SR	Sąd Rejonowy w Łęczycy	Konopnickiej 16	99-100	Łęczyca	(24) 721 12 82	boi.leczyca@leczyca.sr.gov.pl
-// apelacja łódzka	okręg łódzki	SR	Sąd Rejonowy w Pabianicach	Partyzancka 105/127	95-200	Pabianice	(42) 225 51 83	boi@pabianice.sr.gov.pl
-// apelacja łódzka	okręg łódzki	SR	Sąd Rejonowy w Skierniewicach	Reymonta 12/14	96-100	Skierniewice	(46) 834 49 40	boi@skierniewice.sr.gov.pl
-// apelacja łódzka	okręg łódzki	SR	Sąd Rejonowy w Zgierzu	Sokołowska 6	95-100	Zgierzu	(42) 715 76 00	boi@zgierz.sr.gov.pl
-// apelacja łódzka	okręg łódzki	SR	Sąd Rejonowy dla Łodzi-Śródmieścia w Łodzi	Al. Kościuszki 107/109	90-928	Łódź	(42) 201 20 00	boi@lodz.sr.gov.pl
-// apelacja łódzka	okręg łódzki	SR	Sąd Rejonowy w Brzezinach	Waryńskiego 32	95-060	Brzeziny	(46) 875 51 41, 875 21 51	boi@brzeziny.sr.gov.pl
-// apelacja łódzka	okręg łódzki	SR	Sąd Rejonowy dla Łodzi-Widzewa w Łodzi	Al. Piłsudskiego 143	92-332	Łódź	(42) 677 47 26,  677 95 64	boi.pilsudskiego@widzew.sr.gov.pl, boi.kopcinskiego@widzew.sr.gov.pl
-// apelacja łódzka	okręg łódzki	SR	Sąd Rejonowy w Rawie Mazowieckiej 	Kościuszki 17	96-200	Rawa Mazowiecka	(46) 813 19 15	boi@rawa.sr.gov.pl
-
-// apelacja łódzka	okręg piotrkowski	SO	Sąd Okręgowy w Piotrkowie Trybunalskim	Słowackiego 5	97-300	Piotrków Trybunalski	(44) 649 41 80	boi@piotrkow-tryb.so.gov.pl
-// apelacja łódzka	okręg piotrkowski	SR	Sąd Rejonowy w Bełchatowie	Okrzei 4	97-400	Bełchatów	(44) 635 76 06	boi@belchatow.sr.gov.pl
-// apelacja łódzka	okręg piotrkowski	SR	Sąd Rejonowy w Opocznie	Biernackiego 20	26-300	Opoczno	(44) 755 71 07 	informacja@opoczno.sr.gov.pl
-// apelacja łódzka	okręg piotrkowski	SR	Sąd Rejonowy w Piotrkowie Trybunalskim 	Słowackiego 5	97-300	Piotrków Trybunalski	(44) 649 42 00	boi@piotrkow-tryb.sr.gov.pl
-// apelacja łódzka	okręg piotrkowski	SR	Sąd Rejonowy w Radomsku 	Tysiaclecia 3	97-500	Radomsko	(44) 685 81 12	poczta@radomsko.sr.gov.pl
-// apelacja łódzka	okręg piotrkowski	SR	Sąd Rejonowy w Tomaszowie Mazowieckim	Mościckiego 9	97-200	Tomaszów Mazowiecki	(44) 725 75 08, 725 75 09	boi@tomaszow-maz.sr.gov.pl
-
-// apelacja łódzka	okręg płocki	SO	Sąd Okręgowy w Płocku	Pl. Narutowicza 4	09-404	Płock	(24) 269 72 13	sekretariat.prezesa@plock.so.gov.pl
-// apelacja łódzka	okręg płocki	SR	Sąd Rejonowy w Płocku	Pl. Narutowicza 6	09-404	Płock	(24) 269 74 76	biuropodawcze@plock.sr.gov.pl
-// apelacja łódzka	okręg płocki	SR	Sąd Rejonowy w Ciechanowie 	Mikołajczyka 5	06-400	Ciechanów	(23) 674 17 71	informacja@ciechanow.sr.gov.pl
-// apelacja łódzka	okręg płocki	SR	Sąd Rejonowy w Gostyninie	3 Maja 43	09-500	Gostynin	(24) 352 08 31	administracja@gostynin.sr.gov.plk
-// apelacja łódzka	okręg płocki	SR	Sąd Rejonowy w Mławie 	Reymonta 3	06-500	Mława	(23) 654 89 06	boi@mlawa.sr.gov.pl
-// apelacja łódzka	okręg płocki	SR	Sąd Rejonowy w Sochaczewie	1 Maja 7	96-500	Sochaczew	(46) 862 32 64 w.300	biuro.podawcze@sochaczew.sr.gov.pl
-// apelacja łódzka	okręg płocki	SR	Sąd Rejonowy w Płońsku	Sienkiewicz 9a	09-100	Płońsk	(23) 661 37 10	boi@plonsk.sr.gov.pl
-// apelacja łódzka	okręg płocki	SR	Sąd Rejonowy w Sierpcu	Wiosny Ludów 1	09-200	Sierpc	(24) 275 22 93	administracja@sierpc.sr.gov.pl
-// apelacja łódzka	okręg płocki	SR	Sąd Rejonowy w Żyrardowie	Al. Partyzantów 3	96-300	Żyrardów	(46) 854 31 41	boi@zyrardow.sr.gov.pl 
-
-// apelacja łódzka	okręg sieradzki	SO	Sąd Okręgowy w Sieradzu	Al. Zwycięstwa 1	98-200	Sieradz	(43) 826 66 09	boi@sieradz.so.gov.pl
-// apelacja łódzka	okręg sieradzki	SR	Sąd Rejonowy w Sieradzu 	Al. Zwycięstwa 1	98-200	Sieradz	(43) 826 66 00	boi@sieradz.sr.gov.pl
-// apelacja łódzka	okręg sieradzki	SR	Sąd Rejonowy w Łasku	Kolejowa 12	98-100	Łask	(43) 676 85 00	administracja@lask.sr.gov.pl
-// apelacja łódzka	okręg sieradzki	SR	Sąd Rejonowy w Wieluniu	Pl. Jagielloński 1	98-300	Wieluń	(43) 842 01 00	poi@wielun.sr.gov.pl
-// apelacja łódzka	okręg sieradzki	SR	Sąd Rejonowy w Zduńskiej Woli	Żeromskiego 19	98-220	Zduńska Wola	(43) 824 18 18	boi@zdwola.sr.gov.pl
-
-// apelacja poznańska		SA	Sąd Apelacyjny w Poznaniu	Trójpole 21	61-693	Poznań	(61) 827 45 63	informacja@poznan.sa.gov.pl
-
-// apelacja poznańska	okręg koniński	SO	Sąd Okręgowy w Koninie	Energetyka  5	62-510	Konin	(63) 242 30 22	boi@konin.so.gov.pl
-// apelacja poznańska	okręg koniński	SR	Sąd Rejonowy w Koninie	Chopina 28	62-510	Konin	(63) 240 47 46	boi@konin.sr.gov.pl
-// apelacja poznańska	okręg koniński	SR	Sąd Rejonowy w Kole	Włocławska 4	62-600	Koło	(63) 228 29 17	bp@kolo.sr.gov.pl
-// apelacja poznańska	okręg koniński	SR	Sąd Rejonowy w Słupcy	Armii Krajowej 2	62-400	Słupca	(63) 228 27 00	biuropodawcze@slupca.sr.gov.pl
-// apelacja poznańska	okręg koniński	SR	Sąd Rejonowy w Turku	Legionów Polskich 4	62-700	Turek	(63) 278 57 60	bpodawcze@turek.sr.gov.pl
-
-// apelacja poznańska	okręg poznański	SO	Sąd Okręgowy w Poznaniu	Hejmowskiego 2	61-736	Poznań	(61) 628 30 00 wew. 1	informacja@poznan.so.gov.pl
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy w Chodzieży	Krasińskiego 10	64-800	Chodzież	(67) 356 77 00	boi@chodziez.sr.gov.pl
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy w Gnieźnie 	Franciszkańska 9/10	62-200 	Gniezno	(61) 423 93 00	boi@gniezno.sr.gov.pl
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy w Gostyniu 	Sądowa 1	63-800	Gostyń	(65) 521 44 08, 521 44 09	biuro_podawcze@gostyn.sr.gov.pl
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy w Grodzisku Wielkopolskim	Żwirki i Wigury nr 3	62-065	Grodzisk Wielkopolski	(61) 628 48 08	poi@grodziskwlkp.sr.gov.pl
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy w Kościanie	Pl. Niezłomnych 2	64-000	Kościan	(65) 521 45 46	biuro.podawcze@koscian.sr.gov.pl
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy w Lesznie	Dąbrowskiego 2	64-100	Leszno	(65) 525 94 03	boi@leszno.sr.gov.pl
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy w Nowym Tomyślu	Pl. Niepodległości 31	64-300	Nowy Tomyśl	(61) 628 49 60	administracja@nowytomysl.sr.gov.pl
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy w Obornikach	Piłsudskiego 47	64-600 	Oborniki	(61) 628 48 77	adm@oborniki.sr.gov.pl
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy w Pile	Al. Powstańców Wlkp.  79	64-920	Piła	(67) 352 29 28	info@pila.sr.gov.pl
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy Poznań-Grunwald i Jeżyce w Poznaniu	Kamiennogórska 26	60-179	Poznań	(61) 628 97 00	boi@poznan-grunwald.sr.gov.pl
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy Poznań-Nowe Miasto i Wilda w Poznaniu	Al. Marcinkowskiego 32	61-745	Poznań	(61) 640 90 00	boi@poznan-nowemiasto.sr.gov.pl 
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy Poznań-Stare Miasto w Poznaniu	Młyńska 1a	61-729	Poznań	(61) 666 08 50	informacja@poznan-staremiasto.sr.gov.pl
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy w Rawiczu	Ignacego Buszy nr 1	63-900	Rawicz	(65) 521 44 51	biuro.podawcze@rawicz.sr. gov.pl
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy w Szamotułach	Al. 1 Maja 5A	64-500	Szamotuły	(61) 667 47 00	boi@szamotuly.sr.gov.pl
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy w Śremie	Franciszkańska 4	63-100	Śrem	(61) 282 14 10	administracja@srem.sr.gov.pl
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy w Środzie Wielkopolskiej	Stary Rynek 6	63-000	Środa Wielkopolska	(61) 629 49 00	administracja@srodawlkp.sr.gov.pl
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy w Trzciance	Staszica 1	64-980	Trzcianka	(67) 352 89 00	biuropodawcze@trzcianka.sr.gov.pl
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy w Wągrowcu 	Kościuszki 18 	62-100	Wągrowiec	(67) 268 18 00	boi@wagrowiec.sr.gov.pl 
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy w Wolsztynie	Mickiewicza 2	64-200	Wolsztyn	(68) 420 23 05	administracja@wolsztyn.sr.gov.pl
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy we Wrześni	Jana Pawła II 10	62-300	Września	(61) 436 90 01	administracja@wrzesnia.sr.gov.pl
-// apelacja poznańska	okręg poznański	SR	Sąd Rejonowy w Złotowie 	Konopnickiej 15	77-400	Złotów	(67) 264 28 00	biuropodawcze@zlotow.sr.gov.pl
-
-// apelacja poznańska	okręg zielonogórski	SO	Sąd Okręgowy w Zielonej Górze	Pl. Słowiański 1	65-069	Zielona Góra	(68) 322 03 00	boi@zielona-gora.so.gov.pl 
-// apelacja poznańska	okręg zielonogórski	SR	Sąd Rejonowy w Krośnie Odrzańskim	Piastów 10 L	66-600	Krosno Odrzańskie	(68) 383 99 10	biuro.podawcze@krosno-odrz.sr.gov.pl
-// apelacja poznańska	okręg zielonogórski	SR	Sąd Rejonowy w Nowej Soli	Piłsudskiego 24 	67-100 	Nowa Sól	(68) 356 97 30	sekretariat@nowa-sol.sr.gov.pl
-// apelacja poznańska	okręg zielonogórski	SR	Sąd Rejonowy w Świebodzinie	Park Chopina 3	66-200	Świebodzin	(68) 381 94 64	boi@swiebodzin.sr.gov.pl
-// apelacja poznańska	okręg zielonogórski	SR	Sąd Rejonowy we Wschowie	Plac Kosynierów 1C	67-400 	Wschowie	(65) 540 15 01	podawcze@wschowa.sr.gov.pl
-// apelacja poznańska	okręg zielonogórski	SR	Sąd Rejonowy w Zielonej Górze	Pl. Słowiański 2	65-069	Zielona Góra	(68) 322 03 10	informacja@zielona-gora.sr.gov.pl
-// apelacja poznańska	okręg zielonogórski	SR	Sąd Rejonowy w Żaganiu	Szprotawska 3	68-100	Żagań	(68) 478 49 36	boi@zagan.sr.gov.pl
-// apelacja poznańska	okręg zielonogórski	SR	Sąd Rejonowy w Żarach	Spokojna 20	68-200	Żary	(68) 363 53 42	sekretariat@zary.sr.gov.pl
-
-// apelacja rzeszowska		SA	Sąd Apelacyjny w Rzeszowie 	Al. Piłsudskiego 28	35-001	Rzeszów	(17) 858 02 63	boi@rzeszow.sa.gov.pl 
-
-// apelacja rzeszowska	okręg przemyski	SO	Sąd Okręgowy w Przemyślu	Konarskiego 6	37-700	Przemyśl	(16) 676 13 01, 676 13 02	biuro@przemysl.so.gov.pl
-// apelacja rzeszowska	okręg przemyski	SR	Sąd Rejonowy w Jarosławiu	Jana Pawła II 11	37-500	Jarosław	(16) 624 01 02	boi@jaroslaw.sr.gov.pl
-// apelacja rzeszowska	okręg przemyski	SR	Sąd Rejonowy w Przeworsku	Lwowska 9	37-200	Przeworsk	(16) 649 08 10	boi@przeworsk.sr.gov.pl
-// apelacja rzeszowska	okręg przemyski	SR	Sąd Rejonowy w Lubaczowie	Mickiewicza 24	37-600	Lubaczów	(16) 632 50 64	sad@lubaczow.sr.gov.pl
-// apelacja rzeszowska	okręg przemyski	SR	Sąd Rejonowy w Przemyślu	Mickiewicza 14	37-700	Przemyśl	(16) 679 45 50	boi@przemysl.sr.gov.pl
-
-// apelacja rzeszowska	okręg krośnieński	SO	Sąd Okręgowy w Krośnie	Sienkiewicza 12	38-400	Krosno Odrzańskie	(13) 437 36 38	poi@krosno.so.gov.pl
-// apelacja rzeszowska	okręg krośnieński	SR	Sąd Rejonowy w Brzozowie	3 Maja 2a	36-200	Brzozów	(13) 433 83 30	administracja@brzozow.sr.gov.pl
-// apelacja rzeszowska	okręg krośnieński	SR	Sąd Rejonowy w Jaśle	Armii Krajowej 3	38-200	Jasło	(13) 446 20 80	administracja@jaslo.sr.gov.pl
-// apelacja rzeszowska	okręg krośnieński	SR	Sąd Rejonowy w Krośnie	Sienkiewicza  12	38-400	Krosno	(13) 437 56 00	adm@krosno.sr.gov.pl 
-// apelacja rzeszowska	okręg krośnieński	SR	Sąd Rejonowy w Lesku	Pl. Konstytucji 3 Maja 9	38-600	Lesko	(13) 468 98 00	administracja@lesko.sr.gov.pl
-// apelacja rzeszowska	okręg krośnieński	SR	Sąd Rejonowy w Sanoku	Kościuszki 5	38-500	Sanok	(13) 465 67 87	boi@sanok.sr.gov.pl
-
-// apelacja rzeszowska	okręg rzeszowski	SO	Sąd Okręgowy w Rzeszowie	Pl. Śreniawitów 3	35-959	Rzeszów	(17) 875 63 00	boi@rzeszow.so.gov.pl
-// apelacja rzeszowska	okręg rzeszowski	SR	Sąd Rejonowy w Ropczycach	Słowackiego 7	39-100	Ropczyce	(17) 222 03 00	sekretariat@ropczyce.sr.gov.pl
-// apelacja rzeszowska	okręg rzeszowski	SR	Sąd Rejonowy w Leżajsku	Mickiewicza 47 	37-300	Leżajsk	(17) 240 53 00	sekretariat@lezajsk.sr.gov.pl
-// apelacja rzeszowska	okręg rzeszowski	SR	Sąd Rejonowy w Łańcucie	Grunwaldzka 10 	37-100	Łańcut	(17) 224 23 31	boi@lancut.sr.gov.pl
-// apelacja rzeszowska	okręg rzeszowski	SR	Sąd Rejonowy w Dębicy	Słoneczna 3	39-200	Dębia	(14) 680 76 70	boi@debica.sr.gov.pl
-// apelacja rzeszowska	okręg rzeszowski	SR	Sąd Rejonowy w Rzeszowie	Kustronia 4	35-303	Rzeszów	(17) 715 24 00	boi@rzeszow.sr.gov.pl
-// apelacja rzeszowska	okręg rzeszowski	SR	Sąd Rejonowy w Strzyżowie	3 Maja 14	38-100	Strzyżów	(17) 272 81 00	sekretariat@strzyzow.sr.gov.pl
-
-// apelacja rzeszowska	okręg tarnobrzeski	SO	Sąd Okręgowy w Tarnobrzegu	Sienkiewicza 27	39-400	Tarnobrzeg	(15) 688 25 17	boi@tarnobrzeg.so.gov.pl
-// apelacja rzeszowska	okręg tarnobrzeski	SR	Sąd Rejonowy w Nisku	Pl. Wolności 14	37-400	Nisko	(15) 841 20 48	boi@nisko.sr.gov.pl
-// apelacja rzeszowska	okręg tarnobrzeski	SR	Sąd Rejonowy w Mielcu	Kościuszki 15	39-300	Mielec	(17) 582 04 01	administracja@mielec.sr.gov.pl 
-// apelacja rzeszowska	okręg tarnobrzeski	SR	Sąd Rejonowy w Stalowej Woli	Popiełuszki 16	37-450	Stalowa Wola	(15) 643 45 50, 643 45 51	boi@stalowawola.sr.gov.pl
-// apelacja rzeszowska	okręg tarnobrzeski	SR	Sąd Rejonowy w Tarnobrzegu	Sienkiewicza 27	39-400	Tarnobrzeg	(15) 688 25 00	sekretariat@tarnobrzeg.sr.gov.pl
-// apelacja rzeszowska	okręg tarnobrzeski	SR	Sąd Rejonowy w Kolbuszowej	Tyszkiewiczów 4	36-100	Kolbuszowa	(17) 227 72 00, 227 72 17	boi@kolbuszowa.sr.gov.pl
-
-// apelacja szczecińska		SA	Sąd Apelacyjny w Szczecinie 	Mickiewicza 163 	71-165	Szczecin	(91) 484 94 87	informacja@szczecin.sa.gov.pl
-
-// apelacja szczecińska	okręg szczeciński	SO	Sąd Okręgowy w Szczecinie	Kaszubska 42	70-952	Szczecin	(91) 448 00 02	boi@szczecin.so.gov.pl
-// apelacja szczecińska	okręg szczeciński	SR	Sąd Rejonowy w Gryficach	Wysoka Brama 2	72-300	Gryfice	(91) 386 68 01	sr.gryfice@gryfice.sr.gov.pl
-// apelacja szczecińska	okręg szczeciński	SR	Sąd Rejonowy Szczecin-Prawobrzeże i Zachód w Szczecinie	Pl. Żołnierza Polskiego 16	70-551	Szczecin	(91) 460 35 33	boi@szczecin-pz.sr.gov.pl
-// apelacja szczecińska	okręg szczeciński	SR	Sąd Rejonowy Szczecin-Centrum w Szczecinie	Kaszubska 42	70-227	Szczecin	(91) 485 55 42	boi@szczecin-centrum.sr.gov.pl
-// apelacja szczecińska	okręg szczeciński	SR	Sąd Rejonowy w Świnoujściu	Paderewskiego 6	72-600	Świnoujście	(91) 326 28 70	boi@swinoujscie.sr.gov.pl
-// apelacja szczecińska	okręg szczeciński	SR	Sąd Rejonowy w Stargardzie	Wojska Polskiego 17-19	73-110	Starogard	(91) 578 74 31	sekretariat@stargard.sr.gov.pl
-// apelacja szczecińska	okręg szczeciński	SR	Sąd Rejonowy w Myśliborzu	Niedziałkowskiego 6	74-300	Myslibórz	(95) 747 34 46	sr.mysliborz@mysliborz.sr.gov.pl
-// apelacja szczecińska	okręg szczeciński	SR	Sąd Rejonowy w Goleniowie	Konstytucji 3 Maja 45 	72-100	Goleniów	(91) 466 74 46, 466 68 48	boi@goleniow.sr.gov.pl
-// apelacja szczecińska	okręg szczeciński	SR	Sąd Rejonowy w Gryfinie	Grunwaldzka 2	74-100	Gryfino	(91) 420 03 07	informacje@gryfino.sr.gov.pl
-// apelacja szczecińska	okręg szczeciński	SR	Sąd Rejonowy w Łobzie	Niepodległości 15	73-150	Łobez	(91) 397 06 31	hbobko@lobez.sr.gov.pl
-// apelacja szczecińska	okręg szczeciński	SR	Sąd Rejonowy w Kamieniu Pomorskim	Kościuszki 13	72-400	Kamień Pomorski	(91) 382 57 80	sekretariat@kamien.sr.gov.pl
-// apelacja szczecińska	okręg szczeciński	SR	Sąd Rejonowy w Choszcznie	Wolności 14	73-200	Choszczno	(95) 765 70 69	sekretariat@choszczno.sr.gov.pl
-
-// apelacja szczecińska	okręg koszaliński	SO	Sąd Okręgowy w Koszalinie	Waryńskiego 7	75-541	Koszalin	(94) 342 88 71	boi@koszalin.so.gov.pl
-// apelacja szczecińska	okręg koszaliński	SR	Sąd Rejonowy w Koszalinie	Andersa 34B	75-626	Koszalin	(94) 317 02 21, 342 86 28	informacja@koszalin.sr.gov.pl
-// apelacja szczecińska	okręg koszaliński	SR	Sąd Rejonowy w Kołobrzegu	Katedralna 13	78-100	Kołobrzeg	(34) 357 51 42	poi@kolobrzeg.sr.gov.pl
-// apelacja szczecińska	okręg koszaliński	SR	Sąd Rejonowy w Wałczu	Sądowa 2	78-600	Wałcz	(67) 250 19 46	boi@walcz.sr.gov.pl
-// apelacja szczecińska	okręg koszaliński	SR	Sąd Rejonowy w Białogardzie	Lipowa 1 	78-200	Białogard	(94) 312 01 10	o.administracyjny@bialogard.sr.gov.pl
-// apelacja szczecińska	okręg koszaliński	SR	Sąd Rejonowy w Drawsku Pomorskim	Złocieniecka 5	78-500	Drawsko Pomorskie	(94) 363 64 60	poi@drawsko-pom.sr.gov.pl
-// apelacja szczecińska	okręg koszaliński	SR	Sąd Rejonowy w Szczecinku	Bohaterów Warszawy 42	78-400	Szczecinek	(94) 373 08 00	boi@szczecinek.sr.gov.pl
-// apelacja szczecińska	okręg koszaliński	SR	Sąd Rejonowy w Sławnie	I Pułku Ułanów 20	76-100 	Sławno	(59) 810 67 46	biuropodawcze@slawno.sr.gov.pl
-
-// apelacja szczecińska	okręg gorzowski	SO	Sąd Okręgowy w Gorzowie Wielkopolskim	Mieszka I 33	66-400	Gorzów Wielkopolski	(95) 725 67 65	boi@gorzow-wlkp.so.gov.pl
-// apelacja szczecińska	okręg gorzowski	SR	Sąd Rejonowy w Gorzowie Wielkopolskim	Chopina 52 blok 10	66-400	Gorzów Wielkopolski	(95) 725 65 04	boi@gorzow-wlkp.sr.gov.pl
-// apelacja szczecińska	okręg gorzowski	SR	Sąd Rejonowy w Słubicach	Bohaterów Warszawy 3B	69-100	Słubie	(95) 750 70 03	sekretariat@slubice.sr.gov.pl
-// apelacja szczecińska	okręg gorzowski	SR	Sąd Rejonowy w Strzelcach Krajeńskich	Rynek 2-3	66-500	Strzelce Krajeńskie	(95) 763 21 55	informacja@strzelce-kraj.sr.gov.pl
-// apelacja szczecińska	okręg gorzowski	SR	Sąd Rejonowy w Sulęcinie	Kościuszki 30	69-200	Sulęcin	(95) 755 48 24, 755 48 25, 755 48 26	boi@sulecin.sr.gov.pl
-// apelacja szczecińska	okręg gorzowski	SR	Sąd Rejonowy w Międzyrzeczu	Wojska Polskiego 1	66-300	Międzyrzecz	(95) 742 40 09	info@miedzyrzecz.sr.gov.pl
-
-// apelacja warszawska		SA	Sąd Apelacyjny w Warszawie	Pl.Krasińskich 2/4/6	00-207	Warszawa	(22) 530 88 85	boi@waw.sa.gov.pl
-
-// apelacja warszawska	okręg warszawski	SO	Sąd Okręgowy w Warszawie	Al. Solidarności 127	00-898	Warszawa	(22) 440 80 00	boi@warszawa.so.gov.pl
-// apelacja warszawska	okręg warszawski	SR	Sąd Rejonowy dla m.st. Warszawy w Warszawie	Marszałkowska 82	00-517	Warszawa	(22) 553 97 71	boi_marszałkowska@warszawa.sr.gov.pl
-// apelacja warszawska	okręg warszawski	SR	Sąd Rejonowy dla Warszawy-Śródmieścia w Warszawie	Marszałkowska 82	00-517	Warszawa	(22) 553 96 16	boi@warszawa-srodmiescie.sr.gov.pl
-// apelacja warszawska	okręg warszawski	SR	Sąd Rejonowy dla Warszawy-Żoliborza w Warszawie	Kocjana 3	01-473	Warszawa	(22) 328 60 30	boi@srzoliborz.pl
-// apelacja warszawska	okręg warszawski	SR	Sąd Rejonowy dla Warszawy-Mokotowa w Warszawie	Ogrodowa 51a	00-873	Warszawa	(22) 501 97 20	boi@mokotow.sr.gov.pl
-// apelacja warszawska	okręg warszawski	SR	Sąd Rejonowy dla Warszawy-Woli w Warszawie	Kocjana 3 	01-473 	Warszawa	(22) 328 60 20, 328 60 21, 328 60 22	boi@warszawa-wola.sr.gov.pl
-// apelacja warszawska	okręg warszawski	SR	Sąd Rejonowy w Grodzisku Mazowieckim	Bartniaka 21/23	05-825	Grodzisk Mazowiecki	(22) 770 92 31	boi@grodzisk.sr.gov.pl
-// apelacja warszawska	okręg warszawski	SR	Sąd Rejonowy w Piasecznie	Kościuszki 14	05-500	Piaseczno	(22) 703 78 97, 703 79 04	boi@piaseczno.sr.gov.pl
-// apelacja warszawska	okręg warszawski	SR	Sąd Rejonowy w Pruszkowie	Kraszewskiego 22	05-800	Pruszków	(22) 733 41 00	boi@warszawa.so.gov.pl
-
-// apelacja warszawska	okręg warszawsko-praski	SO	Sąd Okręgowy Warszawa-Praga w Warszawie	Poligonowa 3	04-051	Warszawa	(22) 417 72 72	kontakt@warszawapraga.so.gov.pl  
-// apelacja warszawska	okręg warszawsko-praski	SR	Sąd Rejonowy w Legionowie	Sobieskiego 47	05-118	Legionowo	(22) 782 36 01	administracja@legionowo.sr.gov.pl
-// apelacja warszawska	okręg warszawsko-praski	SR	Sąd Rejonowy w Nowym Dworze Mazowieckim	Słowackiego 19	05-100 	Nowy Dwór Mazowiecki	(22)  732 50 02	boi@nowydwormaz.sr.gov.pl
-// apelacja warszawska	okręg warszawsko-praski	SR	Sąd Rejonowy w Otwocku	Armii Krajowej 2	05-400	Otwock	(22) 778 20 50	boi@otwock.sr.gov.pl
-// apelacja warszawska	okręg warszawsko-praski	SR	Sąd Rejonowy dla Warszawy Pragi-Południe w Warszawie 	Terespolska 15a	03-813	Warszawa	(22) 509 11 61	boi2@warszawa-pragapoludnie.sr.gov.pl
-// apelacja warszawska	okręg warszawsko-praski	SR	Sąd Rejonowy dla Warszawy Pragi-Północ w Warszawie	Terespolska 15a	03-813	Warszawa	(22) 509 11 58	email: boi@warszawapraga-pln.sr.gov.pl
-// apelacja warszawska	okręg warszawsko-praski	SR	Sąd Rejonowy w Wołominie	Prądzyńskiego 3A	05-200 	Wołomin	(22) 776 21 44, 776 28 15, 787 28 49	boi@wolomin.sr.gov.pl
-
-// apelacja wrocławska		SA	Sąd Apelacyjny we Wrocławiu	Energetyczna 4	53-330 	Wrocław	(71) 798 77 99 	boi@wroclaw.sa.gov.pl
-
-// apelacja wrocławska	okręg jeleniogórski	SO	Sąd Okręgowy w Jeleniej Górze	Wojska Polskiego 56	58-500	Jelenia Góra	(75) 641 52 51, 641 52 52	p.informacyjny@jelenia-gora.so.gov.pl 
-// apelacja wrocławska	okręg jeleniogórski	SR	Sąd Rejonowy w Jeleniej Górze	Mickiewicza 21	58-500	Jelenia Góra	(75) 671 28 30	poi@jelenia-gora.sr.gov.pl
-// apelacja wrocławska	okręg jeleniogórski	SR	Sąd Rejonowy w Lubaniu	Pl. 3 Maja 12	59-800	Lubań	(75) 646 46 21	p.informacyjny@luban.sr.gov.pl
-// apelacja wrocławska	okręg jeleniogórski	SR	Sąd Rejonowy w Lwówku Śląskim	Jaśkiewicza 12	59-600	Lwówek Śląski	(75) 646 94 50	biuro.podawcze@lwowekslaski.sr.gov.pl
-// apelacja wrocławska	okręg jeleniogórski	SR	Sąd Rejonowy w Zgorzelcu	Poniatowskiego 2	59-900	Zgorzelec	(75) 645 69 31	boi@zgorzelec.sr.gov.pl
-// apelacja wrocławska	okręg jeleniogórski	SR	Sąd Rejonowy w Kamiennej Górze	Wojska Polskiego 36	58-400	Kamienna Góra	(75) 671 24 01	sekretariat@kamienna-gora.sr.gov.pl
-// apelacja wrocławska	okręg jeleniogórski	SR	Sąd Rejonowy w Bolesławcu	Sądowa 1	59-700	Bolesławiec	(75) 646 95 45	boi@boleslawiec.sr.gov.pl
-
-// apelacja wrocławska	okręg legnicki	SO	Sąd Okręgowy w Legnicy	Złotoryjska 40	59-220	Legnica	(76) 754 51 60, 754 51 62	boi@legnica.so.gov.pl
-// apelacja wrocławska	okręg legnicki	SR	Sąd Rejonowy w Legnicy	Złotoryjska 19	59-220	Legnica	(76) 754 47 40	boi@legnica.sr.gov.pl
-// apelacja wrocławska	okręg legnicki	SR	Sąd Rejonowy w Głogowie	Kutrzeby 2	67-200	Głogów	(76) 754 52 40	boi@glogow.sr.gov.pl
-// apelacja wrocławska	okręg legnicki	SR	Sąd Rejonowy w Jaworze	Klasztorna 5	59-400	Jawor	(76) 754 40 01	sr.jawor@jawor.gov.pl
-// apelacja wrocławska	okręg legnicki	SR	Sąd Rejonowy w Lubinie	Wrocławska 3	59-300	Lubin	(76) 754 42 10	boi@lubin.sr.gov.pl
-// apelacja wrocławska	okręg legnicki	SR	Sąd Rejonowy w Złotoryi	Kolejowa 3	59-500	Złotoryja	(76) 745 90 14	k.kocuj@zlotoryja.sr.gov.pl
-
-// apelacja wrocławska	okręg opolski	SO	Sąd Okręgowy w Opolu	Pl. Daszyńskiego 1	45-064	Opole	(77) 541 81 05, 541 81 90	boi@opole.so.gov.pl
-// apelacja wrocławska	okręg opolski	SR	Sąd Rejonowy w Strzelcach Opolskich 	Opolska 11	47-100	Strzelce Opolskie	(77) 463 11 87, 463 11 77, 463 11 88	boi@strzelce.sr.gov.pl
-// apelacja wrocławska	okręg opolski	SR	Sąd Rejonowy w Kędzierzynie-Koźlu	Żeromskiego 5	47-200	Kędzierzyn-Koźle	(77) 405 30 01	podawcze@kozle.sr.gov.pl
-// apelacja wrocławska	okręg opolski	SR	Sąd Rejonowy w Opolu	Ozimska 60a 	45-368 	Opole	(77) 541 54 01, 541 54 08, 541 54 07	sr@opole.sr.gov.pl
-// apelacja wrocławska	okręg opolski	SR	Sąd Rejonowy w Oleśnie 	Sądowa 3	46-300	Olesno	(34) 359 69 00	administracja@olesno.sr.gov.pl
-// apelacja wrocławska	okręg opolski	SR	Sąd Rejonowy w Kluczborku	Katowicka 2	46-200 	Kluczbork	(77) 447 16 69	boi@kluczbork.sr.gov.pl
-// apelacja wrocławska	okręg opolski	SR	Sąd Rejonowy w Głubczycach	Kochanowskiego 1	48-100	Głubczyce	(77) 471 06 01	boi@glubczyce.sr.gov.pl
-// apelacja wrocławska	okręg opolski	SR	Sąd Rejonowy w Nysie	Plac Kościelny 6	48-300	Nysa	(77) 448 35 00	boi@nysa.sr.gov.pl 
-// apelacja wrocławska	okręg opolski	SR	Sąd Rejonowy w Prudniku 	Kościuszki 5	48-200 	Prudnik	(77) 443 86 03	boi@prudnik.sr.gov.pl
-// apelacja wrocławska	okręg opolski	SR	Sąd Rejonowy w Brzegu	Chrobrego 31	49-300 	Brzeg	(77) 444 23 31, 444 23 32	boi@brzeg.sr.gov.pl
-
-// apelacja wrocławska	okręg świdnicki	SO	Sąd Okręgowy w Świdnicy	Pl. Grunwaldzki 14	58-100	Świdnica	(74) 851 83 50	boi@swidnica.so.gov.pl
-// apelacja wrocławska	okręg świdnicki	SR	Sąd Rejonowy w Dzierżoniowie	Świdnicka 51	58-200	Dzierżoniów	(74) 633 41 00	informacja@dzierzoniow.sr.gov.pl
-// apelacja wrocławska	okręg świdnicki	SR	Sąd Rejonowy w Świdnicy 	Okulickiego 2-4	58-100	Świdnica	(74) 851 84 35	srs@swidnica.sr.gov.pl
-// apelacja wrocławska	okręg świdnicki	SR	Sąd Rejonowy w Kłodzku	Bohaterów Getta 15	57-300	Kłodzko	(74) 865 13 17	punktinformacyjny@klodzko.sr.gov.pl
-// apelacja wrocławska	okręg świdnicki	SR	Sąd Rejonowy w Wałbrzychu	Słowackiego 10	58-300	Wałbrzych	(74) 843 03 00	informacja@walbrzych.sr.gov.pl
-// apelacja wrocławska	okręg świdnicki	SR	Sąd Rejonowy w Ząbkowicach Śląskich	Świerkowa 1	57-200	Ząbkowice Śląskie	(74) 816 51 00	poi@zabkowice.sr.gov.pl
-
-// apelacja wrocławska	okręg wrocławski	SO	Sąd Okręgowy we Wrocławiu	Sądowa 1	50-046	Wrocław	(71) 370 45 00	punkt.informacyjny@wroclaw.so.gov.pl
-// apelacja wrocławska	okręg wrocławski	SR	Sąd Rejonowy w Wołowie	Reja 11	56-100	Wołów	(71) 756 61 49	biuro.podawcze@wolow.sr.gov.pl
-// apelacja wrocławska	okręg wrocławski	SR	Sąd Rejonowy w Miliczu	Piłsudskiego 10	56-300	Milicz	(71) 749 90 00	biuro.podawcze@milicz.sr.gov.pl
-// apelacja wrocławska	okręg wrocławski	SR	Sąd Rejonowy w Strzelinie	Bolka I Świdnickiego 7	57-100	Strzelin	(71) 749 91 00	biuro.podawcze@strzelin.sr.gov.pl
-// apelacja wrocławska	okręg wrocławski	SR	Sąd Rejonowy dla Wrocławia-Fabrycznej we Wrocławiu	Świebodzka 5	50-046	Wrocław	(71) 748 90 48	biuro.podawcze@wroclaw-fabryczna.sr.gov.pl
-// apelacja wrocławska	okręg wrocławski	SR	Sąd Rejonowy dla Wrocława-Krzyków we Wrocławiu	Podwale 30	50-040	Wrocław	(71) 749 63 15	administracyjny@wroclaw-krzyki.sr.gov.pl
-// apelacja wrocławska	okręg wrocławski	SR	Sąd Rejonowy dla Wrocławia-Śródmieścia we Wrocławiu	Podwale 30 	50-040	Wrocław	(71) 748 11 40	biuro.podawcze@wroclaw-srodmiescie.sr.gov.pl
-// apelacja wrocławska	okręg wrocławski	SR	Sąd Rejonowy w Oławie	11 Listopada 12	55-200	Oława	(71) 749 92 00	punkt.informacyjny@olawa.sr.gov.pl
-// apelacja wrocławska	okręg wrocławski	SR	Sąd Rejonowy w Oleśnicy	3 Maja 48/49	56-400	Oleśnica	(71) 756 63 20	biuro.podawcze@olesnica.sr.gov.pl
-// apelacja wrocławska	okręg wrocławski	SR	Sąd Rejonowy w Trzebnicy	Parkowa  4	55-100	Trzebnica	(71) 756 62 04	administracyjny@trzebnica.sr.gov.pl
-// apelacja wrocławska	okręg wrocławski	SR	Sąd Rejonowy w Środzie Śląskiej	św. Andrzeja 3	55-300	Środa Śląska	(71) 396 02 48	boi@srodaslaska.sr.gov.pl
+	
+			
+			
