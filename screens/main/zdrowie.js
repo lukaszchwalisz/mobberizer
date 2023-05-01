@@ -1,12 +1,12 @@
 import React from 'react';
 import 'react-native-gesture-handler';
 import { createStackNavigator } from '@react-navigation/stack';
-import P0  from './psyche/p0.js';
-import P1  from './psyche/p1.js';
-import P2  from './psyche/p2.js';
-import P3 from './psyche/p3.js';
-import P4 from './psyche/p4.js';
-import P5 from './psyche/p5.js';
+import P0  from '../psyche/p0.js';
+import P1  from '../psyche/p1.js';
+import P2  from '../psyche/p2.js';
+import P3 from '../psyche/p3.js';
+import P4 from '../psyche/p4.js';
+import P5 from '../psyche/p5.js';
 
 const Psy = createStackNavigator()
 

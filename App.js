@@ -2,11 +2,11 @@ import React from 'react';
 import 'react-native-gesture-handler';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
-import Home  from './screens/home.js';
-import Porady  from './screens/porady.js';
-import Prawo  from './screens/prawo.js';
-import Zdrowie from './screens/zdrowie.js';
-import Szukaj  from './screens/szukaj.js';
+import Home  from './screens/main/home.js';
+import Porady  from './screens/main/porady.js';
+import Prawo  from './screens/main/prawo.js';
+import Zdrowie from './screens/main/zdrowie.js';
+import Szukaj  from './screens/main/szukaj.js';
 import { useFonts } from 'expo-font';
 
 const Root = createStackNavigator()

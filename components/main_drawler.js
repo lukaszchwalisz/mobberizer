@@ -6,7 +6,7 @@ import { Divider } from 'react-native-paper';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
 
-export default function Main({}) {
+export default function Main_Drawler({}) {
 
   const navigacja = useNavigation();
 

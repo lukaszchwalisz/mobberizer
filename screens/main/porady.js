@@ -1,7 +1,7 @@
 import React from 'react';
 import { ScrollView, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
-import { styles } from '../styles/global.js';
+import { styles } from '../../styles/global.js';
 import { List } from 'react-native-paper';
 import A from 'react-native-a';
 

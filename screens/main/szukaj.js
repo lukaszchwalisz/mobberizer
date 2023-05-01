@@ -1,10 +1,10 @@
 import React from 'react';
 import 'react-native-gesture-handler';
 import { createStackNavigator } from '@react-navigation/stack';
-import S0  from './szukaj/s0.js';
-import S1  from './szukaj/s1.js';
-import S2  from './szukaj/s2.js';
-import S3  from './szukaj/s3.js';
+import S0  from '../szukaj/s0.js';
+import S1  from '../szukaj/s1.js';
+import S2  from '../szukaj/s2.js';
+import S3  from '../szukaj/s3.js';
 
 const Sear = createStackNavigator()
 

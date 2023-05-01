@@ -2,8 +2,8 @@ import React from 'react';
 import { View, Image, StatusBar, StyleSheet,TouchableWithoutFeedback } from 'react-native';
 import { DrawerActions } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import Main from '../components/main.js';
-
+import Main from '../../components/main.js';
+import Main_Drawler from '../../components/main_drawler.js';
 
 
 function MainScreen({ navigation }) {
@@ -11,10 +11,11 @@ function MainScreen({ navigation }) {
     <View style={style.container}>
         <TouchableWithoutFeedback onPress={() => navigation.dispatch(DrawerActions.openDrawer())}> 
         <Image
-        style={{margin: 10, width: 70, height: 70}}
-        source={require('../images/logox.png')}
+        style={{margin: 10, width: 100, height: 100}}
+        source={require('../../images/logox.png')}
         />
         </TouchableWithoutFeedback>
+        <Main />
         <StatusBar />
   </View>
   );
@@ -25,9 +26,9 @@ function CustomDrawerContent(props) {
     <View style={style.container}>
         <Image
         style={{margin: 10, width: 50, height: 50}}
-        source={require('../images/logox.png')}
+        source={require('../../images/logox.png')}
       />
-        <Main />
+        <Main_Drawler />
     </View>
 
   );
@@ -41,7 +42,7 @@ function MyDrawer() {
       useLegacyImplementation
       drawerContent={(props) => <CustomDrawerContent {...props} />}
     >
-      <Drawer.Screen name="mobberizer 0.01" component={MainScreen} 
+      <Drawer.Screen name="Mobberizer" component={MainScreen} 
       options=
       {{ headerTitleAlign: "center",
       headerStyle: { backgroundColor: '#2f2f2f'},
@@ -55,9 +56,7 @@ function MyDrawer() {
 
 export default function Home() {
   return (
-   
       <MyDrawer />
-   
   );
 }
 
