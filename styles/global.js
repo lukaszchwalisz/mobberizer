@@ -54,15 +54,15 @@ export const styles = StyleSheet.create({
     tabs_title: {
     color: darkmode.dark0,
     fontSize: 20,
-    fontFamily: "Roboto",
+    fontFamily: "Inter-Bold",
     },
 
     tabs_subtitle: {
     padding: 1,
     // textAlign: "justify",
     color: darkmode.dark0,
-    fontSize: 17,
-    fontFamily: "Roboto",
+    fontSize: 14,
+    fontFamily: "Inter-Regular",
     },
    
     tabs_bold: {

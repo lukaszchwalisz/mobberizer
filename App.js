@@ -7,10 +7,20 @@ import Porady  from './screens/porady.js';
 import Prawo  from './screens/prawo.js';
 import Zdrowie from './screens/zdrowie.js';
 import Szukaj  from './screens/szukaj.js';
+import { useFonts } from 'expo-font';
 
 const Root = createStackNavigator()
 
 export default function App() {
+  const [fontsLoaded] = useFonts({
+    'Inter-Bold': require('./assets/fonts/Inter-Bold.ttf'),
+    'Inter-Regular': require('./assets/fonts/Inter-Regular.ttf'),
+    'Inter-Thin': require('./assets/fonts/Inter-Thin.ttf'),
+  });
+
+  if (!fontsLoaded) {
+    return null;
+  }
 
   return (
     <NavigationContainer>
