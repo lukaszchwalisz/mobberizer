@@ -43,7 +43,7 @@ export default function Main({}) {
   const Header = () => {
     return (
       <View>
-        <Text style={styles.tabs_bold}>mobberizer 0.01</Text>
+        <Text style={styles.tabs_logo}>mobberizer 0.02</Text>
         <Divider />
       </View>
 
@@ -66,7 +66,7 @@ const style = StyleSheet.create({
     alignItems: "center",
     justifyContent: 'center',
     fontSize: 18,
-    fontFamily: 'sans-serif-light',
+    fontFamily: 'Inter-Regular',
     color: "#9FE2BF",
     padding: 10,
 

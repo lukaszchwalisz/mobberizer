@@ -16,6 +16,7 @@ export default function App() {
     'Inter-Bold': require('./assets/fonts/Inter/Inter-Bold.ttf'),
     'Inter-Regular': require('./assets/fonts/Inter/Inter-Regular.ttf'),
     'Inter-Thin': require('./assets/fonts/Inter/Inter-Thin.ttf'),
+    'RoadRage-Regular': require('./assets/fonts/RoadRage/RoadRage-Regular.ttf'),
   });
 
   if (!fontsLoaded) {

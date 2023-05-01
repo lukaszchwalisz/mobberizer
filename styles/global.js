@@ -29,7 +29,7 @@ export const styles = StyleSheet.create({
       textAlign: "justify",
       color: "#000",
       fontSize: 15,
-      fontFamily: "Roboto",
+      fontFamily: "Inter-Regular",
     },
     cards_bold: {
       padding: 0,
@@ -37,7 +37,7 @@ export const styles = StyleSheet.create({
       color: darkmode.dark1,
       fontSize: 17,
       fontWeight: "bold",
-      fontFamily: "Roboto",
+      fontFamily: "Inter-Regular",
     },
     cards_image: {
       width: 50,
@@ -51,9 +51,15 @@ export const styles = StyleSheet.create({
     textAlign: "justify",
     },
 
+    tabs_logo: {
+      color: darkmode.dark0,
+      fontSize: 40,
+      fontFamily: "RoadRage-Regular",
+    },
+
     tabs_title: {
     color: darkmode.dark0,
-    fontSize: 20,
+    fontSize: 18,
     fontFamily: "Inter-Bold",
     },
 
@@ -72,13 +78,13 @@ export const styles = StyleSheet.create({
     color: darkmode.dark2,
     fontSize: 18,
     fontWeight: "bold",
-    fontFamily: "Roboto",
+    fontFamily: "Inter-Thin",
    },
    tabs_text: {
     margin: 1,
-    color: "#7FFFD4",
+    color: darkmode.dark1,
     fontSize: 17,
-    fontFamily: "Roboto",
+    fontFamily: "Inter-Regular",
    },
    surface: {
     padding: 10,
@@ -97,7 +103,7 @@ export const styles = StyleSheet.create({
       alignContent: 'center',
       color: "#fff",
       fontSize: 17,
-      fontFamily: "Roboto",
+      fontFamily: "Inter-Regular",
       },
 
     quotes: {
