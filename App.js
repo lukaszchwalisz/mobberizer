@@ -13,9 +13,9 @@ const Root = createStackNavigator()
 
 export default function App() {
   const [fontsLoaded] = useFonts({
-    'Inter-Bold': require('./assets/fonts/Inter-Bold.ttf'),
-    'Inter-Regular': require('./assets/fonts/Inter-Regular.ttf'),
-    'Inter-Thin': require('./assets/fonts/Inter-Thin.ttf'),
+    'Inter-Bold': require('./assets/fonts/Inter/Inter-Bold.ttf'),
+    'Inter-Regular': require('./assets/fonts/Inter/Inter-Regular.ttf'),
+    'Inter-Thin': require('./assets/fonts/Inter/Inter-Thin.ttf'),
   });
 
   if (!fontsLoaded) {
