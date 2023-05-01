@@ -36,7 +36,7 @@ export default function P1({ navigation, route }) {
               <View style={styles.pics}>
                 <Image    
                   style={{width: 300, height: 320}}
-                  source={require('./../../images/neustres.png')}
+                  source={require('../../assets/images/neustres.png')}
                 />
               </View>
               <Text style={styles.cards_bold}>Eustres </Text>

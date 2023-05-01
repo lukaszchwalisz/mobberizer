@@ -90,7 +90,7 @@ export default function P3({ navigation, route }) {
         <View style={styles.pics}>
         <Image    
           style={{width: 350, height: 350}}
-          source={require('./../../images/strategie.png')}
+          source={require('../../assets/images/strategie.png')}
         />
         </View>
 
