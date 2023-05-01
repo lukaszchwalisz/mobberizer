@@ -12,7 +12,7 @@ function MainScreen({ navigation }) {
         <TouchableWithoutFeedback onPress={() => navigation.dispatch(DrawerActions.openDrawer())}> 
         <Image
         style={{margin: 10, width: 100, height: 100}}
-        source={require('../../images/logox.png')}
+        source={require('../../assets/icon.png')}
         />
         </TouchableWithoutFeedback>
         <Main />
@@ -26,7 +26,7 @@ function CustomDrawerContent(props) {
     <View style={style.container}>
         <Image
         style={{margin: 10, width: 50, height: 50}}
-        source={require('../../images/logox.png')}
+        source={require('../../assets/icon.png')}
       />
         <Main_Drawler />
     </View>
