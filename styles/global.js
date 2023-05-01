@@ -1,4 +1,8 @@
 import { StyleSheet } from 'react-native';
+import darkmode from './colors';
+
+
+
 
 export const styles = StyleSheet.create({
    contain: {
@@ -25,15 +29,15 @@ export const styles = StyleSheet.create({
       textAlign: "justify",
       color: "#000",
       fontSize: 15,
-      fontFamily: "sans-serif-light",
+      fontFamily: "Roboto",
     },
     cards_bold: {
       padding: 0,
       textAlign: "justify",
-      color: "#7FFFD4",
+      color: darkmode.dark1,
       fontSize: 17,
       fontWeight: "bold",
-      fontFamily: "sans-serif-light",
+      fontFamily: "Roboto",
     },
     cards_image: {
       width: 50,
@@ -48,7 +52,7 @@ export const styles = StyleSheet.create({
     },
 
     tabs_title: {
-    color: "#f5f5dc",
+    color: darkmode.dark0,
     fontSize: 20,
     fontFamily: "Roboto",
     },
@@ -56,16 +60,16 @@ export const styles = StyleSheet.create({
     tabs_subtitle: {
     padding: 1,
     // textAlign: "justify",
-    color: "#F5F5DC",
+    color: darkmode.dark0,
     fontSize: 17,
-    fontFamily: "sans-serif-light",
+    fontFamily: "Roboto",
     },
    
     tabs_bold: {
     padding: 1,
     margin: 10, 
     textAlign: "justify",
-    color: "#50FFD0",
+    color: darkmode.dark2,
     fontSize: 18,
     fontWeight: "bold",
     fontFamily: "Roboto",
@@ -74,7 +78,7 @@ export const styles = StyleSheet.create({
     margin: 1,
     color: "#7FFFD4",
     fontSize: 17,
-    fontFamily: "sans-serif-light",
+    fontFamily: "Roboto",
    },
    surface: {
     padding: 10,
@@ -82,7 +86,7 @@ export const styles = StyleSheet.create({
     borderRadius: 15,
     margin: 5,
     justifyContent: "center",
-    backgroundColor: "#2f2f2f",
+    backgroundColor: darkmode.bgdark,
     borderColor: "#fff",
     // borderWidth: 0.8,
     
@@ -99,10 +103,10 @@ export const styles = StyleSheet.create({
     quotes: {
     padding: 10,
     textAlign: "justify",
-    color: "#F5F5DC",
-    backgroundColor: "#232323",
+    color: darkmode.dark0,
+    backgroundColor: darkmode.bgdark,
     fontSize: 14,
-    fontFamily: "serif",
+    fontFamily: "Roboto",
     },
     pics: {
       padding:10, 
