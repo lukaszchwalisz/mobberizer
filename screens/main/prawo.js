@@ -40,125 +40,155 @@ export default function Prawo({ navigation, route }) {
   return (
        <Law.Navigator>
              <Law.Screen name="q0" component={ Q0 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }}/>
              <Law.Screen name="q1" component={ Q1 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q2" component={ Q2 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q3" component={ Q3 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q4" component={ Q4 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q5" component={ Q5 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q6" component={ Q6 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q7" component={ Q7 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q8" component={ Q8 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q9" component={ Q9 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
              <Law.Screen name="q10" component={ Q10 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
              <Law.Screen name="q11" component={ Q11 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q12" component={ Q12 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q13" component={ Q13 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q14" component={ Q14 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q15" component={ Q15 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q16" component={ Q16 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q17" component={ Q17 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q18" component={ Q18 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q19" component={ Q19 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
              <Law.Screen name="q20" component={ Q20 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
              <Law.Screen name="q21" component={ Q21 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q22" component={ Q22 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q23" component={ Q23 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q24" component={ Q24 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q25" component={ Q25 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q26" component={ Q26 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q27" component={ Q27 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q28" component={ Q28 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
             <Law.Screen name="q29" component={ Q29 } options={{ title: 'Pytania prawne',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
        </Law.Navigator>
   )
 };

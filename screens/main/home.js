@@ -1,20 +1,21 @@
 import React from 'react';
-import { View, Image, StatusBar, StyleSheet,TouchableWithoutFeedback } from 'react-native';
+import { Text, View, Image, StatusBar, StyleSheet,TouchableWithoutFeedback } from 'react-native';
 import { DrawerActions } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import Main from '../../components/main.js';
 import Main_Drawler from '../../components/main_drawler.js';
-
+import { styles } from '../../styles/global.js';
 
 function MainScreen({ navigation }) {
   return (
-    <View style={style.container}>
-        <TouchableWithoutFeedback onPress={() => navigation.dispatch(DrawerActions.openDrawer())}> 
+    <View style={styles.contain}>
+        {/* <TouchableWithoutFeedback onPress={() => navigation.dispatch(DrawerActions.openDrawer())}> 
         <Image
         style={{margin: 10, width: 100, height: 100}}
         source={require('../../assets/icon.png')}
         />
         </TouchableWithoutFeedback>
+        <Text style={styles.tabs_logo}>M o b b e r i z er</Text> */}
         <Main />
         <StatusBar />
   </View>
@@ -23,7 +24,7 @@ function MainScreen({ navigation }) {
 
 function CustomDrawerContent(props) {
   return (
-    <View style={style.container}>
+    <View style={styles.contain}>
         <Image
         style={{margin: 10, width: 50, height: 50}}
         source={require('../../assets/icon.png')}
@@ -45,9 +46,9 @@ function MyDrawer() {
       <Drawer.Screen name="Mobberizer" component={MainScreen} 
       options=
       {{ headerTitleAlign: "center",
-      headerStyle: { backgroundColor: '#2f2f2f'},
-      headerTitleStyle: { color: '#9FE2BF' },
-      headerTintColor:  '#9FE2BF'
+      // headerStyle: { backgroundColor: '#2f2f2f'},
+      // headerTitleStyle: { color: '#9FE2BF' },
+      // headerTintColor:  '#9FE2BF'
       }}
       />
     </Drawer.Navigator>
@@ -77,8 +78,8 @@ const style = StyleSheet.create({
     textAlign: "center"
   },
   image: {
-    margin: 10,
-    width: 50,
-    height: 300
+    flex: 1,
+    padding:50,
+    alignItems: "center",
   }
 });

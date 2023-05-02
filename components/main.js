@@ -1,12 +1,12 @@
 import React from 'react';
-import { View, Text, FlatList, StyleSheet } from 'react-native';
+import { View, Text, FlatList, StyleSheet, Image, SafeAreaView} from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../styles/global.js';
-import { Divider } from 'react-native-paper';
+import { Divider, Surface } from 'react-native-paper';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
 
-export default function Main({}) {
+export default function Main({ navigation }) {
 
   const navigacja = useNavigation();
 
@@ -31,19 +31,30 @@ export default function Main({}) {
 
 
   const renderItem = ({ item }) => (
+        <View>
         <TouchableWithoutFeedback style={styles.button} onPress={() => {
           navigacja.navigate(item.id)
         }}>
-          <View>
-          <Text style={style.container}>{item.title}</Text>
-          </View>
-        </TouchableWithoutFeedback>
+          <Surface style={styles.surface} elevation={2}>
+            <Text style={styles.tabs_text}>{item.title}</Text>
+          </Surface>
+        </TouchableWithoutFeedback>     
+        </View>
         );
 
   const Header = () => {
     return (
       <View>
+        {/* <TouchableWithoutFeedback onPress={() => navigation.dispatch(DrawerActions.openDrawer())}>  */}
+        <View style={style.image} >
+        <Image
+        style={{margin: 10, width: 100, height: 100}}
+        source={require('../assets/icon.png')}
+        />
         <Text style={styles.tabs_logo}>M o b b e r i z er</Text>
+        </View>
+        {/* </TouchableWithoutFeedback> */}
+
         <Divider />
       </View>
 
@@ -51,7 +62,7 @@ export default function Main({}) {
   };
 
   return (
-     <FlatList 
+     <FlatList
       ListHeaderComponent={Header} 
       data={DATA}
       renderItem={renderItem}
@@ -61,15 +72,11 @@ export default function Main({}) {
 };
 
 const style = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: 'center',
-    fontSize: 18,
-    fontFamily: 'Inter-Regular',
-    color: "#9FE2BF",
-    padding: 10,
 
+  image: {
+    flex: 1,
+    padding:50,
+    alignItems: "center",
   }
 
 });

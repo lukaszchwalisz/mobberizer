@@ -7,7 +7,8 @@ import darkmode from './colors';
 export const styles = StyleSheet.create({
    contain: {
      flex: 1,
-     backgroundColor: "#000",
+     backgroundColor:'#F1F5FF',
+    //  borderWidth: 0.2,
     },
     button: {
       margin:5,
@@ -52,7 +53,8 @@ export const styles = StyleSheet.create({
     },
 
     tabs_logo: {
-      color: darkmode.dark0,
+      justifyContent: "center",
+      color:"#000",
       fontSize: 40,
       fontFamily: "RoadRage-Regular",
     },
@@ -81,21 +83,18 @@ export const styles = StyleSheet.create({
     fontFamily: "Inter-Thin",
    },
    tabs_text: {
-    margin: 1,
-    color: darkmode.dark1,
-    fontSize: 17,
-    fontFamily: "Inter-Regular",
+    margin: 0,
+    color: "#000",
+    fontSize: 14,
+    fontFamily: "Inter-Bold",
    },
    surface: {
-    padding: 10,
-    justifyContent: 'center',
-    borderRadius: 15,
+    padding: 15,
+    alignItems: "center",
+    borderRadius: 10,
     margin: 5,
-    justifyContent: "center",
-    backgroundColor: darkmode.bgdark,
+    backgroundColor: '#F1F5FF',
     borderColor: "#fff",
-    // borderWidth: 0.8,
-    
     },
 
     text_surface: {
