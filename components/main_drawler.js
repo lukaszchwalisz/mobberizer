@@ -40,7 +40,7 @@ export default function Main_Drawler({}) {
           navigacja.navigate(item.id)
         }}>
 
-          <Button style={styles.button} icon={item.icon} mode='outlined' color="#000" >
+          <Button style={styles.button} icon={item.icon} mode='outlined' color="#000" uppercase={false} >
           {item.title}
           </Button>
 
