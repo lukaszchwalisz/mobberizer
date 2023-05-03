@@ -2,13 +2,9 @@ import React from 'react';
 import { View, Text, FlatList, StyleSheet, Image} from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../styles/global.js';
-import { Avatar, Divider, Surface, IconButton, Colors } from 'react-native-paper';
+import { Divider, Surface, IconButton, Colors } from 'react-native-paper';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
-
-
-
-
 
 export default function Main({ navigation }) {
 

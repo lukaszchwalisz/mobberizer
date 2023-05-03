@@ -11,7 +11,11 @@ export const styles = StyleSheet.create({
     //  borderWidth: 0.2,
     },
     button: {
-      margin:5,
+      margin:3,
+      padding:5,
+      borderWidth: 0.5,
+      borderRadius: 50,
+      backgroundColor:'#fff',
     },
    input: {
     height: 40,

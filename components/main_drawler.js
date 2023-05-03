@@ -1,8 +1,8 @@
 import React from 'react';
-import { View, Text, FlatList, StyleSheet } from 'react-native';
+import { View, Text, Image, FlatList, StyleSheet } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../styles/global.js';
-import { Divider } from 'react-native-paper';
+import { Button, Divider, Surface, IconButton, Colors } from 'react-native-paper';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
 
@@ -13,36 +13,58 @@ export default function Main_Drawler({}) {
   const DATA = [
     {
       id: 'Porady',
+      icon: 'stairs',
       title: 'Krok po kroku',
     },
     {
       id: 'Zdrowie',
-      title: 'Moje zdrowie',
+      icon: 'library',
+      title: 'Artykuły',
     },
     {
       id: 'Prawo',
-      title: 'Pytania prawne',
+      icon: 'layers',
+      title: 'Kwestie prawne',
     },
     {
       id: 'Szukaj',
+      icon: 'magnify',
       title: 'Szukaj',
     }
   ];
 
 
   const renderItem = ({ item }) => (
-        <TouchableWithoutFeedback style={styles.button} onPress={() => {
+        <View>
+        <TouchableWithoutFeedback onPress={() => {
           navigacja.navigate(item.id)
         }}>
-          <View>
-          <Text style={style.container}>{item.title}</Text>
-          </View>
-        </TouchableWithoutFeedback>
+          {/* <Surface style={styles.surface} elevation={2}>
+          <IconButton
+            icon={item.icon}
+            color={Colors.dark300}
+            size={20}
+            // onPress={() => console.log('Pressed')}
+          /> 
+            <Text style={styles.tabs_text}>{item.title}</Text>
+          </Surface> */}
+          <Button style={styles.button} icon={item.icon} mode='outlined' color="#000" >
+          {item.title}
+          </Button>
+            
+
+
+        </TouchableWithoutFeedback>     
+        </View>
         );
 
   const Header = () => {
     return (
-      <View>
+      <View style={style.image}>
+        <Image
+        style={{margin: 10, width: 50, height: 50}}
+        source={require('../assets/icon.png')}
+      />
         <Text style={styles.tabs_logo}>M o b b e r i z er</Text>
         <Divider />
       </View>
@@ -70,6 +92,11 @@ const style = StyleSheet.create({
     color: "#9FE2BF",
     padding: 10,
 
+  },
+  image: {
+    flex: 1,
+    padding:50,
+    alignItems: "center",
   }
 
 });

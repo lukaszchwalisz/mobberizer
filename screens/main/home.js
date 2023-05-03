@@ -9,13 +9,6 @@ import { styles } from '../../styles/global.js';
 function MainScreen({ navigation }) {
   return (
     <View style={styles.contain}>
-        {/* <TouchableWithoutFeedback onPress={() => navigation.dispatch(DrawerActions.openDrawer())}> 
-        <Image
-        style={{margin: 10, width: 100, height: 100}}
-        source={require('../../assets/icon.png')}
-        />
-        </TouchableWithoutFeedback>
-        <Text style={styles.tabs_logo}>M o b b e r i z er</Text> */}
         <Main />
         <StatusBar />
   </View>
@@ -25,10 +18,6 @@ function MainScreen({ navigation }) {
 function CustomDrawerContent(props) {
   return (
     <View style={styles.contain}>
-        <Image
-        style={{margin: 10, width: 50, height: 50}}
-        source={require('../../assets/icon.png')}
-      />
         <Main_Drawler />
     </View>
 
