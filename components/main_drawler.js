@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, Image, FlatList, StyleSheet } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../styles/global.js';
-import { Button, Divider, Surface, IconButton, Colors } from 'react-native-paper';
+import { Button, Divider } from 'react-native-paper';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
 
@@ -39,20 +39,10 @@ export default function Main_Drawler({}) {
         <TouchableWithoutFeedback onPress={() => {
           navigacja.navigate(item.id)
         }}>
-          {/* <Surface style={styles.surface} elevation={2}>
-          <IconButton
-            icon={item.icon}
-            color={Colors.dark300}
-            size={20}
-            // onPress={() => console.log('Pressed')}
-          /> 
-            <Text style={styles.tabs_text}>{item.title}</Text>
-          </Surface> */}
+
           <Button style={styles.button} icon={item.icon} mode='outlined' color="#000" >
           {item.title}
           </Button>
-            
-
 
         </TouchableWithoutFeedback>     
         </View>
@@ -60,12 +50,17 @@ export default function Main_Drawler({}) {
 
   const Header = () => {
     return (
-      <View style={style.image}>
+      <View>
+        {/* <TouchableWithoutFeedback onPress={() => navigation.dispatch(DrawerActions.openDrawer())}>  */}
+        <View style={style.image} >
         <Image
-        style={{margin: 10, width: 50, height: 50}}
+        style={{margin:0, width: 50, height: 50}}
         source={require('../assets/icon.png')}
-      />
+        />
         <Text style={styles.tabs_logo}>M o b b e r i z er</Text>
+        </View>
+        {/* </TouchableWithoutFeedback> */}
+
         <Divider />
       </View>
 

@@ -13,7 +13,7 @@ const RenderItem = ({ data }) => {
     
     return (  
         <ScrollView > 
-        <TouchableWithoutFeedback style={styles.button} onPress={() => {
+        <TouchableWithoutFeedback onPress={() => {
         navigation.push(data.id)
         }}> 
 

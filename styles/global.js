@@ -97,8 +97,8 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     borderRadius: 10,
     margin: 5,
-    backgroundColor: '#F1F5FF',
-    borderColor: "#fff",
+    backgroundColor: '#fff',
+    borderColor: "#000",
     },
 
     text_surface: {

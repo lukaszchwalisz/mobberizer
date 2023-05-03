@@ -25,7 +25,7 @@ export default function S0({ navigation }) {
 
 
   const renderItem = ({ item }) => (
-        <TouchableWithoutFeedback style={styles.button} onPress={() => {
+        <TouchableWithoutFeedback onPress={() => {
           navigation.push(item.id)
         }}> 
 
