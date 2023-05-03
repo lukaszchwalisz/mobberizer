@@ -93,10 +93,10 @@ export const styles = StyleSheet.create({
     fontFamily: "Inter-Regular",
    },
    surface: {
-    padding: 15,
+    padding: 10,
     alignItems: "center",
-    borderRadius: 10,
-    margin: 5,
+    borderRadius: 50,
+    margin: 10,
     backgroundColor: '#fff',
     borderColor: "#000",
     },

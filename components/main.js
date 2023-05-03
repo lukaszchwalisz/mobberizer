@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, FlatList, StyleSheet, Image} from 'react-native';
+import { View, Text, FlatList, StyleSheet, Image, ImageBackground} from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../styles/global.js';
 import { Divider, Surface, IconButton, Colors } from 'react-native-paper';
@@ -44,7 +44,6 @@ export default function Main({ navigation }) {
             icon={item.icon}
             color={Colors.dark300}
             size={20}
-            // onPress={() => console.log('Pressed')}
           /> 
             <Text style={styles.tabs_text}>{item.title}</Text>
           </Surface>
@@ -54,8 +53,19 @@ export default function Main({ navigation }) {
 
   const Header = () => {
     return (
+      <ImageBackground
+      style={{ flex: 1 }}
+      imageStyle={{ 
+        borderTopLeftRadius: 0,
+        borderTopRightRadius: 0,
+        borderBottomLeftRadius: 25,
+        borderBottomRightRadius: 25,
+        }}
+      source={
+        require('../assets/images/pallete.png')
+      }
+    >
       <View>
-        {/* <TouchableWithoutFeedback onPress={() => navigation.dispatch(DrawerActions.openDrawer())}>  */}
         <View style={style.image} >
         <Image
         style={{margin: 10, width: 100, height: 100}}
@@ -63,11 +73,9 @@ export default function Main({ navigation }) {
         />
         <Text style={styles.tabs_logo}>M o b b e r i z er</Text>
         </View>
-        {/* </TouchableWithoutFeedback> */}
-
-        <Divider />
+        {/* <Divider /> */}
       </View>
-
+      </ImageBackground>
     )
   };
 

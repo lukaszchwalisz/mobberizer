@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image, FlatList, StyleSheet } from 'react-native';
+import { View, Text, Image, FlatList, StyleSheet, ImageBackground } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../styles/global.js';
 import { Button, Divider } from 'react-native-paper';
@@ -43,15 +43,25 @@ export default function Main_Drawler({}) {
           <Button style={styles.button} icon={item.icon} mode='outlined' color="#000" uppercase={false} >
           {item.title}
           </Button>
-
-        </TouchableWithoutFeedback>     
+        </TouchableWithoutFeedback>    
         </View>
         );
 
   const Header = () => {
     return (
+      <ImageBackground
+      style={{ flex: 1 }}
+      imageStyle={{ 
+        borderTopLeftRadius: 0,
+        borderTopRightRadius: 0,
+        borderBottomLeftRadius: 25,
+        borderBottomRightRadius: 25,
+        }}
+      source={
+        require('../assets/images/pallete.png')
+      }
+    >
       <View>
-        {/* <TouchableWithoutFeedback onPress={() => navigation.dispatch(DrawerActions.openDrawer())}>  */}
         <View style={style.image} >
         <Image
         style={{margin:0, width: 50, height: 50}}
@@ -59,11 +69,10 @@ export default function Main_Drawler({}) {
         />
         <Text style={styles.tabs_logo}>M o b b e r i z er</Text>
         </View>
-        {/* </TouchableWithoutFeedback> */}
-
-        <Divider />
+   
+        {/* <Divider /> */}
       </View>
-
+      </ImageBackground>
     )
   };
 
