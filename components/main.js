@@ -1,10 +1,14 @@
 import React from 'react';
-import { View, Text, FlatList, StyleSheet, Image, SafeAreaView} from 'react-native';
+import { View, Text, FlatList, StyleSheet, Image} from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../styles/global.js';
-import { Divider, Surface } from 'react-native-paper';
+import { Avatar, Divider, Surface, IconButton, Colors } from 'react-native-paper';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
+
+
+
+
 
 export default function Main({ navigation }) {
 
@@ -13,18 +17,22 @@ export default function Main({ navigation }) {
   const DATA = [
     {
       id: 'Porady',
+      icon: 'stairs',
       title: 'Krok po kroku',
     },
     {
       id: 'Zdrowie',
-      title: 'Moje zdrowie',
+      icon: 'library',
+      title: 'Artykuły',
     },
     {
       id: 'Prawo',
-      title: 'Pytania prawne',
+      icon: 'layers',
+      title: 'Kwestie prawne',
     },
     {
       id: 'Szukaj',
+      icon: 'magnify',
       title: 'Szukaj',
     }
   ];
@@ -32,10 +40,16 @@ export default function Main({ navigation }) {
 
   const renderItem = ({ item }) => (
         <View>
-        <TouchableWithoutFeedback style={styles.button} onPress={() => {
+        <TouchableWithoutFeedback onPress={() => {
           navigacja.navigate(item.id)
         }}>
           <Surface style={styles.surface} elevation={2}>
+          <IconButton
+            icon={item.icon}
+            color={Colors.dark300}
+            size={20}
+            // onPress={() => console.log('Pressed')}
+          /> 
             <Text style={styles.tabs_text}>{item.title}</Text>
           </Surface>
         </TouchableWithoutFeedback>     

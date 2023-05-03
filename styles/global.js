@@ -85,8 +85,8 @@ export const styles = StyleSheet.create({
    tabs_text: {
     margin: 0,
     color: "#000",
-    fontSize: 14,
-    fontFamily: "Inter-Bold",
+    fontSize: 18,
+    fontFamily: "Inter-Regular",
    },
    surface: {
     padding: 15,

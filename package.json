@@ -17,6 +17,7 @@
     "@rneui/base": "^0.0.0-edge.2",
     "@rneui/themed": "^0.0.0-edge.2",
     "expo": "^46.0.16",
+    "expo-font": "~10.2.0",
     "expo-linking": "~3.2.4",
     "expo-status-bar": "^1.4.0",
     "metro-core": "^0.72.0",
@@ -34,8 +35,7 @@
     "react-native-vector-icons": "^9.2.0",
     "react-native-web": "0.18.7",
     "utf8": "^3.0.0",
-    "yarn": "^1.22.19",
-    "expo-font": "~10.2.0"
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
