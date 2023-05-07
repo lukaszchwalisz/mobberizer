@@ -3,8 +3,8 @@ import { View, FlatList } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
 import { useState } from 'react';
-import { Header_s1 } from '../../data/searchHeader.js';
-import { RenderItem_s1 } from '../../data/searchItems.js';
+import { Header_s1 } from '../../components/searchHeader.js';
+import { RenderItem_s1 } from '../../components/searchItems.js';
 import { PIP } from '../../data/pip.js';
 
 export default function S1({ navigation, route}) {

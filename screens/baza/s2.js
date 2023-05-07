@@ -3,8 +3,8 @@ import { View, FlatList } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
 import { useState } from 'react';
-import { Header_s2 } from '../../data/searchHeader.js';
-import { RenderItem_s2 } from '../../data/searchItems.js';
+import { Header_s2 } from '../../components/searchHeader.js';
+import { RenderItem_s2 } from '../../components/searchItems.js';
 import { Sanepid } from '../../data/sanepid.js';
 
 export default function S2({ navigation, route}) {

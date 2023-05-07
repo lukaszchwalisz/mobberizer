@@ -3,8 +3,8 @@ import { View, FlatList } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
 import { useState } from 'react';
-import { Header_s3 } from '../../data/searchHeader.js';
-import { RenderItem_s3 } from '../../data/searchItems.js';
+import { Header_s3 } from '../../components/searchHeader.js';
+import { RenderItem_s3 } from '../../components/searchItems.js';
 import { Courts } from '../../data/courts.js';
 
 export default function S3({ navigation, route}) {

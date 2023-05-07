@@ -3,8 +3,8 @@ import { View, FlatList } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
 import { useState } from 'react';
-import { Header } from '../../data/searchHeader.js';
-import { RenderItem } from '../../data/searchItems.js';
+import { Header } from '../../components/searchHeader.js';
+import { RenderItem } from '../../components/searchItems.js';
 import { Pytania } from '../../data/pytania.js';
 
 export default function Q0({ navigation, route}) {
