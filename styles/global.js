@@ -7,14 +7,18 @@ import darkmode from './colors';
 export const styles = StyleSheet.create({
    contain: {
      flex: 1,
-     backgroundColor:'#F1F5FF',
+      backgroundColor:'#F1F5FF',
     //  borderWidth: 0.2,
     },
     button: {
-      margin:3,
-      padding:5,
+      margin:2,
+      padding:10,
       borderWidth: 0.5,
-      borderRadius: 50,
+      borderRadius: 10,
+      shadowColor:'#F1F5FF',
+      shadowOpacity: 2,
+      shadowOffset: { width:0, height:2, },
+      shadowRadius:10,
       backgroundColor:'#fff',
     },
    input: {
@@ -93,10 +97,10 @@ export const styles = StyleSheet.create({
     fontFamily: "Inter-Regular",
    },
    surface: {
-    padding: 10,
-    alignItems: "center",
-    borderRadius: 50,
-    margin: 10,
+    padding: 5,
+    alignItems: 'center',
+    borderRadius: 10,
+    margin: 3,
     backgroundColor: '#fff',
     borderColor: "#000",
     },

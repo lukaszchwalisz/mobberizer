@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, FlatList, StyleSheet, Image, ImageBackground} from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../styles/global.js';
-import { Divider, Surface, IconButton, Colors } from 'react-native-paper';
+import { Button, Divider, Surface } from 'react-native-paper';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
 
@@ -35,36 +35,31 @@ export default function Main({ navigation }) {
 
 
   const renderItem = ({ item }) => (
-        <View>
+      <View>
         <TouchableWithoutFeedback onPress={() => {
           navigacja.navigate(item.id)
         }}>
-          <Surface style={styles.surface} elevation={2}>
-          <IconButton
-            icon={item.icon}
-            color={Colors.dark300}
-            size={20}
-          /> 
-            <Text style={styles.tabs_text}>{item.title}</Text>
-          </Surface>
-        </TouchableWithoutFeedback>     
-        </View>
+            <Button style={styles.button} icon={item.icon}  mode='outlined' color="#111" uppercase={false} >
+            {item.title}
+            </Button>
+        </TouchableWithoutFeedback>    
+      </View>
         );
 
   const Header = () => {
     return (
-      <ImageBackground
-      style={{ flex: 1 }}
-      imageStyle={{ 
-        borderTopLeftRadius: 0,
-        borderTopRightRadius: 0,
-        borderBottomLeftRadius: 25,
-        borderBottomRightRadius: 25,
-        }}
-      source={
-        require('../assets/images/pallete.png')
-      }
-    >
+    //   <ImageBackground
+    //   style={{ flex: 1 }}
+    //   imageStyle={{ 
+    //     borderTopLeftRadius: 0,
+    //     borderTopRightRadius: 0,
+    //     borderBottomLeftRadius: 25,
+    //     borderBottomRightRadius: 25,
+    //     }}
+    //   source={
+    //     require('../assets/images/pallete.png')
+    //   }
+    // >
       <View>
         <View style={style.image} >
         <Image
@@ -73,9 +68,9 @@ export default function Main({ navigation }) {
         />
         <Text style={styles.tabs_logo}>M o b b e r i z er</Text>
         </View>
-        {/* <Divider /> */}
+        <Divider />
       </View>
-      </ImageBackground>
+      /* </ImageBackground> */
     )
   };
 

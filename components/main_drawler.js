@@ -39,28 +39,27 @@ export default function Main_Drawler({}) {
         <TouchableWithoutFeedback onPress={() => {
           navigacja.navigate(item.id)
         }}>
-
-          <Button style={styles.button} icon={item.icon} mode='outlined' color="#000" uppercase={false} >
+          <Button style={styles.button} icon={item.icon} mode='outlined' color="#111" uppercase={false} >
           {item.title}
           </Button>
         </TouchableWithoutFeedback>    
         </View>
         );
 
-  const Header = () => {
+  const Header = () => { 
     return (
-      <ImageBackground
-      style={{ flex: 1 }}
-      imageStyle={{ 
-        borderTopLeftRadius: 0,
-        borderTopRightRadius: 0,
-        borderBottomLeftRadius: 25,
-        borderBottomRightRadius: 25,
-        }}
-      source={
-        require('../assets/images/pallete.png')
-      }
-    >
+    //   <ImageBackground
+    //   style={{ flex: 1 }}
+    //   imageStyle={{ 
+    //     borderTopLeftRadius: 0,
+    //     borderTopRightRadius: 0,
+    //     borderBottomLeftRadius: 25,
+    //     borderBottomRightRadius: 25,
+    //     }}
+    //   source={
+    //     require('../assets/images/pallete.png')
+    //   }
+    // >
       <View>
         <View style={style.image} >
         <Image
@@ -72,7 +71,7 @@ export default function Main_Drawler({}) {
    
         {/* <Divider /> */}
       </View>
-      </ImageBackground>
+   
     )
   };
 
