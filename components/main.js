@@ -13,22 +13,22 @@ export default function Main({ navigation }) {
   const DATA = [
     {
       id: 'Porady',
-      icon: 'stairs',
+      icon: 'walk',
       title: 'Krok po kroku',
     },
     {
       id: 'Prawo',
-      icon: 'layers',
+      icon: 'comment-question-outline',
       title: 'Kwestie prawne',
     },
     {
       id: 'Zdrowie',
-      icon: 'library',
+      icon: 'feather',
       title: 'Artykuły',
     },
     {
       id: 'Kwestionariusz',
-      icon: 'library',
+      icon: 'format-list-checkbox',
       title: 'Kwestionariusz',
     },
     {

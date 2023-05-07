@@ -13,12 +13,12 @@ export default function Main_Drawler({}) {
   const DATA = [
     {
       id: 'About',
-      icon: 'stairs',
+      icon: 'crop-free',
       title: 'O aplikacji',
     },
     {
       id: 'Kontakt',
-      icon: 'mail',
+      icon: 'email-outline',
       title: 'Kontakt',
     }
   ];
