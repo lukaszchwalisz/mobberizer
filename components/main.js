@@ -79,12 +79,29 @@ export default function Main({ navigation }) {
     )
   };
 
+  // const Image = () => {
+  //   return (
+  //     <View style={style.image} >
+  //     <Image
+  //     style={{margin: 10, width: 100, height: 100}}
+  //     source={require('../assets/icon.png')}
+  //     />
+  //     </View>
+  //   )
+  // }
+
   return (
      <FlatList
       ListHeaderComponent={Header} 
       data={DATA}
       renderItem={renderItem}
       keyExtractor={item => item.id}
+      // ListFooterComponent={Image}
+      // ListFooterComponentStyle={{
+      //   backgroundColor:'#ccc', 
+      //   position:'absolute',
+      //   bottom:0
+      // }}
       />
   )
 };
