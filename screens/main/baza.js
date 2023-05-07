@@ -1,14 +1,14 @@
 import React from 'react';
 import 'react-native-gesture-handler';
 import { createStackNavigator } from '@react-navigation/stack';
-import S0  from '../szukaj/s0.js';
-import S1  from '../szukaj/s1.js';
-import S2  from '../szukaj/s2.js';
-import S3  from '../szukaj/s3.js';
+import S0  from '../baza/s0.js';
+import S1  from '../baza/s1.js';
+import S2  from '../baza/s2.js';
+import S3  from '../baza/s3.js';
 
 const Sear = createStackNavigator()
 
-export default function Szukaj({ navigation, route }) {
+export default function Baza({ navigation, route }) {
   return (
        <Sear.Navigator>
              <Sear.Screen name="s0" component={ S0 } options={{ title: 'Wyszukiwarka instytucji',

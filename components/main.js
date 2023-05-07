@@ -17,19 +17,24 @@ export default function Main({ navigation }) {
       title: 'Krok po kroku',
     },
     {
-      id: 'Zdrowie',
-      icon: 'library',
-      title: 'Artykuły',
-    },
-    {
       id: 'Prawo',
       icon: 'layers',
       title: 'Kwestie prawne',
     },
     {
-      id: 'Szukaj',
+      id: 'Zdrowie',
+      icon: 'library',
+      title: 'Artykuły',
+    },
+    {
+      id: 'Kwestionariusz',
+      icon: 'library',
+      title: 'Kwestionariusz',
+    },
+    {
+      id: 'Baza',
       icon: 'magnify',
-      title: 'Szukaj',
+      title: 'Baza danych',
     }
   ];
 

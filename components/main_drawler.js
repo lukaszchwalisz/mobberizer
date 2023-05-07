@@ -12,24 +12,14 @@ export default function Main_Drawler({}) {
 
   const DATA = [
     {
-      id: 'Porady',
+      id: 'About',
       icon: 'stairs',
-      title: 'Krok po kroku',
+      title: 'O aplikacji',
     },
     {
-      id: 'Zdrowie',
-      icon: 'library',
-      title: 'Artykuły',
-    },
-    {
-      id: 'Prawo',
-      icon: 'layers',
-      title: 'Kwestie prawne',
-    },
-    {
-      id: 'Szukaj',
-      icon: 'magnify',
-      title: 'Szukaj',
+      id: 'Kontakt',
+      icon: 'mail',
+      title: 'Kontakt',
     }
   ];
 
