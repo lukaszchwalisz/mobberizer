@@ -53,18 +53,6 @@ export default function Main({ navigation }) {
 
   const Header = () => {
     return (
-    //   <ImageBackground
-    //   style={{ flex: 1 }}
-    //   imageStyle={{ 
-    //     borderTopLeftRadius: 0,
-    //     borderTopRightRadius: 0,
-    //     borderBottomLeftRadius: 25,
-    //     borderBottomRightRadius: 25,
-    //     }}
-    //   source={
-    //     require('../assets/images/pallete.png')
-    //   }
-    // >
       <View>
         <View style={style.image} >
         <Image
@@ -75,43 +63,22 @@ export default function Main({ navigation }) {
         </View>
         <Divider />
       </View>
-      /* </ImageBackground> */
     )
   };
-
-  // const Image = () => {
-  //   return (
-  //     <View style={style.image} >
-  //     <Image
-  //     style={{margin: 10, width: 100, height: 100}}
-  //     source={require('../assets/icon.png')}
-  //     />
-  //     </View>
-  //   )
-  // }
-
   return (
      <FlatList
       ListHeaderComponent={Header} 
       data={DATA}
       renderItem={renderItem}
       keyExtractor={item => item.id}
-      // ListFooterComponent={Image}
-      // ListFooterComponentStyle={{
-      //   backgroundColor:'#ccc', 
-      //   position:'absolute',
-      //   bottom:0
-      // }}
       />
   )
 };
 
 const style = StyleSheet.create({
-
   image: {
     flex: 1,
     padding:50,
     alignItems: "center",
   }
-
 });
