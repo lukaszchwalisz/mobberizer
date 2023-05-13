@@ -1,9 +1,6 @@
 import { StyleSheet } from 'react-native';
 import darkmode from './colors';
 
-
-
-
 export const styles = StyleSheet.create({
    contain: {
      flex: 1,
@@ -16,13 +13,11 @@ export const styles = StyleSheet.create({
       padding:10,
       borderWidth: 0.5,
       borderRadius: 50,
-      shadowColor:'#F1F5FF',
-      shadowOpacity: 2,
-      shadowOffset: { width:0, height:2, },
-      shadowRadius:10,
+      // shadowColor:'#F1F5FF',
+      // shadowOpacity: 2,
+      // shadowOffset: { width:0, height:2, },
+      // shadowRadius:10,
       backgroundColor:'#fff',
-      fontSize: 10,
-      fontFamily: "Inter-Regular",
     },
    input: {
     height: 40,
@@ -96,23 +91,24 @@ export const styles = StyleSheet.create({
    tabs_text: {
     margin: 0,
     color: "#000",
-    fontSize: 18,
+    fontSize: 14,
     fontFamily: "Inter-Regular",
    },
    surface: {
-    padding: 5,
-    alignItems: 'center',
+    padding: 10,
     borderRadius: 10,
     margin: 3,
     backgroundColor: '#fff',
     borderColor: "#000",
+    marginVertical:5,
+    marginHorizontal:20,
     },
 
     text_surface: {
       justifyContent: 'center',
       alignContent: 'center',
       color: "#fff",
-      fontSize: 17,
+      fontSize: 13,
       fontFamily: "Inter-Regular",
       },
 

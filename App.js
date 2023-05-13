@@ -6,7 +6,7 @@ import Home  from './screens/main/home.js';
 import About  from './screens/main/about.js';
 import Kontakt  from './screens/main/kontakt.js';
 import Kwestionariusz  from './screens/main/kwestionariusz.js';
-import Porady  from './screens/main/porady.js';
+import Kroki  from './screens/main/kroki.js';
 import Prawo  from './screens/main/prawo.js';
 import Zdrowie from './screens/main/zdrowie.js';
 import Baza  from './screens/main/baza.js';
@@ -35,7 +35,7 @@ export default function App() {
           }} />
         <Root.Screen name="Kontakt" component={ Kontakt } options={{ title: 'Kontakt',
           }} />
-        <Root.Screen name="Porady" component={ Porady } options={{ title: 'Krok po kroku',
+        <Root.Screen name="Kroki" component={ Kroki } options={{ headerShown: false
         // headerStyle: {backgroundColor: '#2f2f2f'}, 
         // headerTintColor:  '#9FE2BF', 
         // headerTitleStyle: { color: '#9FE2BF' }

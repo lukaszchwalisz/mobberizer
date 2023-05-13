@@ -12,7 +12,7 @@ export default function Main({ navigation }) {
 
   const DATA = [
     {
-      id: 'Porady',
+      id: 'Kroki',
       icon: 'walk',
       title: 'Krok po kroku',
     },
