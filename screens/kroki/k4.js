@@ -1,8 +1,8 @@
 import React from 'react';
-import { ScrollView, View, Text, Button } from 'react-native';
+import { ScrollView, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
-import { Divider } from 'react-native-paper';
+import { Button, Divider } from 'react-native-paper';
 
 export default function K4({ navigation, route })  {
       return (
@@ -35,17 +35,26 @@ export default function K4({ navigation, route })  {
             <Divider /> 
             <View><Text>{"\n"}</Text></View>
 
-            <Button style={styles.button} mode='outlined' color="#000" uppercase={false}
-            title="Krok 5. Przygotowanie mentalne."            
+            <Button style={styles.button} mode='outlined' color="#111" uppercase={false}            
             onPress={() => {
             navigation.push('k5')
-            }}/>
-            <Divider /> 
-            <View><Text>{"\n"}</Text></View>
-            <Button style={styles.button} title="Powrót" mode='outlined' color="#000" uppercase={false}            
+            }}>
+            Krok 5
+            </Button>
+
+            <Button style={styles.button} mode='outlined' color="#000" uppercase={false}            
+            onPress={() => {
+            navigation.navigate('k3')
+            }}>
+            Cofnij
+            </Button>
+
+            <Button style={styles.button} icon='walk' mode='outlined' color="#111" uppercase={false}            
             onPress={() => {
             navigation.navigate('k0')
-            }}/>
+            }}>
+            Powrót
+            </Button>
 
             </View>
             </ScrollView>

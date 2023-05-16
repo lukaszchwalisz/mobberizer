@@ -17,6 +17,7 @@ const Root = createStackNavigator()
 
 export default function App() {
   const [fontsLoaded] = useFonts({
+    'RoadRage-Regular': require('./assets/fonts/RoadRage/RoadRage-Regular.ttf'),
     'Inter-Regular': require('./assets/fonts/Inter/Inter-Regular.ttf'),
     'Inter-Thin': require('./assets/fonts/Inter/Inter-Thin.ttf'),
     'Inter-Black': require('./assets/fonts/Inter/Inter-Black.ttf'),
@@ -25,8 +26,10 @@ export default function App() {
     'Montserrat-Regular': require('./assets/fonts/Montserrat/Montserrat-Regular.ttf'),
     'Montserrat-Light': require('./assets/fonts/Montserrat/Montserrat-Light.ttf'),
     'Montserrat-Thin': require('./assets/fonts/Montserrat/Montserrat-Thin.ttf'),
-    'RoadRage-Regular': require('./assets/fonts/RoadRage/RoadRage-Regular.ttf')
-
+    'PoltawskiNowy-Regular': require('./assets/fonts/Poltawski/PoltawskiNowy-Regular.ttf'),
+    'PoltawskiNowy-MediumItalic': require('./assets/fonts/Poltawski/PoltawskiNowy-MediumItalic.ttf'),
+    'PoltawskiNowy-Medium': require('./assets/fonts/Poltawski/PoltawskiNowy-Medium.ttf'),
+    'PoltawskiNowy-Bold': require('./assets/fonts/Poltawski/PoltawskiNowy-Bold.ttf'),
   });
 
   if (!fontsLoaded) {

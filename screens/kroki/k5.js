@@ -1,8 +1,8 @@
 import React from 'react';
-import { ScrollView, View, Text, Button } from 'react-native';
+import { ScrollView, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
-import { Divider } from 'react-native-paper';
+import { Button, Divider } from 'react-native-paper';
 
 export default function K5({ navigation})  {
       return (
@@ -19,8 +19,9 @@ export default function K5({ navigation})  {
             obronę i pozwanego. Wymaga to odpowiedniego przygotowania, zarówno w sferze dowodowej, jak i mentalnej. Poniżej przedstawiamy kilka
             najważniejszych zasad jakimi warto się kierować:{"\n"}{"\n"}
 
-            - obiektywne podejście do problemu, zdystansowanie się{"\n"}{"\n"}
-
+            <Text style={styles.tabs_italic}> - obiektywne podejście do problemu, zdystansowanie się{"\n"}{"\n"}
+            </Text>
+            
             Charakter przeżyć związany z mobbingiem w pracy budzi wiele emocji, wspomnienia mogą wpływać negatywnie na nastrój. Często ponowne
             przywoływanie traumatycznych wydarzeń powoduje dyskonfort, poczucie bólu, krzywdy, rozpaczy. Samo przywołanie postaci
             mobbera w pamięci może wiązać się z traumatycznym lękiem. Dlatego też kiedy decydujemy się, aby skierować sprawę do sądu, powinniśmy podjąć wysiłek, aby
@@ -31,21 +32,28 @@ export default function K5({ navigation})  {
             skupiąc się na faktach i klarownej interpretacji zaistniałych wydarzeń, która druga strona będzie chciała podważyć. Dlatego ważne, aby dobrze z adwokatem
             omówić wcześniej każdy szczegół, aby być przygotowanym na pytania sądu, badź adwokata strony przeciwnej.{"\n"}{"\n"}
 
-            - wynotowanie sobie wszystkich działań mobbingowych{"\n"}{"\n"}
+            <Text style={styles.tabs_italic}>- wynotowanie sobie wszystkich działań mobbingowych{"\n"}{"\n"}
+            </Text>
+
             Pamięć ludzka jest zawodna - szczególnie, kiedy towarzyszy jej silny stres, co jest nieodłącznym towarzyszem spraw mobbingowych. Zachęcamy do
             najdokladniejszego opisania sytuacji w pracy od poczatku jej zaistnienia. Dobrą metodą jest prowadzenia dziennika, w których każda sytuacja mobbingowa
             będzie dobrze opisane i umieszczona w czasie (data, godzina). Do tego warto załączyć wszelką dokumentację, która będzie stanowiła dowód na poparcia
             własnych argumentów (np. maile, listy obecności, kopie pism).
             {"\n"}{"\n"}
 
-            - zebranie dokumentacji lekarskiej, psychiatrycznej{"\n"}{"\n"}
+            <Text style={styles.tabs_italic}>- zebranie dokumentacji lekarskiej, psychiatrycznej{"\n"}{"\n"}
+            </Text>
+
+
             Równocześnie bardzo istotne jest zbieranie dokumentacji lekarskiej, która jasno wskazuje, że doznany uszczerbek na zdrowiu był spowodowany
             zachowaniami mobbingowymi w pracy. Według kodeksu pracy jest to warunek konieczny, aby sprawa kwalifikowała sie jako mobbing. Dlatego szczególnie
             uczulamy, aby każdego lekarza prosić o zaświadczenie poświadczające zgodnie z prawdą, że np. zaburzenia psychosomatyczne były wywołane stresującą
             sytuacją w pracy i nie stały za tym inne czynniki zdrowotne niepowiązane z mobbingiem.
             {"\n"}{"\n"}
 
-            - kontakt ze świadkami mobbingu{"\n"}{"\n"}
+            <Text style={styles.tabs_italic}>- kontakt ze świadkami mobbingu{"\n"}{"\n"}
+            </Text>
+            
             W sprawach o mobbing, często świadkowie są jednocześnie podwładnymi pozwanego. Wynika z tego konflikt interesow co ma swoje
             konsekwencje przy składaniu zeznań na sali sądowej. Wiele osób, współpracowników, którzy byli bezpośrednimi/pośrednimi świadkami mobbingu
             często zasłania się niepamiecią albo poświadcza nieprawdę na korzyść pracodawcy. Niemniej warto postarać się wysądować kto mógłby zeznawać
@@ -56,17 +64,31 @@ export default function K5({ navigation})  {
             jakie zachowania miały miejsce w pracy, kiedy tam pracowała.
             {"\n"}{"\n"}
 
-            - korzystanie z doświadczenia innych osób w podobnej sytuacji{"\n"}{"\n"}
+            
+            <Text style={styles.tabs_italic}>- korzystanie z doświadczenia innych osób w podobnej sytuacji{"\n"}{"\n"}
+            </Text>
+
             Zachęcamy do kontakt ze stowarzyszeniem OSA, które od 20 lat zajmuje sie problematyką przeciwdziałania mobbingowi w Polsce, 
             w konsultacjach psychologicznych, prawniczych, a w szczególności do uczestnictwa w grupach wsparcia, gdzie następuje głęboka wymiana myśli i
             doświadczeń związanych z sytuacjami mobbingowymi. Wsparcie ze strony grupy jest ważne na każdym etapie rozwoju sprawy mobbingowej
             </Text>
             <Divider /> 
             <View><Text>{"\n"}</Text></View>
-            <Button style={styles.button} title="Powrót" mode='outlined' color="#111" uppercase={false}            
+
+         
+            <Button style={styles.button} mode='outlined' color="#000" uppercase={false}            
+            onPress={() => {
+            navigation.navigate('k4')
+            }}>
+            Cofnij
+            </Button>
+
+            <Button style={styles.button} icon='walk' mode='outlined' color="#111" uppercase={false}            
             onPress={() => {
             navigation.navigate('k0')
-            }}/>
+            }}>
+            Powrót
+            </Button>
 
             </View>
             </ScrollView>

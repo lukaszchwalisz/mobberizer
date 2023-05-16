@@ -42,13 +42,19 @@ export default function K1 ({ navigation })  {
             <Divider /> 
             <View><Text>{"\n"}</Text></View>
             
-            <Button style={styles.button} mode='outlined' color="#111" uppercase={false}            
+            <Button style={styles.button} mode='outlined' color="#000" uppercase={false}            
             onPress={() => {
             navigation.push('k2')
             }}>
-            Krok 2. Zgłoszenie problemu.
+            Krok 2
             </Button>
-            
+
+            <Button style={styles.button}  mode='outlined' color="#000" uppercase={false}            
+            onPress={() => {
+            navigation.navigate('k0')
+            }}>
+            Powrót 
+            </Button>
             </View>
             </ScrollView>
       )

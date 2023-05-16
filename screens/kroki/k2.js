@@ -27,20 +27,26 @@ export default function K2({ navigation })  {
             <Divider /> 
             <View><Text>{"\n"}</Text></View>
 
-            <Button style={styles.button} icon='walk' mode='outlined' color="#111" uppercase={false}            
+            <Button style={styles.button} mode='outlined' color="#111" uppercase={false}            
             onPress={() => {
-            navigation.push('k3')
+            navigation.navigate('k3')
             }}>
-            Krok 3. Wybór strategii.
+            Krok 3
+            </Button>
+
+            <Button style={styles.button} mode='outlined' color="#000" uppercase={false}            
+            onPress={() => {
+            navigation.navigate('k1')
+            }}>
+            Cofnij
             </Button>
 
             <Button style={styles.button} icon='walk' mode='outlined' color="#111" uppercase={false}            
             onPress={() => {
-                  navigation.navigate('k0')
+            navigation.navigate('k0')
             }}>
-            Back
+            Powrót
             </Button>
-
 
             </View>
             </ScrollView>

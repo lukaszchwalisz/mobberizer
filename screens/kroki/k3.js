@@ -40,11 +40,26 @@ export default function K3({ navigation})  {
             </Text>
             <Divider /> 
             <View><Text>{"\n"}</Text></View>
+
             <Button style={styles.button} mode='outlined' color="#111" uppercase={false}            
             onPress={() => {
             navigation.push('k4')
             }}>
-            Krok 4. Podjęcie kolejnych działań.
+            Krok 4
+            </Button>
+
+            <Button style={styles.button} mode='outlined' color="#000" uppercase={false}            
+            onPress={() => {
+            navigation.navigate('k2')
+            }}>
+            Cofnij
+            </Button>
+
+            <Button style={styles.button} icon='walk' mode='outlined' color="#111" uppercase={false}            
+            onPress={() => {
+            navigation.navigate('k0')
+            }}>
+            Powrót
             </Button>
 
             </View>

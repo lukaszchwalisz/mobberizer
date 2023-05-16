@@ -14,29 +14,35 @@ export default function Zdrowie({ navigation, route }) {
   return (
        <Psy.Navigator>
              <Psy.Screen name="p0" component={ P0 } options={{ title: 'Moje zdrowie',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
              <Psy.Screen name="p1" component={ P1 } options={{ title: 'Stres',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
              <Psy.Screen name="p2" component={ P2 } options={{ title: 'Wypalenie zawodowe',        
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
              <Psy.Screen name="p3" component={ P3 } options={{ title: 'Konflikt',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
              <Psy.Screen name="p4" component={ P4 } options={{ title: 'Mobbing', 
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
              <Psy.Screen name="p5" component={ P5 } options={{ title: 'Uprzedzenia, stereotypy, dyskryminacja',
-              headerStyle: {backgroundColor: '#2f2f2f'}, 
-              headerTintColor:  '#9FE2BF', 
-              headerTitleStyle: { color: '#9FE2BF' }}} />
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
        </Psy.Navigator>
   )
 };
