@@ -53,7 +53,7 @@ export const styles = StyleSheet.create({
     },
 
     tabs_header: {
-    backgroundColor: "#000",
+    backgroundColor: "#fff",
     padding: 20,
     textAlign: "justify",
     },
@@ -66,17 +66,17 @@ export const styles = StyleSheet.create({
     },
 
     tabs_title: {
-    color: darkmode.dark0,
-    fontSize: 18,
-    fontFamily: "Inter-Bold",
+    color: "#000",
+    fontSize: 22,
+    fontFamily: "Inter-Regular",
     },
 
     tabs_subtitle: {
     padding: 1,
-    // textAlign: "justify",
-    color: darkmode.dark0,
-    fontSize: 14,
-    fontFamily: "Inter-Regular",
+    textAlign: "justify",
+    color: "#000",
+    fontSize: 18,
+    fontFamily: "Montserrat-Light",
     },
    
     tabs_bold: {
@@ -92,14 +92,14 @@ export const styles = StyleSheet.create({
     margin: 0,
     color: "#000",
     fontSize: 14,
-    fontFamily: "Inter-Regular",
+    fontFamily: "Montserrat-Regular",
    },
    surface: {
     padding: 10,
     borderRadius: 10,
     margin: 3,
     backgroundColor: '#fff',
-    borderColor: "#000",
+    borderColor: "#000",   
     marginVertical:5,
     marginHorizontal:20,
     },

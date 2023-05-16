@@ -1,8 +1,8 @@
 import React from 'react';
-import { ScrollView, View, Text, Button } from 'react-native';
+import { ScrollView, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
-import { List } from 'react-native-paper';
+import { Button, Divider } from 'react-native-paper';
 import A from 'react-native-a';
 
 const url_fism="https://lukaszchwalisz.pythonanywhere.com/testy/kwestmobbing";
@@ -12,7 +12,8 @@ export default function K1 ({ navigation })  {
             <ScrollView>
             <View style={styles.tabs_header}>
             <Text style={styles.tabs_title}>Krok 1. Diagnoza sytuacji.{"\n"}</Text>
-            <Text style={styles.tabs_subtitle}>
+            <Divider />
+            <Text style={styles.tabs_subtitle}>{"\n"} 
             Na początku nie masz pewności czy zaszły jakieś konkretne zmiany. Odczuwasz się, że codzienne przychodzenie do pracy przestało sprawiać przyjemność. 
             Relacje z pracodawcą i współpracownikami są jakieś inne, bardziej zdystansowane. Coraz trudniej doprosić się o załatwienie konkretnej rzeczy od kolegów/koleżanek,
             a z czasem nie ma się już chęci, aby prosić o cokolwiek.{"\n"}{"\n"} 
@@ -38,15 +39,15 @@ export default function K1 ({ navigation })  {
       
             Link:{"\n"} <A href={url_fism}> Kwestionariusz form i skutków mobbingu</A>
             </Text>
+            <Divider /> 
+            <View><Text>{"\n"}</Text></View>
             
-            <Button
-            title="Krok 2. Zgłoszenie problemu."
-            color="#4682b4"
+            <Button style={styles.button} mode='outlined' color="#111" uppercase={false}            
             onPress={() => {
             navigation.push('k2')
-            }}
-            />
-            
+            }}>
+            Krok 2. Zgłoszenie problemu.
+            </Button>
             
             </View>
             </ScrollView>

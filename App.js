@@ -17,10 +17,16 @@ const Root = createStackNavigator()
 
 export default function App() {
   const [fontsLoaded] = useFonts({
-    'Inter-Bold': require('./assets/fonts/Inter/Inter-Bold.ttf'),
     'Inter-Regular': require('./assets/fonts/Inter/Inter-Regular.ttf'),
     'Inter-Thin': require('./assets/fonts/Inter/Inter-Thin.ttf'),
-    'RoadRage-Regular': require('./assets/fonts/RoadRage/RoadRage-Regular.ttf'),
+    'Inter-Black': require('./assets/fonts/Inter/Inter-Black.ttf'),
+    'Inter-Light': require('./assets/fonts/Inter/Inter-Light.ttf'),
+    'Montserrat-Black': require('./assets/fonts/Montserrat/Montserrat-Black.ttf'),
+    'Montserrat-Regular': require('./assets/fonts/Montserrat/Montserrat-Regular.ttf'),
+    'Montserrat-Light': require('./assets/fonts/Montserrat/Montserrat-Light.ttf'),
+    'Montserrat-Thin': require('./assets/fonts/Montserrat/Montserrat-Thin.ttf'),
+    'RoadRage-Regular': require('./assets/fonts/RoadRage/RoadRage-Regular.ttf')
+
   });
 
   if (!fontsLoaded) {

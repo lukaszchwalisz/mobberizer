@@ -2,11 +2,11 @@ import React from 'react';
 import { View, Text, FlatList, StyleSheet, Image, ImageBackground} from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../styles/global.js';
-import { Button, Divider, Surface } from 'react-native-paper';
-import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
+import { Button, Divider } from 'react-native-paper';
+
 import { useNavigation } from '@react-navigation/native';
 
-export default function Main({ navigation }) {
+export default function Main() {
 
   const navigacja = useNavigation();
 
@@ -40,14 +40,14 @@ export default function Main({ navigation }) {
 
 
   const renderItem = ({ item }) => (
+
       <View>
-        <TouchableWithoutFeedback onPress={() => {
+        <Button style={styles.button} icon={item.icon} mode='outlined' color="#111" uppercase={false}            
+        onPress={() => {
           navigacja.navigate(item.id)
         }}>
-            <Button style={styles.button} icon={item.icon}  mode='outlined' color="#111" uppercase={false} >
-            {item.title}
-            </Button>
-        </TouchableWithoutFeedback>    
+        {item.title}
+        </Button>  
       </View>
         );
 
@@ -62,6 +62,7 @@ export default function Main({ navigation }) {
         <Text style={styles.tabs_logo}>M o b b e r i z er</Text>
         </View>
         <Divider />
+        <View><Text>{"\n"}</Text></View>
       </View>
     )
   };
