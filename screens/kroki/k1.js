@@ -13,7 +13,7 @@ export default function K1 ({ navigation })  {
             <View style={styles.tabs_header}>
             <Text style={styles.tabs_title}>Krok 1. Diagnoza sytuacji.{"\n"}</Text>
             <Divider />
-            <Text style={styles.tabs_subtitle}>{"\n"} 
+            <Text style={styles.tabs_text}>{"\n"} 
             Na początku nie masz pewności czy zaszły jakieś konkretne zmiany. Odczuwasz się, że codzienne przychodzenie do pracy przestało sprawiać przyjemność. 
             Relacje z pracodawcą i współpracownikami są jakieś inne, bardziej zdystansowane. Coraz trudniej doprosić się o załatwienie konkretnej rzeczy od kolegów/koleżanek,
             a z czasem nie ma się już chęci, aby prosić o cokolwiek.{"\n"}{"\n"} 

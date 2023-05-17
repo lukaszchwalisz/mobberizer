@@ -10,7 +10,7 @@ export default function K2({ navigation })  {
             <View style={styles.tabs_header}>
             <Text style={styles.tabs_title}>Krok 2. Zgłoszenie problemu.{"\n"}</Text>
             <Divider />
-            <Text style={styles.tabs_subtitle}>{"\n"} 
+            <Text style={styles.tabs_text}>{"\n"} 
             Zgodnie z zapisami kodeksu pracy za mobbing w pracy odpowiada pracodawca, tak więc wejście na stronę oficjalną powinno zacząć się
             od poinformowania pracodawcy. Może to być prośba o rozmowę albo w dalszej kolejności złożenie oficjalnego pisma
             z prośbą o odniesienie się oraz podjęcie stosownych działań. {"\n"}{"\n"}

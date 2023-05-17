@@ -4,8 +4,8 @@ import darkmode from './colors';
 export const styles = StyleSheet.create({
    contain: {
      flex: 1,
-      backgroundColor:'#F1F5FF',
-    //  borderWidth: 0.2,
+      backgroundColor:'#fff',
+
     },
     button: {
       marginVertical:5,
@@ -18,39 +18,15 @@ export const styles = StyleSheet.create({
       // shadowOffset: { width:0, height:2, },
       // shadowRadius:10,
       backgroundColor:'#fff',
-    },
-   input: {
-    height: 40,
-    margin: 12,
-    borderWidth: 1,
-    padding: 10,
-    color: 'white'
-    },
 
-    cards_title: {
-      marginBottom: 20,
-      color: "#fff"
     },
-    cards: {
-      padding: 0,
-      textAlign: "justify",
-      color: "#000",
-      fontSize: 15,
-      fontFamily: "Inter-Regular",
-    },
-    cards_bold: {
-      padding: 0,
-      textAlign: "justify",
-      color: darkmode.dark1,
-      fontSize: 17,
-      fontWeight: "bold",
-      fontFamily: "Inter-Regular",
-    },
-    cards_image: {
-      width: 50,
-      height: 50,
-      padding: 10,
-    },
+    input: {
+        height: 40,
+        margin: 12,
+        borderWidth: 1,
+        padding: 10,
+        color: 'white'
+        },
 
     tabs_header: {
     backgroundColor: "#fff",
@@ -72,36 +48,27 @@ export const styles = StyleSheet.create({
     },
 
     tabs_subtitle: {
-    padding: 1,
-    textAlign: "justify",
-    color: "#000",
-    fontSize: 14,
-    fontFamily: "PoltawskiNowy-Regular",
-    },
+      padding: 0,
+      textAlign: "justify",
+      color: "#000",
+      fontSize: 12,
+      fontFamily: "PoltawskiNowy-Regular",
+      },
 
     tabs_italic: {
-      padding: 1,
+      padding: 0,
       textAlign: "justify",
       color: "#000",
       fontSize: 14,
       fontFamily: "PoltawskiNowy-MediumItalic",
       },
-   
-    tabs_bold: {
-    padding: 1,
-    margin: 10, 
-    textAlign: "justify",
-    color: darkmode.dark2,
-    fontSize: 18,
-    fontWeight: "bold",
-    fontFamily: "Inter-Thin",
-   },
+
    tabs_text: {
-    margin: 0,
-    color: "#000",
-    fontSize: 14,
-    fontFamily: "PoltawskiNowy-Regular",
-   },
+      margin: 0,
+      color: "#000",
+      fontSize: 14,
+      fontFamily: "PoltawskiNowy-Regular",
+    },
 
    surface: {
     padding: 10,
@@ -124,10 +91,10 @@ export const styles = StyleSheet.create({
     quotes: {
     padding: 10,
     textAlign: "justify",
-    color: darkmode.dark0,
-    backgroundColor: darkmode.bgdark,
-    fontSize: 14,
-    fontFamily: "Roboto",
+    color: '#000',
+    backgroundColor: '#fff',
+    fontSize: 12,
+    fontFamily: "Montserrat-Regular",
     },
     pics: {
       padding:10, 

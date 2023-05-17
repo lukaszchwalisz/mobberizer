@@ -10,7 +10,7 @@ export default function K4({ navigation, route })  {
             <View style={styles.tabs_header}>
             <Text style={styles.tabs_title}>Krok 4. Podjęcie kolejnych działań.{"\n"}</Text>
             <Divider />
-            <Text style={styles.tabs_subtitle}>{"\n"}
+            <Text style={styles.tabs_text}>{"\n"}
             Struktura hierarchiczna w zakładzie pracy, korporacji, instytucji publicznej składa się z wielu poziomów, które nadzorują swoje działania.
             Powiadomienie wyższej instancji w firmie o nieprawidłowościach na niższym szczeblu zawsze stanowi dla zwierzchników powód, aby sprawdzić
             czy rzeczywiście doszło do złamania prawa albo po prostu wyjaśnić zasadność skargi. {"\n"}{"\n"}

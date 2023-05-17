@@ -17,7 +17,7 @@ const RenderItem = ({ data }) => {
         navigation.push(data.id)
         }}> 
 
-        <Surface style={styles.surface} elevation={2}>
+        <Surface style={styles.surface} elevation={1}>
             <Text style={styles.tabs_text}>{data.title}</Text>
         </Surface>
         </TouchableWithoutFeedback>
@@ -35,8 +35,8 @@ const RenderItem_s1 = ({ data }) => {
   
     return (  
         <ScrollView > 
-        <Surface style={styles.surface} elevation={2}>
-            <Text style={styles.text_surface}>{data.title}</Text>
+        <Surface style={styles.surface} elevation={1}>
+            <Text style={styles.tabs_text}>{data.title}</Text>
             <Text style={styles.tabs_subtitle}>adres:  {data.adres}</Text>
             <Text style={styles.tabs_subtitle}>epuap:  {data.epuap}</Text>
             <TouchableWithoutFeedback icon="phone"style={styles.tabs_text} onPress={() => {
@@ -63,8 +63,8 @@ const RenderItem_s2 = ({ data }) => {
     return (  
         <ScrollView > 
 
-        <Surface style={styles.surface} elevation={2}>
-            <Text style={styles.text_surface}>{data.title}</Text>
+        <Surface style={styles.surface} elevation={1}>
+            <Text style={styles.tabs_text}>{data.title}</Text>
             <Text style={styles.tabs_subtitle}>{data.adres}</Text>
 
             <TouchableWithoutFeedback style={styles.tabs_text} onPress={() => {
@@ -93,8 +93,8 @@ const RenderItem_s3 = ({ data }) => {
     return (  
         <ScrollView > 
 
-        <Surface style={styles.surface} elevation={2}>
-            <Text style={styles.text_surface}>{data.title}</Text>
+        <Surface style={styles.surface} elevation={1}>
+            <Text style={styles.tabs_text}>{data.title}</Text>
             <Text style={styles.tabs_subtitle}>{data.adres}</Text>
             <TouchableWithoutFeedback style={styles.tabs_text} onPress={() => {
                 call(args).catch(console.error);
@@ -103,10 +103,10 @@ const RenderItem_s3 = ({ data }) => {
             </TouchableWithoutFeedback>
             <Text style={styles.tabs_subtitle}>email:  {data.email}</Text>
             <Text style={styles.tabs_subtitle}>www:  <A href={data.www}>{data.www}</A></Text>
-            <Text style={{fontSize:12,color:"#F5F5DC"}}>apelacja:
-            <Text style={{fontSize:12,color:"yellow"}}> {data.apelacja}</Text></Text>
-            <Text style={{fontSize:12,color:"#F5F5DC"}}>okręg: 
-            <Text style={{fontSize:12,color:"yellow"}}> {data.okręg}</Text></Text>
+            <Text style={styles.tabs_subtitle}>apelacja:
+            <Text style={styles.tabs_subtitle}> {data.apelacja}</Text></Text>
+            <Text style={styles.tabs_subtitle}>okręg: 
+            <Text style={styles.tabs_subtitle}> {data.okręg}</Text></Text>
         </Surface>
         </ScrollView>
     );

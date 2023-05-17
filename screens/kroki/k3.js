@@ -10,7 +10,7 @@ export default function K3({ navigation})  {
             <View style={styles.tabs_header}>
             <Text style={styles.tabs_title}>Krok 3. Wybór strategii.{"\n"}</Text>
             <Divider />
-            <Text style={styles.tabs_subtitle}>{"\n"} 
+            <Text style={styles.tabs_text}>{"\n"} 
             Oficjalne zgłoszenie podejrzenia wystąpienia zachowań mobbingowych obliguje pracodawcę do stosownych podjęcia działań.
             Ustawodawca jednak precyzyjnie nie określił konkretnej procedury, jaką pracodawca może w tym wypadku zastosować.
             Jako stowarzyszenie OSA rekomendujemy, aby powołanie komisji pojednawczej (art 244. KP). Ewentualnie powołanie komisji

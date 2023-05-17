@@ -18,10 +18,10 @@ export default function P4({ navigation, route }) {
       <View style={styles.tabs_text}>
         
       <Text style={styles.tabs_text}>
-       <Text style={styles.tabs_bold}>Definicja Mobbingu.{"\n"}</Text>
+       <Text style={styles.tabs_title}>Definicja Mobbingu.{"\n"}</Text>
        <Text style={{fontStyle:'italic'}}>(za wytycznymi Komisji Europejskiej){"\n"}{"\n"}</Text> 
        
-       <Text style={styles.cards_bold}>Mobbing </Text>
+       <Text style={styles.tabs_italic}>Mobbing </Text>
         to specyficzny rodzaj przemocy funkcjonujący w miejscu pracy, polegający na upo-
         rczywym i długotrwałym podejmowaniu działań, które w ofierze lub grupie ofiar wywołują obiek-
         tywnie uzasadnione poczucie krzywdy osobistej i zagrożenia zawodowego oraz negatywne skutki dla

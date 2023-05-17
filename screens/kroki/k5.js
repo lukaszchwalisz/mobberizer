@@ -10,7 +10,7 @@ export default function K5({ navigation})  {
             <View style={styles.tabs_header}>
             <Text style={styles.tabs_title}>Krok 5. Przygotowanie mentalne.{"\n"}</Text>
             <Divider />
-            <Text style={styles.tabs_subtitle}>{"\n"}
+            <Text style={styles.tabs_text}>{"\n"}
             Sprawy sądowe o mobbing wywołują wiele emocji, pochłaniają całkowicie, pozostawiają w poczuciu krzywdy, niesprawiedliwości. Pojawiają się ambiwalentne
             uczucia: lęku, złości, smutku, zemsty, bezradności. Dlatego należy bardzo dobrze przygotować się do sprawy sądowej, gdzie zalecane
             jest opanowanie emocji, jasne przedstawienie swojej sytuacji, uzasadnienie poparte dowodami. Na każdym etapie postępowania należy pamiętać,

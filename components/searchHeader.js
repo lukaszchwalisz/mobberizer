@@ -12,9 +12,10 @@ const Header = ({onSearch}) => {
         </Text>
         <View
           style={{
-            borderRadius: 5,
+            borderWidth:.2,
+            borderRadius: 50,
             padding: 3,
-            backgroundColor: "#f5f5dc", 
+            backgroundColor: "#fff", 
             alignItems: "center",
           }}
         >
@@ -37,14 +38,15 @@ const Header = ({onSearch}) => {
         </Text>
         <View
           style={{
-            borderRadius: 5,
+            borderWidth:.2,
+            borderRadius: 50,
             padding: 3,
-            backgroundColor: "#f5f5dc", 
+            backgroundColor: "#fff", 
             alignItems: "center",
           }}
         >
         <TextInput
-          placeholder="szukaj: województwo, miasto"
+          placeholder="Szukaj"
           placeholderfontSize="16"
           onChangeText={onSearch}
           style={{ flex: 1, fontSize:16, fontFamily:"Roboto"}} 
@@ -63,14 +65,15 @@ const Header = ({onSearch}) => {
         </Text>
         <View
           style={{
-            borderRadius: 5,
+            borderWidth:.2,
+            borderRadius: 50,
             padding: 3,
-            backgroundColor: "#f5f5dc", 
+            backgroundColor: "#fff", 
             alignItems: "center",
           }}
         >
         <TextInput
-          placeholder="szukaj: województwo, miasto"
+          placeholder="Szukaj"
           placeholderfontSize="16"
           onChangeText={onSearch}
           style={{ flex: 1, fontSize:16, fontFamily:"Roboto"}} 
@@ -89,14 +92,15 @@ const Header = ({onSearch}) => {
         </Text>
         <View
           style={{
-            borderRadius: 5,
+            borderWidth:.2,
+            borderRadius: 50,
             padding: 3,
-            backgroundColor: "#f5f5dc", 
+            backgroundColor: "#fff", 
             alignItems: "center",
           }}
         >
         <TextInput
-          placeholder="szukaj: apelacja, okręg, miasto, #wp"
+          placeholder="Szukaj"
           placeholderfontSize="16"
           onChangeText={onSearch}
           style={{ flex: 1, fontSize:16, fontFamily:"Roboto"}} 
