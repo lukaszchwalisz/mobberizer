@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import darkmode from './colors';
+import { darkmode, lightmode } from './colors';
 
 export const styles = StyleSheet.create({
    contain: {
@@ -42,7 +42,7 @@ export const styles = StyleSheet.create({
     },
 
     tabs_title: {
-    color: "#000",
+    color: '#000',
     fontSize: 18,
     fontFamily: "PoltawskiNowy-Medium",
     },
