@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView } from 'react-native';
+import { ScrollView, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
 import { Card, Title, Paragraph } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
@@ -7,13 +7,12 @@ import { styles } from '../../styles/global.js';
 
 export default function Q1({ navigation, route }) {
   return (
-         <ScrollView  style={styles.contain}>
-           <Card  style={styles.contain}>
-           <Card.Content>
-             <Title style={styles.tabs_title}>Na czym polega zasada równego traktowania w zatrudnieniu ?{"\n"}</Title>
-             <Paragraph style={styles.tabs_subtitle}>Na pytanie odpowiada II a rozdział w kodeksie pracy „Równe traktowanie w zatrudnieniu”.{"\n"}
-             </Paragraph>
-             <Paragraph style={styles.quotes}>
+         <ScrollView style={styles.contain}>
+           <View style={styles.tabs_header}> 
+             <Text style={styles.tabs_title}>Na czym polega zasada równego traktowania w zatrudnieniu ?{"\n"}</Text>
+             <Text style={styles.tabs_text}>Na pytanie odpowiada II a rozdział w kodeksie pracy „Równe traktowanie w zatrudnieniu”.{"\n"}
+             </Text>
+             <Text style={styles.quotes}>
              Kodeks Pracy  Art. 18(3a). {"\n"}
              § 1. Pracownicy powinni być równo traktowani w zakresie nawiązania i rozwiązania stosunku pracy,
               warunków zatrudnienia, awansowania oraz dostępu do szkolenia w celu podnoszenia kwalifikacji zawodowych,
@@ -28,9 +27,8 @@ export default function Q1({ navigation, route }) {
              §5. Przejawem dyskryminowania w rozumieniu §2 jest także:{"\n"}
              1) działanie polegające na zachęcaniu innej osoby do naruszenia zasady równego traktowania w zatrudnieniu lub nakazaniu jej naruszenia tej zasady;{"\n"}
              2) niepożądane zachowanie, którego celem lub skutkiem jest naruszenie godności pracownika i stworzenie wobec niego zastraszającej, wrogiej, poniżającej, upokarzającej lub uwłaczającej atmosfery (molestowanie).
-             </Paragraph>
-           </Card.Content>
-         </Card>
+             </Text>
+             </View>
         </ScrollView>
   )
 };

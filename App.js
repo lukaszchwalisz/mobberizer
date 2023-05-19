@@ -27,6 +27,7 @@ export default function App() {
     'Montserrat-Light': require('./assets/fonts/Montserrat/Montserrat-Light.ttf'),
     'Montserrat-Thin': require('./assets/fonts/Montserrat/Montserrat-Thin.ttf'),
     'PoltawskiNowy-Regular': require('./assets/fonts/Poltawski/PoltawskiNowy-Regular.ttf'),
+    'PoltawskiNowy-Italic': require('./assets/fonts/Poltawski/PoltawskiNowy-Italic.ttf'),
     'PoltawskiNowy-MediumItalic': require('./assets/fonts/Poltawski/PoltawskiNowy-MediumItalic.ttf'),
     'PoltawskiNowy-Medium': require('./assets/fonts/Poltawski/PoltawskiNowy-Medium.ttf'),
     'PoltawskiNowy-Bold': require('./assets/fonts/Poltawski/PoltawskiNowy-Bold.ttf'),

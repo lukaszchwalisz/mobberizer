@@ -1,11 +1,10 @@
 import { StyleSheet } from 'react-native';
-import { darkmode, lightmode } from './colors';
+import { darkmode } from './colors';
 
 export const styles = StyleSheet.create({
    contain: {
      flex: 1,
       backgroundColor:'#fff',
-
     },
     button: {
       marginVertical:5,
@@ -89,12 +88,12 @@ export const styles = StyleSheet.create({
       },
 
     quotes: {
-    padding: 10,
+    padding: 5,
     textAlign: "justify",
     color: '#000',
     backgroundColor: '#fff',
     fontSize: 12,
-    fontFamily: "Montserrat-Regular",
+    fontFamily: "PoltawskiNowy-Italic",
     },
     pics: {
       padding:10, 
