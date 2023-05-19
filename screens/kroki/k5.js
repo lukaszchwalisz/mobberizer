@@ -70,7 +70,7 @@ export default function K5({ navigation})  {
 
             Zachęcamy do kontakt ze stowarzyszeniem OSA, które od 20 lat zajmuje sie problematyką przeciwdziałania mobbingowi w Polsce, 
             w konsultacjach psychologicznych, prawniczych, a w szczególności do uczestnictwa w grupach wsparcia, gdzie następuje głęboka wymiana myśli i
-            doświadczeń związanych z sytuacjami mobbingowymi. Wsparcie ze strony grupy jest ważne na każdym etapie rozwoju sprawy mobbingowej
+            doświadczeń związanych z sytuacjami mobbingowymi. Wsparcie ze strony grupy jest ważne na każdym etapie rozwoju sprawy mobbingowej. {"\n"}
             </Text>
             <Divider /> 
             <View><Text>{"\n"}</Text></View>

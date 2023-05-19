@@ -46,7 +46,7 @@ export default function Main() {
         onPress={() => {
           navigacja.navigate(item.id)
         }}>
-        {item.title}
+       <Text style={styles.tabs_text}>{item.title}</Text> 
         </Button>  
       </View>
         );

@@ -36,7 +36,7 @@ export default function K3({ navigation})  {
             stresowi. W takiej sytuacji może pojawić się zwątpienie czy warto dalej działać. Staramy się wesprzeć takie osoby, przywołać 
             początkowe motywy, z którymi zwrócili się o pomoc. Kiedy wsparcie psychologiczne (indywidualne, bądź grupowe) przywróci gotowość
             do walki o przestrzeganie prawa pracy wobec dotychczasowego braku pozytywnych reakcji ze strony pracodawcy.
-            W związku powyższym osoba mobbingowana podejmie działania wykraczające swoim zasięgiem poza zakład pracy.
+            W związku powyższym osoba mobbingowana podejmie działania wykraczające swoim zasięgiem poza zakład pracy.{"\n"}
             </Text>
             <Divider /> 
             <View><Text>{"\n"}</Text></View>

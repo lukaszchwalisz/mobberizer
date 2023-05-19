@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
       marginHorizontal:20,
       padding:10,
       borderWidth: 0.5,
-      borderRadius: 50,
+      borderRadius: 20,
       // shadowColor:'#F1F5FF',
       // shadowOpacity: 2,
       // shadowOffset: { width:0, height:2, },
@@ -67,7 +67,7 @@ export const styles = StyleSheet.create({
       margin: 0,
       color: "#000",
       fontSize: 14,
-      fontFamily: "PoltawskiNowy-Regular",
+      fontFamily: "Montserrat-Regular",
     },
 
    surface: {

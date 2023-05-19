@@ -33,20 +33,12 @@ export default function K0({ navigation }) {
 
 
   const renderItem = ({ item }) => (
-        // <TouchableWithoutFeedback onPress={() => {
-        //   navigation.push(item.id)
-        // }}> 
-
-        //   <Surface style={styles.surface} elevation={2}>
-        //     <Text style={styles.tabs_italic}>{item.title}</Text>
-        //   </Surface>
-        // </TouchableWithoutFeedback>
 
           <Button style={styles.button}  icon='menu-right' mode='outlined' color="#111" uppercase={false}            
           onPress={() => {
             navigation.push(item.id)
           }}>
-          {item.title}
+         <Text style={styles.tabs_text}>{item.title}</Text> 
           </Button>
 
 

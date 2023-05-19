@@ -37,7 +37,7 @@ export default function K1 ({ navigation })  {
             Dopytujemy o formy zachowań mobbingowych, skutki zdrowotne, czas trwania, intensywność oraz dotychczasowe kroki, które już zostały podjęte. Wypełniasz stosowny kwestionariusz.
             W kolejnym kroku zaproponujemy Tobie kolejne działania.{"\n"}{"\n"}
       
-            Link:{"\n"} <A href={url_fism}> Kwestionariusz form i skutków mobbingu</A>
+            Link:{"\n"} <A href={url_fism}> Kwestionariusz form i skutków mobbingu</A>{"\n"}
             </Text>
             <Divider /> 
             <View><Text>{"\n"}</Text></View>

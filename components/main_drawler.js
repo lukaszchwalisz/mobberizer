@@ -30,7 +30,7 @@ export default function Main_Drawler({}) {
           navigacja.navigate(item.id)
         }}>
           <Button style={styles.button} icon={item.icon} mode='outlined' color="#111" uppercase={false} >
-          {item.title}
+          <Text style={styles.tabs_text}>{item.title}</Text> 
           </Button>
         </TouchableWithoutFeedback>    
         </View>
@@ -61,7 +61,7 @@ export default function Main_Drawler({}) {
    
         {/* <Divider /> */}
       </View>
-   
+      // </ImageBackground>
     )
   };
 
