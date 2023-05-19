@@ -44,6 +44,7 @@ export const styles = StyleSheet.create({
     color: '#000',
     fontSize: 18,
     fontFamily: "PoltawskiNowy-Medium",
+    textAlign: "justify",
     },
 
     tabs_subtitle: {
@@ -63,11 +64,20 @@ export const styles = StyleSheet.create({
       },
 
    tabs_text: {
+    // textAlign: "justify",
       margin: 0,
       color: "#000",
-      fontSize: 14,
+      fontSize: 15,
       fontFamily: "Montserrat-Regular",
     },
+    quotes: {
+      padding: 5,
+      textAlign: "justify",
+      color: '#000',
+      backgroundColor: '#fff',
+      fontSize: 14,
+      fontFamily: "PoltawskiNowy-Italic",
+      },
 
    surface: {
     padding: 10,
@@ -87,14 +97,6 @@ export const styles = StyleSheet.create({
       fontFamily: "Inter-Regular",
       },
 
-    quotes: {
-    padding: 5,
-    textAlign: "justify",
-    color: '#000',
-    backgroundColor: '#fff',
-    fontSize: 12,
-    fontFamily: "PoltawskiNowy-Italic",
-    },
     pics: {
       padding:10, 
       margin:10, 
