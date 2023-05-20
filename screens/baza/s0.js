@@ -29,9 +29,9 @@ export default function S0({ navigation }) {
           navigation.push(item.id)
         }}> 
 
-          <Surface style={styles.surface} elevation={2}>
+          <View style={styles.button}>
             <Text style={styles.tabs_text}>{item.title}</Text>
-          </Surface>
+          </View>
         </TouchableWithoutFeedback>
   );
 

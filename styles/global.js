@@ -13,10 +13,6 @@ export const styles = StyleSheet.create({
       borderWidth: 0.5,
       borderRadius: 20,
       borderColor: '#2483DB',
-      // shadowColor:'#F1F5FF',
-      // shadowOpacity: 2,
-      // shadowOffset: { width:0, height:2, },
-      // shadowRadius:10,
       backgroundColor:'#fff',
 
     },
@@ -71,6 +67,7 @@ export const styles = StyleSheet.create({
       fontSize: 15,
       fontFamily: "Montserrat-Regular",
     },
+    
     quotes: {
       padding: 5,
       textAlign: "justify",
@@ -78,24 +75,6 @@ export const styles = StyleSheet.create({
       backgroundColor: '#fff',
       fontSize: 14,
       fontFamily: "PoltawskiNowy-Italic",
-      },
-
-   surface: {
-    padding: 10,
-    borderRadius: 10,
-    margin: 3,
-    backgroundColor: '#fff',
-    borderColor: "#000",   
-    marginVertical:5,
-    marginHorizontal:20,
-    },
-
-    text_surface: {
-      justifyContent: 'center',
-      alignContent: 'center',
-      color: "#fff",
-      fontSize: 13,
-      fontFamily: "Inter-Regular",
       },
 
     pics: {

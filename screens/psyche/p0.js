@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, FlatList } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
-import { Surface } from 'react-native-paper';
+// import {  } from 'react-native-paper';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 
 
@@ -37,9 +37,9 @@ export default function P0({ navigation }) {
           navigation.push(item.id)
         }}> 
 
-          <Surface style={styles.surface} elevation={2}>
+          <View style={styles.button}>
             <Text style={styles.tabs_text}>{item.title}</Text>
-          </Surface>
+          </View>
         </TouchableWithoutFeedback>
   );
 

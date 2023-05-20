@@ -1,7 +1,7 @@
 import React from 'react';
-import { Text } from "react-native";
+import { Text, View } from "react-native";
 import { styles } from '../styles/global.js';
-import { Surface } from 'react-native-paper';
+// import { Button, Surface} from 'react-native-paper';
 import 'react-native-gesture-handler';
 import { ScrollView, TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import { useNavigation } from "@react-navigation/native";
@@ -13,13 +13,10 @@ const RenderItem = ({ data }) => {
     
     return (  
         <ScrollView > 
-        <TouchableWithoutFeedback onPress={() => {
+        <TouchableWithoutFeedback style={styles.button} mode='outlined' color="#111" uppercase={false}  onPress={() => {
         navigation.push(data.id)
         }}> 
-
-        <Surface style={styles.surface} elevation={1}>
-            <Text style={styles.tabs_text}>{data.title}</Text>
-        </Surface>
+        <Text style={styles.tabs_text}>{data.title}</Text>
         </TouchableWithoutFeedback>
         </ScrollView>
     );
@@ -35,7 +32,7 @@ const RenderItem_s1 = ({ data }) => {
   
     return (  
         <ScrollView > 
-        <Surface style={styles.surface} elevation={1}>
+        <View style={styles.button}>
             <Text style={styles.tabs_text}>{data.title}</Text>
             <Text style={styles.tabs_subtitle}>adres:  {data.adres}</Text>
             <Text style={styles.tabs_subtitle}>epuap:  {data.epuap}</Text>
@@ -47,7 +44,7 @@ const RenderItem_s1 = ({ data }) => {
             <Text style={styles.tabs_subtitle}>email:  {data.email}</Text>
             <Text style={styles.tabs_subtitle}>www:  <A href={data.www}>{data.www}</A></Text>
             {/* <Text style={styles.tabs_subtitle}>#tag:  {data.tag}</Text> */}
-        </Surface>
+        </View>
         </ScrollView>
     );
 }
@@ -63,7 +60,7 @@ const RenderItem_s2 = ({ data }) => {
     return (  
         <ScrollView > 
 
-        <Surface style={styles.surface} elevation={1}>
+        <View style={styles.button}>
             <Text style={styles.tabs_text}>{data.title}</Text>
             <Text style={styles.tabs_subtitle}>{data.adres}</Text>
 
@@ -76,7 +73,7 @@ const RenderItem_s2 = ({ data }) => {
             <Text style={styles.tabs_subtitle}>email:  {data.email}</Text>
             <Text style={styles.tabs_subtitle}>www:  <A href={data.www}>{data.www}</A></Text>
             {/* <Text style={styles.tabs_subtitle}>#tag:  {data.tag}</Text> */}
-        </Surface>
+        </View>
 
         </ScrollView>
     );
@@ -93,7 +90,7 @@ const RenderItem_s3 = ({ data }) => {
     return (  
         <ScrollView > 
 
-        <Surface style={styles.surface} elevation={1}>
+        <View style={styles.button}>
             <Text style={styles.tabs_text}>{data.title}</Text>
             <Text style={styles.tabs_subtitle}>{data.adres}</Text>
             <TouchableWithoutFeedback style={styles.tabs_text} onPress={() => {
@@ -107,7 +104,7 @@ const RenderItem_s3 = ({ data }) => {
             <Text style={styles.tabs_subtitle}> {data.apelacja}</Text></Text>
             <Text style={styles.tabs_subtitle}>okręg: 
             <Text style={styles.tabs_subtitle}> {data.okręg}</Text></Text>
-        </Surface>
+        </View>
         </ScrollView>
     );
 }
