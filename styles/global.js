@@ -1,10 +1,10 @@
 import { StyleSheet } from 'react-native';
-import { darkmode } from './colors';
+import { darkmode, lightmode } from './colors';
 
 export const styles = StyleSheet.create({
    contain: {
      flex: 1,
-      backgroundColor:'#fff',
+      backgroundColor: lightmode.white,
     },
     button: {
       marginVertical:5,
@@ -12,6 +12,7 @@ export const styles = StyleSheet.create({
       padding:10,
       borderWidth: 0.5,
       borderRadius: 20,
+      borderColor: '#2483DB',
       // shadowColor:'#F1F5FF',
       // shadowOpacity: 2,
       // shadowOffset: { width:0, height:2, },
