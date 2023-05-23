@@ -1,27 +1,25 @@
 import React from 'react';
 import { ScrollView, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
-import {  } from 'react-native-paper';
+import { Divider } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
 
 
-export default function Q2({ navigation, route }) {
+export default function Q2() {
   return (
-      <ScrollView>
+      <ScrollView style={styles.contain}>
       <View style={styles.tabs_header}> 
-        <Text style={styles.tabs_title}>Czy przyzwolenie na nierówne traktowanie, dyskryminację czy molestowanie seksualnego ze strony pracodawcy 
-                nie będzie nosiło za sobą konsekwencji prawnych ?{"\n"}</Text>
-        <Text style={styles.tabs_text}>Paragrafy §6 i §7 Art. 18 Kodeksu Pracy odnoszą się do molestowania seksualnego, które może stanowić jedną z form
-                        niepożądanych zachowań w pracy. Z paragrafu §7 jasno wynika, że podporządkowanie się pracodawcy odnośnie molestowania seksualnego, 
-                        jak i podjęcie działań przeciwstawiających się molestowaniu seksualnemu nie niesie za sobą konsekwencji wobec pracownika.{"\n"}
+        <Text style={styles.tabs_title}>Czy pracodawca jest zobowiązany do przeciwdziałania dyskryminacji ?{"\n"}</Text>
+        <Text style={styles.tabs_text}>
+        Pracodawca jest zobowiązany:{"\n"}
+        - przeciwdziałać dyskryminacji w zatrudnieniu, w szczególności ze względu na płeć, wiek, 
+        niepełnosprawność, rasę, religię, narodowość, przekonania polityczne, przynależność związkową,
+         pochodzenie etniczne, wyznanie, orientację seksualną, a także ze względu na zatrudnienie na czas określony
+          lub nieokreślony albo w pełnym lub w niepełnym wymiarze czasu pracy{"\n"}
         </Text>
-        <Text style={styles.quotes}>
-        Kodeks Pracy {"\n"}
-        §6. Dyskryminowaniem ze względu na płeć jest także każde niepożądane zachowanie o charakterze seksualnym lub odnoszące się do płci pracownika, którego celem 
-        lub skutkiem jest naruszenie godności pracownika, wszczególności stworzenie wobec niego zastraszającej, wrogiej, poniżającej, upokarzającej lub uwłaczającej
-        atmosfery; na zachowanie to mogą się składać fizyczne, werbalne lub pozawerbalne elementy (molestowanie seksualne). {"\n"}
-        §7. Podporządkowanie się przez pracownika molestowaniu lub molestowaniu seksualnemu, a także podjęcie przez niego działań przeciwstawiających się molestowaniu
-        lub molestowaniu seksualnemu nie może powodować jakichkolwiek negatywnych konsekwencji wobec pracownika.
+        <Divider />
+        <Text style={styles.tabs_subtitle}>{"\n"}
+        podstawa prawna: kodeks pracy, art. 94 2b {"\n"}
         </Text>
         </View>
       </ScrollView>

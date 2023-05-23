@@ -1,58 +1,38 @@
 import React from 'react';
-import { ScrollView } from 'react-native';
+import { ScrollView, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
-import { Card, Title, Paragraph, List } from 'react-native-paper';
+import { Divider } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
 
 
-
-const Header = () => {
+export default function Q3() {
   return (
-    <Card style={styles.contain}>
-    <Card.Content>
-    <Title style={styles.tabs_title}>Czy pracodawca może dowolnie wynagradzać różnych pracowników za pracę jednakowej wartości ?{"\n"}</Title>
-      <Paragraph style={styles.tabs_subtitle}>Według Art. 18(3c). Kodeksu Pracy takie praktyki naruszają zasadę równego traktowania w zatrudnieniu.
-       Osoba, wobec której ta zasada została naruszona ma prawo do odszkodowania. Powołanie się na zasadę nierównego traktowania nie może
-       być później powodem do niekorzystnego traktowania pracownika.
-      </Paragraph>
-    </Card.Content>
-    </Card>
-  )
-}
+      <ScrollView style={styles.contain}>
+      <View style={styles.tabs_header}> 
+        <Text style={styles.tabs_title}>**W jaki sposób kodeks pracy wyodrębnia różne rodzaje i przejawy dyskryminacji ?{"\n"}</Text>
+        <Text style={styles.tabs_text}>
+        Pracodawca jest zobowiązany:{"\n"}{"\n"}
+        Kodeks pracy wyróżnia: {"\n"}
+        **dyskryminowanie bezpośrednie** - występuje wtedy, kiedy pracownik z przyczyn wymienionych wyżej był,
+         jest, mógłby być traktowany w porównywalnej sytuacji mniej korzystnie.{"\n"}{"\n"}
+    
+         **dyskryminawanie pośrednie** - istnieje wtedy, gdy na skutek pozornie neutralnego postanowienia,
+          zastosowanego kryterium lub podjętego działania występują lub mogłyby wystąpić niekorzystne
+           dysproporcje albo szczególnie niekorzystna sytuacja w zakresie przyczyn wymienionych powyżej,
+            chyba że postanowienie, kryterium lub działanie jest obiektywnie uzasadnione ze względu na zgodny
+             z prawem cel, który ma być osiągnięty, a środki służące osiągnięciu tego celu są właściwe i konieczne.{"\n"}{"\n"}
 
-const Quote = () => {
-  return (
-    <Paragraph style={styles.quotes}>
-    Kodeks Pracy Art. 18(3c) {"\n"}
-    § 1. Pracownicy mają prawo do jednakowego wynagrodzenia za jednakową pracę lub za pracę o jednakowej wartości.{"\n"}
-    § 2. Wynagrodzenie, o którym mowa w § 1, obejmuje wszystkie składniki wynagrodzenia, bez względu na ich nazwę i charakter, a także inne świadczenia związane z
-    pracą, przyznawane pracownikom w formie pieniężnej lub w innej formie niż pieniężna.{"\n"}
-    § 3. Pracami o jednakowej wartości są prace, których wykonywanie wymaga od pracowników porównywalnych kwalifikacji zawodowych, potwierdzonych dokumentami przewidzianymi
-    w odrębnych przepisach lub praktyką i doświadczeniem zawodowym, a także porównywalnej odpowiedzialności i wysiłku.{"\n"}
-    Art. 18(3d). Osoba, wobec której pracodawca naruszył zasadę równego traktowania w zatrudnieniu, ma prawo do odszkodowania w wysokości nie niższej niż minimalne 
-    wynagrodzenie za pracę, ustalane na podstawie odrębnych przepisów.{"\n"}
-    Art. 18(3e). § 1. Skorzystanie przez pracownika z uprawnień przysługujących z tytułu naruszenia zasady równego traktowania w zatrudnieniu nie może być podstawą 
-    niekorzystnego traktowania pracownika, a także nie może powodować jakichkolwiek negatywnych konsekwencji wobec pracownika, zwłaszcza nie może stanowić przyczyny
-    uzasadniającej wypowiedzenie przez pracodawcę stosunku pracy lub jego rozwiązanie bez wypowiedzenia.
-     </Paragraph>
-
-  )
-}
-
-export default function Q3({ navigation, route }) {
-
-  const [expanded, setExpanded] = React.useState(true);
-  const handlePress = () => setExpanded(!expanded);
-
-  return (
-         <ScrollView style={styles.contain}>
-            <Header />
-            <List.AccordionGroup>
-            <List.Accordion title="Kodeks Pracy Art. 18(3c)" id="5"theme={{colors: {text: "#50FFD0"}}} 
-             style={{backgroundColor:"#2f2f2f"}}>
-            <Quote />
-            </List.Accordion>
-            </List.AccordionGroup>
-        </ScrollView>
+        Inne przejawy dyskryminawania ujęte w kodeksie pracy:{"\n"}
+            - działanie polegające na zachęcaniu innej osoby do naruszenia zasady równego traktowania w
+             zatrudnieniu lub nakazaniu jej naruszenia tej zasady;{"\n"}
+            -  niepożądane zachowanie, którego celem lub skutkiem jest naruszenie godnościpracownika i
+             stworzenie wobec niego zastraszającej, wrogiej, poniżającej, upokarzającej lub uwłaczającej atmosfery (molestowanie){"\n"}
+        </Text>
+        <Divider />
+        <Text style={styles.tabs_subtitle}>{"\n"}
+        podstawa prawna: kodeks pracy, art. 183a, od §1 do $5 {"\n"}
+        </Text>
+        </View>
+      </ScrollView>
   )
 };

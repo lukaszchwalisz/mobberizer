@@ -1,26 +1,26 @@
 import React from 'react';
-import { ScrollView } from 'react-native';
+import { ScrollView, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
-import { Card, Title, Paragraph } from 'react-native-paper';
+import { Divider } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
 
 
-export default function Q12({ navigation, route }) {
+export default function Q12() {
   return (
-         <ScrollView style={styles.contain}>
-           <Card style={styles.contain}>
-           <Card.Content>
-             <Title style={styles.tabs_title}>Ile dni obejmuje długość okresu wypowiedzenia umowy o pracę zawartej na czas nieokreślony
-              lub określony uzależniony od okresu zatrudnienia o danego pracodawcy ?</Title>
-             <Paragraph style={styles.tabs_subtitle}>
-             Według Art.36 KP okresy wypowiedzenia wynoszą odpowiednio:{"\n"}
-            • 2 tygodnie, jeżeli pracownik był zatrudniony krócej niż 6 miesięcy{"\n"}
-            • 1  miesiąc, jeżeli pracownik był zatrudniony co najmniej 6 miesięcy{"\n"}
-            • 3 miesiące, jeżeli pracownik był zatrudniony co najmniej 3 lata
-             </Paragraph>
-           </Card.Content>
-         </Card>
-        </ScrollView>
+      <ScrollView style={styles.contain}>
+      <View style={styles.tabs_header}> 
+        <Text style={styles.tabs_title}>Czy pracodawca może odmówić ponownego zatrudnienia pracownika przywróconego do pracy decyzją sądu ?{"\n"}</Text>
+        <Text style={styles.tabs_text}>
+        Pracodawca nie może zatrudnić pracownika przywróconego do pracy w sytuacji,
+        kiedy w ciągu 7 dni od przywrócenia do pracy nie zgłosił gotowości niezwłocznego podjęcia pracy,
+        chyba że przekroczenie tego terminu nastąpiło z przyczyn niezależnych od pracownika.
+        {"\n"}
+        </Text>
+        <Divider />
+        <Text style={styles.tabs_subtitle}>{"\n"}
+        podstawa prawna: kodeks pracy, art. 48 §1{"\n"}
+        </Text>
+        </View>
+      </ScrollView>
   )
 };
-

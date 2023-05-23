@@ -22,16 +22,6 @@ import Q17  from '../prawo/q17.js';
 import Q18  from '../prawo/q18.js';
 import Q19 from '../prawo/q19.js';
 import Q20 from '../prawo/q20.js';
-import Q21  from '../prawo/q21.js';
-import Q22  from '../prawo/q22.js';
-import Q23  from '../prawo/q23.js';
-import Q24 from '../prawo/q24.js';
-import Q25 from '../prawo/q25.js';
-import Q26 from '../prawo/q26.js';
-import Q27  from '../prawo/q27.js';
-import Q28  from '../prawo/q28.js';
-import Q29 from '../prawo/q29.js';
-
 
 
 const Law = createStackNavigator()
@@ -140,51 +130,6 @@ export default function Prawo({ navigation, route }) {
               // headerTitleStyle: { color: '#9FE2BF' }
               }} />
              <Law.Screen name="q20" component={ Q20 } options={{ title: 'Pytania prawne',
-              // headerStyle: {backgroundColor: '#2f2f2f'}, 
-              // headerTintColor:  '#9FE2BF', 
-              // headerTitleStyle: { color: '#9FE2BF' }
-              }} />
-             <Law.Screen name="q21" component={ Q21 } options={{ title: 'Pytania prawne',
-              // headerStyle: {backgroundColor: '#2f2f2f'}, 
-              // headerTintColor:  '#9FE2BF', 
-              // headerTitleStyle: { color: '#9FE2BF' }
-              }} />
-            <Law.Screen name="q22" component={ Q22 } options={{ title: 'Pytania prawne',
-              // headerStyle: {backgroundColor: '#2f2f2f'}, 
-              // headerTintColor:  '#9FE2BF', 
-              // headerTitleStyle: { color: '#9FE2BF' }
-              }} />
-            <Law.Screen name="q23" component={ Q23 } options={{ title: 'Pytania prawne',
-              // headerStyle: {backgroundColor: '#2f2f2f'}, 
-              // headerTintColor:  '#9FE2BF', 
-              // headerTitleStyle: { color: '#9FE2BF' }
-              }} />
-            <Law.Screen name="q24" component={ Q24 } options={{ title: 'Pytania prawne',
-              // headerStyle: {backgroundColor: '#2f2f2f'}, 
-              // headerTintColor:  '#9FE2BF', 
-              // headerTitleStyle: { color: '#9FE2BF' }
-              }} />
-            <Law.Screen name="q25" component={ Q25 } options={{ title: 'Pytania prawne',
-              // headerStyle: {backgroundColor: '#2f2f2f'}, 
-              // headerTintColor:  '#9FE2BF', 
-              // headerTitleStyle: { color: '#9FE2BF' }
-              }} />
-            <Law.Screen name="q26" component={ Q26 } options={{ title: 'Pytania prawne',
-              // headerStyle: {backgroundColor: '#2f2f2f'}, 
-              // headerTintColor:  '#9FE2BF', 
-              // headerTitleStyle: { color: '#9FE2BF' }
-              }} />
-            <Law.Screen name="q27" component={ Q27 } options={{ title: 'Pytania prawne',
-              // headerStyle: {backgroundColor: '#2f2f2f'}, 
-              // headerTintColor:  '#9FE2BF', 
-              // headerTitleStyle: { color: '#9FE2BF' }
-              }} />
-            <Law.Screen name="q28" component={ Q28 } options={{ title: 'Pytania prawne',
-              // headerStyle: {backgroundColor: '#2f2f2f'}, 
-              // headerTintColor:  '#9FE2BF', 
-              // headerTitleStyle: { color: '#9FE2BF' }
-              }} />
-            <Law.Screen name="q29" component={ Q29 } options={{ title: 'Pytania prawne',
               // headerStyle: {backgroundColor: '#2f2f2f'}, 
               // headerTintColor:  '#9FE2BF', 
               // headerTitleStyle: { color: '#9FE2BF' }

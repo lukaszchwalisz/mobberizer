@@ -1,23 +1,27 @@
 import React from 'react';
-import { ScrollView } from 'react-native';
+import { ScrollView, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
-import { Card, Title, Paragraph } from 'react-native-paper';
+import { Divider } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
 
 
-export default function Q18({ navigation, route }) {
+export default function Q18() {
   return (
-         <ScrollView style={styles.contain}>
-           <Card style={styles.contain}> 
-           <Card.Content>
-             <Title style={styles.tabs_title}>Czy pracownik może rozwiązać umowę o pracę bez wypowiedzenia na podstawie orzeczenia lekarskiego ?</Title>
-             <Paragraph style={styles.tabs_subtitle}>
-             Tak. Jeżeli pracownik przedłuży orzeczenie lekarskie stwierdzające szkodliwy wpływ wykonywanej pracy na zdrowie pracownika, a pracodawca nie przeniesie
-            go w terminie wskazanym w orzeczeniu lekarskim do innej pracy, odpowiedniej ze względu na stan zdrowia, możliwości i kwalifikacje pracownika. 
-            (Art. 55 §1  KP)
-             </Paragraph>
-           </Card.Content>
-         </Card>
-        </ScrollView>
+      <ScrollView style={styles.contain}>
+      <View style={styles.tabs_header}> 
+        <Text style={styles.tabs_title}>Na jakich zasadach można powołać komisję antymobbingową w zakładzie pracy ?{"\n"}</Text>
+        <Text style={styles.tabs_text}>
+        Komisje antymobbingowe nie mają dedykowanego umocowania prawnego. W celu zapewnienia najbardziej możliwej beztronności
+         powołanej komisji, proponuje się, aby opierała się na zasady zawarte w dziale 12 KP "Rozpatrywanie sporów o
+          roszczenia ze stosunku pracy", na podstawie postępowania pojednawczego, które jest umocowane prawnie.
+        {"\n"}
+        </Text>
+
+        <Divider />
+        <Text style={styles.tabs_subtitle}>{"\n"}
+        podstawa prawna: kodeks pracy, art.  242 - 258{"\n"}
+        </Text>
+        </View>
+      </ScrollView>
   )
 };

@@ -1,32 +1,27 @@
 import React from 'react';
-import { ScrollView } from 'react-native';
+import { ScrollView, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
-import { Card, Title, Paragraph } from 'react-native-paper';
+import { Divider } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
 
 
-export default function Q5({ navigation, route }) {
+export default function Q5() {
   return (
-         <ScrollView style={styles.contain}>
-           <Card style={styles.contain}>
-           <Card.Content>
-             <Title style={styles.tabs_title}>Czy możliwa jest zmiana zatrudnienia pracownika z umowy o pracę na umowę cywilnoprawną ?</Title>      
-             <Paragraph style={styles.tabs_subtitle}>W art.22 §1(2)
-            KP ustawodawca jasno stwierdza, że taka praktyka jest niedopuszczalna.
-            </Paragraph>
-             <Paragraph style={styles.quotes}>
-            Kodeks Pracy Art. 22 {"\n"}
-            § 1. Przez nawiązanie stosunku pracy pracownik zobowiązuje się do
-            wykonywania pracy określonego rodzaju na rzecz pracodawcy i pod jego
-            kierownictwem oraz  w miejscu  i czasie  wyznaczonym  przez pracodawcę,
-            a pracodawca – do zatrudniania pracownika za wynagrodzeniem. {"\n"}
-            § 1(1). Zatrudnienie w warunkach określonych w § 1 jest zatrudnieniem na
-            podstawie stosunku pracy, bez względu na nazwę zawartej przez strony umowy. {"\n"}
-            § 1(2). Nie jest dopuszczalne zastąpienie umowy o pracę umową cywilnoprawną
-            przy zachowaniu warunków wykonywania pracy, określonych w § 1.
-             </Paragraph>
-           </Card.Content>
-         </Card>
-        </ScrollView>
+      <ScrollView style={styles.contain}>
+      <View style={styles.tabs_header}> 
+        <Text style={styles.tabs_title}>Czy przyzwolenie na nierówne traktowanie, dyskryminację lub molestowanie seksualne ze strony pracownika nie będzie nosiło za sobą konsekwencji prawnych ?{"\n"}</Text>
+        <Text style={styles.tabs_text}>
+        Podporządkowanie się przez pracownika molestowaniu lub molestowaniu seksualnemu,
+         a także podjęcie przez niego działań przeciwstawiających się molestowaniu lub
+          molestowaniu seksualnemu nie może powodować jakichkolwiek negatywnych konsekwencji
+           wobec pracownika.
+        {"\n"}
+        </Text>
+        <Divider />
+        <Text style={styles.tabs_subtitle}>{"\n"}
+        podstawa prawna: kodeks pracy, art. 183a, §7{"\n"}
+        </Text>
+        </View>
+      </ScrollView>
   )
 };

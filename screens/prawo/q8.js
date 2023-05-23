@@ -1,35 +1,42 @@
 import React from 'react';
-import { ScrollView } from 'react-native';
+import { ScrollView, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
-import { Card, Title, Paragraph } from 'react-native-paper';
+import { Divider } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
 
 
-export default function Q8({ navigation, route }) {
+export default function Q8() {
   return (
-         <ScrollView style={styles.contain}>
-           <Card style={styles.contain}>
-           <Card.Content>
-             <Title style={styles.tabs_title}>Czy pracodawca może zatrudnić pracownika ponownie na okres próbny ?</Title>
-             <Paragraph style={styles.tabs_subtitle}>Umowa na okres próbny nie może przekraczać 3 miesięcy. Ponowne zatrudnienia pracownika na okres próbny jest możliwe tylko pod określonymi warunkami:{"\n"}
-            • pracownik może być zatrudniony w celu wykonywania innego rodzaju pracy{"\n"}
-            • po upływie 3 lat pracownik może być ponownie zatrudniony na okres próbny w celu wykonywania tego samego rodzaju pracy, dopuszczalne jest tylko 
-            jednokrotne ponowne zatrudnienie na okres próbny{"\n"}
-            Z doświadczenia stowarzyszenia antymobbingowego OSA wynika, że pracodawca może spróbować ominąć ten przepis tworząc „teoretycznie” nowe stanowiska pracy.
+      <ScrollView style={styles.contain}>
+      <View style={styles.tabs_header}> 
+        <Text style={styles.tabs_title}>Jakie są kompetencje kontrolne Państwowej Inspekcji Pracy ?{"\n"}</Text>
+        <Text style={styles.tabs_text}>Kompetencje kontrolne Państwowej Inspekcji Pracy określa ustawa.{"\n"}
+        </Text>
+        <Text style={styles.quotes}>
+        Ustawa o Państwowej Inspekcji Pracy.  {"\n"}
+        Art. 1. Państwowa Inspekcja Pracy jest organem powołanym do sprawowania nadzoru i
+        kontroli przestrzegania prawa pracy, w szczególności przepisów i zasad bezpieczeństwa
+          i higieny pracy, a także przepisów dotyczących legalności zatrudnienia i innej pracy
+          zarobkowej w zakresie określonym w ustawie.{"\n"}{"\n"}
 
-             </Paragraph>
-             <Paragraph style={styles.quotes}>
-             Art.25. {"\n"}
-             § 1. Umowę o pracę zawiera się na okres próbny, na czas nieokreślony albo na czas określony.{"\n"}
-             § 2. Umowę o pracę na okres próbny, nieprzekraczający 3 miesięcy,  zawiera się w celu sprawdzenia kwalifikacji pracownika i możliwości jego  zatrudnienia w celu 
-             wykonywania określonego rodzaju pracy.{"\n"}
-             § 3. Ponowne zawarcie umowy o pracę na okres próbny z tym samym pracownikiem jest możliwe:{"\n"}
-               1) jeżeli pracownik ma być zatrudniony w celu wykonywania innego rodzaju pracy;{"\n"}
-               2) po upływie co najmniej 3 lat od dnia rozwiązania lub wygaśnięcia  poprzedniej umowy opracę, jeżeli pracownik ma być zatrudniony w celu  wykonywania tego 
-              samego rodzaju pracy; w tym przypadku dopuszczalne jest jednokrotne ponowne zawarcie umowy na okres próbny.
-             </Paragraph>
-           </Card.Content>
-         </Card>
-        </ScrollView>
+        Do zadań Państwowej Inspekcji Pracy należy:  {"\n"}
+        Art. 10 §1. Nadzór i kontrola przestrzegania przepisów prawa pracy, w szczególności  
+        przepisów i zasad bezpieczeństwa i higieny pracy, przepisów dotyczących  
+        stosunku pracy, wynagrodzenia za pracę i innych świadczeń wynikających ze  
+        stosunku pracy, czasu pracy, urlopów, uprawnień pracowników związanych  
+        z rodzicielstwem, zatrudniania młodocianych i osób niepełnosprawnych;{"\n"}{"\n"}
+
+        Postępowanie kontrolne:{"\n"}
+        Art. 21. Postępowanie kontrolne ma na celu ustalenie stanu faktycznego w zakresie przestrzegania
+         prawa pracy, w szczególności przepisów i zasad bezpieczeństwa i higieny pracy, a także przepisów
+          dotyczących legalności zatrudnienia oraz udokumentowanie dokonanych ustaleń.{"\n"}
+        </Text>
+
+        <Divider />
+        <Text style={styles.tabs_subtitle}>{"\n"}
+        podstawa prawna: ustawa o państwowej inspekcji pracy, art. 1, art. 10 §1, art. 21{"\n"}
+        </Text>
+        </View>
+      </ScrollView>
   )
 };
