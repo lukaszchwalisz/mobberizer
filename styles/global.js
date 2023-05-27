@@ -64,7 +64,7 @@ export const styles = StyleSheet.create({
     // textAlign: "justify",
       margin: 0,
       color: "#000",
-      fontSize: 15,
+      fontSize: 14,
       fontFamily: "Montserrat-Regular",
     },
     
