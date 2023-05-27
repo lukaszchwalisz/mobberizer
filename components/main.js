@@ -22,9 +22,9 @@ export default function Main() {
       title: 'Kwestie prawne',
     },
     {
-      id: 'Zdrowie',
+      id: 'Słownik',
       icon: 'feather',
-      title: 'Artykuły',
+      title: 'Słownik',
     },
     {
       id: 'Kwestionariusz',

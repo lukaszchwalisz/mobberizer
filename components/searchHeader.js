@@ -110,9 +110,36 @@ const Header = ({onSearch}) => {
     )
   };
 
+  const Header_s4 = ({onSearch}) => {
+    return (
+        <View style={styles.tabs_header}>
+        <Text style={styles.tabs_title}>Słownik</Text>
+        <Text style={styles.tabs_italic}>- słownik terminów psychologicznych i prawnych związanych z mobbingiem w pracy{"\n"}</Text>
+        <View
+          style={{
+            borderWidth:.2,
+            borderRadius: 50,
+            padding: 3,
+            backgroundColor: "#fff", 
+            alignItems: "center",
+          }}
+        >
+        <TextInput
+          placeholder="Szukaj"
+          placeholderfontSize="16"
+          onChangeText={onSearch}
+          style={{ flex: 1, fontSize:16, fontFamily:"Roboto"}} 
+        />
+        </View>
+      </View>
+    )
+  };
+
+
   export {
     Header,
     Header_s1,
     Header_s2,
-    Header_s3
+    Header_s3,
+    Header_s4
   };

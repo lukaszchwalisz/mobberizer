@@ -109,10 +109,23 @@ const RenderItem_s3 = ({ data }) => {
     );
 }
 
+const RenderItem_s4 = ({ data }) => {
+
+    return (  
+        <ScrollView > 
+        <View style={styles.button}>
+            <Text style={styles.tabs_text}>{data.title}</Text>
+            <Text style={styles.tabs_subtitle}>- {data.content}</Text>
+        </View>
+        </ScrollView>
+    );
+}
+
 
 export { 
         RenderItem, 
         RenderItem_s1, 
         RenderItem_s2,
-        RenderItem_s3
+        RenderItem_s3,
+        RenderItem_s4
     };

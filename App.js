@@ -8,7 +8,7 @@ import Kontakt  from './screens/main/kontakt.js';
 import Kwestionariusz  from './screens/main/kwestionariusz.js';
 import Kroki  from './screens/main/kroki.js';
 import Prawo  from './screens/main/prawo.js';
-import Zdrowie from './screens/main/zdrowie.js';
+import Słownik from './screens/main/słownik.js';
 import Baza  from './screens/main/baza.js';
 
 import { useFonts } from 'expo-font';
@@ -51,7 +51,7 @@ export default function App() {
         // headerTitleStyle: { color: '#9FE2BF' }
         }} />
         <Root.Screen name="Prawo" component={ Prawo } options={{ headerShown: false}} /> 
-        <Root.Screen name="Zdrowie" component={ Zdrowie } options={{ headerShown: false}} />
+        <Root.Screen name="Słownik" component={ Słownik } options={{ title: 'Słownik'}} />
         <Root.Screen name="Kwestionariusz" component={ Kwestionariusz } options={{ title: 'Kwestionariusz'}} />
         <Root.Screen name="Baza" component={ Baza } options={{ headerShown: false,
           }} />

@@ -1,4 +1,4 @@
-const dict = [
+const Dict = [
     {
         id: '1',
         title:'Pracoholizm',
@@ -116,4 +116,4 @@ const dict = [
     },
     ];
     
-    export { dict };
+    export { Dict };
