@@ -1,5 +1,3 @@
-import React from 'react';
-
 const PIP = [
 {
 	id: '0',
