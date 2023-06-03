@@ -9,13 +9,14 @@ export default function About() {
   return (
          <ScrollView style={styles.contain}>
            <View style={styles.tabs_header}> 
-            <Text style={styles.tabs_title}>Mobberizer</Text>  
-            <Text style={styles.tabs_subtitle}>to aplikacja mobilna przeznaczona dla osób, które spotkały się z
+            <Text style={styles.tabs_logo}>Mobberizer</Text>  
+
+            <Text style={styles.tabs_text}>to aplikacja mobilna przeznaczona dla osób, które spotkały się z
              niewłaściwymi zachowaniami w pracy o charakterze mobbingowym i poszukują pomocy psychologicznej i
              prawnej, a także podstawowych informacji na temat mobbingu oraz porad jak zachować się z trudnej,
              stresującej sytuacji. {"\n"}
              </Text>
-             <Text style={styles.tabs_subtitle}>Wiele osób pada ofiarą zjawiska mobbingu w pracy,
+             <Text style={styles.tabs_text}>Wiele osób pada ofiarą zjawiska mobbingu w pracy,
              pomimo tego ma trudności w określeniem tego czy zasadnym jest uznać zachowanie
              przełożonego lub współpracowników za zachowania mobbingowe. Najczęściej w pierwszym
              odruchu odrzuca taką myśl, stara się jak najlepiej wykonywać zadania, realizować się
@@ -23,7 +24,7 @@ export default function About() {
              to zachowania mobbingowe się nasilają. Wtedy stopniowo pojawia się poczucie bezradności,
              braku wpływu, zaczynają się problemy zdrowotne.{"\n"}</Text>
              
-             <Text style={styles.tabs_subtitle}>
+             <Text style={styles.tabs_text}>
              W razie dalszych wątpliwości, istnieje możliwość kontaktu z psychologiem pracy ze stowarzyszenia antymobbingowego OSA.  
               {"\n"}</Text>
              </View>

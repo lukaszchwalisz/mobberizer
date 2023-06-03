@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
       padding:10,
       borderWidth: 0.5,
       borderRadius: 20,
-      borderColor: lightmode.blue,
+      // borderColor: lightmode.blue,
       backgroundColor:'#fff',
 
     },
@@ -57,17 +57,26 @@ export const styles = StyleSheet.create({
       textAlign: "justify",
       color: "#000",
       fontSize: 14,
-      fontFamily: "PoltawskiNowy-MediumItalic",
+      fontFamily: "Montserrat-MediumItalic",
       },
 
-   tabs_text: {
-    // textAlign: "justify",
-      margin: 0,
+
+    tabs_text: {
+      textAlign: "justify",
+      padding: 0,
       color: "#000",
       fontSize: 14,
       fontFamily: "Montserrat-Regular",
     },
     
+    tabs_bold: {
+      textAlign: "justify",
+      padding: 0,
+      color: "#000",
+      fontSize: 14,
+      fontFamily: "Montserrat-Bold",
+    },
+
     quotes: {
       padding: 5,
       textAlign: "justify",

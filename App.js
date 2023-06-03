@@ -22,15 +22,12 @@ export default function App() {
     'Inter-Thin': require('./assets/fonts/Inter/Inter-Thin.ttf'),
     'Inter-Black': require('./assets/fonts/Inter/Inter-Black.ttf'),
     'Inter-Light': require('./assets/fonts/Inter/Inter-Light.ttf'),
-    'Montserrat-Black': require('./assets/fonts/Montserrat/Montserrat-Black.ttf'),
+    'Montserrat-Bold': require('./assets/fonts/Montserrat/Montserrat-Bold.ttf'),
     'Montserrat-Regular': require('./assets/fonts/Montserrat/Montserrat-Regular.ttf'),
-    'Montserrat-Light': require('./assets/fonts/Montserrat/Montserrat-Light.ttf'),
-    'Montserrat-Thin': require('./assets/fonts/Montserrat/Montserrat-Thin.ttf'),
+    'Montserrat-MediumItalic': require('./assets/fonts/Montserrat/Montserrat-MediumItalic.ttf'),
     'PoltawskiNowy-Regular': require('./assets/fonts/Poltawski/PoltawskiNowy-Regular.ttf'),
     'PoltawskiNowy-Italic': require('./assets/fonts/Poltawski/PoltawskiNowy-Italic.ttf'),
-    'PoltawskiNowy-MediumItalic': require('./assets/fonts/Poltawski/PoltawskiNowy-MediumItalic.ttf'),
     'PoltawskiNowy-Medium': require('./assets/fonts/Poltawski/PoltawskiNowy-Medium.ttf'),
-    'PoltawskiNowy-Bold': require('./assets/fonts/Poltawski/PoltawskiNowy-Bold.ttf'),
   });
 
   if (!fontsLoaded) {
