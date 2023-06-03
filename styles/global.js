@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
       padding:10,
       borderWidth: 0.5,
       borderRadius: 20,
-      borderColor: '#2483DB',
+      borderColor: lightmode.blue,
       backgroundColor:'#fff',
 
     },
