@@ -16,7 +16,7 @@ const RenderItem = ({ data }) => {
         <TouchableWithoutFeedback style={styles.button} mode='outlined' color="#111" uppercase={false}  onPress={() => {
         navigation.push(data.id)
         }}> 
-        <Text style={styles.tabs_text}>{data.title}</Text>
+        <Text style={styles.quotes}>{data.title}</Text>
         </TouchableWithoutFeedback>
         </ScrollView>
     );

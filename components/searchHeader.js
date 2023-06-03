@@ -7,8 +7,7 @@ const Header = ({onSearch}) => {
         <View style={styles.tabs_header}>
         <Text style={styles.tabs_title}>FAQ </Text>
         <Text style={styles.tabs_subtitle}>Najczęściej zadawane pytania dotyczące mobbingu
-        w miejscu pracy.{"\n"}{"\n"}
-        Stan prawny: 04.05.2022 r.{"\n"}
+        w miejscu pracy.{"\n"}
         </Text>
         <View
           style={{

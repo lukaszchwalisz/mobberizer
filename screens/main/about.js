@@ -9,9 +9,11 @@ export default function About() {
   return (
          <ScrollView style={styles.contain}>
            <View style={styles.tabs_header}> 
-            <Text style={styles.tabs_logo}>Mobberizer</Text>  
-
-            <Text style={styles.tabs_text}>to aplikacja mobilna przeznaczona dla osób, które spotkały się z
+            <Text style={styles.tabs_logo}>Mobberizer{"\n"}</Text>  
+             
+            <Text style={styles.tabs_text}> 
+            <Text style={styles.tabs_bold}>Mobberizer </Text> 
+            to aplikacja mobilna przeznaczona dla osób, które spotkały się z
              niewłaściwymi zachowaniami w pracy o charakterze mobbingowym i poszukują pomocy psychologicznej i
              prawnej, a także podstawowych informacji na temat mobbingu oraz porad jak zachować się z trudnej,
              stresującej sytuacji. {"\n"}
