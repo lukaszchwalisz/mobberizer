@@ -1,10 +1,29 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import React from 'react';
+import { ScrollView, View, Text } from 'react-native';
+import 'react-native-gesture-handler';
+import { styles } from '../../styles/global.js';
+
 
 export default function Kontakt() {
   return (
-    <View>
-      <Text>Kontakt</Text>
-    </View>
+         <ScrollView style={styles.contain}>
+           <View style={styles.tabs_header}> 
+             <Text style={styles.tabs_title}>Kontakt.{"\n"}</Text>
+
+             <Text style={styles.tabs_italic}>obsługa aplikacji:{"\n"}
+             </Text>
+             <Text style={styles.tabs_text}>autor:    Łukasz Chwalisz{"\n"}
+                                            mail:     lukaszchwalisz@proton.me{"\n"}
+             </Text>
+
+             <Text style={styles.tabs_italic}>pomoc:{"\n"}
+             </Text>
+             <Text style={styles.tabs_text}>Punkt Konsultacyjny OSA w Poznaniu{"\n"}
+                                            mail:     osa-poznan@wp.pl{"\n"}
+                                            tel.      +48 665 696 372{"\n"}
+             </Text> 
+
+             </View>
+        </ScrollView>
   )
-}
+};
