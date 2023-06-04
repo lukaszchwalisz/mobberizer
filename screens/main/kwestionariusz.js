@@ -1,8 +1,11 @@
 import React from 'react';
 import { ScrollView, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
-import { Divider } from 'react-native-paper';
+import { IconButton } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
+import A from 'react-native-a';
+
+const url_fism="https://lukaszchwalisz.pythonanywhere.com/testy/kwestmobbing";
 
 
 export default function Kwestionariusz() {
@@ -27,8 +30,15 @@ export default function Kwestionariusz() {
         zjawiska mobbingu, którego doświadczyły pojedyncze osoby, jak i grupa badana.{"\n"}
         </Text>
 
-        </View>
+        <Text>
+            <IconButton
+            icon="hand-pointing-right"
+            // color={Colors.red500}
+            size={20}
+            />    
+        <A href={url_fism}> Kwestionariusz form i skutków mobbingu</A>{"\n"}</Text>
 
+        </View>
         </ScrollView>
   )}
 

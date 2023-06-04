@@ -1,14 +1,14 @@
 import React from 'react';
-import { ScrollView, View, Text } from 'react-native';
+import { ScrollView, StyleSheet, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
-import { Button, Divider } from 'react-native-paper';
+import { Button, Divider} from 'react-native-paper';
 
 export default function K5({ navigation})  {
       return (
             <ScrollView>
             <View style={styles.tabs_header}>
-            <Text style={styles.tabs_title}>Krok 5. Przygotowanie mentalne.{"\n"}</Text>
+            <Text style={styles.tabs_title}>5. Przygotowanie mentalne.{"\n"}</Text>
             <Divider />
             <Text style={styles.tabs_text}>{"\n"}
             Sprawy sądowe o mobbing wywołują wiele emocji, pochłaniają całkowicie, pozostawiają w poczuciu krzywdy, niesprawiedliwości. Pojawiają się ambiwalentne
@@ -76,14 +76,14 @@ export default function K5({ navigation})  {
             <View><Text>{"\n"}</Text></View>
 
          
-            <Button style={styles.button} mode='outlined' color="#000" uppercase={false}            
+            <Button style={style.Button} mode='outlined' color="#000" uppercase={false}            
             onPress={() => {
             navigation.navigate('k4')
             }}>
             Cofnij
             </Button>
 
-            <Button style={styles.button} icon='walk' mode='outlined' color="#111" uppercase={false}            
+            <Button style={style.Button} mode='contained' color="#E63946" uppercase={false}            
             onPress={() => {
             navigation.navigate('k0')
             }}>
@@ -93,4 +93,16 @@ export default function K5({ navigation})  {
             </View>
             </ScrollView>
       )
-}
+};
+const style = StyleSheet.create({
+      Button: {
+        flex: 1,
+        padding:0,
+        textAlign: "justify",
+        marginVertical:5,
+        marginHorizontal:20,
+        padding:10,
+        borderWidth: 0.5,
+        borderRadius: 20,
+      }
+    });

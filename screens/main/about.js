@@ -1,11 +1,11 @@
 import React from 'react';
 import { ScrollView, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
-import { Divider } from 'react-native-paper';
+import { Button } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
 
 
-export default function About() {
+export default function About({navigation}) {
   return (
          <ScrollView style={styles.contain}>
            <View style={styles.tabs_header}> 
@@ -29,6 +29,14 @@ export default function About() {
              <Text style={styles.tabs_text}>
              W razie dalszych wątpliwości, istnieje możliwość kontaktu z psychologiem pracy ze stowarzyszenia antymobbingowego OSA.  
               {"\n"}</Text>
+
+            <Button style={styles.button}  mode='outlined' color="#000" uppercase={false}            
+            onPress={() => {
+            navigation.navigate('Kontakt')
+            }}>
+            Kontakt
+            </Button>
+          
              </View>
 
         </ScrollView>

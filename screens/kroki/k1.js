@@ -1,17 +1,15 @@
 import React from 'react';
-import { ScrollView, View, Text } from 'react-native';
+import { ScrollView, StyleSheet, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
 import { Button, Divider } from 'react-native-paper';
-import A from 'react-native-a';
 
-const url_fism="https://lukaszchwalisz.pythonanywhere.com/testy/kwestmobbing";
 
 export default function K1 ({ navigation })  {
       return (
             <ScrollView>
             <View style={styles.tabs_header}>
-            <Text style={styles.tabs_title}>Krok 1. Diagnoza sytuacji.{"\n"}</Text>
+            <Text style={styles.tabs_title}>1. Diagnoza sytuacji.{"\n"}</Text>
             <Divider />
             <Text style={styles.tabs_text}>{"\n"} 
             Na początku nie masz pewności czy zaszły jakieś konkretne zmiany. Odczuwasz się, że codzienne przychodzenie do pracy przestało sprawiać przyjemność. 
@@ -36,20 +34,24 @@ export default function K1 ({ navigation })  {
             Podany przykład może odnosić do wielu spraw, które są zgłaszane do stowarzyszenia OSA. Na tym etapie szczególnie ważna jest diagnoza sytuacji, w jakieś się znajdujesz.
             Dopytujemy o formy zachowań mobbingowych, skutki zdrowotne, czas trwania, intensywność oraz dotychczasowe kroki, które już zostały podjęte. Wypełniasz stosowny kwestionariusz.
             W kolejnym kroku zaproponujemy Tobie kolejne działania.{"\n"}{"\n"}
-      
-            Link:{"\n"} <A href={url_fism}> Kwestionariusz form i skutków mobbingu</A>{"\n"}
             </Text>
-            <Divider /> 
-            <View><Text>{"\n"}</Text></View>
+
+            <Button style={style.Button} icon='hand-pointing-right' mode='contained' color="#A8DADC" uppercase={false}            
+            onPress={() => {
+            navigation.navigate('Kwestionariusz')
+            }}>
+            Kwestionariusz FiSM
+            </Button>  
+
             
-            <Button style={styles.button} mode='outlined' color="#000" uppercase={false}            
+            <Button style={style.Button} mode='contained' color="#457B9D" uppercase={false}            
             onPress={() => {
             navigation.push('k2')
             }}>
-            Krok 2
+            Następny krok
             </Button>
 
-            <Button style={styles.button}  mode='outlined' color="#000" uppercase={false}            
+            <Button style={style.Button}  mode='contained' color="#E63946" uppercase={false}            
             onPress={() => {
             navigation.navigate('k0')
             }}>
@@ -58,4 +60,17 @@ export default function K1 ({ navigation })  {
             </View>
             </ScrollView>
       )
-}
+};
+
+const style = StyleSheet.create({
+      Button: {
+        flex: 1,
+        padding:0,
+        textAlign: "justify",
+        marginVertical:5,
+        marginHorizontal:20,
+        padding:10,
+        borderWidth: 0.5,
+        borderRadius: 20,
+      }
+    });

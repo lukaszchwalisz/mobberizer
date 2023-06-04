@@ -54,7 +54,7 @@ export const styles = StyleSheet.create({
 
     tabs_italic: {
       padding: 0,
-      textAlign: "justify",
+      // textAlign: "justify",
       color: "#000",
       fontSize: 14,
       fontFamily: "Montserrat-MediumItalic",
@@ -62,7 +62,7 @@ export const styles = StyleSheet.create({
 
 
     tabs_text: {
-      textAlign: "justify",
+      // textAlign: "justify",
       padding: 0,
       color: "#000",
       fontSize: 14,
