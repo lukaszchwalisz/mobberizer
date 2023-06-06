@@ -41,30 +41,30 @@ export default function Main_Drawler() {
 
   const Header = () => { 
     return (
-    //   <ImageBackground
-    //   style={{ flex: 1 }}
-    //   imageStyle={{ 
-    //     borderTopLeftRadius: 0,
-    //     borderTopRightRadius: 0,
-    //     borderBottomLeftRadius: 25,
-    //     borderBottomRightRadius: 25,
-    //     }}
-    //   source={
-    //     require('../assets/images/pallete.png')
-    //   }
-    // >
+      <ImageBackground
+      style={{ flex: 1 }}
+      imageStyle={{ 
+        borderTopLeftRadius: 0,
+        borderTopRightRadius: 0,
+        borderBottomLeftRadius: 25,
+        borderBottomRightRadius: 25,
+        }}
+      source={
+        require('../assets/images/main_drawler.png')
+      }
+    >
       <View>
         <View style={style.image} >
-        <Image
+        {/* <Image
         style={{margin:0, width: 50, height: 50}}
         source={require('../assets/icon.png')}
-        />
+        /> */}
         <Text style={styles.tabs_logo}>M o b b e r i z er</Text>
         </View>
    
         {/* <Divider /> */}
-      </View>
-      // </ImageBackground>
+      </View> 
+      </ImageBackground>
     )
   };
 
