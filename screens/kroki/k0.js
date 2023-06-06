@@ -11,36 +11,36 @@ export default function K0({ navigation }) {
   const DATA = [
     {
       id: 'k1',
-      title: '1. Diagnoza sytuacji.',
+      title: 'Diagnoza sytuacji',
     },
     {
       id: 'k2',
-      title: '2. Zgłoszenie problemu.',
+      title: 'Zgłoszenie problemu',
     },
     {
       id: 'k3',
-      title: '3. Wybór strategii.',
+      title: 'Wybór strategii',
     },
     {
       id: 'k4',
-      title: '4. Realizacja strategii.',
+      title: 'Realizacja strategii',
     },
     {
       id: 'k5',
-      title: '5. Przygotowanie mentalne.',
+      title: 'Przygotowanie mentalne',
     }
   ];
 
 
   const renderItem = ({ item }) => (
-
-          <Button style={styles.button}  icon='menu-right' mode='outlined' color="#111" uppercase={false}            
+          <View>
+          <Button style={styles.button}  mode='outlined' color="#000" uppercase={false}            
           onPress={() => {
             navigation.push(item.id)
           }}>
          <Text style={styles.tabs_text}>{item.title}</Text> 
           </Button>
-
+        </View>
 
   );
 

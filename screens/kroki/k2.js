@@ -34,7 +34,7 @@ export default function K2({ navigation })  {
             Następny krok
             </Button>
 
-            <Button style={style.Button} mode='outlined' color="#457B9D" uppercase={false}            
+            <Button style={style.Button} mode='contained' color="#F1FAEE" uppercase={false}            
             onPress={() => {
             navigation.navigate('k1')
             }}>

@@ -9,7 +9,7 @@ export default function About({navigation}) {
   return (
          <ScrollView style={styles.contain}>
            <View style={styles.tabs_header}> 
-            <Text style={styles.tabs_logo}>Mobberizer{"\n"}</Text>  
+            <Text style={styles.tabs_title}>O aplikacji.{"\n"}</Text>  
              
             <Text style={styles.tabs_text}> 
             <Text style={styles.tabs_bold}>Mobberizer </Text> 
@@ -30,13 +30,6 @@ export default function About({navigation}) {
              W razie dalszych wątpliwości, istnieje możliwość kontaktu z psychologiem pracy ze stowarzyszenia antymobbingowego OSA.  
               {"\n"}</Text>
 
-            <Button style={styles.button}  mode='outlined' color="#000" uppercase={false}            
-            onPress={() => {
-            navigation.navigate('Kontakt')
-            }}>
-            Kontakt
-            </Button>
-          
              </View>
 
         </ScrollView>

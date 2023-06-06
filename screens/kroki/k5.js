@@ -76,7 +76,7 @@ export default function K5({ navigation})  {
             <View><Text>{"\n"}</Text></View>
 
          
-            <Button style={style.Button} mode='outlined' color="#000" uppercase={false}            
+            <Button style={style.Button} mode='contained' color="#F1FAEE" uppercase={false}            
             onPress={() => {
             navigation.navigate('k4')
             }}>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View } from "react-native";
 import { styles } from '../styles/global.js';
-// import { Button, Surface} from 'react-native-paper';
+import { Divider} from 'react-native-paper';
 import 'react-native-gesture-handler';
 import { ScrollView, TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import { useNavigation } from "@react-navigation/native";
@@ -114,8 +114,9 @@ const RenderItem_s4 = ({ data }) => {
     return (  
         <ScrollView > 
         <View style={styles.button}>
-            <Text style={styles.tabs_text}>{data.title}</Text>
-            <Text style={styles.tabs_subtitle}>- {data.content}</Text>
+            <Text style={styles.tabs_bold}>{data.title}{"\n"}</Text>
+            <Divider />
+            <Text style={styles.quotes}>- {data.content}</Text>
         </View>
         </ScrollView>
     );

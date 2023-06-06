@@ -42,7 +42,7 @@ export default function K4({ navigation, route })  {
             Następny krok
             </Button>
 
-            <Button style={style.Button} mode='outlined' color="#457B9D" uppercase={false}            
+            <Button style={style.Button} mode='contained' color="#F1FAEE" uppercase={false}            
             onPress={() => {
             navigation.navigate('k3')
             }}>

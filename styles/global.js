@@ -13,7 +13,7 @@ export const styles = StyleSheet.create({
       borderWidth: 0.5,
       borderRadius: 20,
       // borderColor: lightmode.blue,
-      backgroundColor:'#fff',
+      // backgroundColor:'#fff',
 
     },
     input: {
@@ -81,7 +81,6 @@ export const styles = StyleSheet.create({
       padding: 5,
       textAlign: "justify",
       color: '#000',
-      backgroundColor: '#fff',
       fontSize: 14,
       fontFamily: "PoltawskiNowy-Italic",
       },

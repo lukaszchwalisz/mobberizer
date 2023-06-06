@@ -3,10 +3,10 @@ import { View, Text, Image, FlatList, StyleSheet, ImageBackground } from 'react-
 import 'react-native-gesture-handler';
 import { styles } from '../styles/global.js';
 import { Button, Divider } from 'react-native-paper';
-import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
+import 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
 
-export default function Main_Drawler({}) {
+export default function Main_Drawler() {
 
   const navigacja = useNavigation();
 
@@ -15,24 +15,27 @@ export default function Main_Drawler({}) {
       id: 'About',
       icon: 'crop-free',
       title: 'O aplikacji',
+      color: '#457B9D',
+      nav: 'about',
     },
     {
       id: 'Kontakt',
       icon: 'email-outline',
       title: 'Kontakt',
+      color: '#E63946',
+      nav: 'kontakt',
     }
   ];
 
 
   const renderItem = ({ item }) => (
         <View>
-        <TouchableWithoutFeedback onPress={() => {
+        <Button style={style.button} icon={item.icon} mode='contained' color={item.color} uppercase={false}            
+        onPress={() => {
           navigacja.navigate(item.id)
         }}>
-          <Button style={styles.button} icon={item.icon} mode='outlined' color="#111" uppercase={false} >
-          <Text style={styles.tabs_text}>{item.title}</Text> 
-          </Button>
-        </TouchableWithoutFeedback>    
+        {item.title}
+        </Button>
         </View>
         );
 
@@ -84,6 +87,14 @@ const style = StyleSheet.create({
     fontFamily: 'Inter-Regular',
     color: "#9FE2BF",
     padding: 10,
+
+  },
+  button: {
+    marginVertical:5,
+    marginHorizontal:20,
+    padding:10,
+    borderWidth: 0.5,
+    borderRadius: 20,
 
   },
   image: {

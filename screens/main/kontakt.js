@@ -8,7 +8,7 @@ export default function Kontakt() {
   return (
          <ScrollView style={styles.contain}>
            <View style={styles.tabs_header}> 
-             <Text style={styles.tabs_logo}>Kontakt{"\n"}</Text>
+             <Text style={styles.tabs_title}>Kontakt.{"\n"}</Text>
 
              <Text style={styles.tabs_bold}>obsługa aplikacji:{"\n"}
              </Text>

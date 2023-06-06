@@ -42,7 +42,7 @@ export default function Main() {
   const renderItem = ({ item }) => (
 
       <View>
-        <Button style={styles.button} icon={item.icon} mode='outlined' color="#111" uppercase={false}            
+        <Button style={styles.button} icon={item.icon} mode='outlined' color="#000" uppercase={false}            
         onPress={() => {
           navigacja.navigate(item.id)
         }}>
