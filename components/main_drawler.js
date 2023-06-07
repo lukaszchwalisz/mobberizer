@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, Image, FlatList, StyleSheet, ImageBackground } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../styles/global.js';
-import { Button, Divider } from 'react-native-paper';
+import { Button } from 'react-native-paper';
 import 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
 
@@ -15,15 +15,13 @@ export default function Main_Drawler() {
       id: 'About',
       icon: 'crop-free',
       title: 'O aplikacji',
-      color: '#457B9D',
-      nav: 'about',
+      color: '#bde0fe',
     },
     {
       id: 'Kontakt',
       icon: 'email-outline',
       title: 'Kontakt',
-      color: '#E63946',
-      nav: 'kontakt',
+      color: '#a2d2ff',
     }
   ];
 
@@ -34,7 +32,7 @@ export default function Main_Drawler() {
         onPress={() => {
           navigacja.navigate(item.id)
         }}>
-        {item.title}
+       <Text style={styles.tabs_title}>{item.title}</Text> 
         </Button>
         </View>
         );
@@ -46,8 +44,9 @@ export default function Main_Drawler() {
       imageStyle={{ 
         borderTopLeftRadius: 0,
         borderTopRightRadius: 0,
-        borderBottomLeftRadius: 25,
-        borderBottomRightRadius: 25,
+        borderBottomLeftRadius: 0,
+        borderBottomRightRadius: 0,
+        opacity: .5,
         }}
       source={
         require('../assets/images/main_drawler.png')
@@ -55,11 +54,11 @@ export default function Main_Drawler() {
     >
       <View>
         <View style={style.image} >
-        {/* <Image
-        style={{margin:0, width: 50, height: 50}}
-        source={require('../assets/icon.png')}
-        /> */}
-        <Text style={styles.tabs_logo}>M o b b e r i z er</Text>
+        <Image
+        style={{ width: 75, height: 70}}
+        source={require('../assets/icon_white.png')}
+        />
+        {/* <Text style={styles.tabs_logo}>M o b b e r i z er</Text> */}
         </View>
    
         {/* <Divider /> */}
@@ -79,23 +78,12 @@ export default function Main_Drawler() {
 };
 
 const style = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: 'center',
-    fontSize: 18,
-    fontFamily: 'Inter-Regular',
-    color: "#9FE2BF",
-    padding: 10,
-
-  },
   button: {
     marginVertical:5,
     marginHorizontal:20,
     padding:10,
     borderWidth: 0.5,
-    borderRadius: 20,
-
+    borderRadius: 10,
   },
   image: {
     flex: 1,

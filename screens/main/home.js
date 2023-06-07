@@ -1,12 +1,12 @@
 import React from 'react';
-import { Text, View, Image, StatusBar, StyleSheet,TouchableWithoutFeedback } from 'react-native';
+import { View, StatusBar} from 'react-native';
 import { DrawerActions } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import Main from '../../components/main.js';
 import Main_Drawler from '../../components/main_drawler.js';
 import { styles } from '../../styles/global.js';
 
-function MainScreen({ navigation }) {
+function MainScreen() {
   return (
     <View style={styles.contain}>
         <Main />
@@ -15,7 +15,7 @@ function MainScreen({ navigation }) {
   );
 }
 
-function CustomDrawerContent(props) {
+function CustomDrawerContent() {
   return (
     <View style={styles.contain}>
         <Main_Drawler />
@@ -49,26 +49,3 @@ export default function Home() {
       <MyDrawer />
   );
 }
-
-const style = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-    padding: 10,
-    backgroundColor:'#232323'
-  },
-  navigationContainer: {
-    backgroundColor: "#232323"
-  },
-  paragraph: {
-    padding: 16,
-    fontSize: 15,
-    textAlign: "center"
-  },
-  image: {
-    flex: 1,
-    padding:50,
-    alignItems: "center",
-  }
-});

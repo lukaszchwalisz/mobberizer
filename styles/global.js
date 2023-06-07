@@ -4,14 +4,14 @@ import { darkmode, lightmode } from './colors';
 export const styles = StyleSheet.create({
    contain: {
      flex: 1,
-      backgroundColor: lightmode.white,
+     backgroundColor: '#edf6f9',
     },
     button: {
       marginVertical:5,
       marginHorizontal:20,
       padding:10,
       borderWidth: 0.5,
-      borderRadius: 20,
+      borderRadius: 10,
       // borderColor: lightmode.blue,
       // backgroundColor:'#fff',
 
