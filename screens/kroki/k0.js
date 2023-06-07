@@ -46,12 +46,11 @@ export default function K0({ navigation }) {
 
   const Header = () => {
     return (
-        <View style={styles.tabs_header}>
+        <View style={styles.tabs_header} >
         <Text style={styles.tabs_title}>Krok po kroku </Text>
         <Text style={styles.tabs_subtitle}>Kolejne kroki prowadzące do poradzenia sobie z sytuacją mobbingową w pracy. {"\n"}
         </Text>
-        <Divider /> 
-          
+         
       </View>
 
     )

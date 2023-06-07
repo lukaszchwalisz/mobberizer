@@ -10,7 +10,7 @@ export const styles = StyleSheet.create({
       marginVertical:5,
       marginHorizontal:20,
       padding:10,
-      borderWidth: 0.5,
+      // borderWidth: 0.5,
       borderRadius: 10,
       // borderColor: lightmode.blue,
       // backgroundColor:'#fff',
@@ -32,7 +32,7 @@ export const styles = StyleSheet.create({
 
     tabs_logo: {
       justifyContent: "center",
-      color:"#000",
+      color:"#1D3557",
       fontSize: 40,
       fontFamily: "RoadRage-Regular",
     },

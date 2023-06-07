@@ -3,6 +3,7 @@ import { View, Text, FlatList, StyleSheet, Image, ImageBackground} from 'react-n
 import 'react-native-gesture-handler';
 import { styles } from '../styles/global.js';
 import { Button, Divider } from 'react-native-paper';
+import { LinearGradient } from 'expo-linear-gradient';
 
 import { useNavigation } from '@react-navigation/native';
 
@@ -52,27 +53,17 @@ export default function Main() {
         onPress={() => {
           navigacja.navigate(item.id)
         }}>
+
        <Text style={styles.tabs_title}>{item.title}</Text> 
+       
         </Button>  
+
       </View>
         );
 
   const Header = () => {
     return (
-      <ImageBackground
-      style={{ flex: 1 }}
-      imageStyle={{ 
-        borderTopLeftRadius: 0,
-        borderTopRightRadius: 0,
-        borderBottomLeftRadius: 0,
-        borderBottomRightRadius: 0,
-        opacity: .5,
-        // height:1000,
-        }}
-        source={
-          require('../assets/images/main_drawler.png')
-          }
-        >
+
       <View>
         <View style={style.image} >
         <Image
@@ -81,10 +72,7 @@ export default function Main() {
         />
         <Text style={styles.tabs_logo}>M o b b e r i z er</Text>
         </View>
-        {/* <Divider />
-        <View><Text>{"\n"}</Text></View> */}
       </View>
-      </ImageBackground>
     )
   };
   return (
@@ -102,5 +90,7 @@ const style = StyleSheet.create({
     flex: 1,
     padding:50,
     alignItems: "center",
-  }
+  },
+
+
 });
