@@ -113,7 +113,8 @@ const Header = ({onSearch}) => {
     return (
         <View style={styles.tabs_header}>
         <Text style={styles.tabs_title}>Słownik</Text>
-        <Text style={styles.tabs_italic}>- słownik terminów psychologicznych i prawnych związanych z mobbingiem w pracy{"\n"}</Text>
+        <Text style={styles.tabs_subtitle}>- słownik terminów psychologicznych i prawnych związanych z mobbingiem w pracy{"\n"}</Text>
+
         <View
           style={{
             borderWidth:.2,
@@ -130,6 +131,7 @@ const Header = ({onSearch}) => {
           style={{ flex: 1, fontSize:16, fontFamily:"Roboto"}} 
         />
         </View>
+  
       </View>
     )
   };

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, View, Text } from 'react-native';
+import { ScrollView, View, Text, Image } from 'react-native';
 import 'react-native-gesture-handler';
 import { IconButton } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
@@ -7,12 +7,27 @@ import A from 'react-native-a';
 
 const url_fism="https://lukaszchwalisz.pythonanywhere.com/testy/kwestmobbing";
 
+const Header = () => {
+  return (
+    <View style={styles.tabs_header} >
+        <Text style={styles.tabs_title}>Kwestionariusz FiSM{"\n"}</Text>
+         <Image
+          style={{ flex: 1 }}
+          source={
+            require('../../assets/images/kwestionariusz.png')
+          }
+        />  
+        
+    </View>
+  )
+};
 
 export default function Kwestionariusz() {
   return (
+        
         <ScrollView style={styles.contain}>
+        <Header />
         <View style={styles.tabs_header}> 
-        <Text style={styles.tabs_logo}>Kwestionariusz FiSM{"\n"}</Text>  
         <Text style={styles.tabs_text}> 
         Kwestionariusz opracowany na podstawie wieloletnich doświadczeń pracy z osobami mobbingowanymi pracy,
         opierający się na kryterium zachowań mobbingowych wg Heinza Leymanna - <Text style={styles.tabs_bold}>Leymann Inventory of Psychological Terror (LIPT)</Text>.
@@ -37,9 +52,9 @@ export default function Kwestionariusz() {
             size={20}
             />    
         <A href={url_fism}> Kwestionariusz form i skutków mobbingu</A>{"\n"}</Text>
-
         </View>
         </ScrollView>
+        
   )}
 
 

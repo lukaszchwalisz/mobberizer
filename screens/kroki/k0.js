@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, FlatList } from 'react-native';
+import { View, Text, FlatList, Image } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
 import { Divider,Button } from 'react-native-paper';
@@ -50,7 +50,12 @@ export default function K0({ navigation }) {
         <Text style={styles.tabs_title}>Krok po kroku </Text>
         <Text style={styles.tabs_subtitle}>Kolejne kroki prowadzące do poradzenia sobie z sytuacją mobbingową w pracy. {"\n"}
         </Text>
-         
+        <Image
+          style={{ flex: 1 }}
+          source={
+            require('../../assets/images/kroki.png')
+          }
+        />  
       </View>
 
     )

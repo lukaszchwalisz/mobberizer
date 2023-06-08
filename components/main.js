@@ -1,9 +1,9 @@
 import React from 'react';
-import { View, Text, FlatList, StyleSheet, Image, ImageBackground} from 'react-native';
+import { View, Text, FlatList, StyleSheet, Image } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../styles/global.js';
-import { Button, Divider } from 'react-native-paper';
-import { LinearGradient } from 'expo-linear-gradient';
+import { Button } from 'react-native-paper';
+
 
 import { useNavigation } from '@react-navigation/native';
 

@@ -25,7 +25,7 @@ export const styles = StyleSheet.create({
         },
 
     tabs_header: {
-    backgroundColor: "#fff",
+    backgroundColor: "#edf6f9",
     padding: 20,
     textAlign: "justify",
     },

@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, FlatList } from 'react-native';
+import { View, Text, FlatList, Image } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
 import { Surface } from 'react-native-paper';
@@ -39,8 +39,14 @@ export default function S0({ navigation }) {
     return (
       <View style={styles.tabs_header}>
         <Text style={styles.tabs_title}>Wyszukiwarka instytucji </Text>
-        <Text style={styles.tabs_subtitle}>Dane adresowe instytucji publicznych.
+        <Text style={styles.tabs_subtitle}>Dane adresowe instytucji publicznych.{"\n"}
         </Text>
+        <Image
+          style={{ flex: 1 }}
+          source={
+            require('../../assets/images/database.png')
+          }
+        />  
       </View>
 
     )
