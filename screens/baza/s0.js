@@ -38,8 +38,8 @@ export default function S0({ navigation }) {
   const Header = () => {
     return (
       <View style={styles.tabs_header}>
-        <Text style={styles.tabs_title}>Wyszukiwarka instytucji </Text>
-        <Text style={styles.tabs_subtitle}>Dane adresowe instytucji publicznych.{"\n"}
+        <Text style={styles.tabs_title}>Wyszukiwarka instytucji pomocowych</Text>
+        <Text style={styles.tabs_subtitle}>Znajdż dane adresowe instytucji publicznej.{"\n"}
         </Text>
         <Image
           style={{ flex: 1 }}

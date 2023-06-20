@@ -11,7 +11,7 @@ const Sear = createStackNavigator()
 export default function Baza({ navigation, route }) {
   return (
        <Sear.Navigator>
-             <Sear.Screen name="s0" component={ S0 } options={{ title: 'Wyszukiwarka instytucji',
+             <Sear.Screen name="s0" component={ S0 } options={{ title: 'Baza danych',
               // headerStyle: {backgroundColor: '#2f2f2f'}, 
               // headerTintColor:  '#9FE2BF', 
               // headerTitleStyle: { color: '#9FE2BF' }
