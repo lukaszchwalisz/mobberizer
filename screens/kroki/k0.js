@@ -51,9 +51,9 @@ export default function K0({ navigation }) {
         <Text style={styles.tabs_subtitle}>Kolejne kroki prowadzące do poradzenia sobie z sytuacją mobbingową w pracy. {"\n"}
         </Text>
         <Image
-          style={{ flex: 1 }}
+          style={{ flex: 1, width: '100%', height: 300 }}
           source={
-            require('../../assets/images/kroki.png')
+            require('../../assets/images/image30.png')
           }
         />  
       </View>

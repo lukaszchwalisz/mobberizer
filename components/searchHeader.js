@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, TextInput } from "react-native";
+import { View, Text, TextInput, Image } from "react-native";
 import { styles } from '../styles/global.js';
 
 const Header = ({onSearch}) => {
@@ -9,6 +9,12 @@ const Header = ({onSearch}) => {
         <Text style={styles.tabs_subtitle}>Najczęściej zadawane pytania dotyczące mobbingu
         w miejscu pracy.{"\n"}
         </Text>
+        <Image
+          style={{ flex: 1, width: '100%', height: 300, marginBottom: 20 }}
+          source={
+            require('../assets/images/image37.png')
+            }
+        /> 
         <View
           style={{
             borderWidth:.2,
@@ -25,6 +31,7 @@ const Header = ({onSearch}) => {
           style={{ flex: 1, fontSize:16, fontFamily:"Roboto"}} 
         />
         </View>
+ 
       </View>
     )
   };
@@ -87,7 +94,6 @@ const Header = ({onSearch}) => {
         <View style={styles.tabs_header}>
         <Text style={styles.tabs_title}>Struktura sądów powszechnych.</Text>
         <Text style={styles.tabs_subtitle}>Sądy apelacyjne, sądy okręgowe, sądy rejonowe, ze szczególnym uzwględnieniem sądów pracy (tag: #wp).{"\n"}
-
         </Text>
         <View
           style={{
@@ -114,7 +120,12 @@ const Header = ({onSearch}) => {
         <View style={styles.tabs_header}>
         <Text style={styles.tabs_title}>Słownik</Text>
         <Text style={styles.tabs_subtitle}>- słownik terminów psychologicznych i prawnych związanych z mobbingiem w pracy{"\n"}</Text>
-
+        <Image
+          style={{ flex: 1, width: '100%', height: 300, marginBottom: 20 }}
+          source={
+            require('../assets/images/image46.png')
+            }
+        /> 
         <View
           style={{
             borderWidth:.2,

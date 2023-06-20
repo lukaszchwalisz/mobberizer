@@ -42,9 +42,9 @@ export default function S0({ navigation }) {
         <Text style={styles.tabs_subtitle}>Znajdż dane adresowe instytucji publicznej.{"\n"}
         </Text>
         <Image
-          style={{ flex: 1 }}
+          style={{ flex: 1, width: '100%', height: 300 }}
           source={
-            require('../../assets/images/database.png')
+            require('../../assets/images/image43.png')
           }
         />  
       </View>

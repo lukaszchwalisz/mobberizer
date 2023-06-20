@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, View, Text } from 'react-native';
+import { ScrollView, View, Text, Image } from 'react-native';
 import 'react-native-gesture-handler';
 import { Button } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
@@ -10,7 +10,12 @@ export default function About({navigation}) {
          <ScrollView style={styles.contain}>
            <View style={styles.tabs_header}> 
             <Text style={styles.tabs_title}>O aplikacji.{"\n"}</Text>  
-             
+            <Image
+              style={{ flex: 1, width: '100%', height: 300, marginBottom: 20 }}
+              source={
+                require('../../assets/images/image42.png')
+              }
+            />  
             <Text style={styles.tabs_text}> 
             <Text style={styles.tabs_bold}>Mobberizer </Text> 
             to aplikacja mobilna przeznaczona dla osób, które spotkały się z
