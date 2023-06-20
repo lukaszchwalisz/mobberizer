@@ -4,7 +4,7 @@ import { darkmode, lightmode } from './colors';
 export const styles = StyleSheet.create({
    contain: {
      flex: 1,
-     backgroundColor: '#edf6f9',
+     backgroundColor: '#fff',
     },
     button: {
       marginVertical:5,
@@ -25,7 +25,7 @@ export const styles = StyleSheet.create({
         },
 
     tabs_header: {
-    backgroundColor: "#edf6f9",
+    backgroundColor: "#fff",
     padding: 20,
     textAlign: "justify",
     },

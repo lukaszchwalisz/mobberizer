@@ -12,7 +12,7 @@ const Header = () => {
     <View style={styles.tabs_header} >
         <Text style={styles.tabs_title}>Kwestionariusz FiSM{"\n"}</Text>
          <Image
-          style={{ flex: 1, width: '100%', height: 300, marginBottom: 20 }}
+          style={{ flex: 1, width: '100%', height: 300 }}
           source={
             require('../../assets/images/image29.png')
           }

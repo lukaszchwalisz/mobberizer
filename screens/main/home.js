@@ -43,7 +43,7 @@ function MyDrawer() {
       <Drawer.Screen name="Mobberizer" component={MainScreen} 
       options=
       {{ headerTitleAlign: "center",
-      headerStyle: { backgroundColor: '#edf6f9'},
+      headerStyle: { backgroundColor: '#fff'},
       // headerTitleStyle: { color: '#9FE2BF' },
       // headerTintColor:  '#9FE2BF'
       }}

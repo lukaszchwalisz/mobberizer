@@ -7,6 +7,7 @@ const bgdark = '#2f2f2f';
 // lightmode
 const white = '#fff';
 const blue = '#2483DB'
+const bluish = '#edf6f9'
 
 
 const darkmode = {
@@ -14,7 +15,7 @@ const darkmode = {
 };
 
 const lightmode = {
-    white, blue
+    white, blue, bluish
 };
 
 
