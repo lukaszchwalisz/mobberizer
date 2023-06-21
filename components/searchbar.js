@@ -4,26 +4,25 @@ import React from 'react'
 const Searchbar = ({onSearch}) => {
   return (
    
-    <View
+      <View
           style={{
-            borderWidth:2,
+            borderWidth:1,
             borderRadius: 10,
-            borderColor: "yellow",
-            padding: 3,
-            backgroundColor: "#000", 
+            borderColor: "#457B9D",
+            padding: 5,
+            backgroundColor: "#a2d2ff", 
             alignItems: "center",
           }}
         >
         <TextInput
           placeholder="Szukaj"
           placeholderfontSize="14"
-          placeholderTextColor={'yellow'}
+          placeholderTextColor={'#457B9D'}
           onChangeText={onSearch}
-          style={{ flex: 1, fontSize:14, fontFamily:"Roboto", color: '#d8e2dc'}} 
+          style={{ flex: 1, fontSize:16, fontFamily:"Roboto", color:"#E63946"}} 
         />
-       
-    </View>
+      </View>
   )
 }
 
-export {Searchbar}
+export { Searchbar };
