@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, FlatList, Image } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
-import { Surface } from 'react-native-paper';
+import { Button  } from 'react-native-paper';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 
 
@@ -25,14 +25,14 @@ export default function S0({ navigation }) {
 
 
   const renderItem = ({ item }) => (
-        <TouchableWithoutFeedback onPress={() => {
-          navigation.push(item.id)
-        }}> 
-
-          <View style={styles.button}>
-            <Text style={styles.tabs_text}>{item.title}</Text>
-          </View>
-        </TouchableWithoutFeedback>
+        <View> 
+          <Button style={styles.button}  mode='outlined' color="#fff" uppercase={false}            
+          onPress={() => {
+            navigation.push(item.id)
+          }}>
+          <Text style={styles.tabs_text}>{item.title}</Text> 
+          </Button>
+        </View>
   );
 
   const Header = () => {

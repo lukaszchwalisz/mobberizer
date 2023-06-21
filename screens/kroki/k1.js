@@ -36,7 +36,7 @@ export default function K1 ({ navigation })  {
             W kolejnym kroku zaproponujemy Tobie kolejne działania.{"\n"}{"\n"}
             </Text>
 
-            <Button style={style.Button} icon='hand-pointing-right' mode='contained' color="#A8DADC" uppercase={false}            
+            <Button style={style.Button} icon='clipboard-text-outline' mode='contained' color="#A8DADC" uppercase={false}            
             onPress={() => {
             navigation.navigate('Kwestionariusz')
             }}>

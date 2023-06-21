@@ -38,7 +38,7 @@ export default function Main() {
     },
     {
       id: 'Kwestionariusz',
-      icon: 'format-list-checkbox',
+      icon: 'clipboard-text-outline',
       title: 'Kwestionariusz',
       color: '#90e0ef',
     },

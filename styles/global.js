@@ -40,12 +40,10 @@ export const styles = StyleSheet.create({
     color: '#000',
     fontSize: 18,
     fontFamily: "PoltawskiNowy-Medium",
-    textAlign: "justify",
     },
 
     tabs_subtitle: {
       padding: 0,
-      textAlign: "justify",
       color: "#000",
       fontSize: 12,
       fontFamily: "PoltawskiNowy-Regular",
@@ -67,7 +65,6 @@ export const styles = StyleSheet.create({
     },
     
     tabs_bold: {
-      textAlign: "justify",
       padding: 0,
       color: "#000",
       fontSize: 14,

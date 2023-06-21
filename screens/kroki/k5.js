@@ -19,7 +19,7 @@ export default function K5({ navigation})  {
             obronę i pozwanego. Wymaga to odpowiedniego przygotowania, zarówno w sferze dowodowej, jak i mentalnej. Poniżej przedstawiamy kilka
             najważniejszych zasad jakimi warto się kierować:{"\n"}{"\n"}
 
-            <Text style={styles.tabs_italic}> - obiektywne podejście do problemu, zdystansowanie się{"\n"}{"\n"}
+            <Text style={styles.tabs_bold}> - obiektywne podejście do problemu, zdystansowanie się{"\n"}{"\n"}
             </Text>
             
             Charakter przeżyć związany z mobbingiem w pracy budzi wiele emocji, wspomnienia mogą wpływać negatywnie na nastrój. Często ponowne
@@ -32,7 +32,7 @@ export default function K5({ navigation})  {
             skupiąc się na faktach i klarownej interpretacji zaistniałych wydarzeń, która druga strona będzie chciała podważyć. Dlatego ważne, aby dobrze z adwokatem
             omówić wcześniej każdy szczegół, aby być przygotowanym na pytania sądu, badź adwokata strony przeciwnej.{"\n"}{"\n"}
 
-            <Text style={styles.tabs_italic}>- wynotowanie sobie wszystkich działań mobbingowych{"\n"}{"\n"}
+            <Text style={styles.tabs_bold}>- wynotowanie sobie wszystkich działań mobbingowych{"\n"}{"\n"}
             </Text>
 
             Pamięć ludzka jest zawodna - szczególnie, kiedy towarzyszy jej silny stres, co jest nieodłącznym towarzyszem spraw mobbingowych. Zachęcamy do
@@ -41,7 +41,7 @@ export default function K5({ navigation})  {
             własnych argumentów (np. maile, listy obecności, kopie pism).
             {"\n"}{"\n"}
 
-            <Text style={styles.tabs_italic}>- zebranie dokumentacji lekarskiej, psychiatrycznej{"\n"}{"\n"}
+            <Text style={styles.tabs_bold}>- zebranie dokumentacji lekarskiej, psychiatrycznej{"\n"}{"\n"}
             </Text>
 
 
@@ -51,7 +51,7 @@ export default function K5({ navigation})  {
             sytuacją w pracy i nie stały za tym inne czynniki zdrowotne niepowiązane z mobbingiem.
             {"\n"}{"\n"}
 
-            <Text style={styles.tabs_italic}>- kontakt ze świadkami mobbingu{"\n"}{"\n"}
+            <Text style={styles.tabs_bold}>- kontakt ze świadkami mobbingu{"\n"}{"\n"}
             </Text>
             
             W sprawach o mobbing, często świadkowie są jednocześnie podwładnymi pozwanego. Wynika z tego konflikt interesow co ma swoje
@@ -65,7 +65,7 @@ export default function K5({ navigation})  {
             {"\n"}{"\n"}
 
             
-            <Text style={styles.tabs_italic}>- korzystanie z doświadczenia innych osób w podobnej sytuacji{"\n"}{"\n"}
+            <Text style={styles.tabs_bold}>- korzystanie z doświadczenia innych osób w podobnej sytuacji{"\n"}{"\n"}
             </Text>
 
             Zachęcamy do kontakt ze stowarzyszeniem OSA, które od 20 lat zajmuje sie problematyką przeciwdziałania mobbingowi w Polsce, 

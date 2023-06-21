@@ -1,7 +1,7 @@
 import React from 'react';
-import { ScrollView, View, Text, Image } from 'react-native';
+import { ScrollView, StyleSheet, View, Text, Image, Linking } from 'react-native';
 import 'react-native-gesture-handler';
-import { IconButton } from 'react-native-paper';
+import { Button } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
 import A from 'react-native-a';
 
@@ -22,7 +22,7 @@ const Header = () => {
   )
 };
 
-export default function Kwestionariusz() {
+export default function Kwestionariusz({ navigation }) {
   return (
         
         <ScrollView style={styles.contain}>
@@ -45,16 +45,42 @@ export default function Kwestionariusz() {
         zjawiska mobbingu, którego doświadczyły pojedyncze osoby, jak i grupa badana.{"\n"}
         </Text>
 
-        <Text>
-            <IconButton
-            icon="hand-pointing-right"
-            // color={Colors.red500}
-            size={20}
-            />    
-        <A href={url_fism}> Kwestionariusz form i skutków mobbingu</A>{"\n"}</Text>
+        <Button style={style.button} icon='clipboard-text-outline' mode='contained' color="#a2d2ff" uppercase={false}            
+            onPress={() => {
+              Linking.openURL('https://lukaszchwalisz.pythonanywhere.com/testy/kwestmobbing')
+            }}>
+            Kwestionariusz FiSM
+            </Button>
+
         </View>
+
         </ScrollView>
         
   )}
+
+  const style = StyleSheet.create({
+    button: {
+      flex: 1,
+      justifyContent:'center',
+      padding:10,
+      borderWidth: .7,
+      borderRadius: 20,
+      borderColor: "#d8e2dc",
+      textAlign: "justify",
+      marginVertical:5,
+      marginHorizontal:20,
+    },
+    tabs_text: {
+        color: '#000',
+        fontSize: 14,
+        fontFamily: "Montserrat-Regular",
+        },
+    tabs_subtext: {
+        color: '#000',
+        fontSize: 14,
+        fontFamily: "Montserrat-Regular",
+        },
+
+  });
 
 

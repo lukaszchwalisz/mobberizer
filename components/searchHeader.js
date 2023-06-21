@@ -46,7 +46,7 @@ const Header = ({onSearch}) => {
     return (
         <View style={styles.tabs_header}>
         <Text style={styles.tabs_title}>Państwowa Inspecja Pracy - PIP </Text>
-        <Text style={styles.tabs_subtitle}>Jednostki organizacyjne według województw.{"\n"}
+        <Text style={styles.tabs_subtitle}>- jednostki organizacyjne według województw{"\n"}
         </Text>
         <View
           style={{
@@ -74,7 +74,7 @@ const Header = ({onSearch}) => {
     return (
         <View style={styles.tabs_header}>
         <Text style={styles.tabs_title}>Stacje Sanitarno-Epidemiologiczne (Sanepid)</Text>
-        <Text style={styles.tabs_subtitle}>Jednostki organizacyjne wojewódzkie (WSSE), powiatowe (PSSE) oraz specjalne graniczne (GSSE).{"\n"}
+        <Text style={styles.tabs_subtitle}>- jednostki organizacyjne: wojewódzkie (WSSE), powiatowe (PSSE) oraz specjalne graniczne (GSSE).{"\n"}
         </Text>
         <View
           style={{
@@ -102,7 +102,7 @@ const Header = ({onSearch}) => {
     return (
         <View style={styles.tabs_header}>
         <Text style={styles.tabs_title}>Struktura sądów powszechnych.</Text>
-        <Text style={styles.tabs_subtitle}>Sądy apelacyjne, sądy okręgowe, sądy rejonowe, ze szczególnym uzwględnieniem sądów pracy (tag: #wp).{"\n"}
+        <Text style={styles.tabs_subtitle}>- sądy apelacyjne; sądy okręgowe; sądy rejonowe (ze szczególnym uzwględnieniem sądów pracy, tag: #wp).{"\n"}
         </Text>
         <View
           style={{
