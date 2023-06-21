@@ -34,7 +34,7 @@ export default function K0({ navigation }) {
 
   const renderItem = ({ item }) => (
           <View>
-          <Button style={styles.button}  mode='contained' color="#fff" uppercase={false}            
+          <Button style={styles.button}  mode='outlined' color="#fff" uppercase={false}            
           onPress={() => {
             navigation.push(item.id)
           }}>

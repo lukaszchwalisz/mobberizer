@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, TextInput, Image } from "react-native";
 import { styles } from '../styles/global.js';
+import { Searchbar } from './searchbar.js';
 
 const Header = ({onSearch}) => {
     return (
@@ -15,22 +16,27 @@ const Header = ({onSearch}) => {
             require('../assets/images/image37.png')
             }
         /> 
-        <View
+
+        <Searchbar />
+
+        {/* <View
           style={{
-            borderWidth:.2,
-            borderRadius: 50,
+            borderWidth:2,
+            borderRadius: 10,
+            borderColor: "yellow",
             padding: 3,
-            backgroundColor: "#fff", 
+            backgroundColor: "#000", 
             alignItems: "center",
           }}
         >
         <TextInput
           placeholder="Szukaj"
-          placeholderfontSize="16"
+          placeholderfontSize="14"
+          placeholderTextColor={'yellow'}
           onChangeText={onSearch}
-          style={{ flex: 1, fontSize:16, fontFamily:"Roboto"}} 
+          style={{ flex: 1, fontSize:14, fontFamily:"Roboto", color: '#d8e2dc'}} 
         />
-        </View>
+        </View> */}
  
       </View>
     )
@@ -42,22 +48,7 @@ const Header = ({onSearch}) => {
         <Text style={styles.tabs_title}>Państwowa Inspecja Pracy - PIP </Text>
         <Text style={styles.tabs_subtitle}>Jednostki organizacyjne według województw.{"\n"}
         </Text>
-        <View
-          style={{
-            borderWidth:.2,
-            borderRadius: 50,
-            padding: 3,
-            backgroundColor: "#fff", 
-            alignItems: "center",
-          }}
-        >
-        <TextInput
-          placeholder="Szukaj"
-          placeholderfontSize="16"
-          onChangeText={onSearch}
-          style={{ flex: 1, fontSize:16, fontFamily:"Roboto"}} 
-        />
-        </View>
+        <Searchbar />
       </View>
     )
   };
@@ -67,24 +58,8 @@ const Header = ({onSearch}) => {
         <View style={styles.tabs_header}>
         <Text style={styles.tabs_title}>Stacje Sanitarno-Epidemiologiczne (Sanepid)</Text>
         <Text style={styles.tabs_subtitle}>Jednostki organizacyjne wojewódzkie (WSSE), powiatowe (PSSE) oraz specjalne graniczne (GSSE).{"\n"}
-
         </Text>
-        <View
-          style={{
-            borderWidth:.2,
-            borderRadius: 50,
-            padding: 3,
-            backgroundColor: "#fff", 
-            alignItems: "center",
-          }}
-        >
-        <TextInput
-          placeholder="Szukaj"
-          placeholderfontSize="16"
-          onChangeText={onSearch}
-          style={{ flex: 1, fontSize:16, fontFamily:"Roboto"}} 
-        />
-        </View>
+        <Searchbar />
       </View>
     )
   };
@@ -95,22 +70,7 @@ const Header = ({onSearch}) => {
         <Text style={styles.tabs_title}>Struktura sądów powszechnych.</Text>
         <Text style={styles.tabs_subtitle}>Sądy apelacyjne, sądy okręgowe, sądy rejonowe, ze szczególnym uzwględnieniem sądów pracy (tag: #wp).{"\n"}
         </Text>
-        <View
-          style={{
-            borderWidth:.2,
-            borderRadius: 50,
-            padding: 3,
-            backgroundColor: "#fff", 
-            alignItems: "center",
-          }}
-        >
-        <TextInput
-          placeholder="Szukaj"
-          placeholderfontSize="16"
-          onChangeText={onSearch}
-          style={{ flex: 1, fontSize:16, fontFamily:"Roboto"}} 
-        />
-        </View>
+        <Searchbar />
       </View>
     )
   };
@@ -126,23 +86,7 @@ const Header = ({onSearch}) => {
             require('../assets/images/image46.png')
             }
         /> 
-        <View
-          style={{
-            borderWidth:.2,
-            borderRadius: 50,
-            padding: 3,
-            backgroundColor: "#fff", 
-            alignItems: "center",
-          }}
-        >
-        <TextInput
-          placeholder="Szukaj"
-          placeholderfontSize="16"
-          onChangeText={onSearch}
-          style={{ flex: 1, fontSize:16, fontFamily:"Roboto"}} 
-        />
-        </View>
-  
+        <Searchbar /> 
       </View>
     )
   };

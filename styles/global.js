@@ -4,7 +4,7 @@ import { darkmode, lightmode } from './colors';
 export const styles = StyleSheet.create({
    contain: {
      flex: 1,
-     backgroundColor: '#fff',
+     backgroundColor: lightmode.white,
     },
     button: {
       marginVertical:5,
@@ -25,13 +25,12 @@ export const styles = StyleSheet.create({
         },
 
     tabs_header: {
-    backgroundColor: "#fff",
+    backgroundColor: lightmode.white,
     padding: 20,
     textAlign: "justify",
     },
 
     tabs_logo: {
-      justifyContent: "center",
       color:"#1D3557",
       fontSize: 40,
       fontFamily: "RoadRage-Regular",
@@ -54,7 +53,6 @@ export const styles = StyleSheet.create({
 
     tabs_italic: {
       padding: 0,
-      // textAlign: "justify",
       color: "#000",
       fontSize: 14,
       fontFamily: "Montserrat-MediumItalic",
@@ -62,7 +60,6 @@ export const styles = StyleSheet.create({
 
 
     tabs_text: {
-      // textAlign: "justify",
       padding: 0,
       color: "#000",
       fontSize: 14,

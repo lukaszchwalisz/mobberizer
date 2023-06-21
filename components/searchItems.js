@@ -1,9 +1,9 @@
 import React from 'react';
-import { Text, View } from "react-native";
+import { ScrollView, TouchableWithoutFeedback, Text, View, StyleSheet } from "react-native";
 import { styles } from '../styles/global.js';
-import { Divider} from 'react-native-paper';
+import { Divider, Button} from 'react-native-paper';
 import 'react-native-gesture-handler';
-import { ScrollView, TouchableWithoutFeedback } from 'react-native-gesture-handler';
+import {  } from 'react-native-gesture-handler';
 import { useNavigation } from "@react-navigation/native";
 import A from 'react-native-a';
 import call from 'react-native-phone-call';
@@ -13,11 +13,11 @@ const RenderItem = ({ data }) => {
     
     return (  
         <ScrollView > 
-        <TouchableWithoutFeedback style={styles.button} mode='outlined' color="#111" uppercase={false}  onPress={() => {
+        <Text style={style.button}  onPress={() => {
         navigation.push(data.id)
         }}> 
-        <Text style={styles.quotes}>{data.title}</Text>
-        </TouchableWithoutFeedback>
+        <Text style={style.tabs_text}>{data.title}</Text>
+        </Text>
         </ScrollView>
     );
 }
@@ -113,15 +113,35 @@ const RenderItem_s4 = ({ data }) => {
 
     return (  
         <ScrollView > 
-        <View style={styles.button}>
+        <View style={style.button}>
             <Text style={styles.tabs_bold}>{data.title}{"\n"}</Text>
             <Divider />
-            <Text style={styles.tabs_text}>{"\n"}{data.content}</Text>
+            <Text style={style.tabs_text}>{"\n"}{data.content}</Text>
         </View>
         </ScrollView>
     );
 }
 
+const style = StyleSheet.create({
+    button: {
+      flex: 1,
+      padding:0,
+      textAlign: "justify",
+      marginVertical:5,
+      marginHorizontal:20,
+      padding:20,
+      borderWidth: .7,
+      borderRadius: 20,
+      borderColor: "#d8e2dc",
+    },
+    tabs_text: {
+        color: '#000',
+        fontSize: 14,
+        fontFamily: "Montserrat-Regular",
+        textAlign: "justify",
+        },
+
+  });
 
 export { 
         RenderItem, 
