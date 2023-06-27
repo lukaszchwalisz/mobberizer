@@ -1,7 +1,6 @@
 import React from "react";
-import { View, Text, TextInput, Image } from "react-native";
+import { View, StyleSheet, Text, TextInput, Image, ImageBackground } from "react-native";
 import { styles } from '../styles/global.js';
-// import { Searchbar } from './searchbar.js';
 
 const Header = ({onSearch}) => {
     return (
@@ -10,15 +9,7 @@ const Header = ({onSearch}) => {
         <Text style={styles.tabs_subtitle}>Najczęściej zadawane pytania dotyczące mobbingu
         w miejscu pracy.{"\n"}
         </Text>
-        <Image
-          style={{ flex: 1, width: '100%', height: 300, marginBottom: 20 }}
-          source={
-            require('../assets/images/image37.png')
-            }
-        /> 
-
-         {/* <Searchbar />  */}
-
+        <Image source={require('../assets/images/image37.png')} resizeMode="cover" style={style.image} />
          <View
           style={{
             borderWidth:1,
@@ -37,7 +28,6 @@ const Header = ({onSearch}) => {
           style={{ flex: 1, fontSize:16, fontFamily:"Roboto", color:"#E63946"}} 
         />
       </View>
- 
       </View>
     )
   };
@@ -46,8 +36,7 @@ const Header = ({onSearch}) => {
     return (
         <View style={styles.tabs_header}>
         <Text style={styles.tabs_title}>Państwowa Inspecja Pracy - PIP </Text>
-        <Text style={styles.tabs_subtitle}>- jednostki organizacyjne według województw{"\n"}
-        </Text>
+        <Text style={styles.tabs_subtitle}>- jednostki organizacyjne według województw{"\n"}</Text>
         <View
           style={{
             borderWidth:1,
@@ -131,12 +120,7 @@ const Header = ({onSearch}) => {
         <View style={styles.tabs_header}>
         <Text style={styles.tabs_title}>Słownik</Text>
         <Text style={styles.tabs_subtitle}>- słownik terminów psychologicznych i prawnych związanych z mobbingiem w pracy{"\n"}</Text>
-        <Image
-          style={{ flex: 1, width: '100%', height: 300, marginBottom: 20 }}
-          source={
-            require('../assets/images/image46.png')
-            }
-        /> 
+        <Image source={require('../assets/images/image46.png')} resizeMode="cover" style={style.image} />
       <View
           style={{
             borderWidth:1,
@@ -160,7 +144,6 @@ const Header = ({onSearch}) => {
     )
   };
 
-
   export {
     Header,
     Header_s1,
@@ -168,3 +151,14 @@ const Header = ({onSearch}) => {
     Header_s3,
     Header_s4
   };
+
+  const style = StyleSheet.create({
+    image: {
+      flex: 1,
+      width: '100%', 
+      height: 300, 
+      marginBottom: 20, 
+      padding:30,
+      alignItems: "center",
+    },
+  })

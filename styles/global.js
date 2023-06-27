@@ -3,18 +3,17 @@ import { darkmode, lightmode } from './colors';
 
 export const styles = StyleSheet.create({
    contain: {
-     flex: 1,
-     backgroundColor: lightmode.white,
+        flex: 1,
+        backgroundColor: lightmode.white,
     },
     button: {
-      marginVertical:5,
-      marginHorizontal:20,
-      padding:10,
-      // borderWidth: 0.5,
-      borderRadius: 10,
-      // borderColor: lightmode.blue,
-      // backgroundColor:'#fff',
-
+        marginVertical:5,
+        marginHorizontal:20,
+        padding:10,
+        // borderWidth: 0.5,
+        borderRadius: 10,
+        // borderColor: lightmode.blue,
+        // backgroundColor:'#fff',
     },
     input: {
         height: 40,
@@ -22,66 +21,57 @@ export const styles = StyleSheet.create({
         borderWidth: 1,
         padding: 10,
         color: 'white'
-        },
-
+    },
     tabs_header: {
-    backgroundColor: lightmode.white,
-    padding: 20,
-    textAlign: "justify",
+        backgroundColor: lightmode.white,
+        padding: 20,
+        textAlign: "justify",
     },
-
     tabs_logo: {
-      color:"#1D3557",
-      fontSize: 40,
-      fontFamily: "RoadRage-Regular",
+        color:"#1D3557",
+        fontSize: 40,
+        fontFamily: "RoadRage-Regular",
     },
-
     tabs_title: {
-    color: '#000',
-    fontSize: 18,
-    fontFamily: "PoltawskiNowy-Medium",
+        color: '#000',
+        fontSize: 18,
+        fontFamily: "PoltawskiNowy-Medium",
     },
 
     tabs_subtitle: {
-      padding: 0,
-      color: "#000",
-      fontSize: 12,
-      fontFamily: "PoltawskiNowy-Regular",
-      },
-
+        padding: 0,
+        color: "#000",
+        fontSize: 12,
+        fontFamily: "PoltawskiNowy-Regular",
+    },
     tabs_italic: {
-      padding: 0,
-      color: "#000",
-      fontSize: 14,
-      fontFamily: "Montserrat-MediumItalic",
-      },
-
-
+        padding: 0,
+        color: "#000",
+        fontSize: 14,
+        fontFamily: "Montserrat-MediumItalic",
+    },
     tabs_text: {
-      padding: 0,
-      color: "#000",
-      fontSize: 14,
-      fontFamily: "Montserrat-Regular",
+        padding: 0,
+        color: "#000",
+        fontSize: 14,
+        fontFamily: "Montserrat-Regular",
     },
-    
     tabs_bold: {
-      padding: 0,
-      color: "#000",
-      fontSize: 14,
-      fontFamily: "Montserrat-Bold",
+        padding: 0,
+        color: "#000",
+        fontSize: 14,
+        fontFamily: "Montserrat-Bold",
     },
-
     quotes: {
-      padding: 5,
-      textAlign: "justify",
-      color: '#000',
-      fontSize: 14,
-      fontFamily: "PoltawskiNowy-Italic",
-      },
-
+        padding: 5,
+        textAlign: "justify",
+        color: '#000',
+        fontSize: 14,
+        fontFamily: "PoltawskiNowy-Italic",
+    },
     pics: {
-      padding:10, 
-      margin:10, 
-      backgroundColor:"white",
+        padding:10, 
+        margin:10, 
+        backgroundColor:"white",
     }
 });
