@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, Image, FlatList, StyleSheet } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../styles/global.js';
-import { Button, Divider } from 'react-native-paper';
+import { Button } from 'react-native-paper';
 import 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
 

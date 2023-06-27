@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { darkmode, lightmode } from './colors';
+import { lightmode } from './colors';
 
 export const styles = StyleSheet.create({
    contain: {

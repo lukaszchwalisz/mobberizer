@@ -1,6 +1,5 @@
 import React from 'react';
 import { View, StatusBar, StyleSheet} from 'react-native';
-import { DrawerActions } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import Main from '../../components/main.js';
 import Main_Drawler from '../../components/main_drawler.js';

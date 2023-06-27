@@ -1,5 +1,5 @@
 import React from "react";
-import { View, StyleSheet, Text, TextInput, Image, ImageBackground } from "react-native";
+import { View, StyleSheet, Text, TextInput, Image } from "react-native";
 import { styles } from '../styles/global.js';
 
 const Header = ({onSearch}) => {

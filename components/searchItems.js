@@ -1,7 +1,7 @@
 import React from 'react';
 import { ScrollView, TouchableWithoutFeedback, Text, View, StyleSheet } from "react-native";
 import { styles } from '../styles/global.js';
-import { Divider, Button} from 'react-native-paper';
+import { Divider } from 'react-native-paper';
 import 'react-native-gesture-handler';
 import {  } from 'react-native-gesture-handler';
 import { useNavigation } from "@react-navigation/native";

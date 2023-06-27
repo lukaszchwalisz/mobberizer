@@ -3,8 +3,6 @@ import { View, Text, FlatList, Image } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
 import { Button  } from 'react-native-paper';
-import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
-
 
 export default function S0({ navigation }) {
 
