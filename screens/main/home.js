@@ -11,7 +11,7 @@ function MainScreen() {
   return (
     <View style={style.contain}>
         <LinearGradient
-        colors={['#FACBF5', '#1F8CF1']}
+        colors={['#5FE2FF', '#3B97EC']}
         start={{x: 0, y: 0}}
         end={{x: 1, y: 1}}
         style={styles.contain}
