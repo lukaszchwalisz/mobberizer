@@ -39,10 +39,10 @@ function MyDrawer() {
       useLegacyImplementation
       drawerContent={(props) => <CustomDrawerContent {...props} />}
     >
-      <Drawer.Screen name="Mobberizer" component={MainScreen} 
+      <Drawer.Screen name=" " component={MainScreen} 
       options=
       {{ headerTitleAlign: "center",
-      headerStyle: { backgroundColor: '#fff'},
+      headerStyle: { backgroundColor: '#5FE2FF'},
       // headerTitleStyle: { color: '#9FE2BF' },
       // headerTintColor:  '#9FE2BF'
       }}

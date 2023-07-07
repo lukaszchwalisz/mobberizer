@@ -45,7 +45,7 @@ export default function Main_Drawler() {
         style={{ width: 75, height: 70}}
         source={require('../assets/icon.png')}
         />
-        <Text style={styles.tabs_logo}>M o b b e r i z er</Text>
+        <Text style={styles.tabs_logo}>M o b b e r i z e r</Text>
         </View>
       </View> 
 

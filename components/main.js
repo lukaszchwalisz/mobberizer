@@ -70,7 +70,7 @@ export default function Main() {
         style={{ width: 105, height: 95}}
         source={require('../assets/icon_white.png')}
         />
-        <Text style={styles.tabs_logo}>M o b b e r i z er</Text>
+        <Text style={styles.tabs_logo}>M o b b e r i z e r</Text>
         </View>
       </View>
     )
