@@ -11,18 +11,18 @@ export default function K2({ navigation })  {
             <Text style={styles.tabs_title}>2. Zgłoszenie problemu.{"\n"}</Text>
             <Divider />
             <Text style={styles.tabs_text}>{"\n"} 
-            Zgodnie z zapisami kodeksu pracy za mobbing w pracy odpowiada pracodawca, tak więc wejście na stronę oficjalną powinno zacząć się
+            Zgodnie z zapisami kodeksu pracy za mobbing w pracy odpowiada pracodawca, tak więc złoszenie wystąpienia zachowań mobbingowych w pracy powinno zacząć się
             od poinformowania pracodawcy. Może to być prośba o rozmowę albo w dalszej kolejności złożenie oficjalnego pisma
-            z prośbą o odniesienie się oraz podjęcie stosownych działań. {"\n"}{"\n"}
+            z prośbą o odniesienie się do wskazanych niewłaściwych zachowań, weryfikacja i podjęcie stosownych działań. {"\n"}{"\n"}
 
-            Kiedy zachowania mobbingowe występują na poziomie współpracowników (płaszczyzna horyzontalna, pozioma), sytuacja wydaje się oczywista, 
-            jednak często sam pracodawca jest wskazany jako sprawca mobbingu (płaszczyzna wertykalna, pionowa). Fakt ten często powstrzymuje osoby
-            mobbingowane od podjęcia stosownych działań. Podobnie jednak, kiedy wskazani w piśmie zostaną współpracownicy powstaje obawa związana z postrzeganiem
+            Kiedy zachowania mobbingowe występują na poziomie współpracowników (płaszczyzna horyzontalna, pozioma), sytuacja wydaje się oczywista z punktu widzenia
+            pracodawcy, jednak często sam pracodawca jest wskazany jako sprawca mobbingu (płaszczyzna wertykalna, pionowa). Fakt ten często powstrzymuje osoby
+            mobbingowane od podjęcia stosownych działań. Trudna sytuacja wydaje się także kiedy wskazani w piśmie zostaną współpracownicy, gdyż powstaje obawa związana z postrzeganiem
             swojej osoby w pracy. Ryzyko wiąże się z uznaniem za donoszącego, za pomawiającego; za osobę, która działa przeciwko grupie. {"\n"}{"\n"}
 
             Na każdym kroku moga pojawić się wątpliwości np. Czy mogę sobie zaszkodzić ? Czy będzie odpowiednia reakcja pracodawcy ?  Staramy się przyjrzeć się
             tym wątpliwościom w ramach konsultacji psychologicznych w stowarzyszeniu OSA. Ważne, aby osoba postępowała świadomie, bez lęku, nie odczuwając przymusu.
-            Sama zadecyduje, kiedy będzie gotowa, aby zgłosić w swoim zakładzie pracy przypadki łamania prawa.{"\n"}
+            Osoba sama zadecyduje, kiedy będzie gotowa, aby zgłosić w swoim zakładzie pracy przypadki łamania prawa pracy z zakresie wystąpienia zachowań mobbingowych .{"\n"}
             </Text>
             <Divider /> 
             <View><Text>{"\n"}</Text></View>
