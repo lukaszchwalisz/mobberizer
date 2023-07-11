@@ -8,7 +8,7 @@ Wiele osób pada ofiarą zjawiska mobbingu w pracy, pomimo tego ma trudności w 
 
 ## Instalacja
 
-Aplikację Mobberizer w wersji stabilnej można pobrać w sklepie Google Store.
+Aplikację **Mobberizer** w wersji stabilnej można pobrać w sklepie Google Store.
 
 [<img src="./assets/google-play-badge.png"
      alt="Pobierz z Google Play"
@@ -17,7 +17,9 @@ Aplikację Mobberizer w wersji stabilnej można pobrać w sklepie Google Store.
 ## Kontakt
 
 **obsługa aplikacji**
+
 autor: Łukasz Chwalisz
+
 mail: lukaszchwalisz@proton.me
 
 
