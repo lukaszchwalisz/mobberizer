@@ -19,28 +19,27 @@ Aplikację **Mobberizer** w wersji stabilnej można pobrać w sklepie Google Sto
 Aplikacja regularnie jest rozwijana i jest możliwość przetestowania aplikacji na aktualnym etapie prac.
 
 - instalacja programu [Android Studio](https://developer.android.com/studio) ( zgodna z używanym systemem operacyjnym )
-- konfiruracja emulatora smartphone'a (Virtual Device Manager)
 - instalacja pakietu [Node.js](https://nodejs.org/en) w wersji LTS
-- konfiguracja środowiska pozwalającego uruchamiać [Android SDK](https://reactnative.dev/docs/environment-setup?guide=native)
+- konfiguracja środowiska pozwalającego uruchamiać [Android SDK](https://reactnative.dev/docs/environment-setup?guide=native) i Virtual Device Managera
 - instalacja pakietu *git*
 
-- ściągnięcie kodu źródłowego
+- ściągnięcie kodu źródłowego:
 ```bash
 git clone https://github.com/lukaszchwalisz/mobberizer.git
 ```
-- wejście do folderu aplikacji
+- wejście do folderu aplikacji:
 ```bash
 cd mobberrizer
 ```
-- instalacja pakietu expo
+- instalacja pakietu expo:
 ```bash
 npm install -g expo-cli
 ```
-- instalacja pakietów node
+- instalacja pakietów node:
 ```bash
 npm install
 ```
-- uruchomienie aplikacji
+- uruchomienie aplikacji:
 ```bash
 npm start
 ```
