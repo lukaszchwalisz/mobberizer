@@ -3,9 +3,7 @@ import { ScrollView, StyleSheet, View, Text, Image, Linking } from 'react-native
 import 'react-native-gesture-handler';
 import { Button } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
-import A from 'react-native-a';
 
-const url_fism="https://lukaszchwalisz.pythonanywhere.com/testy/kwestmobbing";
 
 const Header = () => {
   return (

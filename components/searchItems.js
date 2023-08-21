@@ -3,9 +3,8 @@ import { ScrollView, TouchableWithoutFeedback, Text, View, StyleSheet } from "re
 import { styles } from '../styles/global.js';
 import { Divider } from 'react-native-paper';
 import 'react-native-gesture-handler';
-import {  } from 'react-native-gesture-handler';
 import { useNavigation } from "@react-navigation/native";
-import A from 'react-native-a';
+import { A } from '@expo/html-elements';
 import call from 'react-native-phone-call';
 
 const RenderItem = ({ data }) => {
@@ -114,7 +113,9 @@ const RenderItem_s4 = ({ data }) => {
         <View style={style.button}>
             <Text style={styles.tabs_bold}>{data.title}{"\n"}</Text>
             <Divider />
-            <Text style={style.tabs_text}>{"\n"}{data.content}</Text>
+            <Text style={style.tabs_text}>{"\n"}{data.content}{"\n"}</Text>
+            <Divider />
+            <Text style={{color:"#457B9D", fontSize: 12, fontFamily: "Montserrat-Regular",}}><A href={data.link}>{"\n"}{data.link}</A></Text>
         </View>
         </ScrollView>
     );
