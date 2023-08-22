@@ -73,12 +73,6 @@ export default function Kwestionariusz({ navigation }) {
         fontSize: 14,
         fontFamily: "Montserrat-Regular",
         },
-    tabs_subtext: {
-        color: '#000',
-        fontSize: 14,
-        fontFamily: "Montserrat-Regular",
-        },
-
   });
 
 

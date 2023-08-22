@@ -1,7 +1,7 @@
 import React from 'react';
-import { ScrollView, TouchableWithoutFeedback, Text, View, StyleSheet } from "react-native";
+import { ScrollView, TouchableWithoutFeedback, Text, View, StyleSheet, Linking } from "react-native";
 import { styles } from '../styles/global.js';
-import { Divider } from 'react-native-paper';
+import { Divider, Button } from 'react-native-paper';
 import 'react-native-gesture-handler';
 import { useNavigation } from "@react-navigation/native";
 import { A } from '@expo/html-elements';
@@ -15,7 +15,7 @@ const RenderItem = ({ data }) => {
         <Text style={style.button}  onPress={() => {
         navigation.push(data.id)
         }}> 
-        <Text style={style.tabs_text}>{data.title}</Text>
+        <Text style={style.tabs_subtext}>{data.title}</Text>
         </Text>
         </ScrollView>
     );
@@ -113,9 +113,16 @@ const RenderItem_s4 = ({ data }) => {
         <View style={style.button}>
             <Text style={styles.tabs_bold}>{data.title}{"\n"}</Text>
             <Divider />
-            <Text style={style.tabs_text}>{"\n"}{data.content}{"\n"}</Text>
+            <Text style={style.tabs_subtext}>{"\n"}{data.content}{"\n"}</Text>
             <Divider />
-            <Text style={{color:"#457B9D", fontSize: 12, fontFamily: "Montserrat-Regular",}}><A href={data.link}>{"\n"}{data.link}</A></Text>
+            {/* <Text style={{color:"#457B9D", fontSize: 12, fontFamily: "Montserrat-Regular",}}><A href={data.link}>{"\n"}{data.link}</A></Text> */}
+            <Button style={style.chip} icon='link' mode='text' color="#457B9D" uppercase={false}            
+            onPress={() => {
+              Linking.openURL(data.link)
+            }}>
+            {data.link}
+            </Button>
+       
         </View>
         </ScrollView>
     );
@@ -124,7 +131,6 @@ const RenderItem_s4 = ({ data }) => {
 const style = StyleSheet.create({
     button: {
       flex: 1,
-      padding:0,
       textAlign: "justify",
       marginVertical:5,
       marginHorizontal:20,
@@ -133,11 +139,14 @@ const style = StyleSheet.create({
       borderRadius: 20,
       borderColor: "#d8e2dc",
     },
-    tabs_text: {
-        color: '#000',
-        fontSize: 14,
-        fontFamily: "Montserrat-Regular",
-        },
+    chip: {
+        padding:0,
+        textAlign: "justify",
+        marginVertical:5,
+        marginHorizontal:0,
+        borderWidth: .7,
+        borderRadius: 10,
+    },
     tabs_subtext: {
         color: '#000',
         fontSize: 14,
