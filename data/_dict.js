@@ -33,97 +33,97 @@ const Dict = [
         id: '6',
         title:'Depresja',
         content:'to zaburzenie nastroju charakteryzujące się obniżonym nastrojem, utratą zainteresowań i przyjemności z życia oraz zmniejszeniem aktywności fizycznej i psychicznej (F32.0 - F33.9).',
-        link:''
+        link:'https://pacjent.gov.pl/jak-zyc-z-choroba/kiedy-smutek-jest-choroba'
     },
     {
         id: '7',
         title:'Nerwica ',
-        content:'to choroba psychiczna charakteryzująca się występowaniem napadów lęku lub niepokoju',
-        link:''
+        content:'to grupa zaburzeń psychicznych stanowiących szczególnie nasilone lub długotrwałe odmiany reakcji na trudne sytuacje psychiczne i społeczne, które powodują cierpienie, sprzyjają nieprzystosowaniu i ograniczają możliwość swobodnego rozwoju osobowego.',
+        link:'https://encyklopedia.pwn.pl/szukaj/nerwica.html'
     },
     {
         id: '8',
         title:'Stres',
-        content:'to reakcja organizmu na bodziec zewnętrzny lub wewnętrzny, który wymaga dostosowania się do nowych warunków lub sytuacji.',
-        link:''
+        content:'to stan obciążenia systemu regulacji psychicznej powstający w sytuacji zagrożenia, utrudnienia lub niemożności realizacji ważnych dla jednostki celów, zadań, wartości.',
+        link:'https://encyklopedia.pwn.pl/szukaj/stres.htmlnerwice'
     },
     {
         id: '9',
         title:'Lęk - zaburzenia lękowe',
-        content:'jest to emocja odczuwana w sytuacjach zagrożenia lub niepewności',
-        link:''
+        content:'to utrzymujący się stan emocjonalny (nastrój), w którym dominuje odczucie silnego zagrożenia lub zagrażającej zmiany, wywodzących się z nie znanego, nie dostrzeganego źródła.',
+        link:'https://encyklopedia.pwn.pl/haslo/lek;3932148.html'
     },
     {
-        id: '11',
+        id: '10',
         title:'Zaburzenia psychosomatyczne',
         content:'to zaburzenia, w których czynniki psychiczne i emocjonalne mają wpływ na powstawanie lub nasilenie objawów fizycznych; zaburzenia te mogą dotyczyć różnych układów i narządów organizmu, takich jak układ pokarmowy, układ krążenia, układ oddechowy czy skóra.',
         link:'https://web.swps.pl/strefa-psyche/blog/relacje/23509-zaburzenia-psychosomatyczne-jak-stres-wplywa-na-organizm-podcast'
     },
     {
-        id: '12',
+        id: '11',
         title:'Myśli samobójcze',
         content:'są to myśli, które dotyczą zakończenia własnego życia, planowania, w jaki sposób można by to uczynić lub rozważania argumentów za i przeciw samobójstwu.',
         link:'http://www.samobojstwo.pl/'
     },
     {
-        id: '13',
+        id: '12',
         title:'Koszmary nocne',
-        content:'to nieprzyjemne sny, które wywołują silne emocje negatywne, takie jak strach, smutek, złość czy wina. Koszmary nocne mogą być związane z traumami, stresami, lękami, depresją lub innymi zaburzeniami psychicznymi. Koszmary nocne pojawiają się zwykle w drugiej połowie nocy, podczas snu REM (snu z szybkimi ruchami gałek ocznych), który jest fazą snu związana z marzeniami sennymi',
+        content:'to nieprzyjemne sny, które wywołują silne emocje negatywne, takie jak strach, smutek, złość czy wina. Koszmary nocne mogą być związane z traumami, stresami, lękami, depresją lub innymi zaburzeniami psychicznymi. Koszmary nocne pojawiają się zwykle w drugiej połowie nocy, podczas snu REM (snu z szybkimi ruchami gałek ocznych), który jest fazą snu związana z marzeniami sennymi.',
         link:'https://www.doctorinfo.pl/warunki/koszmary-nocne/'
     },
     {
-        id: '14',
+        id: '13',
         title:'Bezsenność', 
         content:'to zaburzenie snu, które polega na trudnościach z zasypianiem, częstym budzeniu się w nocy lub zbyt wczesnym przebudzaniem się rano; może mieć negatywne skutki dla zdrowia fizycznego i psychicznego, takie jak zmęczenie, drażliwość, obniżenie koncentracji, pamięci i nastroju, podatność na infekcje, nadciśnienie, cukrzyca czy depresja.',
         link:'https://portal.abczdrowie.pl/bezsennosc'
     },
     {
-        id: '15',
+        id: '14',
         title:'Niezdolność do pracy',
         content:'niezdolną do pracy jest osoba, która całkowicie lub częściowo utraciła zdolność do pracy zarobkowej z powodu naruszenia sprawności organizmu i nie rokuje odzyskania zdolności do pracy po przekwalifikowaniu.',
         link:'https://www.zus.pl/lekarze/orzekanie-o-niezdolnosci-do-pracy/pojecie-niezdolnosci-do-pracy/definicje'
     },
     {
-        id: '16',
+        id: '15',
         title:'Ciężki uszczerbek na zdrowiu',
         content:'to naruszenie sprawności organizmu, które powoduje upośledzenie czynności organizmu nierokujące poprawy.',
         link:'https://statystyka.policja.pl/st/kodeks-karny/przestepstwa-przeciwko/63426,Ciezki-uszczerbek-na-zdrowiu-art-156.html'
     },
     {
-        id: '17',
+        id: '16',
         title:'Mobbing',
         content:'oznacza działania lub zachowania dotyczące pracownika lub skierowane przeciwko niemu, polegające w szczególności na systematycznym i długotrwałym nękaniu i zastraszaniu pracownika, wywołującym u niego zaniżoną ocenę przydatności zawodowej, powodujące lub mające na celu poniżenie, ośmieszenie pracownika, izolowanie go od współpracowników lub wyeliminowanie z zespołu współpracowników.',
         link:'https://www.ciop.pl/CIOPPortalWARCIOPPortalWAR/appmanager/ciop/pl?_nfpb=true&_pageLabel=P61800284591650978135826&html_tresc_root_id=300013353&html_tresc_id=300013349&html_klucz=54321&html_klucz_spis='
     },
     {
-        id: '18',
+        id: '17',
         title:'Konflikt',
         content:'to niezgodność, sprzeczność lub zderzenie interesów, poglądów, wartości lub celów między dwiema lub więcej stronami; także stan emocjonalny, w którym osoba lub grupa odczuwa napięcie, frustrację lub zagrożenie ze strony innej osoby lub grupy.',
         link:'https://perso.in/blog/konflikty-przyczyny-rodzaje-rozwiazywanie-i-zarzadzanie/'
     },
     {
-        id: '19',
+        id: '18',
         title:'Dyskryminacja',
-        content:'to traktowanie jednej osoby lub grupy osób w sposób gorszy niż innych z powodu ich przynależności do określonej grupy społecznej np. ze względu na płeć, wiek, orientację seksualną, pochodzenie etniczne',
-        link:''
+        content:'to traktowanie jednej osoby lub grupy osób w sposób gorszy niż innych z powodu ich przynależności do określonej grupy społecznej np. ze względu na płeć, wiek, orientację seksualną, pochodzenie etniczne.',
+        link:'https://bip.brpo.gov.pl/pl/kategoria-konstytucyjna/art-32-rownosc-i-zakaz-dyskryminacji'
+    },
+    {
+        id: '19',
+        title:'Molestowanie seksualne',
+        content:'to niepożądane zachowanie o charakterze seksualnym, które narusza godność osoby i powoduje jej poczucie upokorzenia lub zastraszenia.',
+        link:'https://sip.lex.pl/akty-prawne/dzu-dziennik-ustaw/kodeks-karny-16798683/roz-25'
     },
     {
         id: '20',
-        title:'Molestowanie seksualne',
-        content:'to niepożądane zachowanie o charakterze seksualnym, które narusza godność osoby i powoduje jej poczucie upokorzenia lub zastraszenia',
-        link:''
+        title:'Stalking',
+        content:'to uporczywe i niepożądane śledzenie czyjejś osoby, które powoduje u niej lęk lub poczucie zagrożenia.',
+        link:'http://karne.pl/stalking.html'
     },
     {
         id: '21',
-        title:'Stalking',
-        content:'to uporczywe i niepożądane śledzenie czyjejś osoby, które powoduje u niej lęk lub poczucie zagrożenia',
-        link:''
-    },
-    {
-        id: '22',
         title:'Bullying',
-        content:'to długotrwałe i systematyczne nękanie lub zastraszanie jednej osoby przez inną osobę lub grupę osób',
-        link:''
+        content:'to długotrwałe i systematyczne nękanie lub zastraszanie jednej osoby przez inną osobę lub grupę osób.',
+        link:'https://policealna.gowork.pl/blog/bullying-jak-przeciwdzialac-temu-zjawisku-w-szkole-i-pomoc-przesladowanym-uczniom-rodzaje-konsekwencje/'
     },
 
     ];
