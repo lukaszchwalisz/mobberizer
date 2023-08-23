@@ -2,118 +2,130 @@ const Dict = [
     {
         id: '1',
         title:'Pracoholizm',
-        content: 'uzależnienie psychiczne od pracy, objawiające się obsesyjną i wewnętrzną potrzebą ciągłego wykonywania pracy kosztem innych czynności, również rodziny, snu i odpoczynku',
+        content:'to zaburzenie równowagi między pracą a innymi sferami życia, utrata kontroli nad własnym zachowaniem na skutek psychologicznego przymusu jej wykonywania; objawia się on obsesyjną i wewnętrzną potrzebą ciągłego wykonywania pracy kosztem innych obszarów życia.',
+        link:'https://www.ciop.pl/CIOPPortalWAR/appmanager/ciop/pl?_nfpb=true&_pageLabel=P30001831335539182278&html_tresc_root_id=16117&html_tresc_id=17758&html_klucz=19558'  
     },
     {
         id: '2',
         title:'Wypalenie zawodowe',
-        content: 'ostre zaburzenie stresowe bądź reakcja, cechująca się wyczerpaniem wynikającym z przepracowania oraz lękiem, zmęczeniem, bezsennością, depresją i gorszymi wynikami w pracy',
+        content:'jest zespołem objawów powstających w wyniku przeciążenia emocjonalnego i fizycznego, które są spowodowane przez stres występujący w miejscu pracy; charakteryzuje się trzema głównymi składnikami: emocjonalnym wyczerpaniem, depersonalizacją i obniżeniem poczucia własnej skuteczności (wg Christiny Maslach).',
+        link:'https://www.kul.pl/files/714/media/3.44.2001.art.2.pdf..pdf'
     },
     {
         id: '3',
         title:'Zaburzenia adaptacyjne',
-        content: 'zaburzenia emocjonalne i zachowania występujące w odpowiedzi na stresujące wydarzenia lub sytuacje życiowe',
+        content:'to stan subiektywnego distresu i zaburzeń emocjonalnych zwykle przeszkadzający w społecznym funkcjonowaniu i działaniu, pojawiający się w okresie adaptacji do istotnych zmian życiowych lub do następstw stresującego wydarzenia życiowego (włączając wystąpienie poważnej choroby fizycznej lub zagrożenie tą chorobą) (F43.2).',
+        link:'https://www.icd10data.com/ICD10CM/Codes/F01-F99/F40-F48/F43-/F43.2'
     },
     {
         id: '4',
-        title:'Ostre zaburzenie stresowe',
-        content: 'zaburzenie emocjonalne występujące po doświadczeniu lub świadkowaniu skrajnie stresującego wydarzenia lub sytuacji',
+        title:'Ostra reakcja na stres',
+        content:'to przemijające zaburzenie o znacznym nasileniu, które rozwija się jako reakcja na wyjątkowy stres fizyczny lub psychiczny u osoby nie przejawiającej uprzednio żadnego zaburzenia psychicznego, ustępujące zazwyczaj w ciągu godzin lub dni (F43.0).',
+        link:'https://www.icd10data.com/ICD10CM/Codes/F01-F99/F40-F48/F43-/F43.0'
     },
     {
         id: '5',
-        title:'Zaburzenie stresowe pourazowe - PTSD',
-        content: 'zaburzenie psychiczne będące formą reakcji na skrajnie stresujące wydarzenie (traumę), które przekracza zdolności danej osoby do radzenia sobie i adaptacji',
+        title:'Zaburzenie stresowe pourazowe',
+        content:'to zaburzenie lękowe wywołane intensywnym strachem, przerażeniem, traumatycznym doświadczeniem ( szczególnie zagrażające życiu ); zaburzenie charakteryzuje się natrętnymi powtarzającymi się myślami lub obrazami traumatycznego zdarzenia; unikanie czegokolwiek związanego ze zdarzeniem; stan nadgorliwości i zmniejszona reakcja emocjonalna; objawy te występują przez co najmniej miesiąc, najczęściej są długotrwałe (F43.1).',
+        link:'https://www.icd10data.com/ICD10CM/Codes/F01-F99/F40-F48/F43-/F43.1'
     },
     {
         id: '6',
         title:'Depresja',
-        content: 'zaburzenie nastroju charakteryzujące się obniżonym nastrojem, utratą zainteresowań i przyjemności z życia oraz zmniejszeniem aktywności fizycznej i psychicznej',
+        content:'to zaburzenie nastroju charakteryzujące się obniżonym nastrojem, utratą zainteresowań i przyjemności z życia oraz zmniejszeniem aktywności fizycznej i psychicznej (F32.0 - F33.9).',
+        link:'https://pacjent.gov.pl/jak-zyc-z-choroba/kiedy-smutek-jest-choroba'
     },
     {
         id: '7',
-        title:'Nerwica',
-        content: 'choroba psychiczna charakteryzująca się występowaniem napadów lęku lub niepokoju',
+        title:'Nerwica ',
+        content:'to grupa zaburzeń psychicznych stanowiących szczególnie nasilone lub długotrwałe odmiany reakcji na trudne sytuacje psychiczne i społeczne, które powodują cierpienie, sprzyjają nieprzystosowaniu i ograniczają możliwość swobodnego rozwoju osobowego.',
+        link:'https://encyklopedia.pwn.pl/szukaj/nerwica.html'
     },
     {
         id: '8',
         title:'Stres',
-        content: 'reakcja organizmu na bodziec zewnętrzny lub wewnętrzny, który wymaga dostosowania się do nowych warunków lub sytuacji',
+        content:'to stan obciążenia systemu regulacji psychicznej powstający w sytuacji zagrożenia, utrudnienia lub niemożności realizacji ważnych dla jednostki celów, zadań, wartości.',
+        link:'https://encyklopedia.pwn.pl/szukaj/stres.htmlnerwice'
     },
     {
         id: '9',
-        title:'Lęk',
-        content: 'jest to emocja odczuwana w sytuacjach zagrożenia lub niepewności',
+        title:'Lęk - zaburzenia lękowe',
+        content:'to utrzymujący się stan emocjonalny (nastrój), w którym dominuje odczucie silnego zagrożenia lub zagrażającej zmiany, wywodzących się z nie znanego, nie dostrzeganego źródła.',
+        link:'https://encyklopedia.pwn.pl/haslo/lek;3932148.html'
     },
     {
         id: '10',
-        title:'Zaburzenia lękowe',
-        content: 'to grupa chorób psychicznych charakteryzujących się występowaniem nadmiernego lęku lub niepokoju',
+        title:'Zaburzenia psychosomatyczne',
+        content:'to zaburzenia, w których czynniki psychiczne i emocjonalne mają wpływ na powstawanie lub nasilenie objawów fizycznych; zaburzenia te mogą dotyczyć różnych układów i narządów organizmu, takich jak układ pokarmowy, układ krążenia, układ oddechowy czy skóra.',
+        link:'https://web.swps.pl/strefa-psyche/blog/relacje/23509-zaburzenia-psychosomatyczne-jak-stres-wplywa-na-organizm-podcast'
     },
     {
         id: '11',
-        title:'Zaburzenia psychosomatyczne',
-        content: 'zaburzenia somatyczne (fizyczne) wynikające z czynników psychologicznych lub emocjonalnych',
+        title:'Myśli samobójcze',
+        content:'są to myśli, które dotyczą zakończenia własnego życia, planowania, w jaki sposób można by to uczynić lub rozważania argumentów za i przeciw samobójstwu.',
+        link:'http://www.samobojstwo.pl/'
     },
     {
         id: '12',
-        title:'Myśli samobójcze',
-        content: 'myśli o samobójstwie lub planowanie samobójstwa',
+        title:'Koszmary nocne',
+        content:'to nieprzyjemne sny, które wywołują silne emocje negatywne, takie jak strach, smutek, złość czy wina. Koszmary nocne mogą być związane z traumami, stresami, lękami, depresją lub innymi zaburzeniami psychicznymi. Koszmary nocne pojawiają się zwykle w drugiej połowie nocy, podczas snu REM (snu z szybkimi ruchami gałek ocznych), który jest fazą snu związana z marzeniami sennymi.',
+        link:'https://www.doctorinfo.pl/warunki/koszmary-nocne/'
     },
     {
         id: '13',
-        title:'Koszmary nocne',
-        content: 'intensywne i nieprzyjemne sny, które często budzą z uczuciem lęku lub paniki',
+        title:'Bezsenność', 
+        content:'to zaburzenie snu, które polega na trudnościach z zasypianiem, częstym budzeniu się w nocy lub zbyt wczesnym przebudzaniem się rano; może mieć negatywne skutki dla zdrowia fizycznego i psychicznego, takie jak zmęczenie, drażliwość, obniżenie koncentracji, pamięci i nastroju, podatność na infekcje, nadciśnienie, cukrzyca czy depresja.',
+        link:'https://portal.abczdrowie.pl/bezsennosc'
     },
     {
         id: '14',
-        title:'Bezsenność',
-        content: 'zaburzenie snu polegające na trudnościach z zaśnięciem lub utrzymaniem snu',
+        title:'Niezdolność do pracy',
+        content:'niezdolną do pracy jest osoba, która całkowicie lub częściowo utraciła zdolność do pracy zarobkowej z powodu naruszenia sprawności organizmu i nie rokuje odzyskania zdolności do pracy po przekwalifikowaniu.',
+        link:'https://www.zus.pl/lekarze/orzekanie-o-niezdolnosci-do-pracy/pojecie-niezdolnosci-do-pracy/definicje'
     },
     {
         id: '15',
-        title:'Niezdolność do pracy',
-        content: 'brak zdolności do wykonywania pracy zawodowej z powodu choroby lub urazu',
+        title:'Ciężki uszczerbek na zdrowiu',
+        content:'to naruszenie sprawności organizmu, które powoduje upośledzenie czynności organizmu nierokujące poprawy.',
+        link:'https://statystyka.policja.pl/st/kodeks-karny/przestepstwa-przeciwko/63426,Ciezki-uszczerbek-na-zdrowiu-art-156.html'
     },
     {
         id: '16',
-        title:'Trwały uszczerbek na zdrowiu',
-        content: 'uszkodzenie ciała lub umysłu, które prowadzi do trwałych zmian w funkcjonowaniu organizmu',
+        title:'Mobbing',
+        content:'oznacza działania lub zachowania dotyczące pracownika lub skierowane przeciwko niemu, polegające w szczególności na systematycznym i długotrwałym nękaniu i zastraszaniu pracownika, wywołującym u niego zaniżoną ocenę przydatności zawodowej, powodujące lub mające na celu poniżenie, ośmieszenie pracownika, izolowanie go od współpracowników lub wyeliminowanie z zespołu współpracowników.',
+        link:'https://www.ciop.pl/CIOPPortalWARCIOPPortalWAR/appmanager/ciop/pl?_nfpb=true&_pageLabel=P61800284591650978135826&html_tresc_root_id=300013353&html_tresc_id=300013349&html_klucz=54321&html_klucz_spis='
     },
     {
         id: '17',
-        title:'Mobbing',
-        content: 'długotrwałe i systematyczne nękanie lub zastraszanie pracownika przez przełożonego lub współpracowników',
+        title:'Konflikt',
+        content:'to niezgodność, sprzeczność lub zderzenie interesów, poglądów, wartości lub celów między dwiema lub więcej stronami; także stan emocjonalny, w którym osoba lub grupa odczuwa napięcie, frustrację lub zagrożenie ze strony innej osoby lub grupy.',
+        link:'https://perso.in/blog/konflikty-przyczyny-rodzaje-rozwiazywanie-i-zarzadzanie/'
     },
     {
         id: '18',
-        title:'Konflikt',
-        content: 'sytuacja, w której dwie lub więcej stron mają sprzeczne cele lub interesy',
+        title:'Dyskryminacja',
+        content:'to traktowanie jednej osoby lub grupy osób w sposób gorszy niż innych z powodu ich przynależności do określonej grupy społecznej np. ze względu na płeć, wiek, orientację seksualną, pochodzenie etniczne.',
+        link:'https://bip.brpo.gov.pl/pl/kategoria-konstytucyjna/art-32-rownosc-i-zakaz-dyskryminacji'
     },
     {
         id: '19',
-        title:'Dyskryminacja',
-        content: 'traktowanie jednej osoby lub grupy osób w sposób gorszy niż innych z powodu ich przynależności do określonej grupy społecznej np. ze względu na płeć, wiek, orientację seksualną, pochodzenie etniczne',
+        title:'Molestowanie seksualne',
+        content:'to niepożądane zachowanie o charakterze seksualnym, które narusza godność osoby i powoduje jej poczucie upokorzenia lub zastraszenia.',
+        link:'https://sip.lex.pl/akty-prawne/dzu-dziennik-ustaw/kodeks-karny-16798683/roz-25'
     },
     {
         id: '20',
-        title:'Molestowanie seksualne',
-        content: 'niepożądane zachowanie o charakterze seksualnym, które narusza godność osoby i powoduje jej poczucie upokorzenia lub zastraszenia',
+        title:'Stalking',
+        content:'to uporczywe i niepożądane śledzenie czyjejś osoby, które powoduje u niej lęk lub poczucie zagrożenia.',
+        link:'http://karne.pl/stalking.html'
     },
     {
         id: '21',
-        title:'Stalking',
-        content: 'uporczywe i niepożądane śledzenie czyjejś osoby, które powoduje u niej lęk lub poczucie zagrożenia',
-    },
-    {
-        id: '22',
         title:'Bullying',
-        content: 'długotrwałe i systematyczne nękanie lub zastraszanie jednej osoby przez inną osobę lub grupę osób',
+        content:'to długotrwałe i systematyczne nękanie lub zastraszanie jednej osoby przez inną osobę lub grupę osób.',
+        link:'https://policealna.gowork.pl/blog/bullying-jak-przeciwdzialac-temu-zjawisku-w-szkole-i-pomoc-przesladowanym-uczniom-rodzaje-konsekwencje/'
     },
-    {
-        id: '23',
-        title:'Organizacje turkusowe',
-        content: 'to model zarządzania, w którym stopień świadomości zarządzania organizacją jest najbardziej zdecentralizowany i równy u wszystkich członków organizacji',
-    },
+
     ];
     
     export { Dict };

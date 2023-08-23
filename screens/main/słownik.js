@@ -5,7 +5,7 @@ import { styles } from '../../styles/global.js';
 import { useState } from 'react';
 import { Header_s4 } from '../../components/searchHeader.js';
 import { RenderItem_s4 } from '../../components/searchItems.js';
-import { Dict } from '../../data/_dict.js';
+import { Dict } from '../../data/dict.js';
 
 export default function Słownik() {
 
