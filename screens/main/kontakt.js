@@ -20,6 +20,7 @@ export default function Kontakt() {
              </Text>
              <Text style={styles.tabs_text}>autor:    Łukasz Chwalisz{"\n"}
                                             mail:     lukaszchwalisz@proton.me{"\n"}
+                                            tel.      +48 665 696 372{"\n"}
              </Text>
 
              <Text style={styles.tabs_bold}>gobeliny:{"\n"}
@@ -27,14 +28,6 @@ export default function Kontakt() {
              <Text style={styles.tabs_text}>autorka:  Kasia Menke{"\n"}
                                             mail:     katarzyna.menke@wp.pl{"\n"}
              </Text>
-
-             <Text style={styles.tabs_bold}>pomoc:{"\n"}
-             </Text>
-             
-             <Text style={styles.tabs_text}>Punkt Konsultacyjny OSA w Poznaniu{"\n"}
-                                            mail:     osa-poznan@wp.pl{"\n"}
-                                            tel.      +48 665 696 372{"\n"}
-             </Text> 
 
              </View>
         </ScrollView>

@@ -16,7 +16,7 @@ export default function About({navigation}) {
             </View>
             <Text style={styles.tabs_text}> 
             <Text style={styles.tabs_bold}>Mobberizer </Text> 
-            to aplikacja mobilna przeznaczona dla osób, które spotkały się z
+             to aplikacja mobilna przeznaczona dla osób, które spotkały się z
              niewłaściwymi zachowaniami w pracy o charakterze mobbingowym i poszukują pomocy psychologicznej i
              prawnej, a także podstawowych informacji na temat mobbingu oraz porad jak zachować się z trudnej,
              stresującej sytuacji. {"\n"}
@@ -29,8 +29,10 @@ export default function About({navigation}) {
              to zachowania mobbingowe się nasilają. Wtedy stopniowo pojawia się poczucie bezradności,
              braku wpływu, zaczynają się problemy zdrowotne.{"\n"}</Text>
              
-             <Text style={styles.tabs_text}>
-             W razie dalszych wątpliwości, istnieje możliwość kontaktu z psychologiem pracy ze stowarzyszenia antymobbingowego OSA.  
+            <Text style={styles.tabs_text}>
+            W takim momencie osoby najczęściej zaczynają poszukiwać pomocy poza zakładem pracy. Aplikacja
+            stara się przekazać podstawową pigułkę informacji potrzebną w sytuacji kryzysowej w pracy.
+            Wskazuje też na kolejne kroki jakie może podjąć w celu przeciwdziałania mobbingowi.      
               {"\n"}</Text>
 
              </View>
