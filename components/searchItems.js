@@ -113,16 +113,7 @@ const RenderItem_s4 = ({ data }) => {
         <View style={style.button}>
             <Text style={styles.tabs_bold}>{data.title}{"\n"}</Text>
             <Divider />
-            <Text style={style.tabs_subtext}>{"\n"}{data.content}{"\n"}</Text>
-            <Divider />
-            {/* <Text style={{color:"#457B9D", fontSize: 12, fontFamily: "Montserrat-Regular",}}><A href={data.link}>{"\n"}{data.link}</A></Text> */}
-            <Button style={style.chip} icon='link' mode='text' color="#457B9D" uppercase={false}            
-            onPress={() => {
-              Linking.openURL(data.link)
-            }}>
-            {data.link}
-            </Button>
-       
+            <Text style={style.tabs_subtext}>{"\n"}{data.content}</Text>
         </View>
         </ScrollView>
     );
