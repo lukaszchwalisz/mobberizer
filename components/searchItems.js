@@ -115,7 +115,7 @@ const RenderItem_s4 = ({ data }) => {
             <Divider />
             <Text style={style.tabs_subtext}>{"\n"}{data.content}{"\n"}</Text>
             <Divider />
-            <Text style={styles.tabs_italic}>{"\n"}#{data.tag}</Text>
+            <Text style={style.tabs_italic}>{"\n"}#{data.tag}</Text>
 
         </View>
         </ScrollView>
@@ -146,6 +146,12 @@ const style = StyleSheet.create({
         fontSize: 14,
         fontFamily: "Montserrat-Regular",
         },
+    tabs_italic: {
+        padding: 0,
+        color: "grey",
+        fontSize: 12,
+        fontFamily: "Montserrat-MediumItalic",
+    },
 
   });
 
