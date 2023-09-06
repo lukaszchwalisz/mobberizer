@@ -8,7 +8,7 @@ import { styles } from '../../styles/global.js';
 const Header = () => {
   return (
     <View style={styles.tabs_header} >
-        <Text style={styles.tabs_title}>Kwestionariusz FiSM{"\n"}</Text>
+        <Text style={styles.tabs_title}>Kwestionariusz FiSM.{"\n"}</Text>
          <Image
           style={{ flex: 1, width: '100%', height: 300 }}
           source={

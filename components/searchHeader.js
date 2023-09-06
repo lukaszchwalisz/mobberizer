@@ -5,9 +5,9 @@ import { styles } from '../styles/global.js';
 const Header = ({onSearch}) => {
     return (
         <View style={styles.tabs_header}>
-        <Text style={styles.tabs_title}>FAQ </Text>
-        <Text style={styles.tabs_subtitle}>Najczęściej zadawane pytania dotyczące mobbingu
-        w miejscu pracy.{"\n"}
+        <Text style={styles.tabs_title}>FAQ.</Text>
+        <Text style={styles.tabs_subtitle}>- najczęściej zadawane pytania dotyczące mobbingu
+        w miejscu pracy{"\n"}
         </Text>
         <Image source={require('../assets/images/image37.png')} resizeMode="cover" style={style.image} />
          <View
@@ -35,7 +35,7 @@ const Header = ({onSearch}) => {
   const Header_s1 = ({onSearch}) => {
     return (
         <View style={styles.tabs_header}>
-        <Text style={styles.tabs_title}>Państwowa Inspecja Pracy - PIP </Text>
+        <Text style={styles.tabs_title}>Państwowa Inspecja Pracy - PIP.</Text>
         <Text style={styles.tabs_subtitle}>- jednostki organizacyjne według województw{"\n"}</Text>
         <View
           style={{
@@ -62,8 +62,8 @@ const Header = ({onSearch}) => {
   const Header_s2 = ({onSearch}) => {
     return (
         <View style={styles.tabs_header}>
-        <Text style={styles.tabs_title}>Stacje Sanitarno-Epidemiologiczne (Sanepid)</Text>
-        <Text style={styles.tabs_subtitle}>- jednostki organizacyjne: wojewódzkie (WSSE), powiatowe (PSSE) oraz specjalne graniczne (GSSE).{"\n"}
+        <Text style={styles.tabs_title}>Stacje Sanitarno-Epidemiologiczne (Sanepid).</Text>
+        <Text style={styles.tabs_subtitle}>- jednostki organizacyjne: wojewódzkie (WSSE), powiatowe (PSSE) oraz specjalne graniczne (GSSE){"\n"}
         </Text>
         <View
           style={{
@@ -91,7 +91,7 @@ const Header = ({onSearch}) => {
     return (
         <View style={styles.tabs_header}>
         <Text style={styles.tabs_title}>Struktura sądów powszechnych.</Text>
-        <Text style={styles.tabs_subtitle}>- sądy apelacyjne; sądy okręgowe; sądy rejonowe (ze szczególnym uzwględnieniem sądów pracy, tag: #wp).{"\n"}
+        <Text style={styles.tabs_subtitle}>- sądy apelacyjne; sądy okręgowe; sądy rejonowe (wydziały pracy, tag: #wp){"\n"}
         </Text>
         <View
           style={{
@@ -118,8 +118,8 @@ const Header = ({onSearch}) => {
   const Header_s4 = ({onSearch}) => {
     return (
         <View style={styles.tabs_header}>
-        <Text style={styles.tabs_title}>Słownik</Text>
-        <Text style={styles.tabs_subtitle}>- słownik terminów psychologicznych i prawnych związanych z mobbingiem w pracy{"\n"}</Text>
+        <Text style={styles.tabs_title}>Słownik.</Text>
+        <Text style={styles.tabs_subtitle}>- terminy psychologiczne i prawne związane z mobbingiem w pracy{"\n"}</Text>
         <Image source={require('../assets/images/image46.png')} resizeMode="cover" style={style.image} />
       <View
           style={{

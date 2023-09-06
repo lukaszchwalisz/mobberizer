@@ -16,17 +16,17 @@ export default function Kontakt() {
               }
             />  
         
-             <Text style={styles.tabs_bold}>obsługa aplikacji:{"\n"}
+             <Text style={styles.tabs_bold}>obsługa techniczna i merytoryczna aplikacji:{"\n"}
              </Text>
-             <Text style={styles.tabs_text}>autor:    Łukasz Chwalisz{"\n"}
-                                            mail:     lukaszchwalisz@proton.me{"\n"}
-                                            tel.      +48 665 696 372{"\n"}
+             <Text style={styles.tabs_text}>autor:     Łukasz Chwalisz{"\n"}
+                                            mail:       lukaszchwalisz@proton.me{"\n"}
+                                            tel.          + 48 665 696 372{"\n"}
              </Text>
 
-             <Text style={styles.tabs_bold}>gobeliny:{"\n"}
+             <Text style={styles.tabs_bold}>fotografia, gobeliny:{"\n"}
              </Text>
              <Text style={styles.tabs_text}>autorka:  Kasia Menke{"\n"}
-                                            mail:     katarzyna.menke@wp.pl{"\n"}
+                                            mail:        katarzyna.menke@wp.pl{"\n"}
              </Text>
 
              </View>
