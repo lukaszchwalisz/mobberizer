@@ -113,7 +113,10 @@ const RenderItem_s4 = ({ data }) => {
         <View style={style.button}>
             <Text style={styles.tabs_bold}>{data.title}{"\n"}</Text>
             <Divider />
-            <Text style={style.tabs_subtext}>{"\n"}{data.content}</Text>
+            <Text style={style.tabs_subtext}>{"\n"}{data.content}{"\n"}</Text>
+            <Divider />
+            <Text style={styles.tabs_italic}>{"\n"}#{data.tag}</Text>
+
         </View>
         </ScrollView>
     );
