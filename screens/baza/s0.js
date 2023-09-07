@@ -18,7 +18,15 @@ export default function S0({ navigation }) {
     {
       id: 's3',
       title: 'Sądy powszechne',
-    }
+    },
+    {
+      id: 's4',
+      title: 'Organizacje rządowe',
+    },
+    {
+      id: 's5',
+      title: 'Organizacje pozarządowe',
+    },
   ];
 
 
