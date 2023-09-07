@@ -37,7 +37,7 @@ export default function S0({ navigation }) {
     return (
       <View style={styles.tabs_header}>
         <Text style={styles.tabs_title}>Wyszukiwarka instytucji pomocowych</Text>
-        <Text style={styles.tabs_subtitle}>Znajdż dane adresowe instytucji publicznej.{"\n"}
+        <Text style={styles.tabs_subtitle}>Znajdź dane adresowe instytucji publicznej.{"\n"}
         </Text>
         <Image
           style={{ flex: 1, width: '100%', height: 300 }}

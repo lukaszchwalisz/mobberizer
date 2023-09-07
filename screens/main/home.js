@@ -36,7 +36,7 @@ const Drawer = createDrawerNavigator();
 function MyDrawer() {
   return (
     <Drawer.Navigator
-      useLegacyImplementation
+      // useLegacyImplementation
       drawerContent={(props) => <CustomDrawerContent {...props} />}
     >
       <Drawer.Screen name=" " component={MainScreen} 

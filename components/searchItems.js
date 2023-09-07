@@ -115,14 +115,8 @@ const RenderItem_s4 = ({ data }) => {
             <Divider />
             <Text style={style.tabs_subtext}>{"\n"}{data.content}{"\n"}</Text>
             <Divider />
-            {/* <Text style={{color:"#457B9D", fontSize: 12, fontFamily: "Montserrat-Regular",}}><A href={data.link}>{"\n"}{data.link}</A></Text> */}
-            <Button style={style.chip} icon='link' mode='text' color="#457B9D" uppercase={false}            
-            onPress={() => {
-              Linking.openURL(data.link)
-            }}>
-            {data.link}
-            </Button>
-       
+            <Text style={style.tabs_italic}>{"\n"}#{data.tag}</Text>
+
         </View>
         </ScrollView>
     );
@@ -152,6 +146,12 @@ const style = StyleSheet.create({
         fontSize: 14,
         fontFamily: "Montserrat-Regular",
         },
+    tabs_italic: {
+        padding: 0,
+        color: "grey",
+        fontSize: 12,
+        fontFamily: "Montserrat-MediumItalic",
+    },
 
   });
 
