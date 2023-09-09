@@ -3,8 +3,8 @@ import { View, FlatList } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
 import { useState } from 'react';
-import { Header_s4 } from '../../components/searchHeader.js';
-import { RenderItem_s4 } from '../../components/searchItems.js';
+import { Dict_header } from '../../components/searchHeader.js';
+import { Dict_item } from '../../components/searchItems.js';
 import { Dict } from '../../data/dict.js';
 
 export default function Słownik() {
@@ -30,10 +30,10 @@ export default function Słownik() {
     <View style={styles.contain}>
      <FlatList 
       data={searchQuery}
-      renderItem={({ item }) => <RenderItem_s4 data={item} />}
+      renderItem={({ item }) => <Dict_item data={item} />}
       keyExtractor={(item) => item.id}
       showsVerticalScrollIndicator={false}
-      ListHeaderComponent={<Header_s4 onSearch={handleSearch} />}
+      ListHeaderComponent={<Dict_header onSearch={handleSearch} />}
       />
     </View>
   )

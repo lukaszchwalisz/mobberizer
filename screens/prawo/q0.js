@@ -3,8 +3,8 @@ import { View, FlatList } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
 import { useState } from 'react';
-import { Header } from '../../components/searchHeader.js';
-import { RenderItem } from '../../components/searchItems.js';
+import { Law_header } from '../../components/searchHeader.js';
+import { Law_item } from '../../components/searchItems.js';
 import { Pytania } from '../../data/pytania.js';
 
 export default function Q0({ navigation, route}) {
@@ -30,10 +30,10 @@ export default function Q0({ navigation, route}) {
     <View style={styles.contain}>
      <FlatList 
       data={searchQuery}
-      renderItem={({ item }) => <RenderItem data={item} />}
+      renderItem={({ item }) => <Law_item data={item} />}
       keyExtractor={(item) => item.id}
       showsVerticalScrollIndicator={false}
-      ListHeaderComponent={<Header onSearch={handleSearch} />}
+      ListHeaderComponent={<Law_header onSearch={handleSearch} />}
       />
     </View>
   )

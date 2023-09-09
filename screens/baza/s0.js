@@ -21,7 +21,7 @@ export default function S0({ navigation }) {
     },
     {
       id: 's4',
-      title: 'Organizacje rządowe',
+      title: 'Organy rządowe',
     },
     {
       id: 's5',

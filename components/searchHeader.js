@@ -2,7 +2,7 @@ import React from "react";
 import { View, StyleSheet, Text, TextInput, Image } from "react-native";
 import { styles } from '../styles/global.js';
 
-const Header = ({onSearch}) => {
+const Law_header = ({onSearch}) => {
     return (
         <View style={styles.tabs_header}>
         <Text style={styles.tabs_title}>FAQ.</Text>
@@ -28,6 +28,35 @@ const Header = ({onSearch}) => {
           style={{ flex: 1, fontSize:16, fontFamily:"Roboto", color:"#E63946"}} 
         />
       </View>
+      </View>
+    )
+  };
+
+  const Dict_header = ({onSearch}) => {
+    return (
+        <View style={styles.tabs_header}>
+        <Text style={styles.tabs_title}>Słownik.</Text>
+        <Text style={styles.tabs_subtitle}>- terminy psychologiczne i prawne związane z mobbingiem w pracy{"\n"}</Text>
+        <Image source={require('../assets/images/image46.png')} resizeMode="cover" style={style.image} />
+      <View
+          style={{
+            borderWidth:1,
+            borderRadius: 10,
+            borderColor: "#457B9D",
+            padding: 5,
+            backgroundColor: "#a2d2ff", 
+            alignItems: "center",
+          }}
+        >
+        <TextInput
+          placeholder="Szukaj"
+          placeholderfontSize="14"
+          placeholderTextColor={'#457B9D'}
+          onChangeText={onSearch}
+          style={{ flex: 1, fontSize:16, fontFamily:"Roboto", color:"#E63946"}} 
+        />
+      </View>
+  
       </View>
     )
   };
@@ -118,10 +147,10 @@ const Header = ({onSearch}) => {
   const Header_s4 = ({onSearch}) => {
     return (
         <View style={styles.tabs_header}>
-        <Text style={styles.tabs_title}>Słownik.</Text>
-        <Text style={styles.tabs_subtitle}>- terminy psychologiczne i prawne związane z mobbingiem w pracy{"\n"}</Text>
-        <Image source={require('../assets/images/image46.png')} resizeMode="cover" style={style.image} />
-      <View
+        <Text style={styles.tabs_title}>Organy rządowe.</Text>
+        <Text style={styles.tabs_subtitle}>- instytucje państwowe zajmujące się m.i. prawami człowieka{"\n"}
+        </Text>
+        <View
           style={{
             borderWidth:1,
             borderRadius: 10,
@@ -139,13 +168,13 @@ const Header = ({onSearch}) => {
           style={{ flex: 1, fontSize:16, fontFamily:"Roboto", color:"#E63946"}} 
         />
       </View>
-  
       </View>
     )
   };
 
   export {
-    Header,
+    Law_header,
+    Dict_header,
     Header_s1,
     Header_s2,
     Header_s3,
