@@ -148,6 +148,32 @@ const RenderItem_s4 = ({ data }) => {
     );
 }
 
+const RenderItem_s5 = ({ data }) => {
+
+    const args = {
+        number: data.tel,
+        prompt: false, 
+        skipCanOpen: true 
+    }
+
+    return (  
+        <ScrollView > 
+
+        <View style={style.button}>
+            <Text style={styles.tabs_bold}>{data.title}{"\n"}</Text>
+            <Text style={style.tabs_subtext}>adres:  {data.adres}</Text>
+            <TouchableWithoutFeedback style={styles.tabs_text} onPress={() => {
+                call(args).catch(console.error);
+            }}> 
+            <Text style={style.tabs_subtext}>tel.:  {data.tel}</Text>
+            </TouchableWithoutFeedback>
+            <Text style={style.tabs_subtext}>email:  {data.email}</Text>
+            <Text style={style.tabs_subtext}>www:  <A href={data.www}>{data.www}</A></Text>
+        </View>
+        </ScrollView>
+    );
+}
+
 const style = StyleSheet.create({
     button: {
       flex: 1,
@@ -187,5 +213,6 @@ export {
         RenderItem_s1, 
         RenderItem_s2,
         RenderItem_s3,
-        RenderItem_s4
+        RenderItem_s4,
+        RenderItem_s5
     };

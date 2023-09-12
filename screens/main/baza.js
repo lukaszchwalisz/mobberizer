@@ -6,6 +6,7 @@ import S1  from '../baza/s1.js';
 import S2  from '../baza/s2.js';
 import S3  from '../baza/s3.js';
 import S4  from '../baza/s4.js';
+import S5  from '../baza/s5.js';
 
 const Sear = createStackNavigator()
 
@@ -33,6 +34,11 @@ export default function Baza({ navigation, route }) {
               // headerTitleStyle: { color: '#9FE2BF' }
               }} />
              <Sear.Screen name="s4" component={ S4 } options={{ title: 'Organy rządowe',        
+              // headerStyle: {backgroundColor: '#2f2f2f'}, 
+              // headerTintColor:  '#9FE2BF', 
+              // headerTitleStyle: { color: '#9FE2BF' }
+              }} />
+            <Sear.Screen name="s5" component={ S5 } options={{ title: 'Organizacje pozarządowe',        
               // headerStyle: {backgroundColor: '#2f2f2f'}, 
               // headerTintColor:  '#9FE2BF', 
               // headerTitleStyle: { color: '#9FE2BF' }
