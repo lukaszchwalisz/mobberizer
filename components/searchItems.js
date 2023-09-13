@@ -76,7 +76,7 @@ const RenderItem_s2 = ({ data }) => {
 
         <View style={style.button}>
             <Text style={styles.tabs_bold}>{data.title}{"\n"}</Text>
-            <Text style={style.tabs_subtext}>{data.adres}</Text>
+            <Text style={style.tabs_subtext}>adres:  {data.adres}</Text>
 
             <TouchableWithoutFeedback style={styles.tabs_text} onPress={() => {
                 call(args).catch(console.error);
@@ -105,7 +105,7 @@ const RenderItem_s3 = ({ data }) => {
 
         <View style={style.button}>
             <Text style={styles.tabs_bold}>{data.title}{"\n"}</Text>
-            <Text style={style.tabs_subtext}>{data.adres}</Text>
+            <Text style={style.tabs_subtext}>adres:  {data.adres}</Text>
             <TouchableWithoutFeedback style={styles.tabs_text} onPress={() => {
                 call(args).catch(console.error);
             }}> 
