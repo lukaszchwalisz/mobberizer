@@ -52,7 +52,16 @@ const NGOS = [
 		email:'biuro@pielegniarkicyfrowe.pl',
 		www:'https://www.pielegniarkicyfrowe.pl/', 
 		tag: 'mobbing, służba zdrowia',
-	}
+	},
+	{
+		id: '7',
+		title:'Grupa "Stonewall" (transpraca.pl)',
+		adres:'św. Marcin 80/82 (pok. 341), 61-809 Poznań',
+		tel: '',
+		email:'kontakt@grupa-stonewall.pl',
+		www:'https://grupa-stonewall.pl/o-nas/projekty/transpraca/', 
+		tag: 'mobbing, dyskryminacja, lgbt',
+	},
 ];
 
 export { NGOS };
