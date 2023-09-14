@@ -32,10 +32,14 @@ export default function K1 ({ navigation })  {
             że pracujesz ponad swoje obowiązki, bez wsparcia. Masz wrażenie, że wszystkim sprawia przyjemność, że w końcu mają na Ciebie haka i od teraz za nawet drobne przewinienie
             możesz wylecieć z pracy. Zastanawiasz się co Ciebie spotkało. Czy to był mobbing ? Czy może przesadzasz ? Zaczynasz poszukiwać pomocy.{"\n"}{"\n"}
             
-            Podany przykład może odnosić do wielu spraw, które są zgłaszane do stowarzyszenia OSA. Na tym etapie szczególnie ważna jest diagnoza sytuacji, w jakieś się znajdujesz.
-            Dopytujemy o formy zachowań mobbingowych, skutki zdrowotne, czas trwania, intensywność oraz dotychczasowe kroki, które już zostały podjęte. Wypełniasz stosowny kwestionariusz.
-            W kolejnym kroku zaproponujemy Tobie kolejne działania.{"\n"}{"\n"}
-            </Text>
+            Podany przykład może odnosić do wielu spraw, które są zgłaszane. Na tym etapie szczególnie ważna jest diagnoza sytuacji, w jakieś się znajdujesz.
+            Dopytujemy o formy zachowań mobbingowych, skutki zdrowotne, czas trwania, intensywność oraz dotychczasowe kroki, które już zostały podjęte. Wypełniasz stosowny 
+            <Text style={styles.tabs_bold}> kwestionariusz </Text>. W kolejnym kroku zaproponujemy Tobie kolejne działania.{"\n"}</Text>
+            <Divider /> 
+
+
+            <Divider /> 
+            <View><Text>{"\n"}</Text></View>
 
             <Button style={style.Button} icon='clipboard-text-outline' mode='contained' color="#A8DADC" uppercase={false}            
             onPress={() => {
