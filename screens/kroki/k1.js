@@ -2,10 +2,17 @@ import React from 'react';
 import { ScrollView, StyleSheet, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
-import { Button, Divider } from 'react-native-paper';
-
+import { Button, Drawer, Divider } from 'react-native-paper';
+import call from 'react-native-phone-call';
 
 export default function K1 ({ navigation })  {
+
+      const args = {
+            number: "48665696372", 
+            prompt: false, 
+            skipCanOpen: true 
+        }
+
       return (
             <ScrollView>
             <View style={styles.tabs_header}>
@@ -37,9 +44,12 @@ export default function K1 ({ navigation })  {
             <Text style={styles.tabs_bold}> kwestionariusz </Text>. W kolejnym kroku zaproponujemy Tobie kolejne działania.{"\n"}</Text>
             <Divider /> 
 
-
-            <Divider /> 
-            <View><Text>{"\n"}</Text></View>
+            <Drawer.Item
+            style={style.Button}
+            icon="phone"
+            label="INFOLINIA ANTYMOBBINGOWA"
+            onPress={() => {call(args).catch(console.error);}}
+            />
 
             <Button style={style.Button} icon='clipboard-text-outline' mode='contained' color="#A8DADC" uppercase={false}            
             onPress={() => {
