@@ -2,7 +2,7 @@ import React from 'react';
 import { ScrollView, StyleSheet, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
-import { Button, Divider } from 'react-native-paper';
+import { Button, Card, Divider } from 'react-native-paper';
 import call from 'react-native-phone-call';
 import INFOLINIA from '../../components/infolinia.js';
 
@@ -44,29 +44,36 @@ export default function K1 ({ navigation })  {
             Dopytujemy o formy zachowań mobbingowych, skutki zdrowotne, czas trwania, intensywność oraz dotychczasowe kroki, które już zostały podjęte. Wypełniasz stosowny 
             <Text style={styles.tabs_bold}> kwestionariusz </Text>. W kolejnym kroku zaproponujemy Tobie kolejne działania.{"\n"}</Text>
             <Divider /> 
+            <View><Text>{"\n"}</Text></View>
 
             <INFOLINIA />
 
             <Button style={style.Button} icon='clipboard-text-outline' mode='contained' color="#A8DADC" uppercase={false}            
-            onPress={() => {
-            navigation.navigate('Kwestionariusz')
-            }}>
-            Kwestionariusz FiSM
+                  onPress={() => {
+                  navigation.navigate('Kwestionariusz')
+                  }}>
+                  Kwestionariusz FiSM
             </Button>  
+            <View><Text>{"\n"}</Text></View>
 
-            <Button style={style.Button} mode='contained' color="#457B9D" uppercase={false}            
+            <Card>
+            <Card.Actions>
+
+            <Button icon="pan-left" style={style.Togle}  mode='contained' color="#E63946" uppercase={false}            
+                  onPress={() => {
+                  navigation.navigate('k0')
+                  }}>
+            </Button>
+
+            <Button icon="pan-right" style={style.Togle} mode='contained' color="#457B9D" uppercase={false}            
             onPress={() => {
             navigation.push('k2')
             }}>
-            Następny krok
             </Button>
 
-            <Button style={style.Button}  mode='contained' color="#E63946" uppercase={false}            
-            onPress={() => {
-            navigation.navigate('k0')
-            }}>
-            Powrót 
-            </Button>
+            </Card.Actions>
+            </Card>
+
             </View>
             </ScrollView>
       )
@@ -82,5 +89,15 @@ const style = StyleSheet.create({
         padding:10,
         borderWidth: 0.5,
         borderRadius: 20,
-      }
+      },
+      Togle: {
+            flex: 1,
+            padding:0,
+            textAlign: "justify",
+            marginVertical:5,
+            marginHorizontal:5,
+            padding:0,
+            borderWidth: 0.5,
+            borderRadius: 20,
+          },
     });

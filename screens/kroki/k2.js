@@ -2,7 +2,7 @@ import React from 'react';
 import { ScrollView, StyleSheet, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
-import { Button, Divider} from 'react-native-paper';
+import { Button, Card, Divider} from 'react-native-paper';
 
 export default function K2({ navigation })  {
       return (
@@ -27,27 +27,31 @@ export default function K2({ navigation })  {
             <Divider /> 
             <View><Text>{"\n"}</Text></View>
 
-            <Button style={style.Button} mode='contained' color="#457B9D" uppercase={false}            
-            onPress={() => {
-            navigation.navigate('k3')
-            }}>
-            Następny krok
-            </Button>
+            <Card>
+            <Card.Actions>
 
-            <Button style={style.Button} mode='contained' color="#F1FAEE" uppercase={false}            
+
+            <Button icon="pan-left" style={style.Togle}
+             mode='contained' color="#F1FAEE" uppercase={false}            
             onPress={() => {
             navigation.navigate('k1')
             }}>
-            Cofnij
             </Button>
 
-            <Button style={style.Button} mode='contained' color="#E63946" uppercase={false}            
+            <Button icon="pan" style={style.Togle} mode='contained' color="#E63946" uppercase={false}            
             onPress={() => {
             navigation.navigate('k0')
             }}>
-            Powrót
             </Button>
 
+            <Button icon="pan-right" style={style.Togle} mode='contained' color="#457B9D" uppercase={false}            
+            onPress={() => {
+            navigation.navigate('k3')
+            }}>
+            </Button>
+
+            </Card.Actions>
+            </Card>
             </View>
             </ScrollView>
       )
@@ -63,5 +67,15 @@ const style = StyleSheet.create({
         padding:10,
         borderWidth: 0.5,
         borderRadius: 20,
-      }
+      },
+      Togle: {
+            flex: 1,
+            padding:0,
+            textAlign: "justify",
+            marginVertical:5,
+            marginHorizontal:5,
+            padding:0,
+            borderWidth: 0.5,
+            borderRadius: 20,
+          },
     });
