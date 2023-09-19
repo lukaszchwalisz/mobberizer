@@ -59,13 +59,13 @@ export default function K1 ({ navigation })  {
             <Card>
             <Card.Actions>
 
-            <Button icon="pan-left" style={style.Togle}  mode='contained' color="#E63946" uppercase={false}            
+            <Button icon="pan" labelStyle={{fontSize: 24}} style={style.Togle}  mode='contained' color="#a2d2ff" uppercase={false}            
                   onPress={() => {
                   navigation.navigate('k0')
                   }}>
             </Button>
 
-            <Button icon="pan-right" style={style.Togle} mode='contained' color="#457B9D" uppercase={false}            
+            <Button icon="pan-right" labelStyle={{fontSize: 24}} style={style.Togle} mode='contained' color="#bde0fe" uppercase={false}            
             onPress={() => {
             navigation.push('k2')
             }}>

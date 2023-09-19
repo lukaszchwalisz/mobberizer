@@ -3,6 +3,7 @@ import { ScrollView, StyleSheet, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
 import { Button, Card, Divider} from 'react-native-paper';
+import INFOLINIA from '../../components/infolinia.js';
 
 export default function K2({ navigation })  {
       return (
@@ -26,25 +27,24 @@ export default function K2({ navigation })  {
             </Text>
             <Divider /> 
             <View><Text>{"\n"}</Text></View>
+            <INFOLINIA />
 
             <Card>
             <Card.Actions>
 
-
-            <Button icon="pan-left" style={style.Togle}
-             mode='contained' color="#F1FAEE" uppercase={false}            
+            <Button icon="pan-left" labelStyle={{fontSize: 24}} style={style.Togle} mode='contained' color="#bde0fe" uppercase={false}            
             onPress={() => {
             navigation.navigate('k1')
             }}>
             </Button>
 
-            <Button icon="pan" style={style.Togle} mode='contained' color="#E63946" uppercase={false}            
+            <Button icon="pan" labelStyle={{fontSize: 24}} style={style.Togle} mode='contained' color="#a2d2ff" uppercase={false}            
             onPress={() => {
             navigation.navigate('k0')
             }}>
             </Button>
 
-            <Button icon="pan-right" style={style.Togle} mode='contained' color="#457B9D" uppercase={false}            
+            <Button icon="pan-right" labelStyle={{fontSize: 24}} style={style.Togle} mode='contained' color="#bde0fe" uppercase={false}            
             onPress={() => {
             navigation.navigate('k3')
             }}>
@@ -72,8 +72,8 @@ const style = StyleSheet.create({
             flex: 1,
             padding:0,
             textAlign: "justify",
-            marginVertical:5,
-            marginHorizontal:5,
+            marginVertical:10,
+            marginHorizontal:10,
             padding:0,
             borderWidth: 0.5,
             borderRadius: 20,

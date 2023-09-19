@@ -2,7 +2,8 @@ import React from 'react';
 import { ScrollView, StyleSheet, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
-import { Button, Divider} from 'react-native-paper';
+import { Button, Card, Divider} from 'react-native-paper';
+import INFOLINIA from '../../components/infolinia.js';
 
 export default function K4({ navigation, route })  {
       return (
@@ -34,27 +35,31 @@ export default function K4({ navigation, route })  {
 
             <Divider /> 
             <View><Text>{"\n"}</Text></View>
+            {/* <INFOLINIA /> */}
 
-            <Button style={style.Button} mode='contained' color="#457B9D" uppercase={false}            
-            onPress={() => {
-            navigation.push('k5')
-            }}>
-            Następny krok
-            </Button>
-
-            <Button style={style.Button} mode='contained' color="#F1FAEE" uppercase={false}            
+            <Card>
+            <Card.Actions>
+            
+            <Button icon="pan-left" labelStyle={{fontSize: 24}} style={style.Togle} mode='contained' color="#bde0fe" uppercase={false}            
             onPress={() => {
             navigation.navigate('k3')
             }}>
-            Cofnij
             </Button>
 
-            <Button style={style.Button} mode='contained' color="#E63946" uppercase={false}            
+            <Button icon="pan" labelStyle={{fontSize: 24}} style={style.Togle} mode='contained' color="#a2d2ff" uppercase={false}            
             onPress={() => {
             navigation.navigate('k0')
             }}>
-            Powrót
             </Button>
+
+            <Button icon="pan-right" labelStyle={{fontSize: 24}} style={style.Togle} mode='contained' color="#bde0fe" uppercase={false}            
+            onPress={() => {
+            navigation.push('k5')
+            }}>
+            </Button>
+            
+            </Card.Actions>
+            </Card>
 
             </View>
             </ScrollView>
@@ -70,6 +75,16 @@ const style = StyleSheet.create({
         padding:10,
         borderWidth: 0.5,
         borderRadius: 20,
-      }
+      },
+      Togle: {
+            flex: 1,
+            padding:0,
+            textAlign: "justify",
+            marginVertical:5,
+            marginHorizontal:5,
+            padding:0,
+            borderWidth: 0.5,
+            borderRadius: 20,
+          }
     });
 
