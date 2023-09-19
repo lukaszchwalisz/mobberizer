@@ -3,7 +3,6 @@ import { ScrollView, StyleSheet, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
 import { Button, Card, Divider } from 'react-native-paper';
-// import call from 'react-native-phone-call';
 import INFOLINIA from '../../components/infolinia.js';
 
 export default function K1 ({ navigation })  {
