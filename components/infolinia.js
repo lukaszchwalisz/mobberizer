@@ -24,11 +24,10 @@ export default function INFOLINIA ()  {
 const style = StyleSheet.create({
     Button: {
       flex: 1,
-      padding:0,
+      padding:10,
       textAlign: "justify",
       marginVertical:5,
       marginHorizontal:20,
-      padding:10,
       borderWidth: 0.5,
       borderRadius: 20,
       borderBlockColor:"red",

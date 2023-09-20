@@ -32,19 +32,19 @@ export default function K2({ navigation })  {
             <Card>
             <Card.Actions>
 
-            <Button icon="pan-left" labelStyle={{fontSize: 24}} style={style.Togle} mode='contained' color="#bde0fe" uppercase={false}            
+            <Button icon="pan-left" labelStyle={{fontSize: 24}} style={style.ButtonLeft} mode='contained' color="#bde0fe" uppercase={false}            
             onPress={() => {
             navigation.navigate('k1')
             }}>
             </Button>
 
-            <Button icon="pan" labelStyle={{fontSize: 24}} style={style.Togle} mode='contained' color="#a2d2ff" uppercase={false}            
+            <Button icon="pan" labelStyle={{fontSize: 24}} style={style.ButtonCenter} mode='contained' color="#a2d2ff" uppercase={false}            
             onPress={() => {
             navigation.navigate('k0')
             }}>
             </Button>
 
-            <Button icon="pan-right" labelStyle={{fontSize: 24}} style={style.Togle} mode='contained' color="#bde0fe" uppercase={false}            
+            <Button icon="pan-right" labelStyle={{fontSize: 24}} style={style.ButtomRight} mode='contained' color="#bde0fe" uppercase={false}            
             onPress={() => {
             navigation.navigate('k3')
             }}>
@@ -58,24 +58,31 @@ export default function K2({ navigation })  {
 }
 
 const style = StyleSheet.create({
-      Button: {
-        flex: 1,
-        padding:0,
-        textAlign: "justify",
-        marginVertical:5,
-        marginHorizontal:20,
-        padding:10,
-        borderWidth: 0.5,
-        borderRadius: 20,
-      },
-      Togle: {
+      ButtonCenter: {
             flex: 1,
             padding:0,
             textAlign: "justify",
-            marginVertical:10,
-            marginHorizontal:10,
-            padding:0,
             borderWidth: 0.5,
-            borderRadius: 20,
+            borderRadius: 5,
           },
+      ButtonLeft: {
+            flex: 1,
+            padding:0,
+            textAlign: "justify",
+            marginVertical:5,
+            marginHorizontal:5,
+            borderWidth: 0.5,
+            borderTopLeftRadius:20,
+            borderBottomLeftRadius:20,
+      },
+      ButtomRight: {
+            flex: 1,
+            padding:0,
+            textAlign: "justify",
+            marginVertical:5,
+            marginHorizontal:5,
+            borderWidth: 0.5,
+            borderTopRightRadius:20,
+            borderBottomRightRadius:20,
+      },  
     });
