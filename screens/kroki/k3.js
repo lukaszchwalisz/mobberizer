@@ -44,6 +44,9 @@ export default function K3({ navigation})  {
             {/* <INFOLINIA /> */}
 
             <Card>
+            <Card.Content>
+            <Text style={styles.tabs_bold}>Czytasz dalej ?</Text>
+            </Card.Content>
             <Card.Actions>
 
             <Button icon="pan-left" labelStyle={{fontSize: 24}} style={style.ButtonLeft} mode='contained' color="#a2d2ff" uppercase={false}            
