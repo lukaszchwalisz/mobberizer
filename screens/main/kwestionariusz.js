@@ -48,7 +48,7 @@ export default function Kwestionariusz({ navigation }) {
               Linking.openURL('https://lukaszchwalisz.pythonanywhere.com/testy/kwestmobbing')
             }}>
             Kwestionariusz FiSM
-            </Button>
+        </Button>
 
         </View>
 

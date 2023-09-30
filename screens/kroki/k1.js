@@ -45,37 +45,25 @@ export default function K1 ({ navigation })  {
             <Divider /> 
             <View><Text>{"\n"}</Text></View>
 
-            {/* <INFOLINIA /> */}
-
-            {/* <Button style={style.Button} icon='clipboard-text-outline' mode='contained' color="#A8DADC" uppercase={false}            
-                  onPress={() => {
-                  navigation.navigate('Kwestionariusz')
-                  }}>
-                  Kwestionariusz FiSM
-            </Button>   */}
-            {/* <View><Text>{"\n"}</Text></View> */}
-
             <Card>
             <Card.Content>
             <Text style={styles.tabs_bold}>Czytasz dalej ?</Text>
             </Card.Content>
             <Card.Actions>
-
             <Button icon="pan" labelStyle={{fontSize: 24}} style={style.ButtonLeft}  mode='contained' color="#a2d2ff" uppercase={false}            
                   onPress={() => {
                   navigation.navigate('k0')
                   }}>
             </Button>
-
             <Button icon="pan-right" labelStyle={{fontSize: 24}} style={style.ButtomRight} mode='contained' color="#bde0fe" uppercase={false}            
             onPress={() => {
             navigation.push('k2')
             }}>
             </Button>
-
             </Card.Actions>
+            <INFOLINIA />
             </Card>
-
+           
             </View>
             </ScrollView>
       )

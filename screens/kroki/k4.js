@@ -35,7 +35,6 @@ export default function K4({ navigation, route })  {
 
             <Divider /> 
             <View><Text>{"\n"}</Text></View>
-            {/* <INFOLINIA /> */}
 
             <Card>
             <Card.Content>
@@ -62,6 +61,7 @@ export default function K4({ navigation, route })  {
             </Button>
             
             </Card.Actions>
+            <INFOLINIA />
             </Card>
 
             </View>

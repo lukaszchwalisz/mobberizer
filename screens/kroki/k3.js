@@ -41,7 +41,6 @@ export default function K3({ navigation})  {
             </Text>
             <Divider /> 
             <View><Text>{"\n"}</Text></View>
-            {/* <INFOLINIA /> */}
 
             <Card>
             <Card.Content>
@@ -66,8 +65,8 @@ export default function K3({ navigation})  {
             navigation.push('k4')
             }}>
             </Button>
-
             </Card.Actions>
+            <INFOLINIA />
             </Card>
 
             </View>

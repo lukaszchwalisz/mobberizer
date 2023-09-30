@@ -75,10 +75,11 @@ export default function K5({ navigation})  {
             </Text>
             <Divider /> 
             <View><Text>{"\n"}</Text></View>
-            {/* <INFOLINIA /> */}
-
          
             <Card>
+            <Card.Content>
+            <Text style={styles.tabs_bold}>Czytasz jeszcze raz ?</Text>
+            </Card.Content>
             <Card.Actions>
 
             <Button icon="pan-left" labelStyle={{fontSize: 24}} style={style.ButtonLeft} mode='contained' color="#bde0fe" uppercase={false}           
@@ -94,8 +95,8 @@ export default function K5({ navigation})  {
             </Button>
             
             </Card.Actions>
+            <INFOLINIA />
             </Card>
-
 
             </View>
             </ScrollView>

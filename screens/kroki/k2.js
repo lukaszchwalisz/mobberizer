@@ -27,7 +27,6 @@ export default function K2({ navigation })  {
             </Text>
             <Divider /> 
             <View><Text>{"\n"}</Text></View>
-            {/* <INFOLINIA /> */}
 
             <Card>
             <Card.Content>
@@ -54,6 +53,7 @@ export default function K2({ navigation })  {
             </Button>
 
             </Card.Actions>
+            <INFOLINIA />
             </Card>
             </View>
             </ScrollView>
