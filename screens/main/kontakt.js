@@ -10,7 +10,7 @@ export default function Kontakt() {
            <View style={styles.tabs_header}> 
              <Text style={styles.tabs_title}>Kontakt.{"\n"}</Text>
              <Image
-              style={{ flex: 1, width: '100%', height: 300, marginBottom: 20 }}
+              style={{ flex: 1, width: '100%', height: 300, marginBottom: 20, borderRadius: 10 }}
               source={
                 require('../../assets/images/image45.png')
               }

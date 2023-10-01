@@ -218,5 +218,6 @@ const Law_header = ({onSearch}) => {
       marginBottom: 20, 
       padding:30,
       alignItems: "center",
+      borderRadius: 10
     },
   })
