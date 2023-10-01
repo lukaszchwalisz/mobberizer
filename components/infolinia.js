@@ -15,7 +15,7 @@ export default function INFOLINIA ()  {
     return (
       <Card>
       <Card.Content>
-      <Text style={styles.tabs_bold}>Szukasz pomocy ?</Text>
+      <Text style={style.tabs_bold}>Szukasz pomocy ? Skontaktuj się z nami.</Text>
       </Card.Content>
         <Drawer.Item
         style={style.Button}
@@ -31,14 +31,6 @@ export default function INFOLINIA ()  {
         onPress={() => {
         Linking.openURL('mailto:lukaszchwalisz@proton.me')}}
         />
-        <Drawer.Item
-        style={style.Button}
-        icon="clipboard-text-outline"
-        label="Kwestionariusz form i skutków mobbingu."
-        onPress={() => {
-          Linking.openURL('https://lukaszchwalisz.pythonanywhere.com/testy/kwestmobbing')
-        }}/>
-
 
       </Card>
     )
@@ -46,14 +38,13 @@ export default function INFOLINIA ()  {
 
 const style = StyleSheet.create({
     Button: {
-      flex: 1,
-      padding:0,
-      textAlign: "justify",
-      marginVertical:2,
-      marginHorizontal:2.5,
-      // borderWidth: 0.5,
-      // borderTopRightRadius:20,
-      // borderBottomRightRadius:20,
-      // borderBlockColor:"red",
-    }
+      marginVertical:0,
+      marginHorizontal:10,
+    },
+    tabs_bold: {
+      padding: 0,
+      color: "magenta",
+      fontSize: 12,
+      fontFamily: "Montserrat-Bold",
+  },
   });
