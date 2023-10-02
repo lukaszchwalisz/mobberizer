@@ -20,7 +20,6 @@ export default function INFOLINIA ()  {
         <Drawer.Item
         style={style.Button}
         icon="phone"
-        labelStyle={{fontSize: 18}} 
         label="+48 665 696 372"
         onPress={() => {call(args).catch(console.error);}}
         />
