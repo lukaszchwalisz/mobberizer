@@ -78,7 +78,7 @@ export default function K5({ navigation})  {
          
             <Card>
             <Card.Content>
-            <Text style={styles.tabs_bold}>Czytasz dalej ?</Text>
+            <Text style={styles.tabs_subtitle}>Czytasz dalej ?</Text>
             </Card.Content>
             <Card.Actions>
 

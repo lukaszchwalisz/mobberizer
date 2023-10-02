@@ -15,12 +15,12 @@ export default function INFOLINIA ()  {
     return (
       <Card>
       <Card.Content>
-      <Text style={style.tabs_bold}>Szukasz pomocy ? Skontaktuj się z nami.</Text>
+      <Text style={styles.tabs_subtitle}>Szukasz pomocy ? Skontaktuj się z nami.</Text>
       </Card.Content>
         <Drawer.Item
         style={style.Button}
         icon="phone"
-        abelStyle={{fontSize: 18}} 
+        labelStyle={{fontSize: 18}} 
         label="+48 665 696 372"
         onPress={() => {call(args).catch(console.error);}}
         />
@@ -41,10 +41,4 @@ const style = StyleSheet.create({
       marginVertical:0,
       marginHorizontal:10,
     },
-    tabs_bold: {
-      padding: 0,
-      color: "magenta",
-      fontSize: 12,
-      fontFamily: "Montserrat-Bold",
-  },
   });
