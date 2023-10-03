@@ -48,9 +48,8 @@ export default function K0({ navigation }) {
     return (
         <View style={styles.tabs_header} >
         <Text style={styles.tabs_title}>Krok po kroku.</Text>
-        <Text style={styles.tabs_subtitle}>- kolejne etapy mobbingu w pracy na podstawie hipotetycznej sytuacji, 
-        bazującej na doświadczeniach ludzi mobbingowanych
-
+        <Text style={styles.tabs_subtitle}>Kolejne etapy radzenia sobie ze zjawiskiem mobbingu na
+        podstawie hipotetycznej sytuacji w miejscu pracy. 
          {"\n"}
         </Text>
         <Image
