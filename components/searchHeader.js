@@ -1,5 +1,6 @@
 import React from "react";
-import { View, StyleSheet, Text, TextInput, Image } from "react-native";
+import { View, StyleSheet, Text, Image } from "react-native";
+import { Searchbar } from 'react-native-paper';
 import { styles } from '../styles/global.js';
 
 const Law_header = ({onSearch}) => {
@@ -9,24 +10,17 @@ const Law_header = ({onSearch}) => {
         <Text style={styles.tabs_subtitle}>Najczęściej zadawane pytania dotyczące mobbingu w miejscu pracy.{"\n"}
         </Text>
         <Image source={require('../assets/images/image37.png')} resizeMode="cover" style={style.image} />
-         <View
-          style={{
-            borderWidth:1,
-            borderRadius: 10,
-            borderColor: "#457B9D",
-            padding: 5,
-            backgroundColor: "#a2d2ff", 
-            alignItems: "center",
-          }}
-        >
-        <TextInput
+        <Searchbar
           placeholder="Szukaj"
-          placeholderfontSize="14"
-          placeholderTextColor={'#457B9D'}
+          style={{
+            padding: 5,
+            borderWidth:1,
+            borderRadius: 50,
+            borderColor: "#a2d2ff",          
+            backgroundColor: "white", 
+          }}
           onChangeText={onSearch}
-          style={{ flex: 1, fontSize:16, fontFamily:"Roboto", color:"#E63946"}} 
         />
-      </View>
       </View>
     )
   };
@@ -37,26 +31,20 @@ const Law_header = ({onSearch}) => {
         <Text style={styles.tabs_title}>Słownik.</Text>
         <Text style={styles.tabs_subtitle}>Terminy psychologiczne i prawne związane z mobbingiem w pracy.{"\n"}</Text>
         <Image source={require('../assets/images/image46.png')} resizeMode="cover" style={style.image} />
-      <View
-          style={{
-            borderWidth:1,
-            borderRadius: 10,
-            borderColor: "#457B9D",
-            padding: 5,
-            backgroundColor: "#a2d2ff", 
-            alignItems: "center",
-          }}
-        >
-        <TextInput
-          placeholder="Szukaj"
-          placeholderfontSize="14"
-          placeholderTextColor={'#457B9D'}
-          onChangeText={onSearch}
-          style={{ flex: 1, fontSize:16, fontFamily:"Roboto", color:"#E63946"}} 
-        />
-      </View>
-  
-      </View>
+        
+          <Searchbar
+            placeholder="Szukaj"
+            style={{
+              padding: 5,
+              borderWidth:1,
+              borderRadius: 50,
+              borderColor: "#a2d2ff",          
+              backgroundColor: "white", 
+            }}
+            onChangeText={onSearch}
+          />
+       
+        </View>
     )
   };
 
@@ -65,25 +53,20 @@ const Law_header = ({onSearch}) => {
         <View style={styles.tabs_header}>
         <Text style={styles.tabs_title}>Państwowa Inspecja Pracy - PIP.</Text>
         <Text style={styles.tabs_subtitle}>Baza jednostek organizacyjnych PIP według województw.{"\n"}</Text>
-        <View
-          style={{
-            borderWidth:1,
-            borderRadius: 10,
-            borderColor: "#457B9D",
-            padding: 5,
-            backgroundColor: "#a2d2ff", 
-            alignItems: "center",
-          }}
-        >
-        <TextInput
-          placeholder="Szukaj"
-          placeholderfontSize="14"
-          placeholderTextColor={'#457B9D'}
-          onChangeText={onSearch}
-          style={{ flex: 1, fontSize:16, fontFamily:"Roboto", color:"#E63946"}} 
-        />
-      </View>
-      </View>
+        <View>
+          <Searchbar
+            placeholder="Szukaj"
+            style={{
+              padding: 5,
+              borderWidth:1,
+              borderRadius: 50,
+              borderColor: "#a2d2ff",          
+              backgroundColor: "white", 
+            }}
+            onChangeText={onSearch}
+          />
+        </View>
+        </View>
     )
   };
 
@@ -93,25 +76,20 @@ const Law_header = ({onSearch}) => {
         <Text style={styles.tabs_title}>Stacje Sanitarno-Epidemiologiczne - Sanepid.</Text>
         <Text style={styles.tabs_subtitle}>Baza jednostek organizacyjnych: wojewódzkie (WSSE), powiatowe (PSSE) oraz specjalne graniczne (GSSE).{"\n"}
         </Text>
-        <View
-          style={{
-            borderWidth:1,
-            borderRadius: 10,
-            borderColor: "#457B9D",
-            padding: 5,
-            backgroundColor: "#a2d2ff", 
-            alignItems: "center",
-          }}
-        >
-        <TextInput
-          placeholder="Szukaj"
-          placeholderfontSize="14"
-          placeholderTextColor={'#457B9D'}
-          onChangeText={onSearch}
-          style={{ flex: 1, fontSize:16, fontFamily:"Roboto", color:"#E63946"}} 
-        />
-      </View>
-      </View>
+        <View>
+          <Searchbar
+            placeholder="Szukaj"
+            style={{
+              padding: 5,
+              borderWidth:1,
+              borderRadius: 50,
+              borderColor: "#a2d2ff",          
+              backgroundColor: "white", 
+            }}
+            onChangeText={onSearch}
+          />
+        </View>
+        </View>
     )
   };
 
@@ -121,25 +99,20 @@ const Law_header = ({onSearch}) => {
         <Text style={styles.tabs_title}>Sądy powszechne.</Text>
         <Text style={styles.tabs_subtitle}>Struktura sądów powszechnych: sądy apelacyjne; sądy okręgowe; sądy rejonowe (#wp - sądy zawierające wydziały pracy).{"\n"}
         </Text>
-        <View
-          style={{
-            borderWidth:1,
-            borderRadius: 10,
-            borderColor: "#457B9D",
-            padding: 5,
-            backgroundColor: "#a2d2ff", 
-            alignItems: "center",
-          }}
-        >
-        <TextInput
-          placeholder="Szukaj"
-          placeholderfontSize="14"
-          placeholderTextColor={'#457B9D'}
-          onChangeText={onSearch}
-          style={{ flex: 1, fontSize:16, fontFamily:"Roboto", color:"#E63946"}} 
-        />
-      </View>
-      </View>
+        <View>
+          <Searchbar
+            placeholder="Szukaj"
+            style={{
+              padding: 5,
+              borderWidth:1,
+              borderRadius: 50,
+              borderColor: "#a2d2ff",          
+              backgroundColor: "white", 
+            }}
+            onChangeText={onSearch}
+          />
+        </View>
+        </View>
     )
   };
 
@@ -149,25 +122,20 @@ const Law_header = ({onSearch}) => {
         <Text style={styles.tabs_title}>Organy rządowe.</Text>
         <Text style={styles.tabs_subtitle}>Baza instytucji państwowych zajmujących się m.i. mobbingiem, dyskryminacją i prawami człowieka.{"\n"}
         </Text>
-        <View
-          style={{
-            borderWidth:1,
-            borderRadius: 10,
-            borderColor: "#457B9D",
-            padding: 5,
-            backgroundColor: "#a2d2ff", 
-            alignItems: "center",
-          }}
-        >
-        <TextInput
-          placeholder="Szukaj"
-          placeholderfontSize="14"
-          placeholderTextColor={'#457B9D'}
-          onChangeText={onSearch}
-          style={{ flex: 1, fontSize:16, fontFamily:"Roboto", color:"#E63946"}} 
-        />
-      </View>
-      </View>
+        <View>
+          <Searchbar
+            placeholder="Szukaj"
+            style={{
+              padding: 5,
+              borderWidth:1,
+              borderRadius: 50,
+              borderColor: "#a2d2ff",          
+              backgroundColor: "white", 
+            }}
+            onChangeText={onSearch}
+          />
+        </View>
+        </View>
     )
   };
 
@@ -177,25 +145,20 @@ const Law_header = ({onSearch}) => {
         <Text style={styles.tabs_title}>Organizacja pozarządowe.</Text>
         <Text style={styles.tabs_subtitle}>Baza organizacji pozarządowych zajmujących się m.i. mobbingiem, dyskryminacją i prawami człowieka.{"\n"}
         </Text>
-        <View
-          style={{
-            borderWidth:1,
-            borderRadius: 10,
-            borderColor: "#457B9D",
-            padding: 5,
-            backgroundColor: "#a2d2ff", 
-            alignItems: "center",
-          }}
-        >
-        <TextInput
-          placeholder="Szukaj"
-          placeholderfontSize="14"
-          placeholderTextColor={'#457B9D'}
-          onChangeText={onSearch}
-          style={{ flex: 1, fontSize:16, fontFamily:"Roboto", color:"#E63946"}} 
-        />
-      </View>
-      </View>
+        <View>
+          <Searchbar
+            placeholder="Szukaj"
+            style={{
+              padding: 5,
+              borderWidth:1,
+              borderRadius: 50,
+              borderColor: "#a2d2ff",          
+              backgroundColor: "white", 
+            }}
+            onChangeText={onSearch}
+          />
+        </View>
+        </View>
     )
   };
 
