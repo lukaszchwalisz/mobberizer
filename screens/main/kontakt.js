@@ -20,13 +20,14 @@ export default function Kontakt() {
              </Text>
              <Text style={styles.tabs_text}>autor:     Łukasz Chwalisz{"\n"}
                                             mail:       lukaszchwalisz@proton.me{"\n"}
-                                            tel.          + 48 665 696 372{"\n"}
+                                            tel.:          + 48 665 696 372{"\n"}
              </Text>
 
              <Text style={styles.tabs_bold}>fotografia, gobeliny:{"\n"}
              </Text>
              <Text style={styles.tabs_text}>autorka:  Kasia Menke{"\n"}
                                             mail:        katarzyna.menke@wp.pl{"\n"}
+                                            tel.:          + 48 665 751 559
              </Text>
 
              </View>

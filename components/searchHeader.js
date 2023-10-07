@@ -14,7 +14,7 @@ const Law_header = ({onSearch}) => {
           placeholder="Szukaj"
           style={{
             padding: 5,
-            borderWidth:1,
+            borderWidth:.1,
             borderRadius: 50,
             borderColor: "#a2d2ff",          
             backgroundColor: "white", 
@@ -36,7 +36,7 @@ const Law_header = ({onSearch}) => {
             placeholder="Szukaj"
             style={{
               padding: 5,
-              borderWidth:1,
+              borderWidth:.1,
               borderRadius: 50,
               borderColor: "#a2d2ff",          
               backgroundColor: "white", 
@@ -58,7 +58,7 @@ const Law_header = ({onSearch}) => {
             placeholder="Szukaj"
             style={{
               padding: 5,
-              borderWidth:1,
+              borderWidth:.1,
               borderRadius: 50,
               borderColor: "#a2d2ff",          
               backgroundColor: "white", 
@@ -81,7 +81,7 @@ const Law_header = ({onSearch}) => {
             placeholder="Szukaj"
             style={{
               padding: 5,
-              borderWidth:1,
+              borderWidth:.1,
               borderRadius: 50,
               borderColor: "#a2d2ff",          
               backgroundColor: "white", 
@@ -104,7 +104,7 @@ const Law_header = ({onSearch}) => {
             placeholder="Szukaj"
             style={{
               padding: 5,
-              borderWidth:1,
+              borderWidth:.1,
               borderRadius: 50,
               borderColor: "#a2d2ff",          
               backgroundColor: "white", 
@@ -127,7 +127,7 @@ const Law_header = ({onSearch}) => {
             placeholder="Szukaj"
             style={{
               padding: 5,
-              borderWidth:1,
+              borderWidth:.1,
               borderRadius: 50,
               borderColor: "#a2d2ff",          
               backgroundColor: "white", 
@@ -150,7 +150,7 @@ const Law_header = ({onSearch}) => {
             placeholder="Szukaj"
             style={{
               padding: 5,
-              borderWidth:1,
+              borderWidth:.1,
               borderRadius: 50,
               borderColor: "#a2d2ff",          
               backgroundColor: "white", 
