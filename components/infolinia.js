@@ -1,7 +1,8 @@
 import React from 'react';
-import { StyleSheet } from 'react-native';
-import { Drawer } from 'react-native-paper';
+import { Linking ,Text,StyleSheet } from 'react-native';
+import { Card,Drawer } from 'react-native-paper';
 import call from 'react-native-phone-call';
+import { styles } from '../styles/global.js';
 
 export default function INFOLINIA ()  {
 
@@ -12,24 +13,31 @@ export default function INFOLINIA ()  {
       }
 
     return (
+      <Card>
+      <Card.Content>
+      <Text style={styles.tabs_subtitle}>Szukasz pomocy ? Skontaktuj się z nami.</Text>
+      </Card.Content>
         <Drawer.Item
         style={style.Button}
         icon="phone"
-        label="INFOLINIA ANTYMOBBINGOWA"
+        label="+48 665 696 372"
         onPress={() => {call(args).catch(console.error);}}
         />
+        <Drawer.Item
+        style={style.Button}
+        icon="email"
+        label="lukaszchwalisz@proton.me"
+        onPress={() => {
+        Linking.openURL('mailto:lukaszchwalisz@proton.me')}}
+        />
+
+      </Card>
     )
 };
 
 const style = StyleSheet.create({
     Button: {
-      flex: 1,
-      padding:0,
-      textAlign: "justify",
-      marginVertical:5,
-      marginHorizontal:20,
-      padding:10,
-      borderWidth: 0.5,
-      borderRadius: 20,
-    }
+      marginVertical:0,
+      marginHorizontal:10,
+    },
   });

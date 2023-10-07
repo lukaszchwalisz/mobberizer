@@ -23,12 +23,12 @@ export default function Baza({ navigation, route }) {
               // headerTintColor:  '#9FE2BF', 
               // headerTitleStyle: { color: '#9FE2BF' }
               }} />
-             <Sear.Screen name="s2" component={ S2 } options={{ title: 'Sanepid',        
+             <Sear.Screen name="s2" component={ S2 } options={{ title: 'Stacje Sanitarno-Epidemiologiczne - Sanepid',        
               // headerStyle: {backgroundColor: '#2f2f2f'}, 
               // headerTintColor:  '#9FE2BF', 
               // headerTitleStyle: { color: '#9FE2BF' }
               }} />
-             <Sear.Screen name="s3" component={ S3 } options={{ title: 'Sądy',        
+             <Sear.Screen name="s3" component={ S3 } options={{ title: 'Sądy powszechne',        
               // headerStyle: {backgroundColor: '#2f2f2f'}, 
               // headerTintColor:  '#9FE2BF', 
               // headerTitleStyle: { color: '#9FE2BF' }

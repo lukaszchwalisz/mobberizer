@@ -21,7 +21,7 @@ export default function Main() {
     {
       id: 'Prawo',
       icon: 'comment-question-outline',
-      title: 'Kwestie prawne',
+      title: 'Pytania prawne',
       color: '#caf0f8',
     },
     {

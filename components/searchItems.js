@@ -182,7 +182,7 @@ const style = StyleSheet.create({
       marginHorizontal:20,
       padding:20,
       borderWidth: .7,
-      borderRadius: 20,
+      borderRadius: 10,
       borderColor: "#d8e2dc",
     },
     chip: {

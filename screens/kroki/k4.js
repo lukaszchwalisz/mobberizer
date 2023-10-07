@@ -2,7 +2,8 @@ import React from 'react';
 import { ScrollView, StyleSheet, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
-import { Button, Divider} from 'react-native-paper';
+import { Button, Card, Divider} from 'react-native-paper';
+import INFOLINIA from '../../components/infolinia.js';
 
 export default function K4({ navigation, route })  {
       return (
@@ -16,15 +17,16 @@ export default function K4({ navigation, route })  {
             czy rzeczywiście doszło do złamania prawa albo po prostu wyjaśnić zasadność skargi. {"\n"}{"\n"}
 
             W takim piśmie należy przedstawić historię zachowań mobbingowych, które miały miejsce w firmie - konkretnie wskazać się osoby,
-            które zachowywały się w niewłaściwy sposób, a również jakie działania przeciwdziałające temu zjawisku podjęto dotychczas. Należy 
-            wystosować konkretną prośbę, oczekiwanie o interwencję w sprawie, która przyniesie określony skutek - zaprzestanie zachowań mobbingowych.{"\n"}{"\n"}
+            które zachowywały się w niewłaściwy sposób, a również jakie działania przeciwdziałające temu zjawisku podjęto dotychczas. Zaleca się 
+            wystosować konkretną prośbę o interwencję, które z skuteczny sposób doprowadzi do zaprzestania zachowań mobbingowych.{"\n"}{"\n"}
 
             Dalszy brak skutecznych działań ze strony firmy albo próba zaprzeczania o zasadności skargi daje powód, aby sprawę zgłosić do przeznaczonych 
             do takich sytuacji instytucji, które zajmują się kontrolą przestrzegania prawa pracy: Państwowa Inspekcja Pracy, Państwowa Inspeckja Sanitarna.
             W przypadku Państwowej Inspekcji Pracy kontrola jest poprzedzona powiadomieniem pracodawcy, stąd istnieje ryzyko mataczenia
             (np. ukrywania ważnych dokumentów). PIP ma możliwość nie powiadomienia o kontroli, ale pracodawca ma wtedy 
             prawo żądać wyjaśnienia dotyczącego zasadności kontroli oraz treści zgłoszenia. PIP musi mieć bardzo mocne przestanki, aby dokonać 
-            niezapowiedzianej kontroli, dlatego należy to brać pod uwagę.{"\n"}{"\n"}
+            niezapowiedzianej kontroli, dlatego należy to brać pod uwagę. Przed wysłaniem oficjalnej skargi, warto się skonsultować z działem prawnym w danej
+            jednostce organizacyjnej PIP.{"\n"}{"\n"}
 
             Ostatecznym krokiem jest założenie sprawy o mobbing w sądzie pracy. Wymaga to odpowiedniego przygotowania procesowego i mentalnego: 
             napisania pozwu wyjaśniającego dotychczasowy przebieg zdarzeń (najlepiej przez kancelarię adwokacką specjalizującą się w prawie pracy); 
@@ -35,41 +37,65 @@ export default function K4({ navigation, route })  {
             <Divider /> 
             <View><Text>{"\n"}</Text></View>
 
-            <Button style={style.Button} mode='contained' color="#457B9D" uppercase={false}            
-            onPress={() => {
-            navigation.push('k5')
-            }}>
-            Następny krok
-            </Button>
-
-            <Button style={style.Button} mode='contained' color="#F1FAEE" uppercase={false}            
+            <Card>
+            <Card.Content>
+            <Text style={styles.tabs_subtitle}>Czytasz dalej ?</Text>
+            </Card.Content>
+            <Card.Actions>
+            
+            <Button icon="pan-left" labelStyle={{fontSize: 24}} style={style.ButtonLeft} mode='contained' color="#bde0fe" uppercase={false}            
             onPress={() => {
             navigation.navigate('k3')
             }}>
-            Cofnij
             </Button>
 
-            <Button style={style.Button} mode='contained' color="#E63946" uppercase={false}            
+            <Button icon="pan" labelStyle={{fontSize: 24}} style={style.ButtonCenter} mode='contained' color="#a2d2ff" uppercase={false}            
             onPress={() => {
             navigation.navigate('k0')
             }}>
-            Powrót
             </Button>
+
+            <Button icon="pan-right" labelStyle={{fontSize: 24}} style={style.ButtomRight} mode='contained' color="#bde0fe" uppercase={false}            
+            onPress={() => {
+            navigation.push('k5')
+            }}>
+            </Button>
+            
+            </Card.Actions>
+            <INFOLINIA />
+            </Card>
 
             </View>
             </ScrollView>
       )
 };
 const style = StyleSheet.create({
-      Button: {
-        flex: 1,
-        padding:0,
-        textAlign: "justify",
-        marginVertical:5,
-        marginHorizontal:20,
-        padding:10,
-        borderWidth: 0.5,
-        borderRadius: 20,
-      }
+      ButtonCenter: {
+            flex: 1,
+            padding:0,
+            textAlign: "justify",
+            borderWidth: 0.5,
+            borderRadius: 5,
+          },
+      ButtonLeft: {
+            flex: 1,
+            padding:0,
+            textAlign: "justify",
+            marginVertical:5,
+            marginHorizontal:5,
+            borderWidth: 0.5,
+            borderTopLeftRadius:20,
+            borderBottomLeftRadius:20,
+      },
+      ButtomRight: {
+            flex: 1,
+            padding:0,
+            textAlign: "justify",
+            marginVertical:5,
+            marginHorizontal:5,
+            borderWidth: 0.5,
+            borderTopRightRadius:20,
+            borderBottomRightRadius:20,
+      },  
     });
 

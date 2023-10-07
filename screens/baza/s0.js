@@ -44,11 +44,11 @@ export default function S0({ navigation }) {
   const Header = () => {
     return (
       <View style={styles.tabs_header}>
-        <Text style={styles.tabs_title}>Wyszukiwarka instytucji pomocowych</Text>
-        <Text style={styles.tabs_subtitle}>Znajdź dane adresowe instytucji publicznej.{"\n"}
+        <Text style={styles.tabs_title}>Baza danych.</Text>
+        <Text style={styles.tabs_subtitle}>Baza danych instytucji publicznych zajmujących się pomocą m.i w sprawach mobbingu, dyskryminacji i praw człowieka.{"\n"}
         </Text>
         <Image
-          style={{ flex: 1, width: '100%', height: 300 }}
+          style={{ flex: 1, width: '100%', height: 300, borderRadius: 10 }}
           source={
             require('../../assets/images/image43.png')
           }

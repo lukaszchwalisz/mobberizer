@@ -3,7 +3,6 @@ import { ScrollView, StyleSheet, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
 import { Button, Card, Divider } from 'react-native-paper';
-import call from 'react-native-phone-call';
 import INFOLINIA from '../../components/infolinia.js';
 
 export default function K1 ({ navigation })  {
@@ -28,52 +27,43 @@ export default function K1 ({ navigation })  {
             Współpracownicy rozmawiają ze sobą, nie zauważają Twojej obecności. Niby wszystko pozostaje takie jakie było, ale czujesz, że nie jesteś traktowany poważnie. 
             Zaczynasz się zastanawiać co jest nie tak z Tobą. Spada motywacja do pracy. Z czasem słabnie Twoja odporność, coraz częściej chorujesz, bierzesz L4, dłuższe zwolnienia.
             Kiedy wracasz po zwolnieniu do pracy, masz wrażenie, że wszyscy mają Tobie za złość, że zrobiłeś/łaś sobie dłuższe wakacje. Pracodawca wzywa Ciebie na dywanik,
-            daje ostrzeżenia, że nie będzie tego dalej tolerował. {"\n"}{"\n"}
+            daje ostrzeżenie, że nie będzie tego dalej tolerował. {"\n"}{"\n"}
             
             Starasz się więc pracować z większym zaangażowaniem, choć nie możesz już liczyć na nikogo. Pracodawca nie tylko nie docenia Twoich wysiłków, 
             ale dodatkowo daje Tobie kolejne zadania, które tylko zabierają Ci czas, a jednocześnie jesteś rozliczany/na ze swoich normalnych obowiązków. 
-            Z czasem przestajesz wyrabiać się, rośnie poziom stresu, pojawia się inne dolegliwości psychosomatyczne, bierzesz kolejne zwolnienie itd. 
+            Z czasem przestajesz wyrabiać się, rośnie poziom stresu, pojawią się inne dolegliwości psychosomatyczne, bierzesz kolejne zwolnienie itd. 
             Tłumaczysz się pracodawcy jak wygląda sytuacja, ale on nie widzi problemu. To ty masz problem. Przecież zawsze możesz zmienić pracę. Odczuwasz silny stres, który
-            nie mija kiedy wracasz do domu. Tam często obarczasz domowników swoimi emocjami, z czasem oni już także już dość, a co sprawia, że pogarszają się także relacje w Twoim domu.{"\n"}{"\n"}
+            nie mija nawet kiedy wracasz do domu. Tam często obarczasz domowników swoimi emocjami, z czasem oni już także mają dość. Z czasem pogarszają się również relacje w Twoim domu.{"\n"}{"\n"}
             
             Aż w końcu nie wyrabiasz. Albo popełniasz błąd. Zapominasz o jakieś ważnej rzeczy. Firma jest narażona na koszty. Mają Ciebie! Dostajesz naganę. Próbujesz się bronić, tłumaczysz,
-            że pracujesz ponad swoje obowiązki, bez wsparcia. Masz wrażenie, że wszystkim sprawia przyjemność, że w końcu mają na Ciebie haka i od teraz za nawet drobne przewinienie
-            możesz wylecieć z pracy. Zastanawiasz się co Ciebie spotkało. Czy to był mobbing ? Czy może przesadzasz ? Zaczynasz poszukiwać pomocy.{"\n"}{"\n"}
+            że pracujesz ponad swoje obowiązki, bez wsparcia. Masz wrażenie, że wszystkim sprawia przyjemność, że mają na Ciebie haka i od teraz za nawet drobne przewinienie
+            możesz wylecieć z pracy. Zastanawiasz się co Ciebie właściwie spotkało. Czy to był mobbing ? Czy może przesadzasz ? Zaczynasz poszukiwać pomocy.{"\n"}{"\n"}
             
             Podany przykład może odnosić do wielu spraw, które są zgłaszane. Na tym etapie szczególnie ważna jest diagnoza sytuacji, w jakieś się znajdujesz.
-            Dopytujemy o formy zachowań mobbingowych, skutki zdrowotne, czas trwania, intensywność oraz dotychczasowe kroki, które już zostały podjęte. Wypełniasz stosowny 
-            <Text style={styles.tabs_bold}> kwestionariusz </Text>. W kolejnym kroku zaproponujemy Tobie kolejne działania.{"\n"}</Text>
+            W szczególności formy zachowań mobbingowych, skutki zdrowotne, czas trwania, intensywność oraz dotychczasowe kroki, które już zostały podjęte. Zachęcamy do wypełnienia stosownego 
+            <Text style={styles.tabs_bold}> kwestionariusza </Text>. W kolejnym kroku zaproponujemy kolejne działania.{"\n"}</Text>
             <Divider /> 
             <View><Text>{"\n"}</Text></View>
 
-            <INFOLINIA />
-
-            <Button style={style.Button} icon='clipboard-text-outline' mode='contained' color="#A8DADC" uppercase={false}            
-                  onPress={() => {
-                  navigation.navigate('Kwestionariusz')
-                  }}>
-                  Kwestionariusz FiSM
-            </Button>  
-            <View><Text>{"\n"}</Text></View>
-
             <Card>
+            <Card.Content>
+            <Text style={styles.tabs_subtitle}>Czytasz dalej ?</Text>
+            </Card.Content>
             <Card.Actions>
-
-            <Button icon="pan-left" style={style.Togle}  mode='contained' color="#E63946" uppercase={false}            
+            <Button icon="pan" labelStyle={{fontSize: 24}} style={style.ButtonLeft}  mode='contained' color="#a2d2ff" uppercase={false}            
                   onPress={() => {
                   navigation.navigate('k0')
                   }}>
             </Button>
-
-            <Button icon="pan-right" style={style.Togle} mode='contained' color="#457B9D" uppercase={false}            
+            <Button icon="pan-right" labelStyle={{fontSize: 24}} style={style.ButtomRight} mode='contained' color="#bde0fe" uppercase={false}            
             onPress={() => {
             navigation.push('k2')
             }}>
             </Button>
-
             </Card.Actions>
+            <INFOLINIA />
             </Card>
-
+           
             </View>
             </ScrollView>
       )
@@ -81,23 +71,32 @@ export default function K1 ({ navigation })  {
 
 const style = StyleSheet.create({
       Button: {
-        flex: 1,
-        padding:0,
-        textAlign: "justify",
-        marginVertical:5,
-        marginHorizontal:20,
-        padding:10,
-        borderWidth: 0.5,
-        borderRadius: 20,
+            flex: 1,
+            padding:10,
+            textAlign: "justify",
+            marginVertical:5,
+            marginHorizontal:20,
+            borderWidth: 0.5,
+            borderRadius: 20,
       },
-      Togle: {
+      ButtonLeft: {
             flex: 1,
             padding:0,
             textAlign: "justify",
-            marginVertical:5,
-            marginHorizontal:5,
-            padding:0,
+            marginVertical:2,
+            marginHorizontal:2.5,
             borderWidth: 0.5,
-            borderRadius: 20,
-          },
+            borderTopLeftRadius:20,
+            borderBottomLeftRadius:20,
+      },
+      ButtomRight: {
+            flex: 1,
+            padding:0,
+            textAlign: "justify",
+            marginVertical:2,
+            marginHorizontal:2.5,
+            borderWidth: 0.5,
+            borderTopRightRadius:20,
+            borderBottomRightRadius:20,
+      },      
     });
