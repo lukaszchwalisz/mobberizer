@@ -12,7 +12,7 @@ export default function K2({ navigation })  {
             <Text style={styles.tabs_title}>2. Zgłoszenie problemu.{"\n"}</Text>
             <Divider />
             <Text style={styles.tabs_text}>{"\n"} 
-            Zgodnie z zapisami kodeksu pracy za mobbing w pracy odpowiada pracodawca, tak więc złoszenie wystąpienia zachowań mobbingowych w pracy powinno zacząć się
+            Zgodnie z zapisami kodeksu pracy za mobbing w pracy odpowiada pracodawca, tak więc zgłoszenie wystąpienia zachowań mobbingowych w pracy powinno zacząć się
             od poinformowania pracodawcy. Może to być prośba o rozmowę albo w dalszej kolejności złożenie oficjalnego pisma
             z prośbą o odniesienie się do wskazanych niewłaściwych zachowań, weryfikacja i podjęcie stosownych działań. {"\n"}{"\n"}
 
@@ -21,7 +21,7 @@ export default function K2({ navigation })  {
             mobbingowane od podjęcia stosownych działań. Trudna sytuacja wydaje się także kiedy wskazani w piśmie zostaną współpracownicy, gdyż powstaje obawa związana z postrzeganiem
             swojej osoby w pracy. Ryzyko wiąże się z uznaniem za donoszącego, za pomawiającego, za osobę, która działa przeciwko grupie. {"\n"}{"\n"}
 
-            Na każdym kroku moga pojawić się wątpliwości np. Czy mogę sobie zaszkodzić ? Czy będzie odpowiednia reakcja pracodawcy ?  Warto przyjrzeć się
+            Na każdym kroku mogą pojawić się wątpliwości np.: Czy mogę sobie zaszkodzić ? Czy będzie odpowiednia reakcja pracodawcy ? Warto przyjrzeć się
             swoim wątpliwościom w ramach konsultacji psychologicznych. Ważne, aby postępować świadomie, bez lęku, nie odczuwając przymusu.
             Osoba sama zadecyduje, kiedy będzie gotowa, aby zgłosić w swoim zakładzie pracy przypadki łamania prawa pracy z zakresie wystąpienia zachowań mobbingowych.{"\n"}
             </Text>
