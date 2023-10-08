@@ -39,7 +39,8 @@
     "react-native-vector-icons": "^9.2.0",
     "react-native-web": "~0.19.6",
     "utf8": "^3.0.0",
-    "yarn": "^1.22.19"
+    "yarn": "^1.22.19",
+    "@shopify/flash-list": "1.4.3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

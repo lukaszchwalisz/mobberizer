@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, FlatList } from 'react-native';
+import { View } from 'react-native';
+import { FlashList } from "@shopify/flash-list";
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
 import { useState } from 'react';
@@ -28,12 +29,13 @@ export default function S2({ navigation, route}) {
 
   return (
     <View style={styles.contain}>
-     <FlatList 
+     <FlashList 
       data={searchQuery}
       renderItem={({ item }) => <RenderItem_s2 data={item} />}
       keyExtractor={(item) => item.id}
       showsVerticalScrollIndicator={false}
       ListHeaderComponent={<Header_s2 onSearch={handleSearch} />}
+      estimatedItemSize={320}
       />
     </View>
   )
