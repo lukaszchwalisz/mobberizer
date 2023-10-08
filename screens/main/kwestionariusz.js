@@ -62,11 +62,11 @@ export default function Kwestionariusz({ navigation }) {
       justifyContent:'center',
       padding:10,
       borderWidth: .7,
-      borderRadius: 20,
+      borderRadius: 10,
       borderColor: "#d8e2dc",
       textAlign: "justify",
       marginVertical:5,
-      marginHorizontal:20,
+      marginHorizontal:0,
     },
     tabs_text: {
         color: '#000',
