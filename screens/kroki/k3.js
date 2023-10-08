@@ -33,7 +33,7 @@ export default function K3({ navigation})  {
 
             Może pojawić się zwątpienie, frustracja, pytania o sensowność dotychczasowych działań. Zalecana jest w takich sytuacjach
             pomoc specjalistów zdrowia psychicznego oraz innych, którzy mogą zdiagnozować zmiany psychosomatyczne u osoby poddanej silnemu
-            stresowi. Staramy się wesprzeć takie osoby, odwołać się do zasobów - przywołać motywację do pracy, która często była żrodłem siły i zadowolenia;
+            stresowi. Staramy się wesprzeć takie osoby, odwołać się do zasobów - przywołać motywację do pracy, która często była źródłem siły i zadowolenia;
             do poczucia sprawiedliwości i odpowiedzialności za siebie i swoje zdrowie psychiczne i somatyczne. {"\n"}{"\n"}
             
             W sytuacji, kiedy podjęto szereg działań dotyczących uświadomienia zaistnienia zachowań mobbingowych, pracodawca nadal nie podejmuje żadnych kroków

@@ -15,7 +15,7 @@ export default function K5({ navigation})  {
             Sprawy sądowe o mobbing wywołują wiele emocji, pochłaniają całkowicie, pozostawiają w poczuciu krzywdy, niesprawiedliwości. Pojawiają się ambiwalentne
             uczucia: lęku, złości, smutku, zemsty, bezradności. Dlatego należy bardzo dobrze przygotować się do sprawy sądowej, gdzie zalecane
             jest opanowanie emocji, jasne przedstawienie swojej sytuacji, uzasadnienie poparte dowodami. Na każdym etapie postępowania należy pamiętać,
-            że roztrzygnięcie sprawy pozostaje w rękach sądu pracy. W wielu momentach może to kłócić z własnymi odczuciami, ale do końca rozprawy należy zachować pokorę.
+            że rozstrzygnięcie sprawy pozostaje w rękach sądu pracy. W wielu momentach może to kłócić z własnymi odczuciami, ale do końca rozprawy należy zachować pokorę.
             Energię warto więc poświęcić na jak najlepsze przedstawienie swoich argumentów, wypunktowanie wszelkich prób odwrócenia sytuacji przez
             obronę i pozwanego. Wymaga to odpowiedniego przygotowania, zarówno w sferze dowodowej, jak i mentalnej. Poniżej przedstawiamy kilka
             najważniejszych zasad jakimi warto się kierować:{"\n"}{"\n"}
@@ -24,13 +24,13 @@ export default function K5({ navigation})  {
             </Text>
             
             Charakter przeżyć związany z mobbingiem w pracy budzi wiele emocji, wspomnienia mogą wpływać negatywnie na nastrój. Często ponowne
-            przywoływanie traumatycznych wydarzeń powoduje dyskonfort, poczucie bólu, krzywdy, rozpaczy. Samo przywołanie postaci
+            przywoływanie traumatycznych wydarzeń powoduje dyskomfort, poczucie bólu, krzywdy, rozpaczy. Samo przywołanie postaci
             mobbera w pamięci może wiązać się z traumatycznym lękiem. Dlatego też kiedy decydujemy się, aby skierować sprawę do sądu, powinniśmy podjąć wysiłek, aby
             spojrzeć na sprawę jeszcze raz, z dystansu, skupiając się na samych faktach: co zaszło? kiedy? dlaczego? kto brał udział? 
             
-            Sąd otrzyma wersję wydarzeń od obydwu stron konfliktu, i na jej postawie, posiłkując sie badaniami biegłych psychologów, będzie starał się wydać wyrok.
+            Sąd otrzyma wersję wydarzeń od obydwu stron konfliktu, i na jej postawie, posiłkując się badaniami biegłych psychologów, będzie starał się wydać wyrok.
             Na podstawie przedstawionych pism wyrobi sobie zdanie co tak naprawdę zaszło. Na tym etapie ważne jest najklarowniejsze przedstawienie okoliczności sprawy,
-            skupiąc się na faktach i jasnej interpretacji zaistniałych wydarzeń. Dlatego ważne jest omówienie z adwokatem swojej wersji wydarzeń, przygotowanie się na
+            skupiając się na faktach i jasnej interpretacji zaistniałych wydarzeń. Dlatego ważne jest omówienie z adwokatem swojej wersji wydarzeń, przygotowanie się na
             pytania sądu i strony pozwanej.{"\n"}{"\n"}
 
             <Text style={styles.tabs_bold}>- wynotowanie sobie wszystkich działań mobbingowych{"\n"}{"\n"}
@@ -46,7 +46,7 @@ export default function K5({ navigation})  {
             </Text>
 
             Równocześnie bardzo istotne jest zbieranie dokumentacji lekarskiej, która jasno wskazuje, że doznany uszczerbek na zdrowiu był spowodowany
-            zachowaniami mobbingowymi w pracy. Według kodeksu pracy jest to warunek konieczny, aby sprawa kwalifikowała sie jako mobbing. Dlatego szczególnie
+            zachowaniami mobbingowymi w pracy. Według kodeksu pracy jest to warunek konieczny, aby sprawa kwalifikowała się jako mobbing. Dlatego szczególnie
             uczulamy, aby w trakcie wizyty lekarskiej prosić lekarza o zaświadczenie poświadczające zgodnie z prawdą, że np. zaburzenia psychosomatyczne były wywołane stresującą
             sytuacją w pracy i nie stały za tym inne czynniki zdrowotne niepowiązane z mobbingiem.
             {"\n"}{"\n"}
@@ -54,12 +54,12 @@ export default function K5({ navigation})  {
             <Text style={styles.tabs_bold}>- kontakt ze świadkami mobbingu{"\n"}{"\n"}
             </Text>
             
-            W sprawach o mobbing często świadkami są osoby będące jednocześnie podwładnymi pozwanego. Wynika z tego konflikt interesow co ma swoje
+            W sprawach o mobbing często świadkami są osoby będące jednocześnie podwładnymi pozwanego. Wynika z tego konflikt interesów co ma swoje
             konsekwencje przy składaniu zeznań na sali sądowej. Wiele osób, współpracowników, którzy byli bezpośrednimi/pośrednimi świadkami mobbingu
-            często zasłania się niepamiecią albo poświadcza nieprawdę na korzyść pracodawcy. Niemniej warto postarać się wysądować kto mógłby zeznawać
+            często zasłania się niepamięcią albo poświadcza nieprawdę na korzyść pracodawcy. Niemniej warto postarać się wysondować kto mógłby zeznawać
             i zgodnie z prawdą przedstawić sytuację w pracy. Najlepiej nawiązać kontakt z osobami, które wcześniej składały zawiadomienia o mobbing w
             pracy u tego samego pracodawcy i namówić do składania zeznań. Koniecznie należy pozostać uważnym na ich osobiste przeżycia, gdyż ponowne
-            wspomninanie traumatycznych zdarzeń, może być bolesne i zniechęcać do bycia świadkiem w sądzie. Sąd oczywiście może wyznaczyć wskazane
+            wspominanie traumatycznych zdarzeń, może być bolesne i zniechęcać do bycia świadkiem w sądzie. Sąd oczywiście może wyznaczyć wskazane
             na świadków niezależnie od wcześniejszej zgody, ale warto wcześniej zrobić sobie grunt i mieć pewność, że osoba będzie mówiła zgodnie z prawdą
             jakie zachowania miały miejsce w pracy, w czasie kiedy tam pracowała.
             {"\n"}{"\n"}
@@ -69,7 +69,7 @@ export default function K5({ navigation})  {
             </Text>
 
             Zachęcamy do kontaktu ze instytucjami publicznymi, rządowymi i pozarządowymi zajmującymi się przeciwdziałaniem mobbingowi w Polsce, które mogą
-            udzielić pomocy w konsultacjach psychologicznych, prawniczych. Bardzą dobrą praktyką są grupy wsparcia dla osób mobbingowanych, podczas których
+            udzielić pomocy w konsultacjach psychologicznych, prawniczych. Bardzo dobrą praktyką są grupy wsparcia dla osób mobbingowanych, podczas których
             osoby dzielą się swoimi doświadczeniami, przemyśleniami na temat pracy pod okiem specjalistów. Wsparcie ze strony grupy jest ważne na każdym etapie rozwoju sprawy mobbingowej.
             W aplikacji w dziale "Baza danych" znajdziesz kontakt do wielu tego typu organizacji.{"\n"}
             </Text>

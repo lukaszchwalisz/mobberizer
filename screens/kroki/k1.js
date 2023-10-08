@@ -39,7 +39,7 @@ export default function K1 ({ navigation })  {
             że pracujesz ponad swoje obowiązki, bez wsparcia. Masz wrażenie, że wszystkim sprawia przyjemność, że mają na Ciebie haka i od teraz za nawet drobne przewinienie
             możesz wylecieć z pracy. Zastanawiasz się co Ciebie właściwie spotkało. Czy to był mobbing ? Czy może przesadzasz ? Zaczynasz poszukiwać pomocy.{"\n"}{"\n"}
             
-            Podany przykład może odnosić do wielu spraw, które są zgłaszane. Na tym etapie szczególnie ważna jest diagnoza sytuacji, w jakieś się znajdujesz.
+            Podany przykład może odnosić do wielu spraw, które są zgłaszane. Na tym etapie szczególnie ważna jest diagnoza sytuacji, w jakiej się znajdujesz.
             W szczególności formy zachowań mobbingowych, skutki zdrowotne, czas trwania, intensywność oraz dotychczasowe kroki, które już zostały podjęte. Zachęcamy do wypełnienia stosownego 
             <Text style={styles.tabs_bold}> kwestionariusza </Text>. W kolejnym kroku zaproponujemy kolejne działania.{"\n"}</Text>
             <Divider /> 
