@@ -14,21 +14,21 @@ export default function About({navigation}) {
               source={require('../../assets/icon.png')}
               />
             </View>
-            <Text style={styles.tabs_text}> 
-            <Text style={styles.tabs_bold}>Mobberizer </Text> 
+            <Text style={styles.tabs_subtitle}> 
+            <Text style={style.tabs_title}>Mobberizer </Text> 
             to aplikacja mobilna dedykowana osobom, które spotkały się z niewłaściwymi zachowaniami w pracy o charakterze mobbingowym;
             chcą zdiagnozować zaistniałą sytuację w pracy; poszukują pomocy psychologicznej i prawnej oraz instytucjonalnej.
              {"\n"}
 
              </Text>
-             <Text style={styles.tabs_text}>
-             <Text style={styles.tabs_bold}>Mobberizer </Text> 
+             <Text style={styles.tabs_subtitle}> 
+            <Text style={style.tabs_title}>Mobberizer </Text> 
              to narzędzie wsparcia dla osób zastanawiających się od czego zacząć, w jaki sposób skutecznie przeciwdziałać mobbingowi.
               {"\n"}</Text>
              
-            <Text style={styles.tabs_text}>
+            <Text style={styles.tabs_subtitle}>
             Aplikacja jest 
-            <Text style={styles.tabs_italic}> bezpłatna</Text> 
+            <Text style={style.tabs_italic}> bezpłatna</Text> 
             , nie zawiera reklam, jest przyjazna dla użytkownika.
               {"\n"}</Text>
 
@@ -43,6 +43,16 @@ const style = StyleSheet.create({
     flex: 1,
     padding:50,
     alignItems: "center",
+  },
+  tabs_title: {
+    color: '#000',
+    fontSize: 16,
+    fontFamily: "PoltawskiNowy-Medium",
+},
+  tabs_italic: {
+    padding: 0,
+    color: "#000",
+    fontSize: 14,
+    fontFamily: "PoltawskiNowy-Italic",
   }
-
 });
