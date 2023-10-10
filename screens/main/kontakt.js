@@ -78,7 +78,7 @@ const style = StyleSheet.create({
   tabs_subtitle: {
       padding: 0,
       color: "#9a8c98",
-      fontSize: 12,
+      fontSize: 14,
       fontFamily: "PoltawskiNowy-Regular",
   },
 });

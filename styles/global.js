@@ -38,7 +38,7 @@ export const styles = StyleSheet.create({
     tabs_subtitle: {
         padding: 0,
         color: "grey",
-        fontSize: 12,
+        fontSize: 14,
         fontFamily: "PoltawskiNowy-Regular",
     },
     tabs_italic: {
