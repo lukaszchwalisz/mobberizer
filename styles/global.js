@@ -55,13 +55,13 @@ export const styles = StyleSheet.create({
     tabs_text: {
         padding: 0,
         color: "#000",
-        fontSize: 14,
+        fontSize: 16,
         fontFamily: "Montserrat-Regular",
     },
     tabs_bold: {
         padding: 0,
         color: "#000",
-        fontSize: 14,
+        fontSize: 16,
         fontFamily: "Montserrat-Bold",
     },
     quotes: {

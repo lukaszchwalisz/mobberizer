@@ -15,7 +15,7 @@ const Law_item = ({ data }) => {
         <Text style={style.button}  onPress={() => {
         navigation.push(data.id)
         }}> 
-        <Text style={style.tabs_title}>{data.title}</Text>
+        <Text style={style.tabs_text}>{data.title}</Text>
         </Text>
         </ScrollView>
     );
@@ -30,7 +30,7 @@ const Dict_item = ({ data }) => {
             <Divider />
             <Text style={styles.tabs_text}>{"\n"}{data.content}{"\n"}</Text>
             <Divider />
-            <Text style={style.tabs_italic}>{"\n"}#{data.tag}</Text>
+            <Text style={styles.tabs_italic_p}>{"\n"}#{data.tag}</Text>
 
         </View>
         </ScrollView>
@@ -178,7 +178,7 @@ const RenderItem_s5 = ({ data }) => {
 const style = StyleSheet.create({
     button: {
       flex: 1,
-      textAlign: "justify",
+    //   textAlign: "justify",
       marginVertical:5,
       marginHorizontal:20,
       padding:20,
@@ -191,7 +191,12 @@ const style = StyleSheet.create({
         fontSize: 16,
         fontFamily: "PoltawskiNowy-Medium",
     },
-
+    tabs_text: {
+        padding: 0,
+        color: "#000",
+        fontSize: 16,
+        fontFamily: "Montserrat-Regular",
+    },
   });
 
 export { 
