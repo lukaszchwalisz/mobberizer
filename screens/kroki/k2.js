@@ -25,8 +25,6 @@ export default function K2({ navigation })  {
             swoim wątpliwościom w ramach konsultacji psychologicznych. Ważne, aby postępować świadomie, bez lęku, nie odczuwając przymusu.
             Osoba sama zadecyduje, kiedy będzie gotowa, aby zgłosić w swoim zakładzie pracy przypadki łamania prawa pracy z zakresie wystąpienia zachowań mobbingowych.{"\n"}
             </Text>
-            <Divider /> 
-            <View><Text>{"\n"}</Text></View>
 
             <Card>
             <Card.Content>

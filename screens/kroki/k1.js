@@ -41,10 +41,8 @@ export default function K1 ({ navigation })  {
             
             Podany przykład może odnosić do wielu spraw, które są zgłaszane. Na tym etapie szczególnie ważna jest diagnoza sytuacji, w jakiej się znajdujesz.
             W szczególności formy zachowań mobbingowych, skutki zdrowotne, czas trwania, intensywność oraz dotychczasowe kroki, które już zostały podjęte. Zachęcamy do wypełnienia stosownego 
-            <Text style={styles.tabs_bold}> kwestionariusza </Text>. W kolejnym kroku zaproponujemy kolejne działania.{"\n"}</Text>
-            <Divider /> 
-            <View><Text>{"\n"}</Text></View>
-
+            <Text style={styles.tabs_bold}> kwestionariusza</Text>. W kolejnym kroku zaproponujemy kolejne działania.</Text>
+            
             <Card>
             <Card.Content>
             <Text style={styles.tabs_subtitle}>Czytasz dalej ?</Text>

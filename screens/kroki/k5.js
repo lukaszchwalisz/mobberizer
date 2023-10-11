@@ -20,7 +20,7 @@ export default function K5({ navigation})  {
             obronę i pozwanego. Wymaga to odpowiedniego przygotowania, zarówno w sferze dowodowej, jak i mentalnej. Poniżej przedstawiamy kilka
             najważniejszych zasad jakimi warto się kierować:{"\n"}{"\n"}
 
-            <Text style={styles.tabs_bold}> - obiektywne podejście do problemu, zdystansowanie się{"\n"}{"\n"}
+            <Text style={styles.tabs_bold}>- obiektywne podejście do problemu, zdystansowanie się{"\n"}{"\n"}
             </Text>
             
             Charakter przeżyć związany z mobbingiem w pracy budzi wiele emocji, wspomnienia mogą wpływać negatywnie na nastrój. Często ponowne
@@ -71,11 +71,9 @@ export default function K5({ navigation})  {
             Zachęcamy do kontaktu ze instytucjami publicznymi, rządowymi i pozarządowymi zajmującymi się przeciwdziałaniem mobbingowi w Polsce, które mogą
             udzielić pomocy w konsultacjach psychologicznych, prawniczych. Bardzo dobrą praktyką są grupy wsparcia dla osób mobbingowanych, podczas których
             osoby dzielą się swoimi doświadczeniami, przemyśleniami na temat pracy pod okiem specjalistów. Wsparcie ze strony grupy jest ważne na każdym etapie rozwoju sprawy mobbingowej.
-            W aplikacji w dziale "Baza danych" znajdziesz kontakt do wielu tego typu organizacji.{"\n"}
+            W aplikacji w dziale "Baza danych" znajdziesz kontakt do wielu tego typu organizacji.
             </Text>
-            <Divider /> 
-            <View><Text>{"\n"}</Text></View>
-         
+            
             <Card>
             <Card.Content>
             <Text style={styles.tabs_subtitle}>Czytasz dalej ?</Text>

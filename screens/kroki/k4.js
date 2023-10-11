@@ -34,9 +34,6 @@ export default function K4({ navigation, route })  {
             z innych okoliczności. O szczegółach postępowania piszemy w kolejnym kroku.{"\n"}
             </Text>
 
-            <Divider /> 
-            <View><Text>{"\n"}</Text></View>
-
             <Card>
             <Card.Content>
             <Text style={styles.tabs_subtitle}>Czytasz dalej ?</Text>
