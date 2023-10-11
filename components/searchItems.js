@@ -114,10 +114,10 @@ const RenderItem_s3 = ({ data }) => {
             </TouchableWithoutFeedback>
             <Text style={styles.tabs_text}><Text style={styles.tabs_italic_p}>email:</Text>  {data.email}</Text>
             <Text style={styles.tabs_text}><Text style={styles.tabs_italic_p}>www:</Text> <A href={data.www}>{data.www}</A></Text>
-            <Text style={styles.tabs_text}><Text style={styles.tabs_italic_p}>apelacja:</Text> 
+            {/* <Text style={styles.tabs_text}><Text style={styles.tabs_italic_p}>apelacja:</Text> 
             <Text style={style.tabs_text}> {data.apelacja}</Text></Text>
             <Text style={styles.tabs_text}><Text style={styles.tabs_italic_p}>okręg: </Text>
-            <Text style={style.tabs_text}> {data.okręg}</Text></Text>
+            <Text style={style.tabs_text}> {data.okręg}</Text></Text> */}
         </View>
         </ScrollView>
     );
