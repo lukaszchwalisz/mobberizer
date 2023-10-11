@@ -14,21 +14,21 @@ export default function About({navigation}) {
               source={require('../../assets/icon.png')}
               />
             </View>
-            <Text style={styles.tabs_subtitle}> 
-            <Text style={style.tabs_title}>Mobberizer </Text> 
+            <Text style={styles.tabs_text}> 
+            <Text style={styles.tabs_bold}>Mobberizer </Text> 
             to aplikacja mobilna dedykowana osobom, które spotkały się z niewłaściwymi zachowaniami w pracy o charakterze mobbingowym;
             chcą zdiagnozować zaistniałą sytuację w pracy; poszukują pomocy psychologicznej i prawnej oraz instytucjonalnej.
              {"\n"}
 
              </Text>
-             <Text style={styles.tabs_subtitle}> 
-            <Text style={style.tabs_title}>Mobberizer </Text> 
+             <Text style={styles.tabs_text}> 
+            <Text style={styles.tabs_bold}>Mobberizer </Text> 
              to narzędzie wsparcia dla osób zastanawiających się od czego zacząć, w jaki sposób skutecznie przeciwdziałać mobbingowi.
               {"\n"}</Text>
              
-            <Text style={styles.tabs_subtitle}>
+            <Text style={styles.tabs_text}>
             Aplikacja jest 
-            <Text style={style.tabs_italic}> bezpłatna</Text> 
+            <Text style={styles.tabs_italic}> bezpłatna</Text> 
             , nie zawiera reklam, jest przyjazna dla użytkownika.
               {"\n"}</Text>
 

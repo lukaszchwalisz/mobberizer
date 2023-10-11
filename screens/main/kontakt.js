@@ -29,8 +29,8 @@ export default function Kontakt() {
               }
             />
             <View><Text>{"\n"}</Text></View>  
-             <Text style={style.tabs_title}>Łukasz Chwalisz</Text>
-             <Text style={style.tabs_subtitle}>obsługa techniczna i merytoryczna aplikacji{"\n"}
+             <Text style={styles.tabs_title}>Łukasz Chwalisz</Text>
+             <Text style={styles.tabs_subtitle}>obsługa techniczna i merytoryczna aplikacji{"\n"}
              </Text>
              <Drawer.Item
                 style={style.Button}
@@ -48,8 +48,8 @@ export default function Kontakt() {
               
             <View><Text>{"\n"}</Text></View>
 
-             <Text style={style.tabs_title}>Kasia Menke</Text>
-             <Text style={style.tabs_subtitle}>fotografia, gobeliny{"\n"}
+             <Text style={styles.tabs_title}>Kasia Menke</Text>
+             <Text style={styles.tabs_subtitle}>fotografia, gobeliny{"\n"}
              </Text>
 
              <Drawer.Item
