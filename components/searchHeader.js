@@ -142,7 +142,7 @@ const Law_header = ({onSearch}) => {
   const Header_s5 = ({onSearch}) => {
     return (
         <View style={styles.tabs_header}>
-        <Text style={styles.tabs_title}>Organizacja pozarządowe.</Text>
+        <Text style={styles.tabs_title}>Organizacje pozarządowe.</Text>
         <Text style={styles.tabs_subtitle}>Baza organizacji pozarządowych zajmujących się m.i. mobbingiem, dyskryminacją i prawami człowieka.{"\n"}
         </Text>
         <View>
