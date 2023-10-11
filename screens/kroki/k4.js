@@ -31,7 +31,7 @@ export default function K4({ navigation, route })  {
             Ostatecznym krokiem jest założenie sprawy o mobbing w sądzie pracy. Wymaga to odpowiedniego przygotowania procesowego i mentalnego: 
             napisania pozwu wyjaśniającego dotychczasowy przebieg zdarzeń (najlepiej przez kancelarię adwokacką specjalizującą się w prawie pracy); 
             zgromadzenia dokumentacji medycznej, która jasno wskaże, że uszczerbek na zdrowiu był spowodowany zachowaniami mobbingowymi, a nie wynikał
-            z innych okoliczności. O szczegółach postępowania piszemy w kolejnym kroku.{"\n"}
+            z innych okoliczności. O szczegółach postępowania piszemy w kolejnym kroku.
             </Text>
 
             <Card>

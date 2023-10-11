@@ -67,7 +67,7 @@ export default function K5({ navigation})  {
             
             <Text style={styles.tabs_bold}>- korzystanie z doświadczenia innych osób w podobnej sytuacji{"\n"}{"\n"}
             </Text>
-
+            
             Zachęcamy do kontaktu ze instytucjami publicznymi, rządowymi i pozarządowymi zajmującymi się przeciwdziałaniem mobbingowi w Polsce, które mogą
             udzielić pomocy w konsultacjach psychologicznych, prawniczych. Bardzo dobrą praktyką są grupy wsparcia dla osób mobbingowanych, podczas których
             osoby dzielą się swoimi doświadczeniami, przemyśleniami na temat pracy pod okiem specjalistów. Wsparcie ze strony grupy jest ważne na każdym etapie rozwoju sprawy mobbingowej.
