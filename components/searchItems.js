@@ -26,7 +26,7 @@ const Dict_item = ({ data }) => {
     return (  
         <ScrollView > 
         <View style={style.button}>
-            <Text style={styles.tabs_title}>{data.title}{"\n"}</Text>
+            <Text style={style.tabs_title}>{data.title}{"\n"}</Text>
             <Divider />
             <Text style={styles.tabs_text}>{"\n"}{data.content}{"\n"}</Text>
             <Divider />
@@ -105,7 +105,7 @@ const RenderItem_s3 = ({ data }) => {
         <ScrollView > 
 
         <View style={style.button}>
-            <Text style={styles.tabs_title}>{data.title}{"\n"}</Text>
+            <Text style={style.tabs_title}>{data.title}{"\n"}</Text>
             <Text style={styles.tabs_text}><Text style={styles.tabs_italic_p}>adres:</Text> {data.adres}</Text>
             <TouchableWithoutFeedback onPress={() => {
                 call(args).catch(console.error);

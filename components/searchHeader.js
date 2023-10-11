@@ -51,8 +51,8 @@ const Law_header = ({onSearch}) => {
   const Header_s1 = ({onSearch}) => {
     return (
         <View style={styles.tabs_header}>
-        <Text style={styles.tabs_title}>Państwowa Inspecja Pracy - PIP.</Text>
-        <Text style={styles.tabs_subtitle}>Baza jednostek organizacyjnych PIP według województw.{"\n"}</Text>
+        <Text style={styles.tabs_title}>Państwowa Inspecja Pracy.</Text>
+        <Text style={styles.tabs_subtitle}>Baza jednostek organizacyjnych według województw.{"\n"}</Text>
         <View>
           <Searchbar
             placeholder="Szukaj"
@@ -73,8 +73,8 @@ const Law_header = ({onSearch}) => {
   const Header_s2 = ({onSearch}) => {
     return (
         <View style={styles.tabs_header}>
-        <Text style={styles.tabs_title}>Stacje Sanitarno-Epidemiologiczne - Sanepid.</Text>
-        <Text style={styles.tabs_subtitle}>Baza jednostek organizacyjnych: wojewódzkie (WSSE), powiatowe (PSSE) oraz specjalne graniczne (GSSE).{"\n"}
+        <Text style={styles.tabs_title}>Stacje Sanitarno-Epidemiologiczne.</Text>
+        <Text style={styles.tabs_subtitle}>Baza jednostek organizacyjnych: wojewódzkie (WSSE), powiatowe (PSSE) i specjalne graniczne (GSSE).{"\n"}
         </Text>
         <View>
           <Searchbar
