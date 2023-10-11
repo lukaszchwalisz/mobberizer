@@ -7,8 +7,14 @@ import call from 'react-native-phone-call';
 
 export default function Kontakt() {
 
-  const args = {
+  const argslc = {
     number: "48665696372", 
+    prompt: false, 
+    skipCanOpen: true 
+    }
+
+  const argskm = {
+    number: "48665751559", 
     prompt: false, 
     skipCanOpen: true 
     }
@@ -16,7 +22,6 @@ export default function Kontakt() {
   return (
          <ScrollView style={styles.contain}>
            <View style={styles.tabs_header}> 
-             {/* <Text style={styles.tabs_title}>Kontakt.{"\n"}</Text> */}
              <Image
               style={{ flex: 1, width: '100%', height: 300, marginBottom: 20, borderRadius: 10 }}
               source={
@@ -38,7 +43,7 @@ export default function Kontakt() {
               style={style.Button}
               icon="phone"
               label="+48 665 696 372"
-              onPress={() => {call(args).catch(console.error);}}
+              onPress={() => {call(argslc).catch(console.error);}}
               />
               
             <View><Text>{"\n"}</Text></View>
@@ -58,7 +63,7 @@ export default function Kontakt() {
               style={style.Button}
               icon="phone"
               label="+48 665 751 559"
-              onPress={() => {call(args).catch(console.error);}}
+              onPress={() => {call(argskm).catch(console.error);}}
               />
              </View>
         </ScrollView>
@@ -73,12 +78,12 @@ const style = StyleSheet.create({
   tabs_title: {
       color: '#22223b',
       fontSize: 18,
-      fontFamily: "PoltawskiNowy-Medium",
+      fontFamily: "serif",
   },
   tabs_subtitle: {
       padding: 0,
       color: "#9a8c98",
       fontSize: 14,
-      fontFamily: "PoltawskiNowy-Regular",
+      fontFamily: "sans-serif",
   },
 });
