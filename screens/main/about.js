@@ -21,8 +21,8 @@ export default function About({navigation}) {
              {"\n"}
 
              </Text>
-             <Text style={styles.tabs_text}>
-             <Text style={styles.tabs_bold}>Mobberizer </Text> 
+             <Text style={styles.tabs_text}> 
+            <Text style={styles.tabs_bold}>Mobberizer </Text> 
              to narzędzie wsparcia dla osób zastanawiających się od czego zacząć, w jaki sposób skutecznie przeciwdziałać mobbingowi.
               {"\n"}</Text>
              
@@ -43,6 +43,16 @@ const style = StyleSheet.create({
     flex: 1,
     padding:50,
     alignItems: "center",
+  },
+  tabs_title: {
+    color: '#000',
+    fontSize: 16,
+    fontFamily: "PoltawskiNowy-Medium",
+},
+  tabs_italic: {
+    padding: 0,
+    color: "#000",
+    fontSize: 14,
+    fontFamily: "PoltawskiNowy-Italic",
   }
-
 });

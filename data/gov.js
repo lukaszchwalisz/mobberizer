@@ -3,7 +3,7 @@ const GOV = [
 		id: '1',
 		title:'Europejskie Centrum Konsumenckiego w Polsce (ECK)',
 		adres:'Pl. Powstańców Warszawy 1, 00-950 Warszawa',
-		tel: '(22) 55 60 600',
+		tel: '22 556 06 00',
 		email:'ECCNET-PL@ec.europa.eu',
 		www:'https://konsument.gov.pl/', 
 		epuap:'',
@@ -23,7 +23,7 @@ const GOV = [
 		id: '3',
 		title:'Krajowe Centrum Przeciwdziałania Uzależnieniom',
 		adres:'ul. Dereniowa 52, 02-776 Warszawa',
-		tel: '(+48) 22 641 15 01',
+		tel: '48 22 641 15 01',
 		email:'kcpu@kcpu.gov.pl',
 		www:'https://www.ombudsman.europa.eu/pl/home', 
 		epuap:'',
@@ -43,7 +43,7 @@ const GOV = [
 		id: '5',
 		title:'Państwowa Agencja Rozwiązywania Problemów Alkoholowych',
 		adres:'Al. Jerozolimskie 155, 02-326 Warszawa',
-		tel: '(+48 22) 250 63 25',
+		tel: '48 22 250 63 25',
 		email:'parpa@parpa.pl',
 		www:'https://www.parpa.pl', 
 		epuap:'',
@@ -53,7 +53,7 @@ const GOV = [
 		id: '6',
 		title:'Rzecznik Praw Dziecka',
 		adres:'ul. Chocimska 6, 00-791 Warszawa',
-		tel: '(22) 583 66 00',
+		tel: '22 583 66 00',
 		email:'rpd@brpd.gov.pl',
 		www:'https://brpd.gov.pl/', 
 		epuap:'',
@@ -63,7 +63,7 @@ const GOV = [
 		id: '7',
 		title:'Rzecznik Praw Obywatelskich',
 		adres:'Al. Solidarności 77, 00-090 Warszawa',
-		tel: '(22) 55 17 700',
+		tel: '22 551 77 00',
 		email:'biurorzecznika@brpo.gov.pl',
 		www:'https://bip.brpo.gov.pl/pl', 
 		epuap:'',
@@ -82,8 +82,8 @@ const GOV = [
     {
 		id: '9',
 		title:'Urząd Ochrony Konkurencji i Konsumentów',
-		adres:'pl. Powstańców Warszawy 1, 00-950 Warszawa',
-		tel: '22 55 60 800',
+		adres:'Pl. Powstańców Warszawy 1, 00-950 Warszawa',
+		tel: '22 556 08 00',
 		email:'uokik@uokik.gov.pl',
 		www:'https://uokik.gov.pl/', 
 		epuap:'',
@@ -109,7 +109,6 @@ const GOV = [
 		epuap:'/UDSC/SkrytkaESP',
 		tag: 'prawa cudzoziemców',
 	},
-
 
 ];
 

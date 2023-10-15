@@ -37,10 +37,8 @@ export default function K3({ navigation})  {
             do poczucia sprawiedliwości i odpowiedzialności za siebie i swoje zdrowie psychiczne i somatyczne. {"\n"}{"\n"}
             
             W sytuacji, kiedy podjęto szereg działań dotyczących uświadomienia zaistnienia zachowań mobbingowych, pracodawca nadal nie podejmuje żadnych kroków
-            w celu poprawy sytuacji w pracy, osoba mobbingowana może podjąć działania wykraczające swoim zasięgiem poza zakład pracy.{"\n"}
+            w celu poprawy sytuacji w pracy, osoba mobbingowana może podjąć działania wykraczające swoim zasięgiem poza zakład pracy.
             </Text>
-            <Divider /> 
-            <View><Text>{"\n"}</Text></View>
 
             <Card>
             <Card.Content>
