@@ -20,8 +20,8 @@ const Sanepid = [
 	{
 		id:'03',
 		title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Lublinie',
-		adres:'20 - 708 Lublin, ul. Pielęgniarek 6',
-		tel:'222 500 115',
+		adres:'ul. Pielęgniarek 6, 20-708 Lublin',
+		tel:'22 250 01 15',
 		email:'wsse.lublin@sanepid.gov.pl ',
 		www:'https://www.gov.pl/web/wsse-lublin',
 		tag: 'lubelskie, Lublin, Biała Podlaska, Biłgoraj, Chełm, Hrubieszów, Janów Lubelski, Krasnysław, Kraśnik, Lubartów, Łęczna, Łuków, Opole Lubelskie, Parczew, Puławy, Radzyń Podlaski, Ryki, Świdnik, Tomaszów Lubelski, Włodawa, Zamość, Koroszczyn, Dorohusk, Hrebenne',
@@ -29,8 +29,8 @@ const Sanepid = [
 	{
 		id:'04',
 		title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Gorzowie Wlkp.',
-		adres:'ul. Kazimierza Jagiellończyka 8b 66-400 Gorzów Wielkopolski',
-		tel:'95 722-60-57',
+		adres:'ul. Kazimierza Jagiellończyka 8b, 66-400 Gorzów Wielkopolski',
+		tel:'95 722 60 57',
 		email:'wsse.gorzow@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/wsse-gorzowwlkp',
 		tag: 'lubuskie, Gorzów Wlkp, Drezdenko, Krosno Obrzańskie, Międzyrzecz, Nowa Sól, Słubice, Sulęcin, Świebodzin, Zielona Góra, Żagań, Żary',
@@ -38,7 +38,7 @@ const Sanepid = [
 	{
 		id:'05',
 		title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Łodzi',
-		adres:'ul. Wodna 40 90-046 Łódź',
+		adres:'ul. Wodna 40, 90-046 Łódź',
 		tel:'42 253 62 00',
 		email:'sekretariat.wsse.lodz@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/wsse-lodz',
@@ -56,16 +56,16 @@ const Sanepid = [
 	{
 		id:'07',
 		title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Warszawie',
-		adres:'ul. Żelazna 79 00-875 Warszawa',
-		tel:'22 620 90 01-06 ',
+		adres:'ul. Żelazna 79, 00-875 Warszawa',
+		tel:'22 620 90 01-06',
 		email:'sekretariat.wsse.warszawa@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/wsse-warszawa',
-		tag: 'mazowieckie, Warszawa, Białobrzegi, Ciechanów, Garwolin, Gostynin, Grodzisk Mazowiecki, Grójec, Kozienice, Legionowo, Lipsko, Łosice, Maków Mazowiecki, Mińsk Mazowiecki, Mława, Nowy Dwór Mazowiecki, Ostrołęka, Ostrów Mazowiecka, Otwock, Piaseczno, Płock, Płońsk, Pruszczków, Przasnysz, Przysucha, Pułtusk, Radom, Siedlce, Sierpc, Sochaczew, Sokołów Podlaski, Szydłowiec, Warszawa Zachód (Ożarów Mazowiecki), Węgrów, Wołomin, Wyszków, Zwoleń, Żuromin, Żydardów',
+		tag: 'mazowieckie, Warszawa, Białobrzegi, Ciechanów, Garwolin, Gostynin, Grodzisk Mazowiecki, Grójec, Kozienice, Legionowo, Lipsko, Łosice, Maków Mazowiecki, Mińsk Mazowiecki, Mława, Nowy Dwór Mazowiecki, Ostrołęka, Ostrów Mazowiecka, Otwock, Piaseczno, Płock, Płońsk, Pruszczków, Przasnysz, Przysucha, Pułtusk, Radom, Siedlce, Sierpc, Sochaczew, Sokołów Podlaski, Szydłowiec, Warszawa Zachód Ożarów Mazowiecki, Węgrów, Wołomin, Wyszków, Zwoleń, Żuromin, Żydardów',
 	},
 	{
 		id:'08',
 		title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Opolu',
-		adres:'ul. Mickiewicza 1 45-367 Opole',
+		adres:'ul. Mickiewicza 1, 45-367 Opole',
 		tel:'77 44 26 985',
 		email:'sekretariat.wsse.opole@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/wsse-opole',
@@ -83,8 +83,8 @@ const Sanepid = [
 	{
 		id:'010',
 		title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Białymstoku',
-		adres:'ul. Legionowa 8 15-099 Białystok',
-		tel:'(85) 740 85 40',
+		adres:'ul. Legionowa 8, 15-099 Białystok',
+		tel:'85 740 85 40',
 		email:'wsse.bialystok@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/wsse-bialystok',
 		tag: 'podlaskie, Białystok, Augustów, Bielsk Podlaski, Grajewo, Hajnówka, Kolno, Łomża, Mońki, Sejny, Siemiatycze, Sokółka, Suwałki, Wysokie Mazowieckie, Zambrósw',
@@ -92,8 +92,8 @@ const Sanepid = [
 	{
 		id:'011',
 		title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Gdańsku',
-		adres:'ul. Dębinki 4 80-211 Gdańsk',
-		tel:'58 77 63 200 ',
+		adres:'ul. Dębinki 4, 80-211 Gdańsk',
+		tel:'58 776 32 00',
 		email:'wsse.gdansk@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/wsse-gdansk',
 		tag: 'pomorskie, Gdańsk, Bytów, Chojnice, Człuchów, Gdynia, Kartuzy, Kościerzyna, Kwidzyń, Lębork, Malbork, Nowy Dwór Gdański, Pruszcz Gdański, Puck, Słupsk, Sopot, Starogard Gdański, Tczew, Wejherowo, Gdynia, Ustka',
@@ -110,7 +110,7 @@ const Sanepid = [
 	{
 		id:'013',
 		title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Kielcach',
-		adres:'ul. Jagiellońska 68 25-734 Kielce',
+		adres:'ul. Jagiellońska 68, 25-734 Kielce',
 		tel:'41 365 54 00',
 		email:'sekretariat.wsse.kielce@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/wsse-kielce',
@@ -119,7 +119,7 @@ const Sanepid = [
 	{
 		id:'014',
 		title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Olsztynie',
-		adres:'ul. Żołnierska 16 10-561 Olsztyn',
+		adres:'ul. Żołnierska 16, 10-561 Olsztyn',
 		tel:'89 524 83 00',
 		email:'wsse.olsztyn@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/wsse-olsztyn',
@@ -128,8 +128,8 @@ const Sanepid = [
 	{
 		id:'015',
 		title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Poznaniu',
-		adres:'ul. Noskowskiego 23 61-705 Poznań',
-		tel:'61 85 44 800',
+		adres:'ul. Noskowskiego 23, 61-705 Poznań',
+		tel:'61 854 48 00',
 		email:'sekretariat.wssepoznan@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/wsse-poznan',
 		tag: 'wielkopolskie, Poznań, Chodzież, Czarnków, Gniezno, Gostyń, Grodzisk Wielkopolski, Jarocin, Kalisz, Kępno, Koło, Konin, Kościan, Krotoszyn, Leszno, Mięszychód, Nowy Tomyśl, Oborniki, Ostrów Wielkopolski, Ostrzeszów, Piła, Pleszew, Rawicz, Słupca, Szamotuły, Śrem, Środa Wielkopolska, Turek, Wągrowiec, Wolsztyn, Września, Złotów ',
@@ -137,8 +137,8 @@ const Sanepid = [
 	{
 		id:'016',
 		title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Szczecinie',
-		adres:'ul. Spedytorska 6/7 70-632 Szczecin',
-		tel:'914 624 060',
+		adres:'ul. Spedytorska 6/7, 70-632 Szczecin',
+		tel:'91 462 40 60',
 		email:'wsse.szczecin@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/wsse-szczecin',
 		tag: 'zachodniopomorskie, Szczecin, Białogard, Choszczno, Drawsko Pomorskie, Goleniów, Gryfice, Gryfino, Kamień Pomorski, Kołobrzeg, Koszalin, Łobez Myslibórz, Police, Pyrzyce, Sławno, Stargard, Szczecinek, Świdwin, Świnoujście, Wałcz',
@@ -165,7 +165,7 @@ const Sanepid = [
 		id:'281',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Głogowie',
 		adres:'ul. Piotra Skargi 4, 67-200 Głogów',
-		tel:'76 72 72 594',
+		tel:'76 727 25 94',
 		email:'psse.glogow@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-glogow',
 		tag: 'dolnośląskie, Głogów'
@@ -192,7 +192,7 @@ const Sanepid = [
 		id:'284',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Jeleniej Górze',
 		adres:'ul. Jana Kasprowicza 17, 58-500 Jelenia Góra',
-		tel:'75 64 35 560',
+		tel:'75 643 55 60',
 		email:'psse.jeleniagora@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-jelenia-gora',
 		tag: 'dolnośląskie, Jelenia Góra'
@@ -219,7 +219,7 @@ const Sanepid = [
 		id:'287',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Legnicy',
 		adres:'ul. Adama Mickiewicza 24, 59-220 Legnica',
-		tel:'76 72 45 310',
+		tel:'76 724 53 10',
 		email:'psse.legnica@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-legnica',
 		tag: 'dolnośląskie, Legnica'
@@ -255,7 +255,7 @@ const Sanepid = [
 		id:'291',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Miliczu',
 		adres:'ul. Armii Krajowej 5, 56-300 Milicz',
-		tel:'71 38 40 200',
+		tel:'71 384 02 00',
 		email:'psse.milicz@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-milicz',
 		tag: 'dolnośląskie, Milicz'
@@ -272,7 +272,7 @@ const Sanepid = [
 	{
 		id:'293',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Oławie',
-		adres:'ul. Warszawska 5,55-200 Oława',
+		adres:'ul. Warszawska 5, 55-200 Oława',
 		tel:'71 313 21 64, 71 313 38 21',
 		email:'psse.olawa@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-olawa',
@@ -407,7 +407,7 @@ const Sanepid = [
 	{
 		id:'222',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Chełmna',
-		adres:'ul. Łunawska 2a, 86- 200 Chełmno',
+		adres:'ul. Łunawska 2a, 86-200 Chełmno',
 		tel:'56 676 17 00',
 		email:'sekretariat.psse.chelmno@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-chelmno',
@@ -417,7 +417,7 @@ const Sanepid = [
 		id:'223',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Golubiu-Dobrzyniu',
 		adres:'ul. Dr Jerzego Gerarda Koppa 1A, 87-400 Golub-Dobrzyń',
-		tel:'56 683 24 85,  56 683 24 42',
+		tel:'56 683 24 85, 56 683 24 42',
 		email:'sekretariat.psse.golub-dobrzyn@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-golub-dobrzyn',
 		tag: 'kujawsko-pomorskie, Golub Dobrzyń'
@@ -543,7 +543,7 @@ const Sanepid = [
 		id:'237',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Żninie',
 		adres:'ul. Mickiewicza 24, 88-400 Żnin',
-		tel:'52 30 311 35',
+		tel:'52 303 11 35',
 		email:'sekretariat.psse.znin@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-znin',
 		tag: 'kujawsko-pomorskie, Żnin'
@@ -552,7 +552,7 @@ const Sanepid = [
 		id:'16',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Białej Podlaskiej',
 		adres:'ul. Warszawska 18, 21-500 Biała Podlaska',
-		tel:'83 344 41 60 (61,62)',
+		tel:'83 344 41 60 61,62',
 		email:'psse.bialapodlaska@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-biala-podlaska',
 		tag: 'lubelskie, Biała Podlaska'
@@ -560,7 +560,7 @@ const Sanepid = [
 	{
 		id:'17',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Biłgoraju',
-		adres:'ul. gen. Henryka Dąbrowskiego 15,23-400 Biłgoraj',
+		adres:'ul. gen. Henryka Dąbrowskiego 15, 23-400 Biłgoraj',
 		tel:'84 686 15 22',
 		email:'psse.bilgoraj@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-bilgoraj',
@@ -569,8 +569,8 @@ const Sanepid = [
 	{
 		id:'18',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Chełmie',
-		adres:'ul. Szpitalna 48,22-100 Chełm',
-		tel:'82 565 34 21 (22)',
+		adres:'ul. Szpitalna 48, 22-100 Chełm',
+		tel:'82 565 34 21 22',
 		email:'psse.chelm@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-chelm',
 		tag: 'lubelskie, Chełm'
@@ -578,7 +578,7 @@ const Sanepid = [
 	{
 		id:'19',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Hrubieszowie',
-		adres:'27 Wołyńskiej Dywizji Piechoty AK 6,22 – 500 Hrubieszów',
+		adres:'27 Wołyńskiej Dywizji Piechoty AK 6, 22–500 Hrubieszów',
 		tel:'84 696 50 10, 84 696 41 51',
 		email:'psse.hrubieszow@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-hrubieszow',
@@ -587,7 +587,7 @@ const Sanepid = [
 	{
 		id:'20',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Janowie Lubelskim',
-		adres:'ul. Wojska Polskiego 28, 23 – 300 Janów Lubelski',
+		adres:'ul. Wojska Polskiego 28, 23–300 Janów Lubelski',
 		tel:'15 872 54 00',
 		email:'psse.janowlubelski@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-janow-lubelski',
@@ -597,7 +597,7 @@ const Sanepid = [
 		id:'21',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Krasnymstawie',
 		adres:'ul. Sikorskiego 3a, 22-300 Krasnystaw',
-		tel:'887 436 164',
+		tel:'88 743 61 64',
 		email:'psse.krasnystaw@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-krasnystaw',
 		tag: 'lubelskie, Krasnystaw'
@@ -642,7 +642,7 @@ const Sanepid = [
 		id:'26',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Łukowie',
 		adres:'ul. Spółdzielcza 4, 21-400 Łuków',
-		tel:'25 798 21 96 (97)',
+		tel:'25 798 21 96 97',
 		email:'psse.lukow@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-lukow',
 		tag: 'lubelskie, Łuków'
@@ -668,7 +668,7 @@ const Sanepid = [
 	{
 		id:'29',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Puławach',
-		adres:'al. Królewska 19, 24 – 100 Puławy',
+		adres:'al. Królewska 19, 24–100 Puławy',
 		tel:'81 886 48 91',
 		email:'psse.pulawy@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-pulawy',
@@ -705,7 +705,7 @@ const Sanepid = [
 		id:'33',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Tomaszowie Lubelskim',
 		adres:'ul. Lwowska 51, 22-600 Tomaszów Lubelski',
-		tel:'84 664 44 78 (79)',
+		tel:'84 664 44 78 79',
 		email:'psse.tomaszowlubelski@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-tomaszow-lubelski',
 		tag: 'lubelskie, Tomaszów Lubelski'
@@ -759,7 +759,7 @@ const Sanepid = [
 		id:'149',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Drezdenku',
 		adres:'ul. Chrobrego 11, 66-530 Drezdenko',
-		tel:'(95) 762-05-20',
+		tel:'95 762 05 20',
 		email:'psse.drezdenko@sanepid.gov.pl',
 		www:'http://bip.wsse.gorzow.pl/pssedrezdenko',
 		tag: 'lubuskie, Drezdenko'
@@ -768,7 +768,7 @@ const Sanepid = [
 		id:'150',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Gorzowie Wlkp',
 		adres:'ul. Kosynierów Gdyńskich 27, 66-400 Gorzów Wlkp.',
-		tel:'(95) 722-89-86',
+		tel:'95 722 8986',
 		email:'psse.drezdenko@sanepid.gov.pl',
 		www:'http://bip.wsse.gorzow.pl/pssegorzow',
 		tag: 'lubuskie, Gorzów Wlkp'
@@ -777,7 +777,7 @@ const Sanepid = [
 		id:'151',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Krośnie Odrzańskim',
 		adres:'ul. Nadodrzańska 24, 66-600 Krosno Odrzańskie',
-		tel:'(68) 383-80-77',
+		tel:'68 383 80 77',
 		email:'psse.krosnoodrzanskie@sanepid.gov.pl',
 		www:'http://bip.wsse.gorzow.pl/pssekrosno',
 		tag: 'lubuskie, Krosno Odrzańskie'
@@ -785,8 +785,8 @@ const Sanepid = [
 	{
 		id:'152',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Międzyrzeczu',
-		adres:'os. Centrum 16, 66-300 Międzyrzecz',
-		tel:'(95) 741-22-27, 95 741 22 28',
+		adres:'Os. Centrum 16, 66-300 Międzyrzecz',
+		tel:'95 741-22-27, 95 741 22 28',
 		email:'psse.miedzyrzecz@sanepid.gov.pl',
 		www:'http://bip.wsse.gorzow.pl/pssemiedzyrzecz',
 		tag: 'lubuskie, Międzyrzecz'
@@ -795,7 +795,7 @@ const Sanepid = [
 		id:'153',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Nowej Soli',
 		adres:'ul. Wojska Polskiego 11, 67-100 Nowa Sól',
-		tel:'(95) 741-22-27, 95 741 22 28',
+		tel:'95 741 22 27, 95 741 22 28',
 		email:'psse.nowasol@sanepid.gov.pl',
 		www:'http://edu.wsse.gorzow.pl/nowasol/',
 		tag: 'lubuskie, Nowa Sól'
@@ -804,7 +804,7 @@ const Sanepid = [
 		id:'154',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Słubicach',
 		adres:'ul. Mickiewicza 6, 69-100 Słubice',
-		tel:'(68) 387-24-61',
+		tel:'95 758 20 03',
 		email:'psse.slubice@sanepid.gov.pl',
 		www:'http://bip.wsse.gorzow.pl/psseslubice',
 		tag: 'lubuskie, Słubice'
@@ -813,7 +813,7 @@ const Sanepid = [
 		id:'155',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Sulęcinie',
 		adres:'ul. Lipowa 14b, 69-200 Sulęcin',
-		tel:'(68) 387-24-61',
+		tel:'95 755 34 21',
 		email:'psse.sulecin@sanepid.gov.pl',
 		www:'http://bip.wsse.gorzow.pl/pssesulecin',
 		tag: 'lubuskie, Sulęcin'
@@ -822,7 +822,7 @@ const Sanepid = [
 		id:'156',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Świebodzinie',
 		adres:'ul. 30 Stycznia 5, 66-200 Świebodzin',
-		tel:'68 382-07-47, 68 382-43-54',
+		tel:'68 382 07 47, 68 382 43 54',
 		email:'psse.swiebodzin@sanepid.gov.pl',
 		www:'http://bip.wsse.gorzow.pl/psseswiebodzin',
 		tag: 'lubuskie, Świebodzin'
@@ -831,7 +831,7 @@ const Sanepid = [
 		id:'157',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Zielonej Górze',
 		adres:'ul. Jasna 10, 65-470 Zielona Góra',
-		tel:'(68) 325-46-71',
+		tel:'68 325 46 71',
 		email:'psse.zielonagora@sanepid.gov.pl',
 		www:'http://bip.wsse.gorzow.pl/pssezielonagora',
 		tag: 'lubuskie, Zielona Góra'
@@ -840,7 +840,7 @@ const Sanepid = [
 		id:'158',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Żaganiu',
 		adres:'ul. Szprotawska 45a, 68-100 Żagań',
-		tel:'(68) 477-66-00',
+		tel:'68 477 66 00',
 		email:'psse.zagan@sanepid.gov.pl',
 		www:'http://bip.wsse.gorzow.pl/pssezagan',
 		tag: 'lubuskie, Żagań'
@@ -849,7 +849,7 @@ const Sanepid = [
 		id:'159',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Żarach',
 		adres:'ul. Podchorążych 23a, 68-200 Żary',
-		tel:'(68) 470-62-58',
+		tel:'68 470 62 58',
 		email:'psse.zary@sanepid.gov.pl',
 		www:'http://bip.wsse.gorzow.pl/pssezary',
 		tag: 'lubuskie, Żary'
@@ -876,7 +876,7 @@ const Sanepid = [
 		id:'182',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Łęczycy',
 		adres:'ul. A. Mickiewicza 18, 99-100 Łęczyca',
-		tel:'663 73 56 28',
+		tel:'66 373 56 28',
 		email:'sekretariat.psse.leczyca@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-leczyca',
 		tag: 'łódzkie, Łęczyca'
@@ -885,7 +885,7 @@ const Sanepid = [
 		id:'183',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Łodzi',
 		adres:'ul. Przybyszewskiego 10, 93-189 Łódź',
-		tel:'(042) 253 99 00,(042) 253 90 10',
+		tel:'42 253 99 00, 42 253 90 10',
 		email:'sekretariat.psse.lodz@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-lodz',
 		tag: 'łódzkie, Łódź'
@@ -1082,7 +1082,7 @@ const Sanepid = [
 	{
 		id:'105',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Limanowej',
-		adres:'ul. Matki Boskiej Bolesnej 16B, 34-600, Limanowa',
+		adres:'ul. Matki Boskiej Bolesnej 16B, 34-600 Limanowa',
 		tel:'18 337 21 01',
 		email:'psse.limanowa@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-limanowa',
@@ -1523,7 +1523,7 @@ const Sanepid = [
 	{
 		id:'96',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Żurominie',
-		adres:'ul. Przemysłowa 10,09-300 Żuromin',
+		adres:'ul. Przemysłowa 10, 09-300 Żuromin',
 		tel:'23 657 22 17',
 		email:'serketariat.psse.zuromin@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-zuromim',
@@ -1974,7 +1974,7 @@ const Sanepid = [
 		id:'238',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Bytowie',
 		adres:'ul. Władysław Sikorskiego 27, 77-100 Bytów',
-		tel:'(59) 822 36 85,(59) 822 71 71',
+		tel:'59 822 36 85,59 822 71 71',
 		email:'psse.bytow@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-bytow',
 		tag: 'pomorskie, Bytów'
@@ -2190,7 +2190,7 @@ const Sanepid = [
 		id:'202',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Cieszynie',
 		adres:'ul. Liburnia 2a, 43-400 Cieszyn',
-		tel:'48 33 4797010',
+		tel:'48 33 479 70 10',
 		email:'psse.cieszyn@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-cieszyn',
 		tag: 'śląskie, Cieszyn'
@@ -2208,7 +2208,7 @@ const Sanepid = [
 		id:'204',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Dąbrowie Górniczej',
 		adres:'ul. Henryka Dąbrowskiego 9a, 41-300 Dąbrowa Górnicza',
-		tel:'(32) 360-27-90,795-513-569',
+		tel:'32 360-27-90,795-513-569',
 		email:'psse.dabrowagornicza@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-dabrowa-gornicza',
 		tag: 'śląskie, Dąbrowa Górnicza'
@@ -2226,7 +2226,7 @@ const Sanepid = [
 		id:'206',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Jaworznie',
 		adres:'ul. Pocztowa 7, 43-600 Jaworzno',
-		tel:'32 6164058, 690 538 610',
+		tel:'32 616 40 58, 690 538 610',
 		email:'psse.jaworzno@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-jaworzno',
 		tag: 'śląskie, Jaworzno'
@@ -2280,7 +2280,7 @@ const Sanepid = [
 		id:'212',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Rudzie Śląskiej',
 		adres:'ul. Dąbrowskiego 9, 41-710 Ruda Śląska',
-		tel:'(32) 340 03 84, 889 457 734',
+		tel:'32 340 03 84, 889 457 734',
 		email:'psse.rudaslaska@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-ruda-slaska',
 		tag: 'śląskie, Ruda Śląska'
@@ -2289,7 +2289,7 @@ const Sanepid = [
 		id:'213',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Rybniku',
 		adres:'ul. Kpt. L. Janiego 1, 44-200 Rybnik',
-		tel:'32 42 24 009, 48 880 448 734',
+		tel:'32 422 40 09, 48 880 448 734',
 		email:'psse.rybnik@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-rybnik',
 		tag: 'śląskie, Rybnik'
@@ -2325,7 +2325,7 @@ const Sanepid = [
 		id:'217',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Zawierciu',
 		adres:'ul. 11 Listopada 15, 42-400 Zawiercie',
-		tel:'(32) 672 34 91, 48 607 131 032',
+		tel:'32 672 34 91, 48 607 131 032',
 		email:'psse.zawiercie@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-wodzislaw-zawiercie',
 		tag: 'śląskie, Zawiercie'
@@ -2460,7 +2460,7 @@ const Sanepid = [
 		id:'162',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Działdowie',
 		adres:'Pl. Biedrawy 5, 13-200 Działdowo',
-		tel:'(23) 697 26 34',
+		tel:'23 697 26 34',
 		email:'psse.dzialdowo@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-dzialdowo',
 		tag: 'warmińsko-mazurskie, Działdowo'
@@ -2667,7 +2667,7 @@ const Sanepid = [
 		id:'310',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Jarocinie',
 		adres:'ul. Wąska 2, 63-200 Jarocin',
-		tel:'(62) 747 23 17, (62) 747 62 43',
+		tel:'62 747 23 17, 62 747 62 43',
 		email:'sekretariat.psse.jarocin@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-jarocin',
 		tag: 'wielkopolskie, Jarocin'
@@ -2685,7 +2685,7 @@ const Sanepid = [
 		id:'312',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kępnie',
 		adres:'ul. Pocztowa 1/3, 63-600 Kępno',
-		tel:'62 78 295 10, 62 78 232 38',
+		tel:'62 782 95 10, 62 782 32 38',
 		email:'sekretariat.psse.kepno@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-kepno',
 		tag: 'wielkopolskie, Kępno'
@@ -2694,7 +2694,7 @@ const Sanepid = [
 		id:'313',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Kole',
 		adres:'ul. Toruńska 72, 62-600 Koło',
-		tel:'63 27 22 279, 695 426 274',
+		tel:'63 272 22 79',
 		email:'sekretariat.psse.kolo@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-kolo',
 		tag: 'wielkopolskie, Koło'
@@ -2739,7 +2739,7 @@ const Sanepid = [
 		id:'318',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Międzychodzie',
 		adres:'ul. Strzelecka 12, 64-400 Międzychód',
-		tel:'(95) 74 82 411',
+		tel:'95 748 24 11',
 		email:'sekretariat.psse.miedzychod@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-miedzychod',
 		tag: 'wielkopolskie, Międzychód'
@@ -2748,7 +2748,7 @@ const Sanepid = [
 		id:'319',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Nowym Tomyślu',
 		adres:'Plac Niepodległości 4, 64-300 Nowy Tomyśl',
-		tel:'61 44 20 800, 795 457 382',
+		tel:'61 442 08 00, 795 457 382',
 		email:'sekretariat.psse.nowytomysl@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-nowy-tomysl',
 		tag: 'wielkopolskie, Nowy Tomyśl'
@@ -2757,7 +2757,7 @@ const Sanepid = [
 		id:'320',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Obornikach',
 		adres:'ul. Józefa Piłsudskiego 76, 64-600 Oborniki',
-		tel:'61 29 60 407, 502 305 913',
+		tel:'61 296 04 07, 502 305 913',
 		email:'sekretariat.psse.oborniki@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-oborniki',
 		tag: 'wielkopolskie, Oborniki'
@@ -2865,7 +2865,7 @@ const Sanepid = [
 		id:'332',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wągrowcu',
 		adres:'ul. Gnieźnieńska 49, 62-100 Wągrowiec',
-		tel:'67 26 85 680, 504 156 611',
+		tel:'67 268 56 80, 504 156 611',
 		email:'sekretariat.psse.wagrowiec@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-wagrowiec',
 		tag: 'wielkopolskie, Wągrowiec'
@@ -3000,7 +3000,7 @@ const Sanepid = [
 		id:'270',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Policach',
 		adres:'ul. Kresowa 14, 72-010 Police',
-		tel:'(91) 424 12 32, 48 887 437 307',
+		tel:'91 424 12 32, 48 887 437 307',
 		email:'psse.police@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-police',
 		tag: 'zachodniopomorskie, Police'
@@ -3009,7 +3009,7 @@ const Sanepid = [
 		id:'271',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Pyrzycach',
 		adres:'ul. Młodych Techników 5a, 74-200 Pyrzyce',
-		tel:'(91) 570 34 29',
+		tel:'91 570 34 29',
 		email:'psse.pyrzyce@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-pyrzyce',
 		tag: 'zachodniopomorskie, Pyrzyce'
@@ -3045,7 +3045,7 @@ const Sanepid = [
 		id:'275',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Szczecinku',
 		adres:'ul. Ordona 22, 78-400 Szczecinek',
-		tel:'94 37 405 59',
+		tel:'94 374 05 59',
 		email:'psse.szczecinek@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-szczecinek',
 		tag: 'zachodniopomorskie, Szczecinek'
@@ -3071,7 +3071,7 @@ const Sanepid = [
 	{
 		id:'278',
 		title:'Powiatowa Stacja Sanitarno-Epidemiologiczna w Wałczu',
-		adres:'al. Zdobywców Wału Pomorskiego 54, 78-600 Wałcz',
+		adres:'Al. Zdobywców Wału Pomorskiego 54, 78-600 Wałcz',
 		tel:'67 258 23 31',
 		email:'psse.walcz@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/psse-walcz',
