@@ -2,7 +2,7 @@ const Sanepid = [
 	{
 		id:'01',
 		title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna we Wrocławiu',
-		adres:'ul. Marii Curie-Skłodowskiej 73/77 50-950 Wrocław',
+		adres:'ul. Marii Curie-Skłodowskiej, 73/77 50-950 Wrocław',
 		tel:'71 328 30 41 do 49',
 		email:'wsse.wroclaw@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/wsse-wroclaw',
@@ -11,7 +11,7 @@ const Sanepid = [
 	{
 		id:'02',
 		title:'Wojewódzka Stacja Sanitarno-Epidemiologiczna w Bydgoszczy',
-		adres:'ul. Kujawska 4 85-031 Bydgoszcz',
+		adres:'ul. Kujawska 4, 85-031 Bydgoszcz',
 		tel:'52 37 618 00',
 		email:'sekretariat.wsse.bydgoszcz@sanepid.gov.pl',
 		www:'https://www.gov.pl/web/wsse-bydgoszcz',
