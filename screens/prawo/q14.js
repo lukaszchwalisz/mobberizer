@@ -11,19 +11,18 @@ export default function Q14() {
       <View style={styles.tabs_header}> 
         <Text style={styles.tabs_title}>W jaki sposób zdefiniowany jest mobbing w kodeksie pracy ?{"\n"}</Text>
         <Text style={styles.tabs_text}>
-        W kodeksie pracy ustawodawca zdefiniował mobbing jako:{"\n"}{"\n"}
+        W kodeksie pracy ustawodawca zdefiniował mobbing jako:{"\n"}</Text>
         <Text style={styles.quotes}>
         „Mobbing oznacza działania lub zachowania dotyczące pracownika lub skierowane przeciwko pracownikowi,
         polegające na uporczywym i długotrwałym nękaniu lub zastraszaniu pracownika, wywołujące u niego zaniżoną
         ocenę przydatności zawodowej, powodujące lub mające na celu poniżenie lub ośmieszenie pracownika,
         izolowanie go lub wyeliminowanie z zespołu współpracowników.”{"\n"}{"\n"}
-        </Text>
+      
 
         Wszystkie te elementy muszą wystąpić łącznie, aby zachowanie w pracy mogły zostać zakwalifikowane jako mobbing.
         Ustawodawca nie ujął precyzyjnie okresu trwania zachowań mobbingowych. Sądy pracy w tym wypadku opierają się na
         praktyce z zakresu badania i przeciwdziałania mobbingowi, gdzie ten okres wynosi conajmniej od 3 do 6 miesięcy,
         w zależności od intensywności zachowań mobbingowych.
-        {"\n"}
         </Text>
 
         <Divider />

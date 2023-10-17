@@ -15,7 +15,7 @@ const Law_item = ({ data }) => {
         <Text style={style.button}  onPress={() => {
         navigation.push(data.id)
         }}> 
-        <Text style={style.tabs_text}>{data.title}</Text>
+        <Text style={style.tabs_text}>{data.nr}.  {data.title}</Text>
         </Text>
         </ScrollView>
     );

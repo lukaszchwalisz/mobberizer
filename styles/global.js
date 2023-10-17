@@ -33,6 +33,7 @@ export const styles = StyleSheet.create({
         color: '#000',
         textAlign: "justify",
         fontSize: 18,
+        lineHeight: 25,
         fontFamily: "Lora-SemiBold",
     },
     tabs_subtitle: {
@@ -57,7 +58,7 @@ export const styles = StyleSheet.create({
         padding: 0,
         color: "#000",
         fontSize: 16,
-        lineHeight: 30,
+        lineHeight: 25,
         fontFamily: "Lora-Regular",
         textAlign: "justify",
         
@@ -73,7 +74,7 @@ export const styles = StyleSheet.create({
         textAlign: "justify",
         color: '#000',
         fontSize: 14,
-        fontFamily: "serif",
+        fontFamily: "Lora-Italic",
     },
     pics: {
         padding:10, 

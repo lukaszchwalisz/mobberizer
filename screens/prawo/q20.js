@@ -12,7 +12,7 @@ export default function Q20() {
         <Text style={styles.tabs_title}>Czy sąd bierze pod uwagę dowody z nagrań dokonanych bez zgody lub wiedzy osoby nagrywanej ?{"\n"}</Text>
         <Text style={styles.tabs_text}>
         Sąd może dopuścić dowody zebrane w sposób dokonany bez zgody i wiedzy osoby nagrywanej, ale osoba nagrywana bez zgody może także dochodzić
-        swoich praw w osobnym postepowaniu. {"\n"}
+        swoich praw w osobnym postepowaniu.
         </Text>
 
         <Text style={styles.quotes}>

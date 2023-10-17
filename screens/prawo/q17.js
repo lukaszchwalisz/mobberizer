@@ -110,7 +110,7 @@ export default function Q17() {
         § 2. Wydatki związanez działalnością komisji pojednawczej ponosi
         pracodawca. Wydatki te obejmują również równowartość utraconego wynagrodzenia
         za czas nieprzepracowany przez pracownika w związku z udziałem w postępowaniu
-        pojednawczym.{"\n"}
+        pojednawczym.
         </Text>
 
         <Divider />
