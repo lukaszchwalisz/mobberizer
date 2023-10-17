@@ -79,7 +79,7 @@ const style = StyleSheet.create({
   tabs_title: {
     color: '#000',
     fontSize: 16,
-    fontFamily: "PoltawskiNowy-Regular",
+    fontFamily: "Lora-Regular",
     textAlign: "justify",
     },
 

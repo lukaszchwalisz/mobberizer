@@ -29,7 +29,7 @@ export default function Q8() {
         Postępowanie kontrolne:{"\n"}
         Art. 21. Postępowanie kontrolne ma na celu ustalenie stanu faktycznego w zakresie przestrzegania
          prawa pracy, w szczególności przepisów i zasad bezpieczeństwa i higieny pracy, a także przepisów
-          dotyczących legalności zatrudnienia oraz udokumentowanie dokonanych ustaleń.{"\n"}
+          dotyczących legalności zatrudnienia oraz udokumentowanie dokonanych ustaleń.
         </Text>
 
         <Divider />

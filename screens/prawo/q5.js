@@ -9,7 +9,7 @@ export default function Q5() {
   return (
       <ScrollView style={styles.contain}>
       <View style={styles.tabs_header}> 
-        <Text style={styles.tabs_title}>Czy przyzwolenie na nierówne traktowanie, dyskryminację lub molestowanie seksualne ze strony pracownika nie będzie nosiło za sobą konsekwencji prawnych ?{"\n"}</Text>
+        <Text style={styles.tabs_title}>Czy przyzwolenie na nierówne traktowanie, dyskryminację lub molestowanie seksualne ze strony pracownika nie będzie nosiło za sobą konsekwencji prawnych ?</Text>
         <Text style={styles.tabs_text}>
         Podporządkowanie się przez pracownika molestowaniu lub molestowaniu seksualnemu,
          a także podjęcie przez niego działań przeciwstawiających się molestowaniu lub

@@ -33,6 +33,7 @@ export const styles = StyleSheet.create({
         color: '#000',
         textAlign: "justify",
         fontSize: 18,
+        lineHeight: 25,
         fontFamily: "Lora-SemiBold",
     },
     tabs_subtitle: {
@@ -47,20 +48,13 @@ export const styles = StyleSheet.create({
         fontSize: 16,
         fontFamily: "Lora-Italic",
     },
-    tabs_italic_p: {
-        padding: 0,
-        color: "#000",
-        fontSize: 16,
-        fontFamily: "PoltawskiNowy-Italic",
-      },
     tabs_text: {
         padding: 0,
         color: "#000",
         fontSize: 16,
-        lineHeight: 30,
+        lineHeight: 25,
         fontFamily: "Lora-Regular",
         textAlign: "justify",
-        
     },
     tabs_bold: {
         padding: 0,
@@ -73,7 +67,7 @@ export const styles = StyleSheet.create({
         textAlign: "justify",
         color: '#000',
         fontSize: 14,
-        fontFamily: "serif",
+        fontFamily: "Lora-Italic",
     },
     pics: {
         padding:10, 

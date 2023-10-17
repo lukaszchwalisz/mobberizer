@@ -22,7 +22,7 @@ export default function Q10() {
           2) stosowania norm pracy.{"\n"}
           3) (uchylony){"\n"}
           § 3. Zasady tworzenia sądów pracy, organizację i tryb postępowania przed tymi
-          sądami regulują odrębne przepisy.{"\n"}
+          sądami regulują odrębne przepisy.
         </Text>
 
         <Divider />

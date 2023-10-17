@@ -25,7 +25,7 @@ export default function Q3() {
         Inne przejawy dyskryminawania ujęte w kodeksie pracy:{"\n"}{"\n"}
          - działanie polegające na zachęcaniu innej osoby do naruszenia zasady równego traktowania w
          zatrudnieniu lub nakazaniu jej naruszenia tej zasady;{"\n"}
-         -  niepożądane zachowanie, którego celem lub skutkiem jest naruszenie godnościpracownika i
+         - niepożądane zachowanie, którego celem lub skutkiem jest naruszenie godnościpracownika i
          stworzenie wobec niego zastraszającej, wrogiej, poniżającej, upokarzającej lub uwłaczającej atmosfery (molestowanie){"\n"}
         </Text>
         <Divider />
