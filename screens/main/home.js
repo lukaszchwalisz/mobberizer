@@ -10,9 +10,9 @@ function MainScreen() {
   return (
     <View style={styles.contain}>
         <LinearGradient
-        colors={['#5FE2FF', '#3B97EC']}
-        start={{x: 0, y: 0}}
-        end={{x: 1, y: 1}}
+        colors={['#3B97EC', 'white']}
+        start={{x: 1, y: 0}}
+        end={{x: 2, y: 1}}
         style={styles.contain}
       >
         <Main />
@@ -25,7 +25,14 @@ function MainScreen() {
 function CustomDrawerContent() {
   return (
     <View style={styles.contain}>
+        <LinearGradient
+        colors={['white', '#3B97EC']}
+        start={{x: 0, y: 0}}
+        end={{x: 1, y: 1}}
+        style={styles.contain}
+      >
         <Main_Drawler />
+        </LinearGradient>
     </View>
 
   );
@@ -42,7 +49,7 @@ function MyDrawer() {
       <Drawer.Screen name=" " component={MainScreen} 
       options=
       {{ headerTitleAlign: "center",
-      headerStyle: { backgroundColor: '#5FE2FF'},
+      headerStyle: { backgroundColor: '#3B97EC'},
       // headerTitleStyle: { color: '#9FE2BF' },
       // headerTintColor:  '#9FE2BF'
       }}
