@@ -2,7 +2,7 @@ import React from 'react';
 import { Image, Linking, ScrollView, StyleSheet, Text, View } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
-import { Drawer } from 'react-native-paper';
+import { Avatar, Card, IconButton } from 'react-native-paper';
 import call from 'react-native-phone-call';
 
 export default function Kontakt() {
@@ -28,43 +28,53 @@ export default function Kontakt() {
                 require('../../assets/images/image45.png')
               }
             />
-            <View><Text>{"\n"}</Text></View>  
-             <Text style={styles.tabs_title}>Łukasz Chwalisz</Text>
-             <Text style={styles.tabs_subtitle}>obsługa techniczna i merytoryczna aplikacji{"\n"}
-             </Text>
-             <Drawer.Item
-                style={style.Button}
-                icon="email"
-                label="lukaszchwalisz@proton.me"
-                onPress={() => {
+
+            <Card style={style.Button}  >
+
+            <Card.Content>
+            <Avatar.Image size={60} source={require('../../assets/images/lch.png')} />
+            <Text style={styles.tabs_title}>{"\n"}Łukasz Chwalisz</Text>
+            <Text style={styles.tabs_subtitle}>obsługa techniczna i merytoryczna aplikacji</Text>
+            
+            </Card.Content>
+              <Card.Actions>
+              <IconButton
+              icon="email"
+              size={30}
+              onPress={() => {
                 Linking.openURL('mailto:lukaszchwalisz@proton.me')}}
-                />
-              <Drawer.Item
-              style={style.Button}
-              icon="phone"
-              label="+48 665 696 372"
-              onPress={() => {call(argslc).catch(console.error);}}
               />
-              
+              <IconButton
+                icon="phone"
+                size={30}
+                onPress={() => {call(argslc).catch(console.error);}}
+              />
+              </Card.Actions>
+
             <View><Text>{"\n"}</Text></View>
-
-             <Text style={styles.tabs_title}>Kasia Menke</Text>
-             <Text style={styles.tabs_subtitle}>fotografia, gobeliny{"\n"}
-             </Text>
-
-             <Drawer.Item
-                style={style.Button}
+ 
+              <Card.Content>
+              <Avatar.Image size={60} source={require('../../assets/images/image45.png')} />
+              <Text style={styles.tabs_title}>{"\n"}Kasia Menke</Text>
+              <Text style={styles.tabs_subtitle}>fotografia, gobeliny</Text>
+              </Card.Content>
+                <Card.Actions>
+                <IconButton
                 icon="email"
-                label="katarzyna.menke@wp.pl"
+                size={30}
                 onPress={() => {
-                Linking.openURL('mailto:katarzyna.menke@wp.pl')}}
+                  Linking.openURL('mailto:katarzyna.menke@wp.pl')}}
                 />
-              <Drawer.Item
-              style={style.Button}
-              icon="phone"
-              label="+48 665 751 559"
-              onPress={() => {call(argskm).catch(console.error);}}
-              />
+                <IconButton
+                  icon="phone"
+                  size={30}
+                  onPress={() => {call(argskm).catch(console.error);}}
+                />
+                </Card.Actions>
+                </Card>
+
+
+
              </View>
         </ScrollView>
   )
@@ -72,18 +82,11 @@ export default function Kontakt() {
 
 const style = StyleSheet.create({
   Button: {
-    marginVertical:0,
-    marginHorizontal:0,
-  },
-  tabs_title: {
-      color: '#22223b',
-      fontSize: 18,
-      fontFamily: "serif",
-  },
-  tabs_subtitle: {
-      padding: 0,
-      color: "#9a8c98",
-      fontSize: 14,
-      fontFamily: "sans-serif",
-  },
+    flex: 1,
+    padding:10,
+    textAlign: "justify",
+    borderWidth: 0.5,
+    borderRadius: 10,
+    elevation:0,
+},
 });
