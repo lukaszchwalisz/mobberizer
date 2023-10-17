@@ -30,7 +30,7 @@ const Dict_item = ({ data }) => {
             <Divider />
             <Text style={styles.tabs_text}>{"\n"}{data.content}{"\n"}</Text>
             <Divider />
-            <Text style={styles.tabs_italic_p}>{"\n"}{data.tag}</Text>
+            <Text style={styles.tabs_italic}>{"\n"}{data.tag}</Text>
 
         </View>
         </ScrollView>
@@ -49,16 +49,16 @@ const RenderItem_s1 = ({ data }) => {
         <ScrollView > 
         <View style={style.button}>
             <Text style={style.tabs_title}>{data.title}{"\n"}</Text>
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>adres:</Text> {data.adres}</Text>
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>epuap:</Text> {data.epuap}</Text>
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>adres:</Text> {data.adres}</Text>
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>epuap:</Text> {data.epuap}</Text>
 
             <TouchableWithoutFeedback icon="phone" onPress={() => {
                 call(args).catch(console.error);
             }}> 
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>tel.:</Text>  {data.tel}</Text>
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>tel.:</Text>  {data.tel}</Text>
             </TouchableWithoutFeedback>
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>email:</Text>  {data.email}</Text>
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>www:</Text> <A href={data.www}>{data.www}</A></Text>
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>email:</Text>  {data.email}</Text>
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>www:</Text> <A href={data.www}>{data.www}</A></Text>
         </View>
         </ScrollView>
     );
@@ -77,16 +77,16 @@ const RenderItem_s2 = ({ data }) => {
 
         <View style={style.button}>
             <Text style={style.tabs_title}>{data.title}{"\n"}</Text>
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>adres:</Text> {data.adres}</Text>
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>adres:</Text> {data.adres}</Text>
 
             <TouchableWithoutFeedback onPress={() => {
                 call(args).catch(console.error);
             }}> 
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>tel.:</Text>  {data.tel}</Text>
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>tel.:</Text>  {data.tel}</Text>
             </TouchableWithoutFeedback>
             
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>email:</Text>  {data.email}</Text>
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>www:</Text> <A href={data.www}>{data.www}</A></Text>
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>email:</Text>  {data.email}</Text>
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>www:</Text> <A href={data.www}>{data.www}</A></Text>
         </View>
 
         </ScrollView>
@@ -106,18 +106,14 @@ const RenderItem_s3 = ({ data }) => {
 
         <View style={style.button}>
             <Text style={style.tabs_title}>{data.title}{"\n"}</Text>
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>adres:</Text> {data.adres}</Text>
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>adres:</Text> {data.adres}</Text>
             <TouchableWithoutFeedback onPress={() => {
                 call(args).catch(console.error);
             }}> 
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>tel.:</Text>  {data.tel}</Text>
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>tel.:</Text>  {data.tel}</Text>
             </TouchableWithoutFeedback>
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>email:</Text>  {data.email}</Text>
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>www:</Text> <A href={data.www}>{data.www}</A></Text>
-            {/* <Text style={styles.tabs_text}><Text style={styles.tabs_italic_p}>apelacja:</Text> 
-            <Text style={style.tabs_text}> {data.apelacja}</Text></Text>
-            <Text style={styles.tabs_text}><Text style={styles.tabs_italic_p}>okręg: </Text>
-            <Text style={style.tabs_text}> {data.okręg}</Text></Text> */}
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>email:</Text>  {data.email}</Text>
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>www:</Text> <A href={data.www}>{data.www}</A></Text>
         </View>
         </ScrollView>
     );
@@ -136,14 +132,14 @@ const RenderItem_s4 = ({ data }) => {
 
         <View style={style.button}>
             <Text style={style.tabs_title}>{data.title}{"\n"}</Text>
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>adres:</Text> {data.adres}</Text>
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>adres:</Text> {data.adres}</Text>
             <TouchableWithoutFeedback onPress={() => {
                 call(args).catch(console.error);
             }}> 
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>tel.:</Text>  {data.tel}</Text>
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>tel.:</Text>  {data.tel}</Text>
             </TouchableWithoutFeedback>
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>email:</Text>  {data.email}</Text>
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>www:</Text> <A href={data.www}>{data.www}</A></Text>
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>email:</Text>  {data.email}</Text>
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>www:</Text> <A href={data.www}>{data.www}</A></Text>
         </View>
         </ScrollView>
     );
@@ -162,14 +158,14 @@ const RenderItem_s5 = ({ data }) => {
 
         <View style={style.button}>
             <Text style={style.tabs_title}>{data.title}{"\n"}</Text>
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>adres:</Text> {data.adres}</Text>
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>adres:</Text> {data.adres}</Text>
             <TouchableWithoutFeedback onPress={() => {
                 call(args).catch(console.error);
             }}> 
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>tel.:</Text>  {data.tel}</Text>
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>tel.:</Text>  {data.tel}</Text>
             </TouchableWithoutFeedback>
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>email:</Text>  {data.email}</Text>
-            <Text style={style.tabs_text}><Text style={styles.tabs_italic_p}>www:</Text> <A href={data.www}>{data.www}</A></Text>
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>email:</Text>  {data.email}</Text>
+            <Text style={style.tabs_text}><Text style={styles.tabs_italic}>www:</Text> <A href={data.www}>{data.www}</A></Text>
         </View>
         </ScrollView>
     );

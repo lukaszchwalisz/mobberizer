@@ -68,11 +68,6 @@ export default function Kwestionariusz({ navigation }) {
       marginVertical:5,
       marginHorizontal:0,
     },
-    tabs_text: {
-        color: '#000',
-        fontSize: 14,
-        fontFamily: "Montserrat-Regular",
-        },
   });
 
 

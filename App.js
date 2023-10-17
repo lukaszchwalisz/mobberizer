@@ -18,30 +18,10 @@ const Root = createStackNavigator()
 export default function App() {
   const [fontsLoaded] = useFonts({
     'RoadRage-Regular': require('./assets/fonts/RoadRage/RoadRage-Regular.ttf'),
-    'Inter-Regular': require('./assets/fonts/Inter/Inter-Regular.ttf'),
-    'Inter-Thin': require('./assets/fonts/Inter/Inter-Thin.ttf'),
-    'Inter-Black': require('./assets/fonts/Inter/Inter-Black.ttf'),
-    'Inter-Light': require('./assets/fonts/Inter/Inter-Light.ttf'),
-
     'Lora-Bold': require('./assets/fonts/Lora/Lora-Bold.ttf'),
-    'Lora-BoldItalic': require('./assets/fonts/Lora/Lora-BoldItalic.ttf'),
     'Lora-Italic': require('./assets/fonts/Lora/Lora-Italic.ttf'),
-    'Lora-Medium': require('./assets/fonts/Lora/Lora-Medium.ttf'),
-    'Lora-MediumItalic': require('./assets/fonts/Lora/Lora-MediumItalic.ttf'),
     'Lora-Regular': require('./assets/fonts/Lora/Lora-Regular.ttf'),
     'Lora-SemiBold': require('./assets/fonts/Lora/Lora-SemiBold.ttf'),
-    'Lora-SemiBoldItalic': require('./assets/fonts/Lora/Lora-SemiBoldItalic.ttf'),
-
-    'Montserrat-Bold': require('./assets/fonts/Montserrat/Montserrat-Bold.ttf'),
-    'Montserrat-Regular': require('./assets/fonts/Montserrat/Montserrat-Regular.ttf'),
-    'Montserrat-MediumItalic': require('./assets/fonts/Montserrat/Montserrat-MediumItalic.ttf'),
-    'Montserrat-LightItalic': require('./assets/fonts/Montserrat/Montserrat-LightItalic.ttf'),
-    
-    'PoltawskiNowy-Regular': require('./assets/fonts/Poltawski/PoltawskiNowy-Regular.ttf'),
-    'PoltawskiNowy-Italic': require('./assets/fonts/Poltawski/PoltawskiNowy-Italic.ttf'),
-    'PoltawskiNowy-Medium': require('./assets/fonts/Poltawski/PoltawskiNowy-Medium.ttf'),
-
-
   });
 
   if (!fontsLoaded) {
