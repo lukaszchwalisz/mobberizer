@@ -54,7 +54,7 @@ export default function Kontakt() {
             <View><Text>{"\n"}</Text></View>
 
             <Card.Content>
-              <Avatar.Image size={60} source={require('../../assets/images/image45.png')} />
+              <Avatar.Image size={60} source={require('../../assets/images/km0.jpg')} />
               <Text style={styles.tabs_title}>{"\n"}Kasia Menke</Text>
               <Text style={styles.tabs_subtitle}>fotografia, gobeliny</Text>
             </Card.Content>

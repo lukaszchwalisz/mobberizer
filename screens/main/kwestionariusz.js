@@ -3,6 +3,7 @@ import { ScrollView, StyleSheet, View, Text, Image, Linking } from 'react-native
 import 'react-native-gesture-handler';
 import { Button } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
+import Quest from '../../components/quest.js';
 
 
 const Header = () => {
@@ -49,6 +50,8 @@ export default function Kwestionariusz({ navigation }) {
             }}>
             Kwestionariusz FiSM
         </Button>
+
+        <Quest />
 
         </View>
 
