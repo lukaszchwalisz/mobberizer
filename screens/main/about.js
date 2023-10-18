@@ -16,8 +16,8 @@ export default function About({navigation}) {
             </View>
             <Text style={styles.tabs_text}> 
             <Text style={styles.tabs_bold}>Mobberizer </Text> 
-            to aplikacja mobilna dedykowana osobom, które spotkały się z niewłaściwymi zachowaniami w pracy o charakterze mobbingowym;
-            chcą zdiagnozować zaistniałą sytuację w pracy; poszukują pomocy psychologicznej i prawnej oraz instytucjonalnej.
+            to aplikacja mobilna dedykowana osobom, które spotkały się z niewłaściwymi zachowaniami o charakterze mobbingowym;
+            chcą zdiagnozować zaistniałą sytuację w pracy; poszukują pomocy psychologicznej i prawnej oraz wsparcia instytucjonalnego.
              {"\n"}
 
              </Text>
