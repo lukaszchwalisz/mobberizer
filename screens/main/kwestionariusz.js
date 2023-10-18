@@ -1,7 +1,7 @@
 import React from 'react';
 import { ScrollView, StyleSheet, View, Text, Image, Linking } from 'react-native';
 import 'react-native-gesture-handler';
-import { Button } from 'react-native-paper';
+import { Button, Divider } from 'react-native-paper';
 import { styles } from '../../styles/global.js';
 import Quest from '../../components/quest.js';
 
@@ -44,12 +44,13 @@ export default function Kwestionariusz({ navigation }) {
         zjawiska mobbingu, którego doświadczyły pojedyncze osoby, jak i grupa badana.{"\n"}
         </Text>
 
-        <Button style={style.button} icon='clipboard-text-outline' mode='contained' color="#a2d2ff" uppercase={false}            
+        <Divider />
+        {/* <Button style={style.button} icon='clipboard-text-outline' mode='contained' color="#a2d2ff" uppercase={false}            
             onPress={() => {
               Linking.openURL('https://lukaszchwalisz.pythonanywhere.com/testy/kwestmobbing')
             }}>
             Kwestionariusz FiSM
-        </Button>
+        </Button> */}
 
         <Quest />
 
