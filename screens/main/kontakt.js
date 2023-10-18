@@ -2,7 +2,7 @@ import React from 'react';
 import { Image, Linking, ScrollView, StyleSheet, Text, View } from 'react-native';
 import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
-import { Avatar, Card, IconButton } from 'react-native-paper';
+import { Avatar, Card, Divider, IconButton } from 'react-native-paper';
 import call from 'react-native-phone-call';
 
 export default function Kontakt() {
@@ -21,7 +21,7 @@ export default function Kontakt() {
 
   return (
          <ScrollView style={styles.contain}>
-           <View style={styles.tabs_header}> 
+          <View style={styles.tabs_header}> 
              <Image
               style={{ flex: 1, width: '100%', height: 300, marginBottom: 20, borderRadius: 10 }}
               source={
@@ -32,12 +32,12 @@ export default function Kontakt() {
             <Card style={style.Button}  >
 
             <Card.Content>
-            <Avatar.Image size={60} source={require('../../assets/images/lch.png')} />
-            <Text style={styles.tabs_title}>{"\n"}Łukasz Chwalisz</Text>
-            <Text style={styles.tabs_subtitle}>obsługa techniczna i merytoryczna aplikacji</Text>
-            
+              <Avatar.Image size={60} source={require('../../assets/images/lch.png')} />
+              <Text style={styles.tabs_title}>{"\n"}Łukasz Chwalisz</Text>
+              <Text style={styles.tabs_subtitle}>obsługa techniczna i merytoryczna aplikacji</Text>
             </Card.Content>
-              <Card.Actions>
+
+            <Card.Actions>
               <IconButton
               icon="email"
               size={30}
@@ -49,15 +49,15 @@ export default function Kontakt() {
                 size={30}
                 onPress={() => {call(argslc).catch(console.error);}}
               />
-              </Card.Actions>
-
+            </Card.Actions>
+              <Divider/>
             <View><Text>{"\n"}</Text></View>
- 
-              <Card.Content>
+
+            <Card.Content>
               <Avatar.Image size={60} source={require('../../assets/images/image45.png')} />
               <Text style={styles.tabs_title}>{"\n"}Kasia Menke</Text>
               <Text style={styles.tabs_subtitle}>fotografia, gobeliny</Text>
-              </Card.Content>
+            </Card.Content>
                 <Card.Actions>
                 <IconButton
                 icon="email"
@@ -72,10 +72,7 @@ export default function Kontakt() {
                 />
                 </Card.Actions>
                 </Card>
-
-
-
-             </View>
+          </View>
         </ScrollView>
   )
 };
