@@ -46,6 +46,7 @@ export default function Main_Drawler() {
         source={require('../assets/icon.png')}
         />
         <Text style={styles.tabs_logo}>M o b b e r i z e r</Text>
+        <Text style={styles.tabs_subtitle}>v1.01</Text>
         </View>
       </View> 
 

@@ -28,19 +28,19 @@ export default function Main() {
       id: 'Słownik',
       icon: 'feather',
       title: 'Słownik',
-      color: '#ade8f4',
+      color: '#caf0f8',
     },
     {
       id: 'Baza',
       icon: 'magnify',
       title: 'Baza danych',
-      color: '#ade8f4',
+      color: '#caf0f8',
     },
     {
       id: 'Kwestionariusz',
       icon: 'clipboard-text-outline',
       title: 'Kwestionariusz',
-      color: '#90e0ef',
+      color: '#ffff3f',
     },
 
   ];
