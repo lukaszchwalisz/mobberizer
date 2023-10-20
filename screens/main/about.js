@@ -11,7 +11,7 @@ export default function About({navigation}) {
             <View style={style.image} >
               <Image
               style={{ width: 200, height: 200}}
-              source={require('../../assets/icon.png')}
+              source={require('../../assets/icons/icon.png')}
               />
             </View>
             <Text style={styles.tabs_text}> 
@@ -43,16 +43,5 @@ const style = StyleSheet.create({
     flex: 1,
     padding:50,
     alignItems: "center",
-  },
-  tabs_title: {
-    color: '#000',
-    fontSize: 16,
-    fontFamily: "PoltawskiNowy-Medium",
-},
-  tabs_italic: {
-    padding: 0,
-    color: "#000",
-    fontSize: 14,
-    fontFamily: "PoltawskiNowy-Italic",
   }
 });

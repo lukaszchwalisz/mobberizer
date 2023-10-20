@@ -11,7 +11,7 @@ Aplikacja jest *bezpłatna*, nie zawiera reklam, jest przyjazna dla użytkownika
 
 Aplikację **Mobberizer** w wersji stabilnej można pobrać w sklepie Google Store.
 
-[<img src="./assets/google-play-badge.png"
+[<img src="./assets/icons/google-play-badge.png"
      alt="Pobierz z Google Play"
      height="80">](https://play.google.com/store/apps/details?id=com.lukaszchwalisz.Mobberizer)
 
