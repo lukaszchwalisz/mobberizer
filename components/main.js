@@ -71,7 +71,7 @@ export default function Main() {
         source={require('../assets/icons/icon_white.png')}
         />
         <Text style={styles.tabs_logo}>M o b b e r i z e r</Text>
-        <Text style={styles.tabs_subtitle}>v1.01</Text>
+        <Text style={styles.tabs_subtitle}>v2.0</Text>
         </View>
       </View>
     )
