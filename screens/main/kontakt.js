@@ -29,7 +29,7 @@ export default function Kontakt() {
               }
             />
 
-            <Card style={style.Button}  >
+            <Card style={style.Button}>
 
             <Card.Content>
               <Avatar.Image size={60} source={require('../../assets/images/lch.png')} />
@@ -37,19 +37,19 @@ export default function Kontakt() {
               <Text style={styles.tabs_subtitle}>obsługa techniczna i merytoryczna aplikacji</Text>
             </Card.Content>
 
-            <Card.Actions>
-              <IconButton
-              icon="email"
-              size={30}
-              onPress={() => {
-                Linking.openURL('mailto:lukaszchwalisz@proton.me')}}
-              />
-              <IconButton
-                icon="phone"
+             <Card.Actions>
+                <IconButton
+                icon="email"
                 size={30}
-                onPress={() => {call(argslc).catch(console.error);}}
-              />
-            </Card.Actions>
+                onPress={() => {
+                  Linking.openURL('mailto:lukaszchwalisz@proton.me')}}
+                />
+                <IconButton
+                  icon="phone"
+                  size={30}
+                  onPress={() => {call(argslc).catch(console.error);}}
+                />
+             </Card.Actions>
               <Divider/>
             <View><Text>{"\n"}</Text></View>
 
@@ -58,7 +58,7 @@ export default function Kontakt() {
               <Text style={styles.tabs_title}>{"\n"}Kasia Menke</Text>
               <Text style={styles.tabs_subtitle}>fotografia, gobeliny</Text>
             </Card.Content>
-                <Card.Actions>
+              <Card.Actions>
                 <IconButton
                 icon="email"
                 size={30}
@@ -70,7 +70,7 @@ export default function Kontakt() {
                   size={30}
                   onPress={() => {call(argskm).catch(console.error);}}
                 />
-                </Card.Actions>
+              </Card.Actions>
                 </Card>
           </View>
         </ScrollView>
