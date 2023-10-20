@@ -40,7 +40,9 @@
     "react-native-web": "~0.19.6",
     "utf8": "^3.0.0",
     "yarn": "^1.22.19",
-    "@shopify/flash-list": "1.4.3"
+    "@shopify/flash-list": "1.4.3",
+    "expo-print": "~12.4.2",
+    "expo-sharing": "~11.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
