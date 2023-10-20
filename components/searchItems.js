@@ -52,7 +52,7 @@ const RenderItem_s1 = ({ data }) => {
             <Text style={style.tabs_text}><Text style={styles.tabs_italic}>adres:</Text> {data.adres}</Text>
             <Text style={style.tabs_text}><Text style={styles.tabs_italic}>epuap:</Text> {data.epuap}</Text>
 
-            <TouchableWithoutFeedback icon="phone" onPress={() => {
+            <TouchableWithoutFeedback onPress={() => {
                 call(args).catch(console.error);
             }}> 
             <Text style={style.tabs_text}><Text style={styles.tabs_italic}>tel.:</Text>  {data.tel}</Text>
@@ -174,7 +174,6 @@ const RenderItem_s5 = ({ data }) => {
 const style = StyleSheet.create({
     button: {
       flex: 1,
-    //   textAlign: "justify",
       marginVertical:5,
       marginHorizontal:20,
       padding:20,
