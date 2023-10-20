@@ -10,7 +10,7 @@ import K5 from '../kroki/k5.js';
 
 const Steps = createStackNavigator()
 
-export default function Kroki({ navigation, route }) {
+export default function Kroki() {
   return (
        <Steps.Navigator>
              <Steps.Screen name="k0" component={ K0 } options={{ title: 'Krok po kroku',

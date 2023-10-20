@@ -8,7 +8,7 @@ import { Header_s5 } from '../../components/searchHeader.js';
 import { RenderItem_s5 } from '../../components/searchItems.js';
 import { NGOS } from '../../data/ngos.js';
 
-export default function S5({ navigation, route}) {
+export default function S5() {
 
   const [searchQuery, setSearchQuery] = useState(NGOS);
 

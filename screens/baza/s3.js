@@ -8,7 +8,7 @@ import { Header_s3 } from '../../components/searchHeader.js';
 import { RenderItem_s3 } from '../../components/searchItems.js';
 import { Courts } from '../../data/courts.js';
 
-export default function S3({ navigation, route}) {
+export default function S3() {
 
   const [searchQuery, setSearchQuery] = useState(Courts);
 

@@ -4,7 +4,7 @@ import 'react-native-gesture-handler';
 import { styles } from '../../styles/global.js';
 
 
-export default function About({navigation}) {
+export default function About() {
   return (
          <ScrollView style={styles.contain}>
            <View style={styles.tabs_header}> 

@@ -8,7 +8,7 @@ import { Header_s1 } from '../../components/searchHeader.js';
 import { RenderItem_s1 } from '../../components/searchItems.js';
 import { PIP } from '../../data/pip.js';
 
-export default function S1({ navigation, route}) {
+export default function S1() {
 
   const [searchQuery, setSearchQuery] = useState(PIP);
 

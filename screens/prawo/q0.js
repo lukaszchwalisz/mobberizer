@@ -8,7 +8,7 @@ import { Law_header } from '../../components/searchHeader.js';
 import { Law_item } from '../../components/searchItems.js';
 import { Pytania } from '../../data/pytania.js';
 
-export default function Q0({ navigation, route}) {
+export default function Q0() {
 
   const [searchQuery, setSearchQuery] = useState(Pytania);
 

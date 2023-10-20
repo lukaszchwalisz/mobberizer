@@ -19,7 +19,7 @@ const Header = () => {
   )
 };
 
-export default function Kwestionariusz({ navigation }) {
+export default function Kwestionariusz() {
   return (
         
         <ScrollView style={styles.contain}>

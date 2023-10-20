@@ -10,7 +10,7 @@ import S5  from '../baza/s5.js';
 
 const Sear = createStackNavigator()
 
-export default function Baza({ navigation, route }) {
+export default function Baza() {
   return (
        <Sear.Navigator>
              <Sear.Screen name="s0" component={ S0 } options={{ title: 'Baza danych',

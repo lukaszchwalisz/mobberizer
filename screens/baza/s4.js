@@ -8,7 +8,7 @@ import { Header_s4 } from '../../components/searchHeader.js';
 import { RenderItem_s4 } from '../../components/searchItems.js';
 import { GOV } from '../../data/gov.js';
 
-export default function S4({ navigation, route}) {
+export default function S4() {
 
   const [searchQuery, setSearchQuery] = useState(GOV);
 

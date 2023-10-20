@@ -26,7 +26,7 @@ import Q20 from '../prawo/q20.js';
 
 const Law = createStackNavigator()
 
-export default function Prawo({ navigation, route }) {
+export default function Prawo() {
   return (
        <Law.Navigator>
              <Law.Screen name="q0" component={ Q0 } options={{ title: 'Pytania prawne',

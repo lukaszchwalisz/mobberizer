@@ -8,7 +8,7 @@ import { Header_s2 } from '../../components/searchHeader.js';
 import { RenderItem_s2 } from '../../components/searchItems.js';
 import { Sanepid } from '../../data/sanepid.js';
 
-export default function S2({ navigation, route}) {
+export default function S2() {
 
   const [searchQuery, setSearchQuery] = useState(Sanepid);
 

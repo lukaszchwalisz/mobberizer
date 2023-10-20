@@ -5,7 +5,7 @@ import { styles } from '../../styles/global.js';
 import { Button, Card, Divider} from 'react-native-paper';
 import INFOLINIA from '../../components/infolinia.js';
 
-export default function K5({ navigation})  {
+export default function K5({ navigation })  {
       return (
             <ScrollView>
             <View style={styles.tabs_header}>

@@ -1,10 +1,9 @@
 import { StyleSheet } from 'react-native';
-import { lightmode } from './colors';
 
 export const styles = StyleSheet.create({
    contain: {
         flex: 1,
-        backgroundColor: lightmode.white,
+        backgroundColor: 'white',
     },
     button: {
         marginVertical:5,
@@ -20,7 +19,7 @@ export const styles = StyleSheet.create({
         color: 'white'
     },
     tabs_header: {
-        backgroundColor: lightmode.white,
+        backgroundColor: 'white',
         padding: 20,
         textAlign: "justify",
     },
@@ -72,6 +71,6 @@ export const styles = StyleSheet.create({
     pics: {
         padding:10, 
         margin:10, 
-        backgroundColor:"white",
+        backgroundColor: "white",
     }
 });
