@@ -2,7 +2,7 @@
   "expo": {
     "name": "Mobberizer",
     "slug": "Mobberizer",
-    "version": "1.0.1",
+    "version": "2.0",
     "orientation": "portrait",
     "icon": "./assets/icons/adaptive-icon.png",
     "userInterfaceStyle": "light",
