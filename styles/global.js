@@ -24,7 +24,7 @@ export const styles = StyleSheet.create({
         textAlign: "justify",
     },
     tabs_logo: {
-        margin:10,
+        margin:0,
         color:"#1D3557",
         fontSize: 40,
         fontFamily: "RoadRage-Regular",
