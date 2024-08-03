@@ -2,7 +2,7 @@
   "expo": {
     "name": "Mobberizer",
     "slug": "Mobberizer",
-    "version": "2.35",
+    "version": "3",
     "orientation": "portrait",
     "icon": "./assets/icons/adaptive-icon.png",
     "userInterfaceStyle": "light",
@@ -18,7 +18,7 @@
       "supportsTablet": true
     },
     "android": {
-      "versionCode": 2.35,
+      "versionCode": 3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/icons/adaptive-icon.png",
         "backgroundColor": "#ffffff"
