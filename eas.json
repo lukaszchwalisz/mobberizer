@@ -14,8 +14,12 @@
       "channel": "preview"
     },
     "production": {
-      "channel": "production"
-    }
+      "android": {
+        "image": "latest"
+      },
+      "ios": {
+        "image": "latest"
+      }
   },
   "submit": {
     "production": {}
