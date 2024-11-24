@@ -49,5 +49,6 @@
     "@babel/core": "^7.24.0",
     "react-native-a": "^1.0.1"
   },
-  "private": true
-}
+  "private": true,
+  "expo.doctor.reactNativeDirectoryCheck.listUnknownPackages": false
+} 
