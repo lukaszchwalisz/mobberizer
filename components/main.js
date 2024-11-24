@@ -68,10 +68,10 @@ export default function Main() {
         <View style={style.image} >
         <Image
         style={{ width: 105, height: 95}}
-        source={require('../assets/icons/icon_white.png')}
+        source={require('../assets/icons/icon.png')}
         />
         <Text style={styles.tabs_logo}>M o b b e r i z e r</Text>
-        <Text style={styles.tabs_subtitle}>v2.0</Text>
+        <Text style={styles.tabs_italic}>v 4.0</Text>
         </View>
       </View>
     )

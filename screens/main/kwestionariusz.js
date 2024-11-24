@@ -42,11 +42,11 @@ export default function Kwestionariusz() {
         zjawiska mobbingu, którego doświadczyły pojedyncze osoby, jak i grupa badana.{"\n"}
         </Text>
 
-        <Button style={style.button} icon='clipboard-text-outline' mode='contained' color="#a2d2ff" uppercase={false}            
+        <Button style={style.button} icon='clipboard-text-outline' mode='outlined' disabled={true} color="#a2d2ff" uppercase={false}            
             onPress={() => {
               Linking.openURL('https://lukaszchwalisz.pythonanywhere.com/testy/kwestmobbing')
             }}>
-            Kwestionariusz FiSM
+            Kwestionariusz FiSM  (w przygotowaniu)
         </Button>
 
         </View>

@@ -24,6 +24,7 @@ export const styles = StyleSheet.create({
         textAlign: "justify",
     },
     tabs_logo: {
+        margin:10,
         color:"#1D3557",
         fontSize: 40,
         fontFamily: "RoadRage-Regular",
@@ -36,7 +37,7 @@ export const styles = StyleSheet.create({
         fontFamily: "Lora-SemiBold",
     },
     tabs_subtitle: {
-        padding: 0,
+        padding:0,
         color: "grey",
         fontSize: 14,
         fontFamily: "Lora-Regular",
