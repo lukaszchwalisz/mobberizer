@@ -19,7 +19,7 @@
       "bundleIdentifier": "com.lukaszchwalisz.Mobberizer"
     },
     "android": {
-      "versionCode": 4,
+      "versionCode": 5,
       "adaptiveIcon": {
         "foregroundImage": "./assets/icons/adaptive-icon.png",
         "backgroundColor": "#ffffff"
