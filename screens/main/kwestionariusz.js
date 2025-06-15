@@ -7,7 +7,7 @@ import { styles } from '../../styles/global.js';
 const Header = () => {
   return (
     <View style={styles.tabs_header} >
-        <Text style={styles.tabs_title}>Kwestionariusz FiSM.{"\n"}</Text>
+        <Text style={styles.tabs_title}>Kwestionariusz form i skutków mobbingu.{"\n"}</Text>
          <Image
           style={{ flex: 1, width: '100%', height: 300, borderRadius: 10 }}
           source={
@@ -42,11 +42,11 @@ export default function Kwestionariusz() {
         zjawiska mobbingu, którego doświadczyły pojedyncze osoby, jak i grupa badana.{"\n"}
         </Text>
 
-        <Button style={style.button} icon='clipboard-text-outline' mode='outlined' disabled={true} color="#a2d2ff" uppercase={false}            
+        <Button style={style.button} icon='clipboard-text-outline' mode='contained' color="#a2d2ff" uppercase={false}            
             onPress={() => {
               Linking.openURL('https://lukaszchwalisz.pythonanywhere.com/testy/kwestmobbing')
             }}>
-            Kwestionariusz FiSM  (w przygotowaniu)
+            Kwestionariusz form i skutków mobbingu
         </Button>
 
         </View>
