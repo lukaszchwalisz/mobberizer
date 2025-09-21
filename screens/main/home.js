@@ -52,6 +52,8 @@ function MyDrawer() {
           headerStyle: { backgroundColor: "#3B97EC" },
         }}
       />
+
+      
     </Drawer.Navigator>
   );
 }

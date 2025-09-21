@@ -43,6 +43,7 @@
     "react-native-scroll-to-element": "^1.0.1",
     "react-native-vector-icons": "^9.2.0",
     "react-native-web": "^0.21.0",
+    "react-native-worklets": "0.5.1",
     "utf8": "^3.0.0"
   },
   "devDependencies": {
