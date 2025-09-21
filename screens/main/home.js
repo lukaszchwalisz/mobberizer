@@ -1,4 +1,3 @@
-import React from 'react';
 import { View, StatusBar } from 'react-native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import Main from '../../components/main.js';
@@ -43,16 +42,15 @@ const Drawer = createDrawerNavigator();
 function MyDrawer() {
   return (
     <Drawer.Navigator
-      // useLegacyImplementation
       drawerContent={(props) => <CustomDrawerContent {...props} />}
     >
-      <Drawer.Screen name=" " component={MainScreen} 
-      options=
-      {{ headerTitleAlign: "center",
-      headerStyle: { backgroundColor: '#3B97EC'},
-      // headerTitleStyle: { color: '#9FE2BF' },
-      // headerTintColor:  '#9FE2BF'
-      }}
+      <Drawer.Screen
+        name="Home"
+        component={MainScreen}
+        options={{
+          headerTitleAlign: "center",
+          headerStyle: { backgroundColor: "#3B97EC" },
+        }}
       />
     </Drawer.Navigator>
   );
