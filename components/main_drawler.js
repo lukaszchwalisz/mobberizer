@@ -1,9 +1,9 @@
 import React from 'react';
-import { View, Text, Image, FlatList, StyleSheet } from 'react-native';
 import 'react-native-gesture-handler';
+import { View, Text, Image, FlatList, StyleSheet } from 'react-native';
 import { styles } from '../styles/global.js';
 import { Button } from 'react-native-paper';
-import 'react-native-gesture-handler';
+
 import { useNavigation } from '@react-navigation/native';
 
 export default function Main_Drawler() {

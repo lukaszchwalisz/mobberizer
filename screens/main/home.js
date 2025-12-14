@@ -42,6 +42,7 @@ const Drawer = createDrawerNavigator();
 function MyDrawer() {
   return (
     <Drawer.Navigator
+      useLegacyImplementation={false}
       drawerContent={(props) => <CustomDrawerContent {...props} />}
     >
       <Drawer.Screen
@@ -52,8 +53,6 @@ function MyDrawer() {
           headerStyle: { backgroundColor: "#3B97EC" },
         }}
       />
-
-      
     </Drawer.Navigator>
   );
 }
