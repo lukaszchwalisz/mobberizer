@@ -42,7 +42,6 @@ const Drawer = createDrawerNavigator();
 function MyDrawer() {
   return (
     <Drawer.Navigator
-      useLegacyImplementation={false}
       drawerContent={(props) => <CustomDrawerContent {...props} />}
     >
       <Drawer.Screen

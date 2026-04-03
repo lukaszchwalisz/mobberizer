@@ -13,7 +13,7 @@
     "@eva-design/eva": "^2.2.0",
     "@expo/html-elements": "^0.5.1",
     "@expo/metro-runtime": "~6.1.2",
-    "@react-navigation/drawer": "^6.7.2",
+    "@react-navigation/drawer": "^7.7.10",
     "@react-navigation/native": "^6.1.7",
     "@react-navigation/stack": "^6.3.17",
     "@shopify/flash-list": "2.0.2",
@@ -48,6 +48,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0",
     "expo-module-scripts": "^5.0.8",
     "react-native-a": "^1.0.1"
   },
