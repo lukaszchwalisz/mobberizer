@@ -44,7 +44,7 @@ export default function Kwestionariusz() {
 
         <Button style={style.button} icon='clipboard-text-outline' mode='contained' color="#a2d2ff" uppercase={false}            
             onPress={() => {
-              Linking.openURL('https://lukaszchwalisz.pythonanywhere.com/testy/kwestmobbing')
+              Linking.openURL('https://www.lukaszchwalisz.pl/badania/fism')
             }}>
             Kwestionariusz form i skutków mobbingu
         </Button>
